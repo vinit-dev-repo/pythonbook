@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+    <h1>My Notes</h1>
+    <form method="POST" action="{{ url_for('add_note') }}">
+        <input type="text" name="text" placeholder="New note...">
+        <button type="submit">Add</button>
+    </form>
+    <ul>
+    {% for note in notes %}
+        <li>{{ note }}</li>
+    {% endfor %}
+    </ul>
+    <p><a href="{{ url_for('api_notes') }}">View as JSON</a></p>
+</body>
+</html>

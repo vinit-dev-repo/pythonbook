@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Packing result</title></head>
+<body>
+  <h1>Box plan</h1>
+  {# The summary uses validated integers; this comment is not sent. #}
+  <dl>
+  {% for field, value in summary.items() %}
+    <dt>{{ field }}</dt><dd>{{ value }}</dd>
+  {% endfor %}
+  </dl>
+  {% if summary['items'] == 0 %}
+    <p>No boxes needed.</p>
+  {% elif remainder %}
+    <p>The last box holds {{ remainder }} items.</p>
+  {% else %}
+    <p>Every box is full.</p>
+  {% endif %}
+  <a href="{{ url_for('pack') }}">Make another plan</a>
+</body>
+</html>

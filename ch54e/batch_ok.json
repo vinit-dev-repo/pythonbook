@@ -1,0 +1,5 @@
+[
+  {"reference":"bus","description":"Bus","category":"Transport","amount_minor":350,"spent_on":"2026-08-03"},
+  {"reference":"lunch","description":"Lunch","category":"Food","amount_minor":820,"spent_on":"2026-08-04"},
+  {"reference":"train","description":"Train","category":"Transport","amount_minor":1200,"spent_on":"2026-08-08"}
+]

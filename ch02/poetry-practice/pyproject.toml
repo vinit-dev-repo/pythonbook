@@ -1,0 +1,8 @@
+[project]
+name = "poetry-practice"
+version = "0.1.0"
+requires-python = ">=3.15,<3.16"
+dependencies = []
+
+[tool.poetry]
+package-mode = false

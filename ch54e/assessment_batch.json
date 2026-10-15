@@ -1,0 +1,15 @@
+{
+  "initial": [
+    {"reference":"rail","description":"Rail","category":"Transport","amount_minor":450,"spent_on":"2026-09-02"},
+    {"reference":"meal","description":"Meal","category":"Food","amount_minor":1250,"spent_on":"2026-09-03"},
+    {"reference":"book","description":"Book","category":"Other","amount_minor":999,"spent_on":"2026-09-04"}
+  ],
+  "conflict": [
+    {"reference":"coffee","description":"Coffee","category":"Food","amount_minor":250,"spent_on":"2026-09-05"},
+    {"reference":"rail","description":"Duplicate rail","category":"Transport","amount_minor":451,"spent_on":"2026-09-06"}
+  ],
+  "corrected": [
+    {"reference":"coffee","description":"Coffee","category":"Food","amount_minor":250,"spent_on":"2026-09-05"}
+  ],
+  "fifth": {"reference":"pen","description":"Pen","category":"Other","amount_minor":100,"spent_on":"2026-09-07"}
+}

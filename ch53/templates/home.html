@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<body>
+    <h1>Hello, {{ visitor_name }}!</h1>
+    <ul>
+    {% for item in items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+    {% if items %}
+        <p>You have {{ items|length }} items.</p>
+    {% endif %}
+</body>
+</html>

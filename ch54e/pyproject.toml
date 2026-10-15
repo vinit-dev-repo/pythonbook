@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "expense-ledger-demo"
+version = "0.1.0"
+requires-python = ">=3.15"
+dependencies = []
+
+[project.scripts]
+expense-ledger = "expense_ledger.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/expense_ledger"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/tests",
+  "/pyproject.toml",
+  "/requirements-dev.txt",
+  "/README.md",
+  "/RUNBOOK.md",
+  "/ledger.example.json",
+  "/batch_ok.json",
+  "/batch_conflict.json",
+  "/assessment_batch.json",
+  "/assess_ledger.py",
+]
+
+[tool.ruff]
+target-version = "py315"
+line-length = 88
+
+[tool.mypy]
+python_version = "3.15"
+strict = true
+files = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

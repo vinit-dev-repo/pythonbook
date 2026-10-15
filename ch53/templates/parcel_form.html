@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Packing request</title></head>
+<body>
+  <h1>Plan boxes</h1>
+  <form method="post" action="{{ url_for('pack') }}">
+    <label for="item-count">Number of items</label>
+    <input id="item-count" name="items" type="number" min="0" max="9999" required>
+    <label for="box-size">Items per box</label>
+    <input id="box-size" name="capacity" type="number" min="1" max="9999" required>
+    <button type="submit">Plan</button>
+  </form>
+</body>
+</html>
