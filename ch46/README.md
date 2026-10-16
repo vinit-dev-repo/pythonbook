@@ -26,8 +26,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/05_named-loggers-and-the-logger-tree.py` | Named loggers and the logger tree (line 200) | runs on its own |
 | `examples/06_multiple-loggers-and-handlers-worked-example.py` | Multiple loggers and handlers, worked example (line 223) | may use names from earlier examples |
 | `examples/07_logging-exceptions-properly.py` | Logging exceptions properly (line 272) | runs on its own |
-| `examples/08_size-based-rotation.py` | Size-based rotation (line 320) | may use names from earlier examples |
-| `examples/09_time-based-rotation.py` | Time-based rotation (line 348) | may use names from earlier examples |
+| `examples/08_size-based-rotation.py` | Rotating files › Size-based rotation (line 320) | may use names from earlier examples |
+| `examples/09_time-based-rotation.py` | Rotating files › Time-based rotation (line 348) | may use names from earlier examples |
 | `examples/10_configuring-bigger-apps-dictconfig.py` | Configuring bigger apps: dictConfig (line 374) | may use names from earlier examples |
 | `examples/11_a-complete-logging-setup.py` | A complete logging setup (line 433) | may use names from earlier examples |
 | `examples/12_good-habits.py` | Good habits (line 523) | may use names from earlier examples |

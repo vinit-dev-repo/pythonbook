@@ -18,12 +18,12 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `race_schedule.py` | Deliberately expose one lost update (line 215) |  |
-| `locked_update.py` | A small protected counterpart (line 403) |  |
+| `race_schedule.py` | A race condition › Deliberately expose one lost update (line 215) |  |
+| `locked_update.py` | Lock: protect a critical section › A small protected counterpart (line 403) |  |
 | `lock_order.py` | Deadlock: everyone waiting forever (line 474) |  |
-| `lock_timeout.py` | Three fixes for deadlock (line 578) |  |
-| `queue_lifecycle.py` | A finite batch with two consumers (line 892) |  |
-| `test_queue_lifecycle.py` | A finite batch with two consumers (line 971) |  |
+| `lock_timeout.py` | Deadlock: everyone waiting forever › Three fixes for deadlock (line 578) |  |
+| `queue_lifecycle.py` | queue.Queue: the safe way to hand off work › A finite batch with two consumers (line 892) |  |
+| `test_queue_lifecycle.py` | queue.Queue: the safe way to hand off work › A finite batch with two consumers (line 971) |  |
 | `exercise_race.py` | Try it yourself (line 1105) |  |
 | `exercise_lock_order.py` | Try it yourself (line 1174) |  |
 | `exercise5_queue.py` | Try it yourself (line 1194) |  |
@@ -34,12 +34,12 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_the-gil-is-finally-becoming-optional.py` | The GIL is finally becoming optional (line 109) | runs on its own |
+| `examples/01_the-gil-is-finally-becoming-optional.py` | The GIL, honestly › The GIL is finally becoming optional (line 109) | runs on its own |
 | `examples/02_creating-threads.py` | Creating threads (line 140) | runs on its own |
-| `examples/03_naming-threads-for-readable-demos.py` | Naming threads for readable demos (line 180) | runs on its own |
-| `examples/04_an-uncontrolled-stress-run.py` | An uncontrolled stress run (line 271) | runs on its own |
+| `examples/03_naming-threads-for-readable-demos.py` | Creating threads › Naming threads for readable demos (line 180) | runs on its own |
+| `examples/04_an-uncontrolled-stress-run.py` | A race condition › An uncontrolled stress run (line 271) | runs on its own |
 | `examples/05_lock-protect-a-critical-section.py` | Lock: protect a critical section (line 356) | runs on its own |
-| `examples/06_what-with-lock-does-underneath.py` | What `with lock:` does underneath (line 447) | runs on its own |
+| `examples/06_what-with-lock-does-underneath.py` | Lock: protect a critical section › What `with lock:` does underneath (line 447) | runs on its own |
 | `examples/07_rlock-a-lock-a-thread-can-re-take.py` | RLock: a lock a thread can re-take (line 635) | may use names from earlier examples |
 | `examples/08_semaphore-allow-a-limited-number-of-threads.py` | Semaphore: allow a limited number of threads (line 677) | runs on its own |
 | `examples/09_event-signal-waiting-threads.py` | Event: signal waiting threads (line 724) | runs on its own |

@@ -19,8 +19,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_dynamic-typing-precisely.py` | Dynamic typing, precisely (line 68) | may use names from earlier examples |
 | `examples/03_reassignment-binds-a-name-again.py` | Reassignment binds a name again (line 93) | may use names from earlier examples |
 | `examples/04_reassignment-binds-a-name-again.py` | Reassignment binds a name again (line 109) | may use names from earlier examples |
-| `examples/05_an-immutable-result-can-rebind-the-name.py` | An immutable result can rebind the name (line 155) | may use names from earlier examples |
-| `examples/06_an-immutable-result-can-rebind-the-name.py` | An immutable result can rebind the name (line 171) | may use names from earlier examples |
+| `examples/05_an-immutable-result-can-rebind-the-name.py` | Mutability: which objects can change in place › An immutable result can rebind the name (line 155) | may use names from earlier examples |
+| `examples/06_an-immutable-result-can-rebind-the-name.py` | Mutability: which objects can change in place › An immutable result can rebind the name (line 171) | may use names from earlier examples |
 | `examples/07_shared-references-and-aliasing.py` | Shared references and aliasing (line 198) | may use names from earlier examples |
 | `examples/08_shared-references-and-aliasing.py` | Shared references and aliasing (line 227) | may use names from earlier examples |
 | `examples/09_the-0-3-3-trap-repetition-copies-references.py` | The `[[0] * 3] * 3` trap: repetition copies references (line 255) | may use names from earlier examples |

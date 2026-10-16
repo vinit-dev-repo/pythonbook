@@ -32,13 +32,13 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_subclassing-to-add-behaviour.py` | Subclassing to add behaviour (line 47) | runs on its own |
 | `examples/02_subclassing-to-add-behaviour.py` | Subclassing to add behaviour (line 68) | runs on its own |
-| `examples/03_typing-namedtuple-tuple-behaviour-with-annotatio.py` | `typing.NamedTuple`: tuple behaviour with annotations (line 133) | may use names from earlier examples |
-| `examples/04_typing-namedtuple-tuple-behaviour-with-annotatio.py` | `typing.NamedTuple`: tuple behaviour with annotations (line 156) | runs on its own |
-| `examples/05_typing-namedtuple-tuple-behaviour-with-annotatio.py` | `typing.NamedTuple`: tuple behaviour with annotations (line 201) | runs on its own |
-| `examples/06_dataclass-mutable-and-more-features-python-3-7.py` | `@dataclass`: mutable, and more features (Python 3.7+) (line 233) | may use names from earlier examples |
+| `examples/03_typing-namedtuple-tuple-behaviour-with-annotatio.py` | Modern alternatives › `typing.NamedTuple`: tuple behaviour with annotations (line 133) | may use names from earlier examples |
+| `examples/04_typing-namedtuple-tuple-behaviour-with-annotatio.py` | Modern alternatives › `typing.NamedTuple`: tuple behaviour with annotations (line 156) | runs on its own |
+| `examples/05_typing-namedtuple-tuple-behaviour-with-annotatio.py` | Modern alternatives › `typing.NamedTuple`: tuple behaviour with annotations (line 201) | runs on its own |
+| `examples/06_dataclass-mutable-and-more-features-python-3-7.py` | Modern alternatives › `@dataclass`: mutable, and more features (Python 3.7+) (line 233) | may use names from earlier examples |
 | `examples/07_dataclass-defaults-and-mutable-fields.py` | Dataclass defaults and mutable fields (line 268) | runs on its own |
 | `examples/08_dataclass-defaults-and-mutable-fields.py` | Dataclass defaults and mutable fields (line 316) | runs on its own |
-| `examples/09_required-keyword-only-fields-after-defaults.py` | Required keyword-only fields after defaults (line 349) | runs on its own |
+| `examples/09_required-keyword-only-fields-after-defaults.py` | Dataclass defaults and mutable fields › Required keyword-only fields after defaults (line 349) | runs on its own |
 | `examples/10_frozen-records-and-hashability.py` | Frozen records and hashability (line 390) | runs on its own |
 | `examples/11_frozen-records-and-hashability.py` | Frozen records and hashability (line 441) | runs on its own |
 | `examples/12_turning-dictionary-rows-into-records.py` | Turning dictionary rows into records (line 495) | runs on its own |

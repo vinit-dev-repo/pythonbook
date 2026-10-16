@@ -19,14 +19,14 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `process_lifecycle.py` | Observe child completion and release resources (line 277) |  |
-| `test_process_lifecycle.py` | Observe child completion and release resources (line 446) |  |
-| `exercise_process.py` | Practice: diagnose two child outcomes (line 512) |  |
-| `future_lifecycle.py` | Futures can succeed, fail or be cancelled (line 756) |  |
-| `buffered_map.py` | Worker count does not bound all submitted work (line 929) |  |
-| `test_future_lifecycle.py` | Worker count does not bound all submitted work (line 988) |  |
+| `process_lifecycle.py` | Exchanging data between processes › Observe child completion and release resources (line 277) |  |
+| `test_process_lifecycle.py` | Exchanging data between processes › Observe child completion and release resources (line 446) |  |
+| `exercise_process.py` | Exchanging data between processes › Practice: diagnose two child outcomes (line 512) |  |
+| `future_lifecycle.py` | concurrent.futures: the modern, unified interface › Futures can succeed, fail or be cancelled (line 756) |  |
+| `buffered_map.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 929) |  |
+| `test_future_lifecycle.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 988) |  |
 | `exercise_futures.py` | Try it yourself (line 1265) |  |
-| `compare_artifact_schedules.py` | Transfer lab: compare three schedules against the same local service (line 1351) |  |
+| `compare_artifact_schedules.py` | Try it yourself › Transfer lab: compare three schedules against the same local service (line 1351) |  |
 
 ## Examples, in chapter order
 
@@ -37,13 +37,13 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_multiprocessing-process-a-mirror-of-thread.py` | multiprocessing.Process: a mirror of Thread (line 72) | runs on its own |
 | `examples/02_compare-cpu-bound-work.py` | Compare CPU-bound work (line 115) | runs on its own |
 | `examples/03_compare-cpu-bound-work.py` | Compare CPU-bound work (line 185) | may use names from earlier examples |
-| `examples/04_multiprocessing-queue.py` | multiprocessing.Queue (line 208) | runs on its own |
-| `examples/05_pipe.py` | Pipe (line 236) | runs on its own |
-| `examples/06_shared-storage-with-value.py` | Shared storage with `Value` (line 556) | runs on its own |
+| `examples/04_multiprocessing-queue.py` | Exchanging data between processes › multiprocessing.Queue (line 208) | runs on its own |
+| `examples/05_pipe.py` | Exchanging data between processes › Pipe (line 236) | runs on its own |
+| `examples/06_shared-storage-with-value.py` | Exchanging data between processes › Shared storage with `Value` (line 556) | runs on its own |
 | `examples/07_pool-mapping-over-many-inputs.py` | Pool: mapping over many inputs (line 597) | runs on its own |
 | `examples/08_pool-mapping-over-many-inputs.py` | Pool: mapping over many inputs (line 621) | runs on its own |
 | `examples/09_concurrent-futures-the-modern-unified-interface.py` | concurrent.futures: the modern, unified interface (line 651) | runs on its own |
-| `examples/10_submit-and-as-completed-results-as-they-finish.py` | submit and as_completed: results as they finish (line 688) | may use names from earlier examples |
+| `examples/10_submit-and-as-completed-results-as-they-finish.py` | concurrent.futures: the modern, unified interface › submit and as_completed: results as they finish (line 688) | may use names from earlier examples |
 | `examples/11_example-1-fetch-many-urls-with-threads.py` | Example 1: fetch many URLs with threads (line 1057) | may use names from earlier examples |
 | `examples/12_example-2-run-a-cpu-batch-job-with-processes.py` | Example 2: run a CPU batch job with processes (line 1102) | runs on its own |
 | `examples/13_choosing-between-threads-processes-and-async.py` | Choosing between threads, processes and async (line 1156) | may use names from earlier examples |

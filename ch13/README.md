@@ -19,8 +19,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_the-re-module-search-match-and-fullmatch.py` | The `re` module: search, match and fullmatch (line 67) | runs on its own |
 | `examples/02_the-re-module-search-match-and-fullmatch.py` | The `re` module: search, match and fullmatch (line 95) | may use names from earlier examples |
-| `examples/03_finding-all-the-matches-findall-and-finditer.py` | Finding *all* the matches: `findall` and `finditer` (line 117) | may use names from earlier examples |
-| `examples/04_finding-all-the-matches-findall-and-finditer.py` | Finding *all* the matches: `findall` and `finditer` (line 132) | may use names from earlier examples |
+| `examples/03_finding-all-the-matches-findall-and-finditer.py` | The `re` module: search, match and fullmatch › Finding *all* the matches: `findall` and `finditer` (line 117) | may use names from earlier examples |
+| `examples/04_finding-all-the-matches-findall-and-finditer.py` | The `re` module: search, match and fullmatch › Finding *all* the matches: `findall` and `finditer` (line 132) | may use names from earlier examples |
 | `examples/05_raw-strings-r.py` | Raw strings: `r"..."` (line 165) | may use names from earlier examples |
 | `examples/06_raw-strings-r.py` | Raw strings: `r"..."` (line 183) | may use names from earlier examples |
 | `examples/07_building-a-pattern-in-python.py` | Building a pattern in Python (line 225) | may use names from earlier examples |

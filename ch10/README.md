@@ -42,17 +42,17 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/10_the-common-exception-types.py` | The common exception types (line 275) | raises an error on purpose |
 | `examples/11_the-common-exception-types.py` | The common exception types (line 290) | raises an error on purpose |
 | `examples/12_the-common-exception-types.py` | The common exception types (line 304) | raises an error on purpose |
-| `examples/13_when-the-message-suggests-a-fix.py` | When the message suggests a fix (line 329) | raises an error on purpose |
-| `examples/14_when-the-message-suggests-a-fix.py` | When the message suggests a fix (line 346) | raises an error on purpose |
+| `examples/13_when-the-message-suggests-a-fix.py` | The common exception types › When the message suggests a fix (line 329) | raises an error on purpose |
+| `examples/14_when-the-message-suggests-a-fix.py` | The common exception types › When the message suggests a fix (line 346) | raises an error on purpose |
 | `examples/15_catching-exceptions-try-except.py` | Catching exceptions: try/except (line 368) | may use names from earlier examples |
-| `examples/16_catch-a-specific-type-never-a-bare-except.py` | Catch a specific type — never a bare `except` (line 394) | may use names from earlier examples |
-| `examples/17_catching-several-types.py` | Catching several types (line 418) | may use names from earlier examples |
-| `examples/18_catching-several-types.py` | Catching several types (line 440) | may use names from earlier examples |
-| `examples/19_getting-the-exception-object-with-as.py` | Getting the exception object with `as` (line 471) | may use names from earlier examples |
+| `examples/16_catch-a-specific-type-never-a-bare-except.py` | Catching exceptions: try/except › Catch a specific type — never a bare `except` (line 394) | may use names from earlier examples |
+| `examples/17_catching-several-types.py` | Catching exceptions: try/except › Catching several types (line 418) | may use names from earlier examples |
+| `examples/18_catching-several-types.py` | Catching exceptions: try/except › Catching several types (line 440) | may use names from earlier examples |
+| `examples/19_getting-the-exception-object-with-as.py` | Catching exceptions: try/except › Getting the exception object with `as` (line 471) | may use names from earlier examples |
 | `examples/20_else-and-finally.py` | `else` and `finally` (line 502) | may use names from earlier examples |
 | `examples/21_convert-user-input-at-a-narrow-boundary.py` | Convert user input at a narrow boundary (line 572) | may use names from earlier examples |
 | `examples/22_raising-your-own-exceptions.py` | Raising your own exceptions (line 607) | raises an error on purpose |
-| `examples/23_re-raising.py` | Re-raising (line 638) | raises an error on purpose |
+| `examples/23_re-raising.py` | Raising your own exceptions › Re-raising (line 638) | raises an error on purpose |
 | `examples/24_looking-at-the-exception-without-an-as-binding.py` | Looking at the exception without an `as` binding (line 788) | may use names from earlier examples |
 | `examples/25_looking-at-the-exception-without-an-as-binding.py` | Looking at the exception without an `as` binding (line 812) | may use names from earlier examples |
 | `examples/26_breaking-out-of-nested-loops-with-an-exception.py` | Breaking out of nested loops with an exception (line 851) | may use names from earlier examples |

@@ -23,7 +23,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `managed_csv_records.py` | Transfer project: own a lazy CSV stream until its last use (line 994) |  |
 | `aligned_records.py` | Transfer project: combine four aligned record streams (line 1282) |  |
 | `site_report.py` | Transfer project: combine four aligned record streams (line 1386) |  |
-| `group_lifetime_lab.py` | Diagnose an exhausted mask and shared groups (line 1487) |  |
+| `group_lifetime_lab.py` | Transfer project: combine four aligned record streams › Diagnose an exhausted mask and shared groups (line 1487) |  |
 
 ## Examples, in chapter order
 

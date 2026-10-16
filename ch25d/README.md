@@ -15,16 +15,16 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `app/__init__.py` | A real package and a reusable validator (line 95) |  |
-| `app/utils/__init__.py` | A real package and a reusable validator (line 100) |  |
-| `app/models/__init__.py` | A real package and a reusable validator (line 105) |  |
-| `app/utils/validators.py` | A real package and a reusable validator (line 114) |  |
-| `app/models/resource.py` | A real package and a reusable validator (line 145) |  |
-| `tests/conftest.py` | Check the base before adding devices (line 231) |  |
-| `tests/test_validators.py` | Check the base before adding devices (line 261) |  |
-| `tests/test_resource.py` | Check the base before adding devices (line 326) |  |
+| `app/__init__.py` | Contracts, files and the Resource state › A real package and a reusable validator (line 95) |  |
+| `app/utils/__init__.py` | Contracts, files and the Resource state › A real package and a reusable validator (line 100) |  |
+| `app/models/__init__.py` | Contracts, files and the Resource state › A real package and a reusable validator (line 105) |  |
+| `app/utils/validators.py` | Contracts, files and the Resource state › A real package and a reusable validator (line 114) |  |
+| `app/models/resource.py` | Contracts, files and the Resource state › A real package and a reusable validator (line 145) |  |
+| `tests/conftest.py` | Contracts, files and the Resource state › Check the base before adding devices (line 231) |  |
+| `tests/test_validators.py` | Contracts, files and the Resource state › Check the base before adding devices (line 261) |  |
+| `tests/test_resource.py` | Contracts, files and the Resource state › Check the base before adding devices (line 326) |  |
 | `app/models/devices.py` | Extending CPU and Storage (line 498) |  |
 | `inventory_demo.py` | Extending CPU and Storage (line 580) |  |
 | `tests/test_devices.py` | Fixtures, invalid transitions and regression (line 647) |  |
-| `tests/test_fixtures.py` | Fixture reuse has a lifetime (line 815) |  |
+| `tests/test_fixtures.py` | Fixtures, invalid transitions and regression › Fixture reuse has a lifetime (line 815) |  |
 | `inventory_transfer.py` | Try it yourself (line 890) |  |

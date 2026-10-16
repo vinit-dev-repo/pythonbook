@@ -26,14 +26,14 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `noisy.py` | What happens on import: initialization and reuse (line 147) |  |
-| `main.py` | What happens on import: initialization and reuse (line 155) | rewritten later in the chapter |
-| `greetings.py` | `if __name__ == "__main__":` (line 190) | rewritten later in the chapter |
-| `greet.py` | Command-line arguments (line 232) |  |
+| `noisy.py` | Writing your own module › What happens on import: initialization and reuse (line 147) |  |
+| `main.py` | Writing your own module › What happens on import: initialization and reuse (line 155) | rewritten later in the chapter |
+| `greetings.py` | Writing your own module › `if __name__ == "__main__":` (line 190) | rewritten later in the chapter |
+| `greet.py` | Writing your own module › Command-line arguments (line 232) |  |
 | `shop/__init__.py` | What a package is (line 320) |  |
 | `shop/pricing.py` | What a package is (line 324) |  |
-| `write_counts.py` | Practice: pass a file between two programs (line 710) |  |
-| `read_counts.py` | Practice: pass a file between two programs (line 719) |  |
+| `write_counts.py` | Working with paths by using `pathlib` › Practice: pass a file between two programs (line 710) |  |
+| `read_counts.py` | Working with paths by using `pathlib` › Practice: pass a file between two programs (line 719) |  |
 
 ## Examples, in chapter order
 
@@ -42,16 +42,16 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_what-a-module-is.py` | What a module is (line 49) | runs on its own |
-| `examples/02_the-four-ways-to-import.py` | The four ways to import (line 74) | may use names from earlier examples |
+| `examples/02_the-four-ways-to-import.py` | What a module is › The four ways to import (line 74) | may use names from earlier examples |
 | `examples/03_what-a-package-is.py` | What a package is (line 333) | runs on its own |
-| `examples/04_opening-and-closing.py` | Opening and closing (line 359) | may use names from earlier examples |
-| `examples/05_the-with-statement-the-safe-way.py` | The `with` statement: the safe way (line 374) | may use names from earlier examples |
-| `examples/06_reading-a-file.py` | Reading a file (line 391) | may use names from earlier examples |
-| `examples/07_reading-a-file.py` | Reading a file (line 408) | may use names from earlier examples |
-| `examples/08_writing-w-overwrites-a-appends.py` | Writing: `"w"` overwrites, `"a"` appends (line 443) | may use names from earlier examples |
-| `examples/09_send-printed-text-to-an-open-file.py` | Send printed text to an open file (line 479) | may use names from earlier examples |
-| `examples/10_read-sizes-blank-lines-and-the-end-of-a-file.py` | Read sizes, blank lines and the end of a file (line 511) | may use names from earlier examples |
-| `examples/11_bytes-update-modes-and-flushing.py` | Bytes, update modes and flushing (line 568) | may use names from earlier examples |
+| `examples/04_opening-and-closing.py` | Working with text files › Opening and closing (line 359) | may use names from earlier examples |
+| `examples/05_the-with-statement-the-safe-way.py` | Working with text files › The `with` statement: the safe way (line 374) | may use names from earlier examples |
+| `examples/06_reading-a-file.py` | Working with text files › Reading a file (line 391) | may use names from earlier examples |
+| `examples/07_reading-a-file.py` | Working with text files › Reading a file (line 408) | may use names from earlier examples |
+| `examples/08_writing-w-overwrites-a-appends.py` | Working with text files › Writing: `"w"` overwrites, `"a"` appends (line 443) | may use names from earlier examples |
+| `examples/09_send-printed-text-to-an-open-file.py` | Working with text files › Send printed text to an open file (line 479) | may use names from earlier examples |
+| `examples/10_read-sizes-blank-lines-and-the-end-of-a-file.py` | Working with text files › Read sizes, blank lines and the end of a file (line 511) | may use names from earlier examples |
+| `examples/11_bytes-update-modes-and-flushing.py` | Working with text files › Bytes, update modes and flushing (line 568) | may use names from earlier examples |
 | `examples/12_absolute-and-relative-file-paths.py` | Absolute and relative file paths (line 627) | runs on its own |
 | `examples/13_working-with-paths-by-using-pathlib.py` | Working with paths by using `pathlib` (line 657) | may use names from earlier examples |
 | `examples/14_working-with-paths-by-using-pathlib.py` | Working with paths by using `pathlib` (line 674) | may use names from earlier examples |

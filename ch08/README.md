@@ -20,24 +20,24 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_the-idea-a-loop-in-one-line.py` | The idea: a loop in one line (line 40) | runs on its own |
 | `examples/02_the-idea-a-loop-in-one-line.py` | The idea: a loop in one line (line 57) | may use names from earlier examples |
-| `examples/03_the-loop-name-stays-inside-the-comprehension.py` | The loop name stays inside the comprehension (line 77) | may use names from earlier examples |
-| `examples/04_the-loop-name-stays-inside-the-comprehension.py` | The loop name stays inside the comprehension (line 94) | may use names from earlier examples |
+| `examples/03_the-loop-name-stays-inside-the-comprehension.py` | The idea: a loop in one line › The loop name stays inside the comprehension (line 77) | may use names from earlier examples |
+| `examples/04_the-loop-name-stays-inside-the-comprehension.py` | The idea: a loop in one line › The loop name stays inside the comprehension (line 94) | may use names from earlier examples |
 | `examples/05_anatomy-of-a-list-comprehension.py` | Anatomy of a list comprehension (line 134) | may use names from earlier examples |
-| `examples/06_with-both-a-transform-and-a-condition.py` | With both a transform and a condition (line 154) | may use names from earlier examples |
-| `examples/07_with-both-a-transform-and-a-condition.py` | With both a transform and a condition (line 195) | may use names from earlier examples |
-| `examples/08_with-both-a-transform-and-a-condition.py` | With both a transform and a condition (line 214) | may use names from earlier examples |
+| `examples/06_with-both-a-transform-and-a-condition.py` | Anatomy of a list comprehension › With both a transform and a condition (line 154) | may use names from earlier examples |
+| `examples/07_with-both-a-transform-and-a-condition.py` | Anatomy of a list comprehension › With both a transform and a condition (line 195) | may use names from earlier examples |
+| `examples/08_with-both-a-transform-and-a-condition.py` | Anatomy of a list comprehension › With both a transform and a condition (line 214) | may use names from earlier examples |
 | `examples/09_nested-loops-inside-a-comprehension.py` | Nested loops inside a comprehension (line 235) | may use names from earlier examples |
 | `examples/10_nested-loops-inside-a-comprehension.py` | Nested loops inside a comprehension (line 249) | may use names from earlier examples |
-| `examples/11_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 268) | may use names from earlier examples |
-| `examples/12_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 274) | may use names from earlier examples |
-| `examples/13_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 289) | may use names from earlier examples |
-| `examples/14_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 301) | may use names from earlier examples |
-| `examples/15_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 318) | may use names from earlier examples |
-| `examples/16_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 330) | may use names from earlier examples |
-| `examples/17_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 342) | may use names from earlier examples |
-| `examples/18_keep-rows-separate-or-collect-their-values.py` | Keep rows separate or collect their values (line 362) | may use names from earlier examples |
-| `examples/19_unpack-each-row-with-3-15.py` | Unpack each row with `*` (3.15) (line 386) | a fragment, not a complete program |
-| `examples/20_unpack-each-row-with-3-15.py` | Unpack each row with `*` (3.15) (line 399) | a fragment, not a complete program |
+| `examples/11_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 268) | may use names from earlier examples |
+| `examples/12_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 274) | may use names from earlier examples |
+| `examples/13_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 289) | may use names from earlier examples |
+| `examples/14_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 301) | may use names from earlier examples |
+| `examples/15_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 318) | may use names from earlier examples |
+| `examples/16_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 330) | may use names from earlier examples |
+| `examples/17_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 342) | may use names from earlier examples |
+| `examples/18_keep-rows-separate-or-collect-their-values.py` | Nested loops inside a comprehension › Keep rows separate or collect their values (line 362) | may use names from earlier examples |
+| `examples/19_unpack-each-row-with-3-15.py` | Nested loops inside a comprehension › Unpack each row with `*` (3.15) (line 386) | a fragment, not a complete program |
+| `examples/20_unpack-each-row-with-3-15.py` | Nested loops inside a comprehension › Unpack each row with `*` (3.15) (line 399) | a fragment, not a complete program |
 | `examples/21_dict-comprehensions.py` | Dict comprehensions (line 423) | may use names from earlier examples |
 | `examples/22_dict-comprehensions.py` | Dict comprehensions (line 436) | may use names from earlier examples |
 | `examples/23_dict-comprehensions.py` | Dict comprehensions (line 453) | may use names from earlier examples |

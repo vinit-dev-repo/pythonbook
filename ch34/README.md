@@ -23,22 +23,22 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_a-first-generator-step-by-step.py` | A first generator, step by step (line 77) | runs on its own |
 | `examples/02_a-first-generator-step-by-step.py` | A first generator, step by step (line 112) | raises an error on purpose |
 | `examples/03_generators-are-iterators.py` | Generators ARE iterators (line 136) | may use names from earlier examples |
-| `examples/04_an-infinite-generator-fibonacci.py` | An infinite generator: Fibonacci (line 175) | may use names from earlier examples |
-| `examples/05_an-infinite-generator-fibonacci.py` | An infinite generator: Fibonacci (line 194) | may use names from earlier examples |
+| `examples/04_an-infinite-generator-fibonacci.py` | Generators ARE iterators › An infinite generator: Fibonacci (line 175) | may use names from earlier examples |
+| `examples/05_an-infinite-generator-fibonacci.py` | Generators ARE iterators › An infinite generator: Fibonacci (line 194) | may use names from earlier examples |
 | `examples/06_making-a-re-iterable-object-with-a-generator.py` | Making a re-iterable object with a generator (line 217) | may use names from earlier examples |
-| `examples/07_a-card-deck-example-nested-yield.py` | A card-deck example: nested `yield` (line 256) | may use names from earlier examples |
+| `examples/07_a-card-deck-example-nested-yield.py` | Making a re-iterable object with a generator › A card-deck example: nested `yield` (line 256) | may use names from earlier examples |
 | `examples/08_generator-expressions.py` | Generator expressions (line 303) | may use names from earlier examples |
-| `examples/09_observe-creation-and-consumption-separately.py` | Observe creation and consumption separately (line 330) | runs on its own |
-| `examples/10_from-stored-matches-to-lazy-text-traversal.py` | From stored matches to lazy text traversal (line 387) | runs on its own |
-| `examples/11_produce-cyclic-starts-without-storing-every-resu.py` | Produce cyclic starts without storing every result (line 469) | may use names from earlier examples |
-| `examples/12_memory-list-comprehension-vs-generator-expressio.py` | Memory: list comprehension vs generator expression (line 509) | may use names from earlier examples |
+| `examples/09_observe-creation-and-consumption-separately.py` | Generator expressions › Observe creation and consumption separately (line 330) | runs on its own |
+| `examples/10_from-stored-matches-to-lazy-text-traversal.py` | Generator expressions › From stored matches to lazy text traversal (line 387) | runs on its own |
+| `examples/11_produce-cyclic-starts-without-storing-every-resu.py` | Generator expressions › Produce cyclic starts without storing every result (line 469) | may use names from earlier examples |
+| `examples/12_memory-list-comprehension-vs-generator-expressio.py` | Generator expressions › Memory: list comprehension vs generator expression (line 509) | may use names from earlier examples |
 | `examples/13_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 555) | runs on its own |
 | `examples/14_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 638) | runs on its own |
 | `examples/15_generator-pipelines.py` | Generator pipelines (line 673) | may use names from earlier examples |
-| `examples/16_two-input-formats-one-record-writer.py` | Two input formats, one record writer (line 721) | runs on its own |
-| `examples/17_walk-a-directory-tree-and-prune-work.py` | Walk a directory tree and prune work (line 802) | runs on its own |
+| `examples/16_two-input-formats-one-record-writer.py` | Generator pipelines › Two input formats, one record writer (line 721) | runs on its own |
+| `examples/17_walk-a-directory-tree-and-prune-work.py` | Generator pipelines › Walk a directory tree and prune work (line 802) | runs on its own |
 | `examples/18_yield-from-delegating-to-a-sub-generator.py` | `yield from`: delegating to a sub-generator (line 854) | may use names from earlier examples |
-| `examples/19_flattening-nested-structures.py` | Flattening nested structures (line 885) | may use names from earlier examples |
+| `examples/19_flattening-nested-structures.py` | `yield from`: delegating to a sub-generator › Flattening nested structures (line 885) | may use names from earlier examples |
 | `examples/20_generator-return-values.py` | Generator return values (line 923) | may use names from earlier examples |
-| `examples/21_end-with-return-not-an-escaping-stopiteration.py` | End with `return`, not an escaping `StopIteration` (line 959) | runs on its own |
+| `examples/21_end-with-return-not-an-escaping-stopiteration.py` | Generator return values › End with `return`, not an escaping `StopIteration` (line 959) | runs on its own |
 | `examples/22_try-it-yourself.py` | Try it yourself (line 1035) | may use names from earlier examples |

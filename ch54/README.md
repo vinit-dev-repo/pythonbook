@@ -20,7 +20,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 |---|---|---|
 | `weather_client.py` | Complete example: an API client (line 208) |  |
 | `test_weather_client.py` | Complete example: an API client (line 316) |  |
-| `weather_demo.py` | Independent transfer (line 528) |  |
+| `weather_demo.py` | Complete example: an API client › Independent transfer (line 528) |  |
 | `quotes_sample.html` | Complete web-scraping example (line 812) |  |
 | `quote_scraper.py` | Complete web-scraping example (line 839) |  |
 | `test_quote_scraper.py` | Complete web-scraping example (line 922) |  |
@@ -28,12 +28,12 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `exercise_quote_scraper.py` | Practice: a changed page layout (line 1037) |  |
 | `fetch_live_quotes.py` | Optional: fetch a live page (line 1109) |  |
 | `exercise_quote_scraper_answer5.py` | Try it yourself (line 1224) |  |
-| `document_cache.py` | Transfer lab: reuse an immutable JSON download across runs (line 1259) |  |
-| `test_document_cache.py` | Transfer lab: reuse an immutable JSON download across runs (line 1321) |  |
-| `threaded_page_counts.py` | Transfer lab: count text from several pages (line 1423) |  |
-| `try_page_counts.py` | Transfer lab: count text from several pages (line 1471) |  |
-| `date_conversion_lab.py` | Transfer lab: give imported dates an explicit meaning (line 1553) |  |
-| `inspect_http_exchange.py` | Transfer lab: inspect a complete HTTP exchange (line 1698) |  |
+| `document_cache.py` | Try it yourself › Transfer lab: reuse an immutable JSON download across runs (line 1259) |  |
+| `test_document_cache.py` | Try it yourself › Transfer lab: reuse an immutable JSON download across runs (line 1321) |  |
+| `threaded_page_counts.py` | Try it yourself › Transfer lab: count text from several pages (line 1423) |  |
+| `try_page_counts.py` | Try it yourself › Transfer lab: count text from several pages (line 1471) |  |
+| `date_conversion_lab.py` | Try it yourself › Transfer lab: give imported dates an explicit meaning (line 1553) |  |
+| `inspect_http_exchange.py` | Try it yourself › Transfer lab: inspect a complete HTTP exchange (line 1698) |  |
 
 ## Examples, in chapter order
 

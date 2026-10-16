@@ -28,34 +28,34 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `test_calculator.py` | Writing a test file (line 190) |  |
-| `test_exceptions.py` | Testing for exceptions: `pytest.raises` (line 305) |  |
-| `test_parameters.py` | Parametrize: one test, many inputs (line 339) |  |
-| `test_average.py` | Check a complete example: average (line 386) |  |
-| `selection.py` | Choose the expected subset independently (line 507) |  |
-| `test_selection.py` | Choose the expected subset independently (line 513) |  |
-| `labels.py` | Use a round trip alongside known values (line 540) |  |
-| `test_labels.py` | Use a round trip alongside known values (line 549) |  |
-| `catalog.py` | Check the state after an operation (line 589) |  |
-| `test_catalog.py` | Check the state after an operation (line 629) |  |
-| `test_weak_replacement.py` | Make sure a test can catch the defect (line 720) |  |
+| `test_calculator.py` | pytest: finding and running tests › Writing a test file (line 190) |  |
+| `test_exceptions.py` | What to actually test › Testing for exceptions: `pytest.raises` (line 305) |  |
+| `test_parameters.py` | What to actually test › Parametrize: one test, many inputs (line 339) |  |
+| `test_average.py` | What to actually test › Check a complete example: average (line 386) |  |
+| `selection.py` | What to actually test › Choose the expected subset independently (line 507) |  |
+| `test_selection.py` | What to actually test › Choose the expected subset independently (line 513) |  |
+| `labels.py` | What to actually test › Use a round trip alongside known values (line 540) |  |
+| `test_labels.py` | What to actually test › Use a round trip alongside known values (line 549) |  |
+| `catalog.py` | What to actually test › Check the state after an operation (line 589) |  |
+| `test_catalog.py` | What to actually test › Check the state after an operation (line 629) |  |
+| `test_weak_replacement.py` | What to actually test › Make sure a test can catch the defect (line 720) |  |
 | `test_calculator_unittest.py` | unittest: the standard-library way (line 1081) |  |
-| `cleanup_unittest_demo.py` | Check cleanup when unittest setup fails (line 1199) |  |
-| `weather_logic.py` | Test the weather caller, not just the replacement (line 1406) |  |
-| `test_weather_logic.py` | Test the weather caller, not just the replacement (line 1415) |  |
-| `weather_source.py` | Patch the name the caller reads (line 1453) |  |
-| `weather_report.py` | Patch the name the caller reads (line 1459) |  |
-| `test_wrong_target.py` | Patch the name the caller reads (line 1478) |  |
-| `test_weather_report.py` | Patch the name the caller reads (line 1492) |  |
-| `waiting.py` | Control time through an explicit input (line 1528) |  |
-| `test_waiting.py` | Control time through an explicit input (line 1534) |  |
+| `cleanup_unittest_demo.py` | unittest: the standard-library way › Check cleanup when unittest setup fails (line 1199) |  |
+| `weather_logic.py` | Replacing an external dependency with a mock › Test the weather caller, not just the replacement (line 1406) |  |
+| `test_weather_logic.py` | Replacing an external dependency with a mock › Test the weather caller, not just the replacement (line 1415) |  |
+| `weather_source.py` | Replacing an external dependency with a mock › Patch the name the caller reads (line 1453) |  |
+| `weather_report.py` | Replacing an external dependency with a mock › Patch the name the caller reads (line 1459) |  |
+| `test_wrong_target.py` | Replacing an external dependency with a mock › Patch the name the caller reads (line 1478) |  |
+| `test_weather_report.py` | Replacing an external dependency with a mock › Patch the name the caller reads (line 1492) |  |
+| `waiting.py` | Replacing an external dependency with a mock › Control time through an explicit input (line 1528) |  |
+| `test_waiting.py` | Replacing an external dependency with a mock › Control time through an explicit input (line 1534) |  |
 | `calculator.py` | A note on coverage (line 1569) | rewritten later in the chapter |
 | `test_coverage_demo.py` | A note on coverage (line 1619) | rewritten later in the chapter |
 | `test_multiples.py` | Test-driven development (line 1699) | rewritten later in the chapter |
 | `multiples.py` | Test-driven development (line 1725) | rewritten later in the chapter |
-| `boundaries.py` | Return a status without confusing it with the result (line 1767) |  |
-| `driver_demo.py` | Run three invocations and inspect surviving state (line 1798) |  |
-| `decorator_demo.py` | A decorator with a different failure contract (line 1879) |  |
+| `boundaries.py` | Session 7: a callable boundary and a small driver › Return a status without confusing it with the result (line 1767) |  |
+| `driver_demo.py` | Session 7: a callable boundary and a small driver › Run three invocations and inspect surviving state (line 1798) |  |
+| `decorator_demo.py` | Session 7: a callable boundary and a small driver › A decorator with a different failure contract (line 1879) |  |
 | `test_practice.py` | Try it yourself (line 1958) |  |
 | `test_palindrome.py` | Try it yourself (line 2019) |  |
 
@@ -67,17 +67,17 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_what-a-test-actually-is.py` | What a test actually is (line 89) | runs on its own |
 | `examples/02_what-a-test-actually-is.py` | What a test actually is (line 112) | may use names from earlier examples |
-| `examples/03_the-arrange-act-assert-pattern.py` | The Arrange-Act-Assert pattern (line 439) | may use names from earlier examples |
-| `examples/04_naming-tests-so-they-read-like-sentences.py` | Naming tests so they read like sentences (line 461) | may use names from earlier examples |
-| `examples/05_check-a-relation-the-contract-promises.py` | Check a relation the contract promises (line 484) | may use names from earlier examples |
-| `examples/06_make-sure-a-test-can-catch-the-defect.py` | Make sure a test can catch the defect (line 743) | a fragment, not a complete program |
-| `examples/07_fixtures-shared-setup.py` | Fixtures: shared setup (line 779) | may use names from earlier examples |
-| `examples/08_a-fixture-can-request-another-fixture.py` | A fixture can request another fixture (line 819) | may use names from earlier examples |
-| `examples/09_rerun-the-old-checks-after-changing-setup.py` | Rerun the old checks after changing setup (line 852) | may use names from earlier examples |
-| `examples/10_setup-yield-and-teardown.py` | Setup, yield and teardown (line 881) | may use names from earlier examples |
-| `examples/11_observe-cleanup-after-it-happens.py` | Observe cleanup after it happens (line 921) | may use names from earlier examples |
-| `examples/12_setup-can-fail-before-yield.py` | Setup can fail before yield (line 991) | may use names from earlier examples |
-| `examples/13_setup-and-teardown.py` | setUp and tearDown (line 1136) | may use names from earlier examples |
+| `examples/03_the-arrange-act-assert-pattern.py` | What to actually test › The Arrange-Act-Assert pattern (line 439) | may use names from earlier examples |
+| `examples/04_naming-tests-so-they-read-like-sentences.py` | What to actually test › Naming tests so they read like sentences (line 461) | may use names from earlier examples |
+| `examples/05_check-a-relation-the-contract-promises.py` | What to actually test › Check a relation the contract promises (line 484) | may use names from earlier examples |
+| `examples/06_make-sure-a-test-can-catch-the-defect.py` | What to actually test › Make sure a test can catch the defect (line 743) | a fragment, not a complete program |
+| `examples/07_fixtures-shared-setup.py` | What to actually test › Fixtures: shared setup (line 779) | may use names from earlier examples |
+| `examples/08_a-fixture-can-request-another-fixture.py` | What to actually test › A fixture can request another fixture (line 819) | may use names from earlier examples |
+| `examples/09_rerun-the-old-checks-after-changing-setup.py` | What to actually test › Rerun the old checks after changing setup (line 852) | may use names from earlier examples |
+| `examples/10_setup-yield-and-teardown.py` | What to actually test › Setup, yield and teardown (line 881) | may use names from earlier examples |
+| `examples/11_observe-cleanup-after-it-happens.py` | What to actually test › Observe cleanup after it happens (line 921) | may use names from earlier examples |
+| `examples/12_setup-can-fail-before-yield.py` | What to actually test › Setup can fail before yield (line 991) | may use names from earlier examples |
+| `examples/13_setup-and-teardown.py` | unittest: the standard-library way › setUp and tearDown (line 1136) | may use names from earlier examples |
 | `examples/14_doctest-check-examples-in-docstrings.py` | doctest: check examples in docstrings (line 1270) | may use names from earlier examples |
 | `examples/15_replacing-an-external-dependency-with-a-mock.py` | Replacing an external dependency with a mock (line 1336) | may use names from earlier examples |
 | `examples/16_replacing-an-external-dependency-with-a-mock.py` | Replacing an external dependency with a mock (line 1365) | may use names from earlier examples |
@@ -88,5 +88,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_check-the-state-after-an-operation.sh` | Check the state after an operation (line 706) | bash commands to type in a terminal |
-| `commands/02_make-sure-a-test-can-catch-the-defect.sh` | Make sure a test can catch the defect (line 750) | bash commands to type in a terminal |
+| `commands/01_check-the-state-after-an-operation.sh` | What to actually test › Check the state after an operation (line 706) | bash commands to type in a terminal |
+| `commands/02_make-sure-a-test-can-catch-the-defect.sh` | What to actually test › Make sure a test can catch the defect (line 750) | bash commands to type in a terminal |

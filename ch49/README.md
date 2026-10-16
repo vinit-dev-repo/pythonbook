@@ -19,8 +19,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `axis_selection.py` | Omitted axes and a new dimension (line 577) |  |
-| `selected_updates.py` | Reading a selection versus assigning to it (line 638) |  |
+| `axis_selection.py` | Slicing › Omitted axes and a new dimension (line 577) |  |
+| `selected_updates.py` | Fancy indexing › Reading a selection versus assigning to it (line 638) |  |
 | `array_file_worker.py` | Store an array and control mapped writes (line 958) |  |
 | `array_file_workflow.py` | Store an array and control mapped writes (line 983) |  |
 
@@ -30,15 +30,15 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_a-speed-demo.py` | A speed demo (line 71) | runs on its own |
+| `examples/01_a-speed-demo.py` | Why NumPy exists › A speed demo (line 71) | runs on its own |
 | `examples/02_creating-arrays-from-lists.py` | Creating arrays from lists (line 132) | may use names from earlier examples |
 | `examples/03_creating-arrays-from-lists.py` | Creating arrays from lists (line 148) | may use names from earlier examples |
 | `examples/04_creating-arrays-from-lists.py` | Creating arrays from lists (line 163) | may use names from earlier examples |
 | `examples/05_creating-arrays-from-lists.py` | Creating arrays from lists (line 182) | may use names from earlier examples |
 | `examples/06_creating-arrays-from-lists.py` | Creating arrays from lists (line 195) | may use names from earlier examples |
 | `examples/07_creating-arrays-from-scratch.py` | Creating arrays from scratch (line 220) | may use names from earlier examples |
-| `examples/08_arange-vs-linspace-the-difference-that-matters.py` | `arange` vs `linspace`: the difference that matters (line 250) | may use names from earlier examples |
-| `examples/09_random-arrays.py` | Random arrays (line 271) | may use names from earlier examples |
+| `examples/08_arange-vs-linspace-the-difference-that-matters.py` | Creating arrays from scratch › `arange` vs `linspace`: the difference that matters (line 250) | may use names from earlier examples |
+| `examples/09_random-arrays.py` | Creating arrays from scratch › Random arrays (line 271) | may use names from earlier examples |
 | `examples/10_reshaping-arrays.py` | Reshaping arrays (line 295) | may use names from earlier examples |
 | `examples/11_reshaping-arrays.py` | Reshaping arrays (line 310) | may use names from earlier examples |
 | `examples/12_reshaping-arrays.py` | Reshaping arrays (line 322) | may use names from earlier examples |
@@ -56,10 +56,10 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/24_boolean-masks.py` | Boolean masks (line 670) | may use names from earlier examples |
 | `examples/25_boolean-masks.py` | Boolean masks (line 691) | may use names from earlier examples |
 | `examples/26_universal-functions-ufuncs.py` | Universal functions (ufuncs) (line 714) | may use names from earlier examples |
-| `examples/27_broadcasting.py` | Broadcasting (line 768) | may use names from earlier examples |
-| `examples/28_broadcasting.py` | Broadcasting (line 789) | may use names from earlier examples |
-| `examples/29_elementwise-multiplication-and-matrix-multiplica.py` | Elementwise multiplication and matrix multiplication (line 813) | may use names from earlier examples |
-| `examples/30_elementwise-multiplication-and-matrix-multiplica.py` | Elementwise multiplication and matrix multiplication (line 836) | may use names from earlier examples |
+| `examples/27_broadcasting.py` | Universal functions (ufuncs) › Broadcasting (line 768) | may use names from earlier examples |
+| `examples/28_broadcasting.py` | Universal functions (ufuncs) › Broadcasting (line 789) | may use names from earlier examples |
+| `examples/29_elementwise-multiplication-and-matrix-multiplica.py` | Universal functions (ufuncs) › Elementwise multiplication and matrix multiplication (line 813) | may use names from earlier examples |
+| `examples/30_elementwise-multiplication-and-matrix-multiplica.py` | Universal functions (ufuncs) › Elementwise multiplication and matrix multiplication (line 836) | may use names from earlier examples |
 | `examples/31_math-and-stats-methods-and-the-axis-rule-again.py` | Math and stats methods, and the axis rule again (line 864) | may use names from earlier examples |
 | `examples/32_math-and-stats-methods-and-the-axis-rule-again.py` | Math and stats methods, and the axis rule again (line 885) | may use names from earlier examples |
 | `examples/33_math-and-stats-methods-and-the-axis-rule-again.py` | Math and stats methods, and the axis rule again (line 910) | may use names from earlier examples |

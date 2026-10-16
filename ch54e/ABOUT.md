@@ -32,9 +32,9 @@ The chapter saves these files more than once (for example a first version and a 
 | `tests/test_ledger.py` | Milestone 2 — keep persistent rows together (line 997) |  |
 | `tests/test_cli.py` | Milestone 2 — keep persistent rows together (line 1306) | rewritten later in the chapter |
 | `pyproject.toml` | Milestone 3 — check, build and operate the installed package (line 1501) | rewritten later in the chapter |
-| `RUNBOOK.md` | Local operating runbook (line 1574) |  |
-| `assessment_batch.json` | Independent installed-client task (line 1639) |  |
-| `assess_ledger.py` | Independent installed-client task (line 1667) |  |
+| `RUNBOOK.md` | Milestone 3 — check, build and operate the installed package › Local operating runbook (line 1574) |  |
+| `assessment_batch.json` | Exit meanings and recovery › Independent installed-client task (line 1639) |  |
+| `assess_ledger.py` | Exit meanings and recovery › Independent installed-client task (line 1667) |  |
 
 ## Examples, in chapter order
 
@@ -53,5 +53,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `commands/02_milestone-2-keep-persistent-rows-together.ps1` | Milestone 2 — keep persistent rows together (line 1482) | powershell commands to type in a terminal |
 | `commands/03_set-up-and-check.ps1` | Set up and check (line 1584) | powershell commands to type in a terminal |
 | `commands/04_operate.ps1` | Operate (line 1600) | powershell commands to type in a terminal |
-| `commands/05_final-package-check-sequence.ps1` | Final package check sequence (line 1931) | powershell commands to type in a terminal |
-| `commands/06_final-package-check-sequence.ps1` | Final package check sequence (line 1945) | powershell commands to type in a terminal |
+| `commands/05_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1931) | powershell commands to type in a terminal |
+| `commands/06_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1945) | powershell commands to type in a terminal |

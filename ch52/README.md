@@ -22,19 +22,19 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_connecting-running-sql-and-saving.py` | Connecting, running SQL, and saving (line 73) | runs on its own |
-| `examples/02_the-context-manager-pattern.py` | The context-manager pattern (line 106) | may use names from earlier examples |
+| `examples/02_the-context-manager-pattern.py` | Connecting, running SQL, and saving › The context-manager pattern (line 106) | may use names from earlier examples |
 | `examples/03_transactions-keeping-a-group-of-changes-all-or-n.py` | Transactions: keeping a group of changes all-or-nothing (line 137) | runs on its own |
 | `examples/04_transactions-keeping-a-group-of-changes-all-or-n.py` | Transactions: keeping a group of changes all-or-nothing (line 163) | may use names from earlier examples |
-| `examples/05_creating-a-table-create-table.py` | Creating a table: `CREATE TABLE` (line 259) | may use names from earlier examples |
-| `examples/06_adding-rows-insert.py` | Adding rows: `INSERT` (line 291) | may use names from earlier examples |
-| `examples/07_adding-rows-insert.py` | Adding rows: `INSERT` (line 317) | may use names from earlier examples |
-| `examples/08_reading-rows-select.py` | Reading rows: `SELECT` (line 343) | may use names from earlier examples |
-| `examples/09_reading-rows-select.py` | Reading rows: `SELECT` (line 365) | may use names from earlier examples |
-| `examples/10_fetching-results-three-ways.py` | Fetching results three ways (line 411) | may use names from earlier examples |
-| `examples/11_fetching-results-three-ways.py` | Fetching results three ways (line 430) | may use names from earlier examples |
-| `examples/12_changing-rows-update-and-removing-them-delete.py` | Changing rows: `UPDATE`, and removing them: `DELETE` (line 450) | may use names from earlier examples |
-| `examples/13_changing-rows-update-and-removing-them-delete.py` | Changing rows: `UPDATE`, and removing them: `DELETE` (line 469) | may use names from earlier examples |
+| `examples/05_creating-a-table-create-table.py` | SQL: the language databases understand › Creating a table: `CREATE TABLE` (line 259) | may use names from earlier examples |
+| `examples/06_adding-rows-insert.py` | SQL: the language databases understand › Adding rows: `INSERT` (line 291) | may use names from earlier examples |
+| `examples/07_adding-rows-insert.py` | SQL: the language databases understand › Adding rows: `INSERT` (line 317) | may use names from earlier examples |
+| `examples/08_reading-rows-select.py` | SQL: the language databases understand › Reading rows: `SELECT` (line 343) | may use names from earlier examples |
+| `examples/09_reading-rows-select.py` | SQL: the language databases understand › Reading rows: `SELECT` (line 365) | may use names from earlier examples |
+| `examples/10_fetching-results-three-ways.py` | SQL: the language databases understand › Fetching results three ways (line 411) | may use names from earlier examples |
+| `examples/11_fetching-results-three-ways.py` | SQL: the language databases understand › Fetching results three ways (line 430) | may use names from earlier examples |
+| `examples/12_changing-rows-update-and-removing-them-delete.py` | SQL: the language databases understand › Changing rows: `UPDATE`, and removing them: `DELETE` (line 450) | may use names from earlier examples |
+| `examples/13_changing-rows-update-and-removing-them-delete.py` | SQL: the language databases understand › Changing rows: `UPDATE`, and removing them: `DELETE` (line 469) | may use names from earlier examples |
 | `examples/14_foreign-keys-enable-and-verify-each-connection.py` | Foreign keys: enable and verify each connection (line 520) | runs on its own |
 | `examples/15_orms-generate-database-operations.py` | ORMs generate database operations (line 602) | runs on its own |
 | `examples/16_try-it-yourself.py` | Try it yourself (line 658) | may use names from earlier examples |
-| `examples/17_transfer-lab-locate-a-database-failure.py` | Transfer lab: locate a database failure (line 710) | runs on its own |
+| `examples/17_transfer-lab-locate-a-database-failure.py` | Try it yourself › Transfer lab: locate a database failure (line 710) | runs on its own |

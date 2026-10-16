@@ -17,7 +17,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `nested_record.py` | Unpack a nested record (line 148) |  |
+| `nested_record.py` | Unpacking: reading a record › Unpack a nested record (line 148) |  |
 
 ## Examples, in chapter order
 
@@ -27,7 +27,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_tuples-as-records-not-just-immutable-lists.py` | Tuples as records, not just "immutable lists" (line 57) | runs on its own |
 | `examples/02_unpacking-reading-a-record.py` | Unpacking: reading a record (line 92) | may use names from earlier examples |
-| `examples/03_looping-over-a-list-of-records.py` | Looping over a list of records (line 118) | may use names from earlier examples |
+| `examples/03_looping-over-a-list-of-records.py` | Unpacking: reading a record › Looping over a list of records (line 118) | may use names from earlier examples |
 | `examples/04_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 189) | raises an error on purpose |
 | `examples/05_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 206) | raises an error on purpose |
 | `examples/06_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 236) | may use names from earlier examples |
@@ -39,16 +39,16 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/12_creating-and-reading-a-namedtuple.py` | Creating and reading a `namedtuple` (line 365) | may use names from earlier examples |
 | `examples/13_creating-and-reading-a-namedtuple.py` | Creating and reading a `namedtuple` (line 382) | may use names from earlier examples |
 | `examples/14_creating-and-reading-a-namedtuple.py` | Creating and reading a `namedtuple` (line 401) | may use names from earlier examples |
-| `examples/15_make-build-one-from-an-existing-sequence.py` | `_make` — build one from an existing sequence (line 431) | may use names from earlier examples |
-| `examples/16_asdict-turn-it-into-a-dictionary.py` | `_asdict` — turn it into a dictionary (line 446) | may use names from earlier examples |
-| `examples/17_replace-a-modified-copy.py` | `_replace` — a modified copy (line 459) | may use names from earlier examples |
-| `examples/18_replace-a-modified-copy.py` | `_replace` — a modified copy (line 477) | may use names from earlier examples |
-| `examples/19_fields-the-field-names-themselves.py` | `_fields` — the field names themselves (line 509) | may use names from earlier examples |
-| `examples/20_default-values.py` | Default values (line 533) | may use names from earlier examples |
-| `examples/21_default-values.py` | Default values (line 556) | may use names from earlier examples |
-| `examples/22_docstrings.py` | Docstrings (line 598) | may use names from earlier examples |
-| `examples/23_combining-fields-into-a-new-type.py` | Combining fields into a new type (line 624) | may use names from earlier examples |
-| `examples/24_returning-multiple-values-properly.py` | Returning multiple values properly (line 649) | may use names from earlier examples |
-| `examples/25_a-fixed-record-instead-of-a-dictionary.py` | A fixed record instead of a dictionary (line 680) | may use names from earlier examples |
+| `examples/15_make-build-one-from-an-existing-sequence.py` | Tools for working with named tuples › `_make` — build one from an existing sequence (line 431) | may use names from earlier examples |
+| `examples/16_asdict-turn-it-into-a-dictionary.py` | Tools for working with named tuples › `_asdict` — turn it into a dictionary (line 446) | may use names from earlier examples |
+| `examples/17_replace-a-modified-copy.py` | Tools for working with named tuples › `_replace` — a modified copy (line 459) | may use names from earlier examples |
+| `examples/18_replace-a-modified-copy.py` | Tools for working with named tuples › `_replace` — a modified copy (line 477) | may use names from earlier examples |
+| `examples/19_fields-the-field-names-themselves.py` | Tools for working with named tuples › `_fields` — the field names themselves (line 509) | may use names from earlier examples |
+| `examples/20_default-values.py` | Defaults and docstrings › Default values (line 533) | may use names from earlier examples |
+| `examples/21_default-values.py` | Defaults and docstrings › Default values (line 556) | may use names from earlier examples |
+| `examples/22_docstrings.py` | Defaults and docstrings › Docstrings (line 598) | may use names from earlier examples |
+| `examples/23_combining-fields-into-a-new-type.py` | Extending a `namedtuple` › Combining fields into a new type (line 624) | may use names from earlier examples |
+| `examples/24_returning-multiple-values-properly.py` | Real applications › Returning multiple values properly (line 649) | may use names from earlier examples |
+| `examples/25_a-fixed-record-instead-of-a-dictionary.py` | Real applications › A fixed record instead of a dictionary (line 680) | may use names from earlier examples |
 | `examples/26_try-it-yourself.py` | Try it yourself (line 736) | may use names from earlier examples |
 | `examples/27_try-it-yourself.py` | Try it yourself (line 767) | may use names from earlier examples |

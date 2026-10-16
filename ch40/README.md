@@ -19,7 +19,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `membership_scaling_lab.py` | Measure the same membership task at several sizes (line 165) |  |
+| `membership_scaling_lab.py` | Why set membership is usually fast › Measure the same membership task at several sizes (line 165) |  |
 
 ## Examples, in chapter order
 
@@ -38,14 +38,14 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/09_set-operations-methods-and-operators-side-by-sid.py` | Set operations: methods and operators, side by side (line 351) | may use names from earlier examples |
 | `examples/10_set-operations-methods-and-operators-side-by-sid.py` | Set operations: methods and operators, side by side (line 373) | may use names from earlier examples |
 | `examples/11_set-operations-methods-and-operators-side-by-sid.py` | Set operations: methods and operators, side by side (line 384) | raises an error on purpose |
-| `examples/12_subset-superset-and-no-overlap-at-all.py` | Subset, superset and "no overlap at all" (line 403) | may use names from earlier examples |
-| `examples/13_strict-subsets-and-incomparable-sets.py` | Strict subsets and incomparable sets (line 435) | runs on its own |
+| `examples/12_subset-superset-and-no-overlap-at-all.py` | Set operations: methods and operators, side by side › Subset, superset and "no overlap at all" (line 403) | may use names from earlier examples |
+| `examples/13_strict-subsets-and-incomparable-sets.py` | Set operations: methods and operators, side by side › Strict subsets and incomparable sets (line 435) | runs on its own |
 | `examples/14_update-operations-modify-in-place-vs-make-a-new.py` | Update operations: modify in place vs make a new set (line 482) | may use names from earlier examples |
 | `examples/15_copying-sets.py` | Copying sets (line 511) | may use names from earlier examples |
 | `examples/16_frozensets-sets-that-cannot-change.py` | Frozensets: sets that cannot change (line 534) | raises an error on purpose |
 | `examples/17_frozensets-sets-that-cannot-change.py` | Frozensets: sets that cannot change (line 552) | may use names from earlier examples |
 | `examples/18_dictionary-views-are-set-like-revisited.py` | Dictionary views are set-like, revisited (line 585) | may use names from earlier examples |
-| `examples/19_remove-duplicates-and-keep-order.py` | Remove duplicates and keep order (line 616) | may use names from earlier examples |
-| `examples/20_finding-common-or-unique-items-between-two-lists.py` | Finding common or unique items between two lists (line 640) | may use names from earlier examples |
-| `examples/21_comparing-two-file-lists.py` | Comparing two file lists (line 663) | may use names from earlier examples |
+| `examples/19_remove-duplicates-and-keep-order.py` | Practical patterns › Remove duplicates and keep order (line 616) | may use names from earlier examples |
+| `examples/20_finding-common-or-unique-items-between-two-lists.py` | Practical patterns › Finding common or unique items between two lists (line 640) | may use names from earlier examples |
+| `examples/21_comparing-two-file-lists.py` | Practical patterns › Comparing two file lists (line 663) | may use names from earlier examples |
 | `examples/22_try-it-yourself.py` | Try it yourself (line 714) | may use names from earlier examples |

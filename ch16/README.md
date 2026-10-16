@@ -18,7 +18,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `integer_text_limit.py` | A calculation can succeed while decimal display fails (line 117) |  |
+| `integer_text_limit.py` | Integers: no fixed-width limit › A calculation can succeed while decimal display fails (line 117) |  |
 
 ## Examples, in chapter order
 
@@ -27,31 +27,31 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_integers-no-fixed-width-limit.py` | Integers: no fixed-width limit (line 81) | runs on its own |
-| `examples/02_measuring-an-integer-without-printing-all-its-di.py` | Measuring an integer without printing all its digits (line 97) | may use names from earlier examples |
-| `examples/03_building-integers-from-other-bases.py` | Building integers from other bases (line 149) | may use names from earlier examples |
-| `examples/04_building-integers-from-other-bases.py` | Building integers from other bases (line 170) | may use names from earlier examples |
-| `examples/05_going-the-other-way-int-to-text-in-another-base.py` | Going the other way: int to text in another base (line 187) | may use names from earlier examples |
+| `examples/02_measuring-an-integer-without-printing-all-its-di.py` | Integers: no fixed-width limit › Measuring an integer without printing all its digits (line 97) | may use names from earlier examples |
+| `examples/03_building-integers-from-other-bases.py` | Integers: no fixed-width limit › Building integers from other bases (line 149) | may use names from earlier examples |
+| `examples/04_building-integers-from-other-bases.py` | Integers: no fixed-width limit › Building integers from other bases (line 170) | may use names from earlier examples |
+| `examples/05_going-the-other-way-int-to-text-in-another-base.py` | Integers: no fixed-width limit › Going the other way: int to text in another base (line 187) | may use names from earlier examples |
 | `examples/06_floats-how-decimals-are-really-stored.py` | Floats: how decimals are really stored (line 212) | may use names from earlier examples |
 | `examples/07_floats-how-decimals-are-really-stored.py` | Floats: how decimals are really stored (line 223) | may use names from earlier examples |
-| `examples/08_the-equality-trap.py` | The equality trap (line 238) | may use names from earlier examples |
-| `examples/09_the-equality-trap.py` | The equality trap (line 251) | may use names from earlier examples |
-| `examples/10_the-equality-trap.py` | The equality trap (line 274) | may use names from earlier examples |
-| `examples/11_comparing-an-integer-with-a-float.py` | Comparing an integer with a float (line 313) | may use names from earlier examples |
-| `examples/12_whole-number-helpers-stay-exact-math-integer-3-1.py` | Whole-number helpers stay exact: `math.integer` (3.15) (line 340) | may use names from earlier examples |
+| `examples/08_the-equality-trap.py` | Floats: how decimals are really stored › The equality trap (line 238) | may use names from earlier examples |
+| `examples/09_the-equality-trap.py` | Floats: how decimals are really stored › The equality trap (line 251) | may use names from earlier examples |
+| `examples/10_the-equality-trap.py` | Floats: how decimals are really stored › The equality trap (line 274) | may use names from earlier examples |
+| `examples/11_comparing-an-integer-with-a-float.py` | Floats: how decimals are really stored › Comparing an integer with a float (line 313) | may use names from earlier examples |
+| `examples/12_whole-number-helpers-stay-exact-math-integer-3-1.py` | Floats: how decimals are really stored › Whole-number helpers stay exact: `math.integer` (3.15) (line 340) | may use names from earlier examples |
 | `examples/13_turning-a-float-into-an-int-four-different-answe.py` | Turning a float into an int: four different answers (line 370) | may use names from earlier examples |
-| `examples/14_banker-s-rounding.py` | Banker's rounding (line 393) | may use names from earlier examples |
-| `examples/15_banker-s-rounding.py` | Banker's rounding (line 427) | may use names from earlier examples |
+| `examples/14_banker-s-rounding.py` | Turning a float into an int: four different answers › Banker's rounding (line 393) | may use names from earlier examples |
+| `examples/15_banker-s-rounding.py` | Turning a float into an int: four different answers › Banker's rounding (line 427) | may use names from earlier examples |
 | `examples/16_decimal-exact-arithmetic-for-money.py` | Decimal: exact arithmetic for money (line 461) | may use names from earlier examples |
-| `examples/17_mixing-decimal-with-other-types.py` | Mixing `Decimal` with other types (line 488) | raises an error on purpose |
-| `examples/18_precision-and-rounding-modes.py` | Precision and rounding modes (line 511) | may use names from earlier examples |
-| `examples/19_precision-and-rounding-modes.py` | Precision and rounding modes (line 525) | may use names from earlier examples |
-| `examples/20_money-arithmetic-with-quantize.py` | Money arithmetic with `quantize` (line 568) | may use names from earlier examples |
-| `examples/21_money-arithmetic-with-quantize.py` | Money arithmetic with `quantize` (line 585) | may use names from earlier examples |
-| `examples/22_measure-a-chosen-numeric-workload.py` | Measure a chosen numeric workload (line 618) | may use names from earlier examples |
+| `examples/17_mixing-decimal-with-other-types.py` | Decimal: exact arithmetic for money › Mixing `Decimal` with other types (line 488) | raises an error on purpose |
+| `examples/18_precision-and-rounding-modes.py` | Decimal: exact arithmetic for money › Precision and rounding modes (line 511) | may use names from earlier examples |
+| `examples/19_precision-and-rounding-modes.py` | Decimal: exact arithmetic for money › Precision and rounding modes (line 525) | may use names from earlier examples |
+| `examples/20_money-arithmetic-with-quantize.py` | Decimal: exact arithmetic for money › Money arithmetic with `quantize` (line 568) | may use names from earlier examples |
+| `examples/21_money-arithmetic-with-quantize.py` | Decimal: exact arithmetic for money › Money arithmetic with `quantize` (line 585) | may use names from earlier examples |
+| `examples/22_measure-a-chosen-numeric-workload.py` | Decimal: exact arithmetic for money › Measure a chosen numeric workload (line 618) | may use names from earlier examples |
 | `examples/23_fraction-exact-ratios.py` | Fraction: exact ratios (line 654) | may use names from earlier examples |
 | `examples/24_fraction-exact-ratios.py` | Fraction: exact ratios (line 669) | may use names from earlier examples |
 | `examples/25_fraction-exact-ratios.py` | Fraction: exact ratios (line 686) | may use names from earlier examples |
-| `examples/26_converting-a-ratio-deliberately.py` | Converting a ratio deliberately (line 710) | may use names from earlier examples |
+| `examples/26_converting-a-ratio-deliberately.py` | Fraction: exact ratios › Converting a ratio deliberately (line 710) | may use names from earlier examples |
 | `examples/27_complex-numbers-briefly.py` | Complex numbers, briefly (line 743) | may use names from earlier examples |
 | `examples/28_complex-numbers-briefly.py` | Complex numbers, briefly (line 759) | may use names from earlier examples |
 | `examples/29_bool-is-a-type-of-int.py` | `bool` is a type of `int` (line 799) | may use names from earlier examples |

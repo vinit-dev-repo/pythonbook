@@ -20,21 +20,21 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_the-shape-every-block-shares.py` | The shape every block shares (line 60) | runs on its own |
+| `examples/01_the-shape-every-block-shares.py` | Indentation: how Python groups code › The shape every block shares (line 60) | runs on its own |
 | `examples/02_if-elif-else.py` | `if` / `elif` / `else` (line 85) | may use names from earlier examples |
 | `examples/03_if-elif-else.py` | `if` / `elif` / `else` (line 99) | may use names from earlier examples |
 | `examples/04_if-elif-else.py` | `if` / `elif` / `else` (line 115) | may use names from earlier examples |
-| `examples/05_nested-ifs.py` | Nested `if`s (line 151) | may use names from earlier examples |
+| `examples/05_nested-ifs.py` | `if` / `elif` / `else` › Nested `if`s (line 151) | may use names from earlier examples |
 | `examples/06_truthiness-things-that-count-as-false.py` | Truthiness: things that count as `False` (line 189) | may use names from earlier examples |
 | `examples/07_the-ternary-conditional-expression.py` | The ternary conditional expression (line 213) | may use names from earlier examples |
 | `examples/08_the-ternary-conditional-expression.py` | The ternary conditional expression (line 226) | may use names from earlier examples |
 | `examples/09_the-range-function.py` | The `range()` function (line 252) | may use names from earlier examples |
 | `examples/10_for-loops.py` | `for` loops (line 278) | may use names from earlier examples |
-| `examples/11_looping-over-a-list.py` | Looping over a list (line 303) | may use names from earlier examples |
-| `examples/12_looping-over-a-string.py` | Looping over a string (line 326) | may use names from earlier examples |
-| `examples/13_getting-the-position-as-well-enumerate.py` | Getting the position as well: `enumerate` (line 341) | may use names from earlier examples |
-| `examples/14_getting-the-position-as-well-enumerate.py` | Getting the position as well: `enumerate` (line 358) | may use names from earlier examples |
-| `examples/15_getting-the-position-as-well-enumerate.py` | Getting the position as well: `enumerate` (line 375) | may use names from earlier examples |
+| `examples/11_looping-over-a-list.py` | `for` loops › Looping over a list (line 303) | may use names from earlier examples |
+| `examples/12_looping-over-a-string.py` | `for` loops › Looping over a string (line 326) | may use names from earlier examples |
+| `examples/13_getting-the-position-as-well-enumerate.py` | `for` loops › Getting the position as well: `enumerate` (line 341) | may use names from earlier examples |
+| `examples/14_getting-the-position-as-well-enumerate.py` | `for` loops › Getting the position as well: `enumerate` (line 358) | may use names from earlier examples |
+| `examples/15_getting-the-position-as-well-enumerate.py` | `for` loops › Getting the position as well: `enumerate` (line 375) | may use names from earlier examples |
 | `examples/16_while-loops.py` | `while` loops (line 392) | may use names from earlier examples |
 | `examples/17_break-and-continue.py` | `break` and `continue` (line 440) | may use names from earlier examples |
 | `examples/18_break-and-continue.py` | `break` and `continue` (line 458) | may use names from earlier examples |

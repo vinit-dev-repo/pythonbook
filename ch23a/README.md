@@ -30,4 +30,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_session-1-give-a-record-behavior.py` | Session 1: give a record behavior (line 46) | runs on its own |
-| `examples/02_check-a-fractional-result-and-unchanged-state.py` | Check a fractional result and unchanged state (line 191) | may use names from earlier examples |
+| `examples/02_check-a-fractional-result-and-unchanged-state.py` | Session 1: give a record behavior › Check a fractional result and unchanged state (line 191) | may use names from earlier examples |

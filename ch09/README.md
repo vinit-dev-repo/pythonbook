@@ -24,12 +24,12 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_what-a-function-is.py` | What a function is? (line 55) | runs on its own |
 | `examples/02_defining-calling-and-return.py` | Defining, calling, and `return` (line 80) | may use names from earlier examples |
 | `examples/03_defining-calling-and-return.py` | Defining, calling, and `return` (line 113) | may use names from earlier examples |
-| `examples/04_no-return-means-none.py` | No `return` means `None` (line 136) | may use names from earlier examples |
-| `examples/05_reaching-a-definition-is-different-from-calling.py` | Reaching a definition is different from calling it (line 166) | may use names from earlier examples |
+| `examples/04_no-return-means-none.py` | Defining, calling, and `return` › No `return` means `None` (line 136) | may use names from earlier examples |
+| `examples/05_reaching-a-definition-is-different-from-calling.py` | Defining, calling, and `return` › Reaching a definition is different from calling it (line 166) | may use names from earlier examples |
 | `examples/06_parameters-and-arguments.py` | Parameters and arguments (line 207) | may use names from earlier examples |
 | `examples/07_functions-are-values-too.py` | Functions are values too (line 227) | may use names from earlier examples |
-| `examples/08_select-an-action-from-a-dictionary.py` | Select an action from a dictionary (line 262) | may use names from earlier examples |
-| `examples/09_reuse-an-operation-across-compatible-sequences.py` | Reuse an operation across compatible sequences (line 301) | may use names from earlier examples |
+| `examples/08_select-an-action-from-a-dictionary.py` | Functions are values too › Select an action from a dictionary (line 262) | may use names from earlier examples |
+| `examples/09_reuse-an-operation-across-compatible-sequences.py` | Functions are values too › Reuse an operation across compatible sequences (line 301) | may use names from earlier examples |
 | `examples/10_positional-and-keyword-arguments.py` | Positional and keyword arguments (line 344) | may use names from earlier examples |
 | `examples/11_positional-and-keyword-arguments.py` | Positional and keyword arguments (line 358) | may use names from earlier examples |
 | `examples/12_positional-and-keyword-arguments.py` | Positional and keyword arguments (line 369) | may use names from earlier examples |
@@ -49,7 +49,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/26_unpacking-iterables-into-a-call.py` | Unpacking iterables into a call (line 726) | may use names from earlier examples |
 | `examples/27_keyword-only-arguments.py` | Keyword-only arguments (line 752) | may use names from earlier examples |
 | `examples/28_keyword-only-arguments.py` | Keyword-only arguments (line 765) | raises an error on purpose |
-| `examples/29_combine-several-argument-sources.py` | Combine several argument sources (line 792) | may use names from earlier examples |
+| `examples/29_combine-several-argument-sources.py` | Keyword-only arguments › Combine several argument sources (line 792) | may use names from earlier examples |
 | `examples/30_docstrings.py` | Docstrings (line 830) | may use names from earlier examples |
 | `examples/31_docstrings.py` | Docstrings (line 845) | may use names from earlier examples |
 | `examples/32_dir-listing-an-object-s-names.py` | `dir()`: listing an object's names (line 870) | may use names from earlier examples |
@@ -64,11 +64,11 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/41_comprehensions-map-and-filter.py` | Comprehensions, `map()`, and `filter()` (line 1034) | may use names from earlier examples |
 | `examples/42_map-and-filter-with-lambdas.py` | `map()` and `filter()` with lambdas (line 1059) | may use names from earlier examples |
 | `examples/43_map-and-filter-with-lambdas.py` | `map()` and `filter()` with lambdas (line 1081) | may use names from earlier examples |
-| `examples/44_round.py` | `round()` (line 1099) | may use names from earlier examples |
-| `examples/45_round.py` | `round()` (line 1112) | may use names from earlier examples |
-| `examples/46_sorted.py` | `sorted()` (line 1129) | may use names from earlier examples |
-| `examples/47_min-and-max.py` | `min()` and `max()` (line 1150) | may use names from earlier examples |
-| `examples/48_zip.py` | `zip()` (line 1172) | may use names from earlier examples |
-| `examples/49_zip.py` | `zip()` (line 1189) | may use names from earlier examples |
+| `examples/44_round.py` | Useful built-in helpers › `round()` (line 1099) | may use names from earlier examples |
+| `examples/45_round.py` | Useful built-in helpers › `round()` (line 1112) | may use names from earlier examples |
+| `examples/46_sorted.py` | Useful built-in helpers › `sorted()` (line 1129) | may use names from earlier examples |
+| `examples/47_min-and-max.py` | Useful built-in helpers › `min()` and `max()` (line 1150) | may use names from earlier examples |
+| `examples/48_zip.py` | Useful built-in helpers › `zip()` (line 1172) | may use names from earlier examples |
+| `examples/49_zip.py` | Useful built-in helpers › `zip()` (line 1189) | may use names from earlier examples |
 | `examples/50_try-it-yourself.py` | Try it yourself (line 1229) | may use names from earlier examples |
 | `examples/51_try-it-yourself.py` | Try it yourself (line 1245) | may use names from earlier examples |

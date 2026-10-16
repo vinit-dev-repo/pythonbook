@@ -29,14 +29,14 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/08_adding-updating-and-deleting.py` | Adding, updating and deleting (line 168) | may use names from earlier examples |
 | `examples/09_adding-updating-and-deleting.py` | Adding, updating and deleting (line 185) | may use names from earlier examples |
 | `examples/10_adding-updating-and-deleting.py` | Adding, updating and deleting (line 204) | may use names from earlier examples |
-| `examples/11_how-a-dictionary-uses-the-hash.py` | How a dictionary uses the hash (line 239) | may use names from earlier examples |
-| `examples/12_how-a-dictionary-uses-the-hash.py` | How a dictionary uses the hash (line 261) | may use names from earlier examples |
-| `examples/13_which-values-can-be-keys.py` | Which values can be keys (line 279) | may use names from earlier examples |
-| `examples/14_which-values-can-be-keys.py` | Which values can be keys (line 290) | raises an error on purpose |
-| `examples/15_which-values-can-be-keys.py` | Which values can be keys (line 306) | raises an error on purpose |
-| `examples/16_a-dictionary-that-cannot-change-frozendict-3-15.py` | A dictionary that cannot change: `frozendict` (3.15) (line 339) | may use names from earlier examples |
-| `examples/17_a-dictionary-that-cannot-change-frozendict-3-15.py` | A dictionary that cannot change: `frozendict` (3.15) (line 358) | raises an error on purpose |
-| `examples/18_equal-keys-must-have-equal-hashes.py` | Equal keys must have equal hashes (line 381) | may use names from earlier examples |
+| `examples/11_how-a-dictionary-uses-the-hash.py` | Keys must be hashable › How a dictionary uses the hash (line 239) | may use names from earlier examples |
+| `examples/12_how-a-dictionary-uses-the-hash.py` | Keys must be hashable › How a dictionary uses the hash (line 261) | may use names from earlier examples |
+| `examples/13_which-values-can-be-keys.py` | Keys must be hashable › Which values can be keys (line 279) | may use names from earlier examples |
+| `examples/14_which-values-can-be-keys.py` | Keys must be hashable › Which values can be keys (line 290) | raises an error on purpose |
+| `examples/15_which-values-can-be-keys.py` | Keys must be hashable › Which values can be keys (line 306) | raises an error on purpose |
+| `examples/16_a-dictionary-that-cannot-change-frozendict-3-15.py` | Keys must be hashable › A dictionary that cannot change: `frozendict` (3.15) (line 339) | may use names from earlier examples |
+| `examples/17_a-dictionary-that-cannot-change-frozendict-3-15.py` | Keys must be hashable › A dictionary that cannot change: `frozendict` (3.15) (line 358) | raises an error on purpose |
+| `examples/18_equal-keys-must-have-equal-hashes.py` | Keys must be hashable › Equal keys must have equal hashes (line 381) | may use names from earlier examples |
 | `examples/19_looping-over-a-dictionary.py` | Looping over a dictionary (line 409) | may use names from earlier examples |
 | `examples/20_looping-over-a-dictionary.py` | Looping over a dictionary (line 423) | may use names from earlier examples |
 | `examples/21_looping-over-a-dictionary.py` | Looping over a dictionary (line 435) | may use names from earlier examples |
@@ -48,9 +48,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/27_sets-unique-items-with-no-fixed-order.py` | Sets: unique items with no fixed order (line 570) | may use names from earlier examples |
 | `examples/28_sets-unique-items-with-no-fixed-order.py` | Sets: unique items with no fixed order (line 584) | may use names from earlier examples |
 | `examples/29_sets-unique-items-with-no-fixed-order.py` | Sets: unique items with no fixed order (line 599) | may use names from earlier examples |
-| `examples/30_adding-and-removing-from-a-set.py` | Adding and removing from a set (line 619) | may use names from earlier examples |
-| `examples/31_adding-and-removing-from-a-set.py` | Adding and removing from a set (line 630) | may use names from earlier examples |
-| `examples/32_membership-tests-are-fast.py` | Membership tests are fast (line 655) | may use names from earlier examples |
+| `examples/30_adding-and-removing-from-a-set.py` | Sets: unique items with no fixed order › Adding and removing from a set (line 619) | may use names from earlier examples |
+| `examples/31_adding-and-removing-from-a-set.py` | Sets: unique items with no fixed order › Adding and removing from a set (line 630) | may use names from earlier examples |
+| `examples/32_membership-tests-are-fast.py` | Sets: unique items with no fixed order › Membership tests are fast (line 655) | may use names from earlier examples |
 | `examples/33_set-operations.py` | Set operations (line 687) | may use names from earlier examples |
 | `examples/34_set-operations.py` | Set operations (line 735) | may use names from earlier examples |
 | `examples/35_try-it-yourself.py` | Try it yourself (line 795) | may use names from earlier examples |

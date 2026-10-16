@@ -39,22 +39,22 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/10_a-logger.py` | A logger (line 343) | may use names from earlier examples |
 | `examples/11_stacking-decorators.py` | Stacking decorators (line 379) | may use names from earlier examples |
 | `examples/12_stacking-decorators.py` | Stacking decorators (line 398) | runs on its own |
-| `examples/13_by-hand-with-a-cache-dictionary.py` | By hand, with a cache dictionary (line 432) | may use names from earlier examples |
-| `examples/14_the-built-in-version-functools-lru-cache.py` | The built-in version: `functools.lru_cache` (line 470) | may use names from earlier examples |
-| `examples/15_the-built-in-version-functools-lru-cache.py` | The built-in version: `functools.lru_cache` (line 496) | may use names from earlier examples |
-| `examples/16_the-built-in-version-functools-lru-cache.py` | The built-in version: `functools.lru_cache` (line 539) | may use names from earlier examples |
-| `examples/17_the-built-in-version-functools-lru-cache.py` | The built-in version: `functools.lru_cache` (line 572) | may use names from earlier examples |
+| `examples/13_by-hand-with-a-cache-dictionary.py` | Memoization: remembering answers › By hand, with a cache dictionary (line 432) | may use names from earlier examples |
+| `examples/14_the-built-in-version-functools-lru-cache.py` | Memoization: remembering answers › The built-in version: `functools.lru_cache` (line 470) | may use names from earlier examples |
+| `examples/15_the-built-in-version-functools-lru-cache.py` | Memoization: remembering answers › The built-in version: `functools.lru_cache` (line 496) | may use names from earlier examples |
+| `examples/16_the-built-in-version-functools-lru-cache.py` | Memoization: remembering answers › The built-in version: `functools.lru_cache` (line 539) | may use names from earlier examples |
+| `examples/17_the-built-in-version-functools-lru-cache.py` | Memoization: remembering answers › The built-in version: `functools.lru_cache` (line 572) | may use names from earlier examples |
 | `examples/18_decorator-factories-decorators-with-arguments.py` | Decorator factories: decorators with arguments (line 612) | may use names from earlier examples |
 | `examples/19_decorator-factories-decorators-with-arguments.py` | Decorator factories: decorators with arguments (line 655) | may use names from earlier examples |
 | `examples/20_decorator-factories-decorators-with-arguments.py` | Decorator factories: decorators with arguments (line 669) | may use names from earlier examples |
-| `examples/21_configure-registration-without-a-call-wrapper.py` | Configure registration without a call wrapper (line 703) | runs on its own |
-| `examples/22_configure-the-timer-s-printed-precision.py` | Configure the timer's printed precision (line 760) | runs on its own |
+| `examples/21_configure-registration-without-a-call-wrapper.py` | Decorator factories: decorators with arguments › Configure registration without a call wrapper (line 703) | runs on its own |
+| `examples/22_configure-the-timer-s-printed-precision.py` | Decorator factories: decorators with arguments › Configure the timer's printed precision (line 760) | runs on its own |
 | `examples/23_two-ways-to-tell-a-decorator-what-to-do.py` | Two ways to tell a decorator what to do (line 812) | may use names from earlier examples |
 | `examples/24_two-ways-to-tell-a-decorator-what-to-do.py` | Two ways to tell a decorator what to do (line 851) | may use names from earlier examples |
-| `examples/25_the-naive-way-a-chain-of-isinstance-checks.py` | The naive way: a chain of `isinstance` checks (line 994) | may use names from earlier examples |
-| `examples/26_a-hand-rolled-registry.py` | A hand-rolled registry (line 1014) | may use names from earlier examples |
-| `examples/27_a-hand-rolled-registry.py` | A hand-rolled registry (line 1049) | may use names from earlier examples |
-| `examples/28_functools-singledispatch-the-built-in-version.py` | `functools.singledispatch`: the built-in version (line 1070) | may use names from earlier examples |
-| `examples/29_functools-singledispatch-the-built-in-version.py` | `functools.singledispatch`: the built-in version (line 1109) | may use names from earlier examples |
+| `examples/25_the-naive-way-a-chain-of-isinstance-checks.py` | Dispatching: different behaviour by type › The naive way: a chain of `isinstance` checks (line 994) | may use names from earlier examples |
+| `examples/26_a-hand-rolled-registry.py` | Dispatching: different behaviour by type › A hand-rolled registry (line 1014) | may use names from earlier examples |
+| `examples/27_a-hand-rolled-registry.py` | Dispatching: different behaviour by type › A hand-rolled registry (line 1049) | may use names from earlier examples |
+| `examples/28_functools-singledispatch-the-built-in-version.py` | Dispatching: different behaviour by type › `functools.singledispatch`: the built-in version (line 1070) | may use names from earlier examples |
+| `examples/29_functools-singledispatch-the-built-in-version.py` | Dispatching: different behaviour by type › `functools.singledispatch`: the built-in version (line 1109) | may use names from earlier examples |
 | `examples/30_try-it-yourself.py` | Try it yourself (line 1175) | may use names from earlier examples |
 | `examples/31_try-it-yourself.py` | Try it yourself (line 1241) | runs on its own |

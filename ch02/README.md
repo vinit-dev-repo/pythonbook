@@ -23,8 +23,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `check_stock.py` | Useful flags when you run Python (line 428) |  |
 | `totals.py` | Useful flags when you run Python (line 464) |  |
 | `main.py` | Set up and run your first project (line 702) |  |
-| `poetry-practice/pyproject.toml` | Poetry: declare, lock, install, run (line 790) |  |
-| `uv-practice/pyproject.toml` | uv: the project workflow (line 835) |  |
+| `poetry-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 790) |  |
+| `uv-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 835) |  |
 
 ## Examples, in chapter order
 
@@ -36,8 +36,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_repair-your-first-typing-mistake.py` | Repair your first typing mistake (line 212) | raises an error on purpose |
 | `examples/03_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 235) | may use names from earlier examples |
 | `examples/04_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 258) | may use names from earlier examples |
-| `examples/05_2-script-files.py` | 2. Script files (line 313) | may use names from earlier examples |
-| `examples/06_the-shebang-line.py` | The shebang line (line 502) | runs on its own |
+| `examples/05_2-script-files.py` | Three ways to run Python › 2. Script files (line 313) | may use names from earlier examples |
+| `examples/06_the-shebang-line.py` | Useful flags when you run Python › The shebang line (line 502) | runs on its own |
 | `examples/07_try-it-yourself.py` | Try it yourself (line 932) | may use names from earlier examples |
 
 ## Terminal commands
@@ -46,13 +46,13 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `commands/01_the-command-line-basics.ps1` | The command line basics (line 62) | powershell commands to type in a terminal |
 | `commands/02_the-command-line-basics.sh` | The command line basics (line 74) | bash commands to type in a terminal |
-| `commands/03_step-2-on-windows.ps1` | Step 2 on Windows (line 119) | powershell commands to type in a terminal |
-| `commands/04_seeing-what-is-installed.sh` | Seeing what is installed (line 614) | bash commands to type in a terminal |
-| `commands/05_freezing-your-requirements.sh` | Freezing your requirements (line 629) | bash commands to type in a terminal |
-| `commands/06_freezing-your-requirements.sh` | Freezing your requirements (line 643) | bash commands to type in a terminal |
+| `commands/03_step-2-on-windows.ps1` | Installing Python › Step 2 on Windows (line 119) | powershell commands to type in a terminal |
+| `commands/04_seeing-what-is-installed.sh` | Installing packages with `pip` › Seeing what is installed (line 614) | bash commands to type in a terminal |
+| `commands/05_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 629) | bash commands to type in a terminal |
+| `commands/06_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 643) | bash commands to type in a terminal |
 | `commands/07_set-up-and-run-your-first-project.sh` | Set up and run your first project (line 719) | bash commands to type in a terminal |
 | `commands/08_set-up-and-run-your-first-project.ps1` | Set up and run your first project (line 726) | powershell commands to type in a terminal |
-| `commands/09_install-command-line-tools-separately.sh` | Install command-line tools separately (line 770) | bash commands to type in a terminal |
-| `commands/10_poetry-declare-lock-install-run.sh` | Poetry: declare, lock, install, run (line 812) | bash commands to type in a terminal |
-| `commands/11_uv-the-project-workflow.sh` | uv: the project workflow (line 844) | bash commands to type in a terminal |
-| `commands/12_where-conda-fits.sh` | Where Conda fits (line 871) | bash commands to type in a terminal |
+| `commands/09_install-command-line-tools-separately.sh` | Optional: Poetry and uv for the same small program › Install command-line tools separately (line 770) | bash commands to type in a terminal |
+| `commands/10_poetry-declare-lock-install-run.sh` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 812) | bash commands to type in a terminal |
+| `commands/11_uv-the-project-workflow.sh` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 844) | bash commands to type in a terminal |
+| `commands/12_where-conda-fits.sh` | Optional: Poetry and uv for the same small program › Where Conda fits (line 871) | bash commands to type in a terminal |

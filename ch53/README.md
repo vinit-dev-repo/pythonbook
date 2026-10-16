@@ -19,20 +19,20 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `app.py` | Install Flask and make a small app (line 69) |  |
-| `routes_app.py` | Dynamic URLs (line 161) |  |
+| `routes_app.py` | More pages: routes › Dynamic URLs (line 161) |  |
 | `template_app.py` | Templates: separating HTML from Python (line 252) |  |
 | `templates/home.html` | Templates: separating HTML from Python (line 280) |  |
-| `templates/base.html` | One base template, many pages: `{% block %}` (line 315) |  |
-| `templates/about.html` | One base template, many pages: `{% block %}` (line 327) |  |
+| `templates/base.html` | Templates: separating HTML from Python › One base template, many pages: `{% block %}` (line 315) |  |
+| `templates/about.html` | Templates: separating HTML from Python › One base template, many pages: `{% block %}` (line 327) |  |
 | `templates/sign.html` | HTTP verbs: GET vs POST (line 381) |  |
 | `todo_api.py` | Building a small JSON API (line 412) |  |
 | `test_flask_responses.py` | Check the routes without starting a server (line 592) |  |
-| `exercise_flask_responses.py` | Practice: observe the unchanged notes app (line 688) |  |
+| `exercise_flask_responses.py` | Check the routes without starting a server › Practice: observe the unchanged notes app (line 688) |  |
 | `templates/greet.html` | Try it yourself (line 840) |  |
-| `parcel_app.py` | Transfer lab: turn a form into a result URL (line 863) |  |
-| `templates/parcel_form.html` | Transfer lab: turn a form into a result URL (line 907) |  |
-| `templates/parcel_result.html` | Transfer lab: turn a form into a result URL (line 925) |  |
-| `check_parcel_app.py` | Transfer lab: turn a form into a result URL (line 960) |  |
+| `parcel_app.py` | Try it yourself › Transfer lab: turn a form into a result URL (line 863) |  |
+| `templates/parcel_form.html` | Try it yourself › Transfer lab: turn a form into a result URL (line 907) |  |
+| `templates/parcel_result.html` | Try it yourself › Transfer lab: turn a form into a result URL (line 925) |  |
+| `check_parcel_app.py` | Try it yourself › Transfer lab: turn a form into a result URL (line 960) |  |
 
 ## Examples, in chapter order
 

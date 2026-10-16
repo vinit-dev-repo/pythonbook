@@ -12,7 +12,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `inventory_checkpoint_lab.py` | Compare inventories without losing meaning (line 127) |  |
+| `inventory_checkpoint_lab.py` | 3. Build › Compare inventories without losing meaning (line 127) |  |
 
 ## Examples, in chapter order
 

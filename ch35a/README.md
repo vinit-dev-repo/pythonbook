@@ -20,8 +20,8 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `account_timezone.py` | A fixed offset is a value (line 76) |  |
-| `account.py` | The complete Account class (line 169) |  |
+| `account_timezone.py` | Identity, validated state and display offsets › A fixed offset is a value (line 76) |  |
+| `account.py` | Identity, validated state and display offsets › The complete Account class (line 169) |  |
 | `counter_demo.py` | Counters and transaction decisions (line 633) |  |
 | `confirmations.py` | Encoding and parsing confirmations (line 722) | rewritten later in the chapter |
 | `account_demo.py` | Encoding and parsing confirmations (line 806) |  |

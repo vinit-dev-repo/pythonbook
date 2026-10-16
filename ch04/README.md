@@ -19,32 +19,32 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_the-kinds-of-data.py` | The kinds of data (line 53) | runs on its own |
-| `examples/02_everything-is-an-object.py` | Everything is an object (line 75) | may use names from earlier examples |
+| `examples/02_everything-is-an-object.py` | The kinds of data › Everything is an object (line 75) | may use names from earlier examples |
 | `examples/03_variables-are-names-for-values.py` | Variables are names for values (line 108) | may use names from earlier examples |
 | `examples/04_variables-are-names-for-values.py` | Variables are names for values (line 124) | may use names from earlier examples |
 | `examples/05_variables-are-names-for-values.py` | Variables are names for values (line 141) | may use names from earlier examples |
-| `examples/06_the-assignment-operator.py` | The assignment operator `=` (line 174) | raises an error on purpose |
-| `examples/07_the-assignment-operator.py` | The assignment operator `=` (line 189) | may use names from earlier examples |
-| `examples/08_a-name-must-exist-before-you-use-it.py` | A name must exist before you use it (line 207) | raises an error on purpose |
-| `examples/09_a-name-must-exist-before-you-use-it.py` | A name must exist before you use it (line 221) | may use names from earlier examples |
+| `examples/06_the-assignment-operator.py` | Variables are names for values › The assignment operator `=` (line 174) | raises an error on purpose |
+| `examples/07_the-assignment-operator.py` | Variables are names for values › The assignment operator `=` (line 189) | may use names from earlier examples |
+| `examples/08_a-name-must-exist-before-you-use-it.py` | Variables are names for values › A name must exist before you use it (line 207) | raises an error on purpose |
+| `examples/09_a-name-must-exist-before-you-use-it.py` | Variables are names for values › A name must exist before you use it (line 221) | may use names from earlier examples |
 | `examples/10_arithmetic-operators.py` | Arithmetic operators (line 269) | may use names from earlier examples |
-| `examples/11_mixing-ints-and-floats.py` | Mixing `int`s and `float`s (line 289) | may use names from earlier examples |
-| `examples/12_the-three-divisions-and.py` | The three divisions: `/`, `//` and `%` (line 310) | may use names from earlier examples |
-| `examples/13_the-three-divisions-and.py` | The three divisions: `/`, `//` and `%` (line 335) | may use names from earlier examples |
-| `examples/14_operator-precedence-who-goes-first.py` | Operator precedence: who goes first (line 361) | may use names from earlier examples |
-| `examples/15_multi-line-statements.py` | Multi-line statements (line 386) | may use names from earlier examples |
-| `examples/16_multi-line-statements.py` | Multi-line statements (line 405) | may use names from earlier examples |
-| `examples/17_augmented-assignment-and-friends.py` | Augmented assignment: `+=` and friends (line 450) | may use names from earlier examples |
-| `examples/18_augmented-assignment-and-friends.py` | Augmented assignment: `+=` and friends (line 487) | raises an error on purpose |
-| `examples/19_multiple-target-assignment-a-b-c.py` | Multiple-target assignment: `a = b = c` (line 502) | may use names from earlier examples |
-| `examples/20_multiple-target-assignment-a-b-c.py` | Multiple-target assignment: `a = b = c` (line 520) | may use names from earlier examples |
+| `examples/11_mixing-ints-and-floats.py` | Arithmetic operators › Mixing `int`s and `float`s (line 289) | may use names from earlier examples |
+| `examples/12_the-three-divisions-and.py` | Arithmetic operators › The three divisions: `/`, `//` and `%` (line 310) | may use names from earlier examples |
+| `examples/13_the-three-divisions-and.py` | Arithmetic operators › The three divisions: `/`, `//` and `%` (line 335) | may use names from earlier examples |
+| `examples/14_operator-precedence-who-goes-first.py` | Arithmetic operators › Operator precedence: who goes first (line 361) | may use names from earlier examples |
+| `examples/15_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 386) | may use names from earlier examples |
+| `examples/16_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 405) | may use names from earlier examples |
+| `examples/17_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 450) | may use names from earlier examples |
+| `examples/18_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 487) | raises an error on purpose |
+| `examples/19_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 502) | may use names from earlier examples |
+| `examples/20_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 520) | may use names from earlier examples |
 | `examples/21_comparison-operators.py` | Comparison operators (line 561) | may use names from earlier examples |
 | `examples/22_comparison-operators.py` | Comparison operators (line 580) | may use names from earlier examples |
 | `examples/23_comparison-operators.py` | Comparison operators (line 602) | may use names from earlier examples |
 | `examples/24_showing-several-values-with-print.py` | Showing several values with `print` (line 617) | may use names from earlier examples |
 | `examples/25_showing-several-values-with-print.py` | Showing several values with `print` (line 630) | may use names from earlier examples |
-| `examples/26_two-settings-inside-print-sep-and-end.py` | Two settings inside `print`: `sep` and `end` (line 650) | may use names from earlier examples |
-| `examples/27_two-settings-inside-print-sep-and-end.py` | Two settings inside `print`: `sep` and `end` (line 665) | may use names from earlier examples |
+| `examples/26_two-settings-inside-print-sep-and-end.py` | Showing several values with `print` › Two settings inside `print`: `sep` and `end` (line 650) | may use names from earlier examples |
+| `examples/27_two-settings-inside-print-sep-and-end.py` | Showing several values with `print` › Two settings inside `print`: `sep` and `end` (line 665) | may use names from earlier examples |
 | `examples/28_boolean-operators-and-or-not.py` | Boolean operators: `and`, `or`, `not` (line 693) | may use names from earlier examples |
 | `examples/29_bitwise-operators.py` | Bitwise operators (line 718) | may use names from earlier examples |
 | `examples/30_bitwise-operators.py` | Bitwise operators (line 758) | may use names from earlier examples |

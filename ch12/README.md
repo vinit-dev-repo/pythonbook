@@ -24,8 +24,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `schedule_search.py` | Search a schedule with gaps (line 732) |  |
-| `keyed_insert.py` | Insert records and restrict a search range (line 777) |  |
+| `schedule_search.py` | `bisect` — keeping a list sorted without re-sorting it › Search a schedule with gaps (line 732) |  |
+| `keyed_insert.py` | `bisect` — keeping a list sorted without re-sorting it › Insert records and restrict a search range (line 777) |  |
 | `packed_values.py` | `array` — save and reopen packed values (line 808) |  |
 | `recent_events.py` | `deque` — bounded history and rotation (line 868) |  |
 
@@ -36,22 +36,22 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_time-timestamps-and-pausing.py` | `time` — timestamps and pausing (line 63) | runs on its own |
-| `examples/02_application-a-simple-function-timer.py` | Application: a simple function timer (line 97) | may use names from earlier examples |
-| `examples/03_application-a-simple-function-timer.py` | Application: a simple function timer (line 117) | may use names from earlier examples |
+| `examples/02_application-a-simple-function-timer.py` | `time` — timestamps and pausing › Application: a simple function timer (line 97) | may use names from earlier examples |
+| `examples/03_application-a-simple-function-timer.py` | `time` — timestamps and pausing › Application: a simple function timer (line 117) | may use names from earlier examples |
 | `examples/04_datetime-dates-times-and-formatting.py` | `datetime` — dates, times and formatting (line 150) | may use names from earlier examples |
 | `examples/05_datetime-dates-times-and-formatting.py` | `datetime` — dates, times and formatting (line 171) | may use names from earlier examples |
-| `examples/06_formatting-with-strftime.py` | Formatting with `strftime` (line 187) | may use names from earlier examples |
-| `examples/07_parsing-with-strptime.py` | Parsing with `strptime` (line 227) | may use names from earlier examples |
+| `examples/06_formatting-with-strftime.py` | `datetime` — dates, times and formatting › Formatting with `strftime` (line 187) | may use names from earlier examples |
+| `examples/07_parsing-with-strptime.py` | `datetime` — dates, times and formatting › Parsing with `strptime` (line 227) | may use names from earlier examples |
 | `examples/08_date-arithmetic-timedelta.py` | Date arithmetic: `timedelta` (line 259) | may use names from earlier examples |
 | `examples/09_naive-and-aware-datetimes.py` | Naive and aware datetimes (line 289) | may use names from earlier examples |
-| `examples/10_making-the-file-to-work-with.py` | Making the file to work with (line 339) | may use names from earlier examples |
-| `examples/11_reading.py` | Reading (line 359) | may use names from earlier examples |
-| `examples/12_reading.py` | Reading (line 381) | may use names from earlier examples |
-| `examples/13_writing.py` | Writing (line 398) | may use names from earlier examples |
-| `examples/14_dialects-quoting-and-records-that-span-lines.py` | Dialects, quoting and records that span lines (line 431) | may use names from earlier examples |
+| `examples/10_making-the-file-to-work-with.py` | `csv` — spreadsheet-style files › Making the file to work with (line 339) | may use names from earlier examples |
+| `examples/11_reading.py` | `csv` — spreadsheet-style files › Reading (line 359) | may use names from earlier examples |
+| `examples/12_reading.py` | `csv` — spreadsheet-style files › Reading (line 381) | may use names from earlier examples |
+| `examples/13_writing.py` | `csv` — spreadsheet-style files › Writing (line 398) | may use names from earlier examples |
+| `examples/14_dialects-quoting-and-records-that-span-lines.py` | `csv` — spreadsheet-style files › Dialects, quoting and records that span lines (line 431) | may use names from earlier examples |
 | `examples/15_random-controlled-randomness.py` | `random` — controlled randomness (line 480) | may use names from earlier examples |
-| `examples/16_replacement-and-equal-values.py` | Replacement and equal values (line 519) | may use names from earlier examples |
-| `examples/17_seeds-same-seed-same-random.py` | Seeds: same seed, same "random" (line 551) | may use names from earlier examples |
+| `examples/16_replacement-and-equal-values.py` | `random` — controlled randomness › Replacement and equal values (line 519) | may use names from earlier examples |
+| `examples/17_seeds-same-seed-same-random.py` | `random` — controlled randomness › Seeds: same seed, same "random" (line 551) | may use names from earlier examples |
 | `examples/18_timeit-measuring-which-version-is-faster.py` | `timeit` — measuring which version is faster (line 582) | may use names from earlier examples |
 | `examples/19_timeit-measuring-which-version-is-faster.py` | `timeit` — measuring which version is faster (line 597) | may use names from earlier examples |
 | `examples/20_math-everyday-maths-functions.py` | `math` — everyday maths functions (line 648) | may use names from earlier examples |
@@ -66,17 +66,17 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/29_when-annotations-are-evaluated-3-14-changed-this.py` | When annotations are evaluated (3.14 changed this) (line 1046) | may use names from earlier examples |
 | `examples/30_t-strings-keep-text-and-values-separate-3-14.py` | t-strings keep text and values separate (3.14+) (line 1082) | may use names from earlier examples |
 | `examples/31_t-strings-keep-text-and-values-separate-3-14.py` | t-strings keep text and values separate (3.14+) (line 1101) | may use names from earlier examples |
-| `examples/32_walking-a-template.py` | Walking a template (line 1129) | may use names from earlier examples |
-| `examples/33_escaping-a-value-used-as-html-text.py` | Escaping a value used as HTML text (line 1158) | may use names from earlier examples |
-| `examples/34_two-details-that-catch-people-out.py` | Two details that catch people out (line 1192) | may use names from earlier examples |
-| `examples/35_two-details-that-catch-people-out.py` | Two details that catch people out (line 1210) | may use names from earlier examples |
-| `examples/36_two-details-that-catch-people-out.py` | Two details that catch people out (line 1234) | may use names from earlier examples |
-| `examples/37_fill-a-saved-layout-with-later-values.py` | Fill a saved layout with later values (line 1280) | may use names from earlier examples |
-| `examples/38_fill-a-saved-layout-with-later-values.py` | Fill a saved layout with later values (line 1304) | may use names from earlier examples |
-| `examples/39_choose-a-width-sign-precision-and-base.py` | Choose a width, sign, precision and base (line 1326) | may use names from earlier examples |
-| `examples/40_choose-a-width-sign-precision-and-base.py` | Choose a width, sign, precision and base (line 1355) | may use names from earlier examples |
-| `examples/41_read-and-maintain-percent-formats.py` | Read and maintain percent formats (line 1375) | may use names from earlier examples |
-| `examples/42_dollar-templates-use-a-different-template-class.py` | Dollar templates use a different Template class (line 1405) | may use names from earlier examples |
-| `examples/43_a-quote-mark-and-a-space-have-different-jobs.py` | A quote mark and a space have different jobs (line 1443) | runs on its own |
-| `examples/44_model-parameters-are-not-a-sample-s-measured-sum.py` | Model parameters are not a sample's measured summary (line 1482) | runs on its own |
+| `examples/32_walking-a-template.py` | t-strings keep text and values separate (3.14+) › Walking a template (line 1129) | may use names from earlier examples |
+| `examples/33_escaping-a-value-used-as-html-text.py` | t-strings keep text and values separate (3.14+) › Escaping a value used as HTML text (line 1158) | may use names from earlier examples |
+| `examples/34_two-details-that-catch-people-out.py` | t-strings keep text and values separate (3.14+) › Two details that catch people out (line 1192) | may use names from earlier examples |
+| `examples/35_two-details-that-catch-people-out.py` | t-strings keep text and values separate (3.14+) › Two details that catch people out (line 1210) | may use names from earlier examples |
+| `examples/36_two-details-that-catch-people-out.py` | t-strings keep text and values separate (3.14+) › Two details that catch people out (line 1234) | may use names from earlier examples |
+| `examples/37_fill-a-saved-layout-with-later-values.py` | Reusable text formats and dollar templates › Fill a saved layout with later values (line 1280) | may use names from earlier examples |
+| `examples/38_fill-a-saved-layout-with-later-values.py` | Reusable text formats and dollar templates › Fill a saved layout with later values (line 1304) | may use names from earlier examples |
+| `examples/39_choose-a-width-sign-precision-and-base.py` | Reusable text formats and dollar templates › Choose a width, sign, precision and base (line 1326) | may use names from earlier examples |
+| `examples/40_choose-a-width-sign-precision-and-base.py` | Reusable text formats and dollar templates › Choose a width, sign, precision and base (line 1355) | may use names from earlier examples |
+| `examples/41_read-and-maintain-percent-formats.py` | Reusable text formats and dollar templates › Read and maintain percent formats (line 1375) | may use names from earlier examples |
+| `examples/42_dollar-templates-use-a-different-template-class.py` | Reusable text formats and dollar templates › Dollar templates use a different Template class (line 1405) | may use names from earlier examples |
+| `examples/43_a-quote-mark-and-a-space-have-different-jobs.py` | Transfer check: read the library's exact contract › A quote mark and a space have different jobs (line 1443) | runs on its own |
+| `examples/44_model-parameters-are-not-a-sample-s-measured-sum.py` | Transfer check: read the library's exact contract › Model parameters are not a sample's measured summary (line 1482) | runs on its own |
 | `examples/45_try-it-yourself.py` | Try it yourself (line 1557) | may use names from earlier examples |

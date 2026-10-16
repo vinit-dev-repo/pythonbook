@@ -12,14 +12,14 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `src/shop_report/cli.py` | Build a small package (line 43) |  |
-| `tests/test_cli.py` | Build a small package (line 65) |  |
-| `pyproject.toml` | Build a small package (line 88) |  |
+| `src/shop_report/cli.py` | Making your own project installable › Build a small package (line 43) |  |
+| `tests/test_cli.py` | Making your own project installable › Build a small package (line 65) |  |
+| `pyproject.toml` | Making your own project installable › Build a small package (line 88) |  |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_install-while-you-develop-then-build-a-distribut.sh` | Install while you develop, then build a distribution (line 125) | bash commands to type in a terminal |
-| `commands/02_test-the-installed-artifact-outside-your-checkou.sh` | Test the installed artifact outside your checkout (line 154) | bash commands to type in a terminal |
-| `commands/03_where-poetry-and-uv-fit.sh` | Where Poetry and uv fit (line 168) | bash commands to type in a terminal |
+| `commands/01_install-while-you-develop-then-build-a-distribut.sh` | Making your own project installable › Install while you develop, then build a distribution (line 125) | bash commands to type in a terminal |
+| `commands/02_test-the-installed-artifact-outside-your-checkou.sh` | Making your own project installable › Test the installed artifact outside your checkout (line 154) | bash commands to type in a terminal |
+| `commands/03_where-poetry-and-uv-fit.sh` | Making your own project installable › Where Poetry and uv fit (line 168) | bash commands to type in a terminal |

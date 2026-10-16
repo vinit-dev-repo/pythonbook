@@ -57,5 +57,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/40_python-3-15-lazy-imports-frozendict-and-utf-8-by.py` | Python 3.15 — lazy imports, `frozendict`, and UTF-8 by default (line 997) | a fragment, not a complete program |
 | `examples/41_how-to-check-your-version.py` | How to check your version (line 1030) | may use names from earlier examples |
 | `examples/42_how-to-check-your-version.py` | How to check your version (line 1052) | may use names from earlier examples |
-| `examples/43_3-build.py` | 3. Build (line 1111) | runs on its own |
+| `examples/43_3-build.py` | Optional reference practice: inspect your setup › 3. Build (line 1111) | runs on its own |
 | `examples/44_try-it-yourself.py` | Try it yourself (line 1172) | may use names from earlier examples |
