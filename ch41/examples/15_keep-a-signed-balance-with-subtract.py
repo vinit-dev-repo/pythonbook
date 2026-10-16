@@ -1,0 +1,7 @@
+left = Counter(bolts=4, washers=2)
+right = Counter(bolts=7, washers=2, clips=-3)
+print(dict(left - right))
+balance = left.copy()
+balance.subtract(right)
+print(dict(balance))
+print(dict(left))

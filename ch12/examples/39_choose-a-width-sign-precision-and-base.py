@@ -1,0 +1,7 @@
+print("|{:<7}|{:^7}|{:>7}|".format("oak", "oak", "oak"))
+print("{:+08.2f}".format(-6.5))
+print("{:,.2f}".format(12000.5))
+print("{:b} / {:o} / {:X}".format(45, 45, 45))
+print("{:.2e} / {:.3g}".format(1250.0, 1250.0))
+print("{:.1%}".format(0.375))
+print(format(6.5, ".3f"))

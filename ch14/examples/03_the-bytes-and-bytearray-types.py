@@ -1,0 +1,6 @@
+cafe = "café".encode("utf-8")
+print(cafe)
+print(cafe[0])
+print(cafe[:1])
+print(type(cafe[0]))
+print(type(cafe[:1]))

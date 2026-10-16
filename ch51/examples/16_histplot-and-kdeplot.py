@@ -1,0 +1,6 @@
+fig, axs = plt.subplots(1, 2, figsize=(8, 4))
+sns.histplot(scores, bins=6, ax=axs[0])
+sns.kdeplot(scores, ax=axs[1], fill=True)
+axs[0].set_title("Histogram")
+axs[1].set_title("Smoothed density (KDE)")
+plt.show()

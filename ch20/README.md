@@ -1,8 +1,10 @@
 # 20 - The Import System in Depth
 
-Files this chapter asks you to save, extracted byte for byte from the certified chapter of the Python tutorial. The chapter explains every line; read it there. Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
+The code of this chapter of the Python tutorial, extracted byte for byte from the certified chapter. The chapter explains every line; read it there.
 
-Files:
+## Files the chapter asks you to save
+
+Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
 
 - `cache_failure/broken.py`
 - `cache_failure/check.py`
@@ -123,3 +125,22 @@ Files:
 - `startup_inputs.py`
 - `zip_demo/archive_module.py`
 - `zip_demo/check.py`
+
+## Examples, in chapter order
+
+Every other Python block of the chapter, numbered in reading order and named after its section. Run them in order in one session (or paste them into one file): an example marked *may use names from earlier examples* builds on the ones before it, as it does in the chapter.
+
+| File | Section | Note |
+|---|---|---|
+| `examples/01_a-module-is-an-object.py` | A module is an object | runs on its own |
+| `examples/02_a-module-is-an-object.py` | A module is an object | may use names from earlier examples |
+| `examples/03_sys-modules-is-the-cache.py` | `sys.modules` is the cache | may use names from earlier examples |
+| `examples/04_sys-modules-is-the-cache.py` | `sys.modules` is the cache | may use names from earlier examples |
+| `examples/05_deleting-a-caller-name-is-not-deleting-the-cache.py` | Deleting a caller name is not deleting the cache | may use names from earlier examples |
+| `examples/06_where-python-looks-sys-path.py` | Where Python looks: `sys.path` | may use names from earlier examples |
+| `examples/07_finders-and-loaders.py` | Finders and loaders | may use names from earlier examples |
+| `examples/08_a-common-misconception-from-module-import-name-s.py` | A common misconception: `from module import name` still runs the *whole* module | may use names from earlier examples |
+| `examples/09_reloading-a-module.py` | Reloading a module | may use names from earlier examples |
+| `examples/10_main-revisited.py` | `__main__` revisited | may use names from earlier examples |
+| `examples/11_packages-folders-of-modules.py` | Packages: folders of modules | may use names from earlier examples |
+| `examples/12_try-it-yourself.py` | Try it yourself | may use names from earlier examples |

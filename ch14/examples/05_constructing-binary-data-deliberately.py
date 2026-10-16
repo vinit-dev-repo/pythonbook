@@ -1,0 +1,6 @@
+print(bytes([65, 0, 255]))
+print(bytes(3))
+print(bytes("tea", encoding="ascii"))
+packet = bytes.fromhex("41 00 ff")
+print(packet.hex())
+print(packet == bytes([65, 0, 255]))

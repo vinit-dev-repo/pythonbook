@@ -1,0 +1,1 @@
+print(repr(Color.RED))

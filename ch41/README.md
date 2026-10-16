@@ -1,8 +1,49 @@
 # 41 - Specialized Dictionaries
 
-Files this chapter asks you to save, extracted byte for byte from the certified chapter of the Python tutorial. The chapter explains every line; read it there. Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
+The code of this chapter of the Python tutorial, extracted byte for byte from the certified chapter. The chapter explains every line; read it there.
 
-Files:
+## Files the chapter asks you to save
+
+Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
 
 - `nested_config_lab.py`
 - `normalized_mapping_lab.py`
+
+## Examples, in chapter order
+
+Every other Python block of the chapter, numbered in reading order and named after its section. Run them in order in one session (or paste them into one file): an example marked *may use names from earlier examples* builds on the ones before it, as it does in the chapter.
+
+| File | Section | Note |
+|---|---|---|
+| `examples/01_why-the-collections-module-exists.py` | Why the collections module exists | runs on its own |
+| `examples/02_recognize-the-mapping-interface.py` | Recognize the mapping interface | runs on its own |
+| `examples/03_defaultdict-dictionaries-that-fill-in-missing-ke.py` | defaultdict — dictionaries that fill in missing keys | may use names from earlier examples |
+| `examples/04_the-classic-group-by-example-in-three-lines.py` | The classic group-by example, in three lines | may use names from earlier examples |
+| `examples/05_the-warning-reading-a-key-creates-it.py` | The warning: reading a key CREATES it | may use names from earlier examples |
+| `examples/06_the-warning-reading-a-key-creates-it.py` | The warning: reading a key CREATES it | may use names from earlier examples |
+| `examples/07_compare-a-read-with-an-insertion.py` | Compare a read with an insertion | may use names from earlier examples |
+| `examples/08_ordereddict-when-a-plain-dict-is-not-quite-enoug.py` | OrderedDict — when a plain dict is not quite enough | may use names from earlier examples |
+| `examples/09_ordereddict-when-a-plain-dict-is-not-quite-enoug.py` | OrderedDict — when a plain dict is not quite enough | may use names from earlier examples |
+| `examples/10_ordereddict-when-a-plain-dict-is-not-quite-enoug.py` | OrderedDict — when a plain dict is not quite enough | may use names from earlier examples |
+| `examples/11_counter-counting-anything-in-one-line.py` | Counter — counting anything in one line | may use names from earlier examples |
+| `examples/12_counter-counting-anything-in-one-line.py` | Counter — counting anything in one line | may use names from earlier examples |
+| `examples/13_arithmetic-between-counters.py` | Arithmetic between Counters | may use names from earlier examples |
+| `examples/14_arithmetic-between-counters.py` | Arithmetic between Counters | may use names from earlier examples |
+| `examples/15_keep-a-signed-balance-with-subtract.py` | Keep a signed balance with subtract | may use names from earlier examples |
+| `examples/16_keep-a-signed-balance-with-subtract.py` | Keep a signed balance with subtract | may use names from earlier examples |
+| `examples/17_elements-turning-counts-back-into-a-list.py` | elements() — turning counts back into a list | may use names from earlier examples |
+| `examples/18_worked-example-counting-words-in-a-sentence.py` | Worked example: counting words in a sentence | may use names from earlier examples |
+| `examples/19_chainmap-searching-several-dictionaries-as-one.py` | ChainMap — searching several dictionaries as one | may use names from earlier examples |
+| `examples/20_writes-go-to-the-first-map-only.py` | Writes go to the FIRST map only | may use names from earlier examples |
+| `examples/21_new-child-adding-a-fresh-layer-for-a-new-scope.py` | new_child() — adding a fresh layer for a new scope | may use names from earlier examples |
+| `examples/22_new-child-adding-a-fresh-layer-for-a-new-scope.py` | new_child() — adding a fresh layer for a new scope | may use names from earlier examples |
+| `examples/23_userdict-a-class-made-for-custom-mappings.py` | UserDict — a class made for custom mappings | may use names from earlier examples |
+| `examples/24_userdict-a-class-made-for-custom-mappings.py` | UserDict — a class made for custom mappings | may use names from earlier examples |
+| `examples/25_a-caller-can-bypass-a-custom-read-too.py` | A caller can bypass a custom read too | may use names from earlier examples |
+| `examples/26_check-each-write-path.py` | Check each write path | may use names from earlier examples |
+| `examples/27_mappingproxytype-a-read-only-view-of-a-dict.py` | MappingProxyType — a read-only view of a dict | may use names from earlier examples |
+| `examples/28_class-dictionaries-use-a-mapping-proxy.py` | Class dictionaries use a mapping proxy | may use names from earlier examples |
+| `examples/29_exposing-a-read-only-view-of-your-own-internal-s.py` | Exposing a read-only view of your own internal state | may use names from earlier examples |
+| `examples/30_a-read-only-entry-can-still-refer-to-a-mutable-v.py` | A read-only entry can still refer to a mutable value | may use names from earlier examples |
+| `examples/31_a-fixed-snapshot-instead-of-a-live-view-frozendi.py` | A fixed snapshot instead of a live view: `frozendict` (3.15) | may use names from earlier examples |
+| `examples/32_try-it-yourself.py` | Try it yourself | may use names from earlier examples |

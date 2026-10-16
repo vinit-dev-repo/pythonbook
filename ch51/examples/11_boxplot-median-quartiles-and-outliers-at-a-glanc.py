@@ -1,0 +1,5 @@
+fig, ax = plt.subplots()
+ax.boxplot(scores)
+ax.set_title("Score spread")
+ax.set_ylabel("Score")
+plt.show()

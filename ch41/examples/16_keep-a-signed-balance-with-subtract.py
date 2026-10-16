@@ -1,0 +1,6 @@
+held = Counter(pens=5)
+changes = Counter(pens=8, tags=-2)
+print(dict(held - changes))
+signed = held.copy()
+signed.subtract(changes)
+print(dict(signed), dict(held))

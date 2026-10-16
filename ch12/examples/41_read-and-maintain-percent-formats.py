@@ -1,0 +1,6 @@
+print("%s: %04d samples" % ("West", 6))
+print("%(name)s: %(count)d samples" % {"name": "East", "count": 9})
+print("|%*.*f|" % (8, 3, 6.5))
+print("progress: %d%%" % 75)
+point = (4, -2)
+print("point=%s" % (point,))

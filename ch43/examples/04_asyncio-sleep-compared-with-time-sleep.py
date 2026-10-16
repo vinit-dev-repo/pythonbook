@@ -1,0 +1,5 @@
+start = time.perf_counter()
+blocking_task("A")
+blocking_task("B")
+blocking_task("C")
+print(f"total time: {round(time.perf_counter() - start)}.0s")

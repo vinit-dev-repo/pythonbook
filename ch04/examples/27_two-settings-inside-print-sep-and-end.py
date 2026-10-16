@@ -1,0 +1,5 @@
+print("Loading", end="")
+print("...", end="")
+print(" done")
+print("one line", end=" | ")
+print("same line")

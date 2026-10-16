@@ -1,0 +1,1 @@
+multiply = timer(logger(multiply))

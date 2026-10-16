@@ -1,0 +1,7 @@
+Record = namedtuple("Record", "name scores")
+first = Record("Ana", [85])
+second = first._replace(name="Bea")
+second.scores.append(90)
+print(first)
+print(second)
+print(first is second, first.scores is second.scores)

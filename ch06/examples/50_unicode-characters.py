@@ -1,0 +1,5 @@
+print(ord("A"))
+print(ord("a"))
+print(chr(65))
+print(ord("😀"))
+print(chr(128512))

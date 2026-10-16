@@ -1,0 +1,13 @@
+SharedRecord = namedtuple("SharedRecord", "name scores", defaults=[[]])
+one = SharedRecord("one")
+two = SharedRecord("two")
+one.scores.append(7)
+print(one)
+print(two)
+print(one.scores is two.scores)
+
+independent_one = SharedRecord("one", [])
+independent_two = SharedRecord("two", [])
+independent_one.scores.append(8)
+print(independent_one.scores, independent_two.scores)
+print(independent_one.scores is independent_two.scores)

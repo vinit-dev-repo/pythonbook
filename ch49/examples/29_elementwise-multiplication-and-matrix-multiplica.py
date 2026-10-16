@@ -1,0 +1,5 @@
+left = np.array([[2, 1], [0, 3]])
+right = np.array([[4, 2], [5, 1]])
+print("elementwise:", (left * right).tolist())
+print("matrix:", (left @ right).tolist())
+print("reversed:", (right @ left).tolist())
