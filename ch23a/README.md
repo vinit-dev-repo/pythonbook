@@ -4,7 +4,7 @@ The code of the chapter **23a - Project - Records with Behavior - Person, Manage
 
 ## About this chapter
 
-Before the second session, revisit [[Design Patterns/Part I - Principles/01 - What Good Design Looks Like#Favour composition over inheritance|Favour composition over inheritance]]. Read the neutral problem, fix, and Python examples, stop before **DRY, YAGNI and KISS**, then return to **Specialize or compose the record** below.
+Before the second session, revisit [[Design Patterns/Part I - Principles/01.2 - Encapsulation, Interfaces and Composition#Favour composition over inheritance|Favour composition over inheritance]]. Read the neutral problem, fix, and Python examples, stop before **DRY, YAGNI and KISS**, then return to **Specialize or compose the record** below.
 
 ## Files the chapter asks you to save
 
