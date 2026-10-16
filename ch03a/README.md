@@ -12,4 +12,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_3-build.py` | 3. Build (line 45) | runs on its own |
+| `examples/01_3-build.py` | 3. Build (line 82) | runs on its own |
+| `examples/02_later-optional-a-setup-report.py` | 3. Build › Later, optional: a setup report (line 93) | runs on its own |

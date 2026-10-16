@@ -8,10 +8,15 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch01`](ch01/) | What Is Programming and What Is Python | What a program and code are; What a programming language does; What Python is and why people use it | 0 | 1 | 0 |
-| [`ch02`](ch02/) | Setting Up Your Python Workshop | How to check whether Python is already installed, and how to install it on Windows, Mac and Linux if it is… | 5 | 7 | 12 |
-| [`ch03`](ch03/) | Python Versions - What Changed and When | Why knowing your Python version actually matters; How Python's version numbers work; How to check which… | 0 | 44 | 0 |
-| [`ch03a`](ch03a/) | Checkpoint - Orientation | You have finished the orientation and first-run path. Try these before you begin the next stage, Language… | 0 | 1 | 0 |
+| [`ch01.2`](ch01.2/) | How Python Runs Your Code | An **interpreter** is a program that reads your Python code and carries out its instructions. Later, 38 -… | 0 | 1 | 0 |
+| [`ch02.1`](ch02.1/) | Getting Ready to Run Python | A **terminal** is a window where you type commands and see text results. A **shell** reads those commands… | 0 | 0 | 3 |
+| [`ch02.2`](ch02.2/) | Running Your First Python Program | In 02.1 - Getting Ready to Run Python you opened a terminal, checked Python, and chose an editor. Now make… | 2 | 6 | 0 |
+| [`ch02.3`](ch02.3/) | Environments, Packages and Your First Project | Two projects may need different versions of the same package. For example, project A needs version 1 and… | 1 | 0 | 5 |
+| [`ch02.4`](ch02.4/) | Choosing Your Python Tools | Your setup has three jobs. You choose a Python interpreter, install the project's dependencies, and install… | 2 | 0 | 4 |
+| [`ch03.1`](ch03.1/) | Reading Your Python Version | Your version has three numbers, such as `3.15.0`. The first two numbers identify the language release used… | 0 | 2 | 0 |
+| [`ch03.2`](ch03.2/) | Python 3.0 to 3.9 - What Changed | Python changes each year, but old tutorials remain online. A post from 2015 may use a valid older style or… | 0 | 24 | 0 |
+| [`ch03.3`](ch03.3/) | Python 3.10 to 3.15 - What Changed | def describe(day): | 0 | 16 | 0 |
+| [`ch03a`](ch03a/) | Checkpoint - Orientation | You have finished the orientation and first-run path. Try these before you begin the next stage, Language… | 0 | 2 | 0 |
 
 ## 02 - Language and first tools
 
