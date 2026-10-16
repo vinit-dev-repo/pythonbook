@@ -1,29 +1,35 @@
 # 42a - Project - Store and Reopen Records
 
-The code of this chapter of the Python tutorial, extracted byte for byte from the certified chapter. The chapter explains every line; read it there.
+The code of the chapter **42a - Project - Store and Reopen Records** of the Python tutorial (folder `06 - Containers and data boundaries`), copied byte for byte from the chapter. The chapter explains every line. Each table below says where a file sits in the chapter: the section heading and the line where the code starts, so you can read the explanation next to it.
+
+## About this chapter
+
+Continue the `Person`/`Manager` application across program runs. Save records under stable string IDs, reopen them with their methods, observe an update that disappears, and repair it by assigning the changed record back. Then inspect how saved fields meet changed class code and adapt the application to structured names and lists of jobs.
 
 ## Files the chapter asks you to save
 
 Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
 
-The chapter saves these files more than once (for example a first version and a repaired one). This folder holds the version the chapter ends with:
+The chapter saves these files more than once (for example a first version and a repaired one). This folder holds the version the chapter ends with, and the table points to that last version:
 
 - `evolution_models.py`
 - `read_records.py`
 
-- `contact_create.py`
-- `contact_models.py`
-- `contact_read.py`
-- `create_records.py`
-- `display_tools.py`
-- `evolution_create.py`
-- `evolution_models.py`
-- `evolution_read.py`
-- `read_records.py`
-- `record_models.py`
-- `structured_checks.py`
-- `structured_create.py`
-- `structured_read.py`
-- `structured_records.py`
-- `unsaved_update.py`
-- `update_records.py`
+| File | Where it is in the chapter | Note |
+|---|---|---|
+| `display_tools.py` | Setup and prepared refreshers (line 49) |  |
+| `record_models.py` | Setup and prepared refreshers (line 75) |  |
+| `create_records.py` | Session 1 - store and reopen records (line 166) |  |
+| `unsaved_update.py` | Session 1 - store and reopen records (line 254) |  |
+| `update_records.py` | Session 1 - store and reopen records (line 301) |  |
+| `read_records.py` | Session 1 - store and reopen records (line 325) | rewritten later in the chapter |
+| `evolution_create.py` | Session 2 - current code and saved fields (line 371) |  |
+| `evolution_models.py` | Session 2 - current code and saved fields (line 395) | rewritten later in the chapter |
+| `evolution_read.py` | Session 2 - current code and saved fields (line 406) |  |
+| `structured_records.py` | Structured-name variant (line 454) |  |
+| `structured_checks.py` | Structured-name variant (line 514) |  |
+| `structured_create.py` | Structured-name variant (line 585) |  |
+| `structured_read.py` | Structured-name variant (line 616) |  |
+| `contact_models.py` | Transfer - store and reopen a contact (line 671) |  |
+| `contact_create.py` | Transfer - store and reopen a contact (line 682) |  |
+| `contact_read.py` | Transfer - store and reopen a contact (line 704) |  |

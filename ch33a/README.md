@@ -1,14 +1,23 @@
 # 33a - Project - Forwarding Selected Python Operations
 
-The code of this chapter of the Python tutorial, extracted byte for byte from the certified chapter. The chapter explains every line; read it there.
+The code of the chapter **33a - Project - Forwarding Selected Python Operations** of the Python tutorial (folder `04 - Iteration and resource management`), copied byte for byte from the chapter. The chapter explains every line. Each table below says where a file sits in the chapter: the section heading and the line where the code starts, so you can read the explanation next to it.
+
+## What this chapter teaches
+
+- Why direct special-method lookup can succeed while an operator still fails
+- How to forward five selected operations through an existing attribute policy
+- How policy denial differs from an unsupported operand, target validation, and a bad call signature
+- Where a wrapper's policy ends when it returns a raw result or iterator
 
 ## Files the chapter asks you to save
 
 Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
 
-- `attribute_policy.py`
-- `operator_demo.py`
-- `operator_policy.py`
-- `reading_list.py`
-- `route_transfer.py`
-- `test_operator_policy.py`
+| File | Where it is in the chapter | Note |
+|---|---|---|
+| `attribute_policy.py` | Keep the target contract small (line 60) |  |
+| `reading_list.py` | Keep the target contract small (line 98) |  |
+| `operator_policy.py` | Put five forwarding methods on the wrapper type (line 149) |  |
+| `operator_demo.py` | Session 2: policy decisions and returned-object boundaries (line 220) |  |
+| `test_operator_policy.py` | Session 2: policy decisions and returned-object boundaries (line 319) |  |
+| `route_transfer.py` | Build a Route policy (line 528) |  |

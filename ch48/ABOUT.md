@@ -1,36 +1,36 @@
 # 48 - Checking and Building a Python Package
 
-The code of this chapter of the Python tutorial, extracted byte for byte from the certified chapter. The chapter explains every line; read it there.
+The code of the chapter **48 - Checking and Building a Python Package** of the Python tutorial (folder `08 - Professional diagnostics`), copied byte for byte from the chapter. The chapter explains every line. Each table below says where a file sits in the chapter: the section heading and the line where the code starts, so you can read the explanation next to it.
+
+## What this chapter teaches
+
+- What formatting, linting, static types, tests and builds each check
+- How to observe an actual failure and repair with each tool
+- How to check the final wheel in an environment outside your source folder
 
 ## Files the chapter asks you to save
 
 Each file sits at the path the chapter gives it, so a demo that uses a folder such as `lazy_demo/` keeps that folder here.
 
-- `README.md`
-- `consumer_check.py`
-- `pyproject.toml`
-- `requirements-dev.txt`
-- `src/shop_report/cli.py`
-- `tests/test_cli.py`
-
-## Examples, in chapter order
-
-Every other Python block of the chapter, numbered in reading order and named after its section. Run them in order in one session (or paste them into one file): an example marked *may use names from earlier examples* builds on the ones before it, as it does in the chapter.
-
-| File | Section | Note |
+| File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_state-the-types-and-tool-scope.py` | State the types and tool scope | runs on its own |
+| `requirements-dev.txt` | Start with the package you already know (line 55) |  |
+| `src/shop_report/cli.py` | State the types and tool scope (line 83) |  |
+| `tests/test_cli.py` | State the types and tool scope (line 104) |  |
+| `pyproject.toml` | State the types and tool scope (line 127) |  |
+| `README.md` | 5. A build needs its declared files (line 260) |  |
+| `consumer_check.py` | Try it yourself (line 347) |  |
 
 ## Terminal commands
 
-| File | Section | Note |
+| File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_start-with-the-package-you-already-know.ps1` | Start with the package you already know | powershell commands to type in a terminal |
-| `commands/02_state-the-types-and-tool-scope.sh` | State the types and tool scope | bash commands to type in a terminal |
-| `commands/03_1-formatting-checks-layout.sh` | 1. Formatting checks layout | bash commands to type in a terminal |
-| `commands/04_1-formatting-checks-layout.sh` | 1. Formatting checks layout | bash commands to type in a terminal |
-| `commands/05_2-lint-finds-an-unused-import.sh` | 2. Lint finds an unused import | bash commands to type in a terminal |
-| `commands/06_3-types-can-disagree-even-when-examples-pass.sh` | 3. Types can disagree even when examples pass | bash commands to type in a terminal |
-| `commands/07_5-a-build-needs-its-declared-files.sh` | 5. A build needs its declared files | bash commands to type in a terminal |
-| `commands/08_run-the-whole-repaired-sequence.sh` | Run the whole repaired sequence | bash commands to type in a terminal |
-| `commands/09_check-the-wheel-outside-the-checkout.ps1` | Check the wheel outside the checkout | powershell commands to type in a terminal |
+| `commands/01_start-with-the-package-you-already-know.ps1` | Start with the package you already know (line 63) | powershell commands to type in a terminal |
+| `commands/02_state-the-types-and-tool-scope.sh` | State the types and tool scope (line 166) | bash commands to type in a terminal |
+| `commands/03_1-formatting-checks-layout.sh` | 1. Formatting checks layout (line 185) | bash commands to type in a terminal |
+| `commands/04_1-formatting-checks-layout.sh` | 1. Formatting checks layout (line 191) | bash commands to type in a terminal |
+| `commands/05_2-lint-finds-an-unused-import.sh` | 2. Lint finds an unused import (line 207) | bash commands to type in a terminal |
+| `commands/06_3-types-can-disagree-even-when-examples-pass.sh` | 3. Types can disagree even when examples pass (line 222) | bash commands to type in a terminal |
+| `commands/07_5-a-build-needs-its-declared-files.sh` | 5. A build needs its declared files (line 253) | bash commands to type in a terminal |
+| `commands/08_run-the-whole-repaired-sequence.sh` | Run the whole repaired sequence (line 280) | bash commands to type in a terminal |
+| `commands/09_check-the-wheel-outside-the-checkout.ps1` | Check the wheel outside the checkout (line 311) | powershell commands to type in a terminal |

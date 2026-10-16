@@ -6,149 +6,149 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 ## 01 - Orientation
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch01` | What Is Programming and What Is Python | 0 | 1 | 0 |
-| `ch02` | Setting Up Your Python Workshop | 5 | 8 | 12 |
-| `ch03` | Python Versions - What Changed and When | 0 | 44 | 0 |
-| `ch03a` | Checkpoint - Orientation | 0 | 1 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch01`](ch01/) | What Is Programming and What Is Python | What a program and code are; What a programming language does; What Python is and why people use it | 0 | 1 | 0 |
+| [`ch02`](ch02/) | Setting Up Your Python Workshop | How to check whether Python is already installed, and how to install it on Windows, Mac and Linux if it is… | 5 | 7 | 12 |
+| [`ch03`](ch03/) | Python Versions - What Changed and When | Why knowing your Python version actually matters; How Python's version numbers work; How to check which… | 0 | 44 | 0 |
+| [`ch03a`](ch03a/) | Checkpoint - Orientation | You have finished the orientation and first-run path. Try these before you begin the next stage, Language… | 0 | 1 | 0 |
 
 ## 02 - Language and first tools
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch04` | Values, Variables and Operators | 0 | 32 | 0 |
-| `ch05` | Control Flow | 0 | 29 | 0 |
-| `ch06` | Lists, Tuples and Strings | 0 | 52 | 0 |
-| `ch07` | Dictionaries and Sets | 0 | 35 | 0 |
-| `ch08` | Comprehensions | 0 | 34 | 0 |
-| `ch09` | Functions | 0 | 51 | 0 |
-| `ch10` | Errors and Exceptions | 5 | 29 | 0 |
-| `ch11` | Modules, Packages and Files | 8 | 15 | 0 |
-| `ch12` | The Standard Library Tour | 4 | 45 | 0 |
-| `ch13` | Regular Expressions | 0 | 15 | 0 |
-| `ch14` | Text, Bytes and Encodings | 6 | 36 | 1 |
-| `ch14a` | Checkpoint - Language foundations | 0 | 3 | 0 |
-| `ch15` | Variables, References and Mutability | 0 | 18 | 0 |
-| `ch16` | Numbers in Depth | 1 | 35 | 0 |
-| `ch17` | Scopes, Closures and Higher-Order Functions | 0 | 43 | 0 |
-| `ch18` | Function Decorators | 1 | 31 | 0 |
-| `ch19` | Tuples and Named Tuples | 1 | 27 | 0 |
-| `ch20` | The Import System in Depth | 119 | 12 | 0 |
-| `ch20a` | Project - Command-line labels library | 6 | 0 | 0 |
-| `ch20b` | Project - Shop-report package build and installation | 3 | 2 | 3 |
-| `ch20c` | Checkpoint - Imports and packages | 2 | 3 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch04`](ch04/) | Values, Variables and Operators | The basic kinds of data Python works with: numbers, text, and true/false values; That *everything* in Python… | 0 | 32 | 0 |
+| [`ch05`](ch05/) | Control Flow | What "control flow" means, and why a program needs it; Why indentation matters in Python (it is not just… | 0 | 29 | 0 |
+| [`ch06`](ch06/) | Lists, Tuples and Strings | What a **sequence** is, and the three you'll use daily: `list`s, `tuple`s, `string`s; Lists: creating,… | 0 | 52 | 0 |
+| [`ch07`](ch07/) | Dictionaries and Sets | What a dictionary is, and why it is called an **associative array**; How to create, read, add, update and… | 0 | 35 | 0 |
+| [`ch08`](ch08/) | Comprehensions | The idea behind a comprehension: turning a build-a-list loop into one readable line; The exact anatomy of a… | 0 | 34 | 0 |
+| [`ch09`](ch09/) | Functions | What a function is, and why reusing code matters; Defining a function with `def`, calling it, and what… | 0 | 51 | 0 |
+| [`ch10`](ch10/) | Errors and Exceptions | The three different ways a program can go wrong, and how to tell them apart; What an exception is, how a… | 5 | 29 | 0 |
+| [`ch11`](ch11/) | Modules, Packages and Files | What a module is, and the different ways to `import` one; What Python's standard library gives you for free;… | 8 | 15 | 0 |
+| [`ch12`](ch12/) | The Standard Library Tour | `time` — timestamps and pausing the current thread; `datetime` — dates, times, formatting and parsing; Date… | 4 | 45 | 0 |
+| [`ch13`](ch13/) | Regular Expressions | How Python's `re` API applies the pattern language from the shared Regular Expressions module; How to search… | 0 | 15 | 0 |
+| [`ch14`](ch14/) | Text, Bytes and Encodings | What a character really is, and the difference between a **code point** and a **byte**; The `bytes` and… | 6 | 36 | 1 |
+| [`ch14a`](ch14a/) | Checkpoint - Language foundations | You have practised the basic language and text tools. Later lessons use these ideas. Spend about half an… | 0 | 3 | 0 |
+| [`ch15`](ch15/) | Variables, References and Mutability | Trace names and shared references without guessing about memory addresses.; Distinguish rebinding a name… | 0 | 18 | 0 |
+| [`ch16`](ch16/) | Numbers in Depth | How Python's number types represent values and combine in arithmetic; Why Python integers have no… | 1 | 35 | 0 |
+| [`ch17`](ch17/) | Scopes, Closures and Higher-Order Functions | How ordinary function-body names resolve to local, enclosing or global bindings, and where built-ins fit;… | 0 | 43 | 0 |
+| [`ch18`](ch18/) | Function Decorators | The problem decorators solve, and why they save you from editing every function by hand; How to build a… | 1 | 31 | 0 |
+| [`ch19`](ch19/) | Tuples and Named Tuples | How to use a tuple as a **record**, where each position has a meaning; How to read a tuple with unpacking,… | 1 | 27 | 0 |
+| [`ch20`](ch20/) | The Import System in Depth | What Python does when it runs `import something`; Why a module is an object and how to inspect it; Why a… | 119 | 12 | 0 |
+| [`ch20a`](ch20a/) | Project - Command-line labels library | Prerequisite: Start this required inline visit after the import, package and namespace foundations in lesson… | 6 | 0 | 0 |
+| [`ch20b`](ch20b/) | Project - Shop-report package build and installation | Prerequisite: Start this required inline visit after lesson 20's import, package-context and cache sections,… | 3 | 0 | 3 |
+| [`ch20c`](ch20c/) | Checkpoint - Imports and packages | This part explains why Python behaves in these ways. Use the checkpoint to test both your memory and your… | 2 | 3 | 0 |
 
 ## 03 - Objects, protocols and testing
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch21` | Classes and Objects | 2 | 56 | 0 |
-| `ch22` | Special Dunder Methods | 0 | 43 | 0 |
-| `ch23` | Inheritance and Polymorphism | 10 | 32 | 0 |
-| `ch23a` | Project - Records with Behavior - Person, Manager and Department | 5 | 2 | 0 |
-| `ch24` | Custom Exceptions | 1 | 46 | 0 |
-| `ch25` | Testing Your Code | 30 | 18 | 2 |
-| `ch25a` | Project - Parsing Records Before Publishing Data | 4 | 0 | 0 |
-| `ch25b` | Project - Testing a Timer with Two Clocks | 5 | 0 | 0 |
-| `ch25c` | Project - Modular Values and Operator Contracts | 7 | 0 | 0 |
-| `ch25d` | Project - Inventory Inheritance and Regression Tests | 13 | 0 | 0 |
-| `ch26` | Interfaces - Duck Typing, ABCs and Protocols | 0 | 33 | 4 |
-| `ch26a` | Project - Composing Readers, Converters and Writers | 7 | 0 | 0 |
-| `ch27` | Callable Objects and Class Decorators | 2 | 27 | 0 |
-| `ch28` | Record Classes, Dataclasses and Identity | 7 | 16 | 0 |
-| `ch29` | Descriptors | 1 | 27 | 0 |
-| `ch29a` | Project - Counting Calls Without Losing the Receiver | 6 | 0 | 0 |
-| `ch30` | Enums | 3 | 43 | 0 |
-| `ch31` | Metaclasses and Metaprogramming | 26 | 27 | 0 |
-| `ch31a` | Project - Validated Fields - Preserve Behavior While Refactoring | 7 | 0 | 0 |
-| `ch31b` | Project - Display and Delegate Records | 9 | 0 | 0 |
-| `ch31c` | Project - Attribute Policies Through a Wrapper | 9 | 0 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch21`](ch21/) | Classes and Objects | Why classes exist: keeping data and the functions that work on it together; How to define a class and create… | 2 | 56 | 0 |
+| [`ch22`](ch22/) | Special Dunder Methods | What dunder methods are and which Python operations call them; `__str__` vs `__repr__` — text for people vs… | 0 | 43 | 0 |
+| [`ch23`](ch23/) | Inheritance and Polymorphism | How a child class can reuse methods and class attributes from a parent class; `super()` — calling the next… | 10 | 32 | 0 |
+| [`ch23a`](ch23a/) | Project - Records with Behavior - Person, Manager and Department | Before the second session, revisit Favour composition over inheritance. Read the neutral problem, fix, and… | 5 | 2 | 0 |
+| [`ch24`](ch24/) | Custom Exceptions | The main branches of Python's built-in exception tree, and why normal handlers catch `Exception` instead of… | 1 | 46 | 0 |
+| [`ch25`](ch25/) | Testing Your Code | Why tests are useful and which problems they help you find; What a test is, in plain words; How to write and… | 30 | 18 | 2 |
+| [`ch25a`](ch25a/) | Project - Parsing Records Before Publishing Data | How to parse a small CSV policy into date/`Decimal` observation records; Why a complete candidate tuple must… | 4 | 0 | 0 |
+| [`ch25b`](ch25b/) | Project - Testing a Timer with Two Clocks | How a `Timer` has idle, running, and stopped states; Why duration needs a monotonic counter while timestamps… | 5 | 0 | 0 |
+| [`ch25c`](ch25c/) | Project - Modular Values and Operator Contracts | How to do arithmetic while keeping old aliases and dictionary keys unchanged; Why mathematical congruence,… | 7 | 0 | 0 |
+| [`ch25d`](ch25d/) | Project - Inventory Inheritance and Regression Tests | How one stock invariant can govern five related concrete classes; How `super()` lets several initializers… | 13 | 0 | 0 |
+| [`ch26`](ch26/) | Interfaces - Duck Typing, ABCs and Protocols | What an interface means in Python, which has no `interface` keyword; How **duck typing** works and why… | 0 | 33 | 4 |
+| [`ch26a`](ch26a/) | Project - Composing Readers, Converters and Writers | Compose three small roles around one unchanged processing function.; Separate a valid record from an… | 7 | 0 | 0 |
+| [`ch27`](ch27/) | Callable Objects and Class Decorators | Distinguish callable objects from calls with valid arguments.; Build attribute and method tools, and reason… | 2 | 27 | 0 |
+| [`ch28`](ch28/) | Record Classes, Dataclasses and Identity | Add methods to records made with `namedtuple`.; Compare records made with `collections.namedtuple`,… | 7 | 16 | 0 |
+| [`ch29`](ch29/) | Descriptors | How one mechanism supports `@property`, methods, and `__slots__`; What a **descriptor** is and which three… | 1 | 27 | 0 |
+| [`ch29a`](ch29a/) | Project - Counting Calls Without Losing the Receiver | A call counter needs to know both which operation ran and which inventory received it. Start with a… | 6 | 0 | 0 |
+| [`ch30`](ch30/) | Enums | Why repeated unexplained numbers and strings can cause bugs; How to define an **enumeration**, or enum, with… | 3 | 43 | 0 |
+| [`ch31`](ch31/) | Metaclasses and Metaprogramming | What a metaclass is and how it relates to a class object; How `type` acts as the default metaclass, and how… | 26 | 27 | 0 |
+| [`ch31a`](ch31a/) | Project - Validated Fields - Preserve Behavior While Refactoring | A reusable field needs more than a valid-value example. Its callers also rely on omitted arguments, error… | 7 | 0 | 0 |
+| [`ch31b`](ch31b/) | Project - Display and Delegate Records | The first record application prints a manager with the hardcoded label `Person`. Continue that same… | 9 | 0 | 0 |
+| [`ch31c`](ch31c/) | Project - Attribute Policies Through a Wrapper | Build a wrapper that checks selected attribute reads and writes before they reach another object.… | 9 | 0 | 0 |
 
 ## 04 - Iteration and resource management
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch32` | The Sequence Protocol and Custom Sequences | 5 | 30 | 0 |
-| `ch32a` | Project - From a Read-Only Deck to a Mutable Sequence | 7 | 0 | 0 |
-| `ch33` | Iterables and Iterators | 3 | 18 | 0 |
-| `ch33a` | Project - Forwarding Selected Python Operations | 6 | 0 | 0 |
-| `ch33b` | Project - Reuse a Finite Forwarding Interface | 7 | 0 | 0 |
-| `ch33c` | Project - When Inserting Hooks Changes the Contract | 5 | 0 | 0 |
-| `ch34` | Generators | 0 | 22 | 0 |
-| `ch34a` | Project - A Shared Contract for Random Draws | 7 | 0 | 0 |
-| `ch34b` | Project - Calling and Combining Random Containers | 5 | 0 | 0 |
-| `ch35` | The itertools Toolbox | 0 | 44 | 0 |
-| `ch35a` | Project - Accounts and Transaction Confirmations | 8 | 0 | 0 |
-| `ch36` | Context Managers | 4 | 30 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch32`](ch32/) | The Sequence Protocol and Custom Sequences | What a **protocol** is and how Python uses supported operations; How `__len__` and `__getitem__` provide the… | 5 | 30 | 0 |
+| [`ch32a`](ch32a/) | Project - From a Read-Only Deck to a Mutable Sequence | How a small `__len__`/`__getitem__` interface already enables several sequence fallbacks; Why shuffle needs… | 7 | 0 | 0 |
+| [`ch33`](ch33/) | Iterables and Iterators | How one protocol lets `for` work with lists, strings, files, dictionaries, and your own classes; The… | 3 | 18 | 0 |
+| [`ch33a`](ch33a/) | Project - Forwarding Selected Python Operations | Why direct special-method lookup can succeed while an operator still fails; How to forward five selected… | 6 | 0 | 0 |
+| [`ch33b`](ch33b/) | Project - Reuse a Finite Forwarding Interface | How explicit mixins, a small router, and descriptors reuse the same five forwarding operations; When an… | 7 | 0 | 0 |
+| [`ch33c`](ch33c/) | Project - When Inserting Hooks Changes the Contract | How replacing hooks on an existing class retains class identity while changing behavior; Why object-level… | 5 | 0 | 0 |
+| [`ch34`](ch34/) | Generators | How generators replace a manual iterator class; How `yield` changes a function call and pauses execution;… | 0 | 22 | 0 |
+| [`ch34a`](ch34a/) | Project - A Shared Contract for Random Draws | How an abstract base class defines a small random-draw contract; How three classes can meet one contract… | 7 | 0 | 0 |
+| [`ch34b`](ch34b/) | Project - Calling and Combining Random Containers | Why removing a value is different from returning it from a callable; How `+` and `+=` have different… | 5 | 0 | 0 |
+| [`ch35`](ch35/) | The itertools Toolbox | What `itertools` provides, which tools read input immediately, and which tools produce output lazily; How to… | 0 | 44 | 0 |
+| [`ch35a`](ch35a/) | Project - Accounts and Transaction Confirmations | How account-specific state composes with a fixed display offset and shared class settings; How to compare… | 8 | 0 | 0 |
+| [`ch36`](ch36/) | Context Managers | Why a program must release resources after success or failure; How `try`/`finally` guarantees cleanup; How… | 4 | 30 | 0 |
 
 ## 05 - Runtime
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch37` | Object Lifetime and Memory Management | 3 | 16 | 0 |
-| `ch38` | How Python Runs Your Code | 5 | 34 | 0 |
-| `ch38a` | Checkpoint - Python runtime | 0 | 1 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch37`](ch37/) | Object Lifetime and Memory Management | Explain CPython reference counts and unreachable reference cycles.; Find caches and callbacks that keep… | 3 | 16 | 0 |
+| [`ch38`](ch38/) | How Python Runs Your Code | How Python turns source text into instructions and runs them; How to inspect each stage with the `tokenize`,… | 5 | 34 | 0 |
+| [`ch38a`](ch38a/) | Checkpoint - Python runtime | 1. Which identity rules does Python promise? Which memory details belong only to CPython? | 0 | 1 | 0 |
 
 ## 06 - Containers and data boundaries
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch39` | Hash Tables and Dictionaries in Depth | 2 | 30 | 0 |
-| `ch40` | Sets in Depth | 1 | 22 | 0 |
-| `ch41` | Specialized Dictionaries | 2 | 32 | 0 |
-| `ch42` | Serialization | 11 | 25 | 0 |
-| `ch42a` | Project - Store and Reopen Records | 16 | 0 | 0 |
-| `ch42b` | Checkpoint - Containers and serialization | 1 | 2 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch39`](ch39/) | Hash Tables and Dictionaries in Depth | What an "associative array" is, and why `dict` is Python's version of it; How Python uses a hash table to… | 2 | 30 | 0 |
+| [`ch40`](ch40/) | Sets in Depth | Basic set operations: membership, subset, union, intersection, and difference; Why set membership is usually… | 1 | 22 | 0 |
+| [`ch41`](ch41/) | Specialized Dictionaries | Why the `collections` module exists and when to use it instead of `dict`; How `defaultdict` creates values… | 2 | 32 | 0 |
+| [`ch42`](ch42/) | Serialization | What serialization is and why programs use it; `pickle` — Python's own format, what it can do, and its… | 11 | 25 | 0 |
+| [`ch42a`](ch42a/) | Project - Store and Reopen Records | Continue the `Person`/`Manager` application across program runs. Save records under stable string IDs,… | 16 | 0 | 0 |
+| [`ch42b`](ch42b/) | Checkpoint - Containers and serialization | 1. What does "hashable" actually require? Is it the same as "immutable"? | 1 | 2 | 0 |
 
 ## 07 - Concurrency
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch43` | From Coroutines to async-await | 15 | 36 | 0 |
-| `ch43a` | Checkpoint - Iteration and async | 0 | 4 | 0 |
-| `ch44` | Threads, Locks and Race Conditions | 9 | 13 | 0 |
-| `ch45` | Multiprocessing and Pools | 8 | 14 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch43`](ch43/) | From Coroutines to async-await | What a **coroutine** is, and how it compares with threads and processes; How to write modern async code with… | 15 | 36 | 0 |
+| [`ch43a`](ch43a/) | Checkpoint - Iteration and async | 1. What is the difference between an iterable and an iterator — and is an iterator an iterable? | 0 | 4 | 0 |
+| [`ch44`](ch44/) | Threads, Locks and Race Conditions | What processes and threads are, and how they differ; Concurrency vs parallelism, and why threads on the… | 9 | 13 | 0 |
+| [`ch45`](ch45/) | Multiprocessing and Pools | Why GIL-enabled CPython threads do not execute pure-Python bytecode on several cores simultaneously, and how… | 8 | 14 | 0 |
 
 ## 08 - Professional diagnostics
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch46` | Logging | 0 | 13 | 0 |
-| `ch47` | Debugging and Profiling | 4 | 1 | 0 |
-| `ch48` | Checking and Building a Python Package | 6 | 1 | 9 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch46`](ch46/) | Logging | Why logs are more useful than many temporary `print()` statements; The five severity levels, and why a… | 0 | 13 | 0 |
+| [`ch47`](ch47/) | Debugging and Profiling | How to reproduce a wrong result, pause a program with `pdb`, and inspect the control flow that produced it;… | 4 | 1 | 0 |
+| [`ch48`](ch48/) | Checking and Building a Python Package | What formatting, linting, static types, tests and builds each check; How to observe an actual failure and… | 6 | 0 | 9 |
 
 ## 09 - Data and database applications
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch49` | NumPy | 4 | 37 | 0 |
-| `ch50` | Pandas | 4 | 37 | 0 |
-| `ch51` | Visualization - Matplotlib and Seaborn | 0 | 24 | 0 |
-| `ch52` | SQLite from Python | 0 | 17 | 0 |
-| `ch52a` | Boundary visit - SQL values and commands | 0 | 5 | 0 |
-| `ch52b` | Project - SQLite expense tracker | 0 | 1 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch49`](ch49/) | NumPy | Why plain Python lists are slow for number-crunching, and what NumPy does differently; What an array, a… | 4 | 37 | 0 |
+| [`ch50`](ch50/) | Pandas | What pandas is for, and when to reach for it instead of NumPy; The two core objects: `Series` and… | 4 | 37 | 0 |
+| [`ch51`](ch51/) | Visualization - Matplotlib and Seaborn | Why a picture can show you things a table of numbers hides; The two ways to use matplotlib, and why the… | 0 | 24 | 0 |
+| [`ch52`](ch52/) | SQLite from Python | Why plain files and CSV stop being enough once a program grows; What SQLite is, and how Python exposes it… | 0 | 17 | 0 |
+| [`ch52a`](ch52a/) | Boundary visit - SQL values and commands | First finish lesson 52 through the basic SQL examples. You should be able to create a table, insert rows and… | 0 | 5 | 0 |
+| [`ch52b`](ch52b/) | Project - SQLite expense tracker | Prerequisite: Finish lesson 52's connection, transaction and basic SQL teaching, then the SQL values visit's… | 0 | 1 | 0 |
 
 ## 10 - Web applications and production boundaries
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch53` | Flask - Your First Web App | 15 | 6 | 0 |
-| `ch53a` | Project - Internal Diagnostics and Public Responses | 7 | 0 | 0 |
-| `ch53b` | Project - Two-page Flask notes app | 2 | 0 | 0 |
-| `ch54` | REST APIs, requests and Web Scraping | 16 | 12 | 0 |
-| `ch54a` | Boundary visit - HTTP status and error handling | 0 | 1 | 0 |
-| `ch54b` | Project - Loading a Consistent Resource Snapshot | 5 | 0 | 0 |
-| `ch54c` | Boundary visit - HTTP Resources and Retry Policy | 4 | 0 | 0 |
-| `ch54d` | Checkpoint - Applied Python | 0 | 3 | 0 |
-| `ch54e` | Capstone - Configuring and Operating an Expense Ledger | 17 | 11 | 6 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch53`](ch53/) | Flask - Your First Web App | How a browser and a web server exchange requests and responses; What `Flask` is, and how to write the… | 15 | 6 | 0 |
+| [`ch53a`](ch53a/) | Project - Internal Diagnostics and Public Responses | Give related failures a useful exception hierarchy and a consistent message contract.; Capture one event… | 7 | 0 | 0 |
+| [`ch53b`](ch53b/) | Project - Two-page Flask notes app | Prerequisite: Start this required inline visit after lesson 53 has installed `Flask` and introduced the… | 2 | 0 | 0 |
+| [`ch54`](ch54/) | REST APIs, requests and Web Scraping | What an API is and how REST APIs use URLs and HTTP methods; How to call an API with the `requests` library,… | 16 | 12 | 0 |
+| [`ch54a`](ch54a/) | Boundary visit - HTTP status and error handling | Prerequisite: Start this required inline visit after lesson 54 has introduced the `requests` library and a… | 0 | 1 | 0 |
+| [`ch54b`](ch54b/) | Project - Loading a Consistent Resource Snapshot | Load a response only when its body, size or duration is first needed.; Keep those values together so that… | 5 | 0 | 0 |
+| [`ch54c`](ch54c/) | Boundary visit - HTTP Resources and Retry Policy | Finish weather and the response-cache visit first. Refresh context entry, cleanup and exception propagation,… | 4 | 0 | 0 |
+| [`ch54d`](ch54d/) | Checkpoint - Applied Python | This part includes mistakes that can lose money or expose private data. Review it carefully. | 0 | 3 | 0 |
+| [`ch54e`](ch54e/) | Capstone - Configuring and Operating an Expense Ledger | This capstone joins settings, a command line, validation, transactions, logs, tests, packaging and an… | 17 | 2 | 6 |
 
 ## 11 - Design, craft and next steps
 
-| Folder | Chapter | Saved files | Examples | Commands |
-|---|---|---|---|---|
-| `ch55` | Writing Effective Python | 5 | 55 | 0 |
-| `ch55a` | Checkpoint - Effective Python | 0 | 2 | 0 |
+| Folder | Chapter | What it teaches | Saved files | Examples | Commands |
+|---|---|---|---|---|---|
+| [`ch55`](ch55/) | Writing Effective Python | 39 ways to review and improve Python code; When each habit helps, what it costs, and when another choice may… | 5 | 55 | 0 |
+| [`ch55a`](ch55a/) | Checkpoint - Effective Python | 1. What does `@dataclass(frozen=True)` actually stop you doing — and what does it not? | 0 | 2 | 0 |
 
 ## How the folders are made
 
