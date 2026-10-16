@@ -78,5 +78,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/23_trace-a-constructed-target.py` | Trace a constructed target (line 2661) | runs on its own |
 | `examples/24_trace-a-constructed-target.py` | Trace a constructed target (line 2697) | runs on its own |
 | `examples/25_try-it-yourself.py` | Try it yourself (line 2787) | may use names from earlier examples |
-| `examples/26_2-find-the-problem.py` | 2. Find the problem (line 2887) | runs on its own |
-| `examples/27_3-build.py` | 3. Build (line 2926) | runs on its own |
+| `examples/26_2-find-the-problem.py` | 2. Find the problem (line 2893) | runs on its own |
+| `examples/27_3-build.py` | 3. Build (line 2932) | runs on its own |
