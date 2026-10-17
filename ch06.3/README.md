@@ -16,12 +16,12 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_why-b-a-does-not-copy.py` | Copying sequences › Why `b = a` does not copy? (line 40) | runs on its own |
 | `examples/02_shallow-copy.py` | Copying sequences › Shallow copy (line 63) | may use names from earlier examples |
 | `examples/03_deep-copy.py` | Copying sequences › Deep copy (line 109) | may use names from earlier examples |
-| `examples/04_deep-copy.py` | Copying sequences › Deep copy (line 139) | may use names from earlier examples |
-| `examples/05_deep-copy.py` | Copying sequences › Deep copy (line 171) | may use names from earlier examples |
-| `examples/06_how-deep-can-a-deep-copy-go.py` | Copying sequences › How deep can a deep copy go? (line 210) | may use names from earlier examples |
-| `examples/07_unpacking.py` | Unpacking (line 251) | may use names from earlier examples |
-| `examples/08_swapping-with-unpacking.py` | Unpacking › Swapping with unpacking (line 272) | may use names from earlier examples |
-| `examples/09_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 293) | may use names from earlier examples |
-| `examples/10_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 306) | may use names from earlier examples |
-| `examples/11_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 326) | may use names from earlier examples |
-| `examples/12_try-it-yourself.py` | Try it yourself (line 372) | may use names from earlier examples |
+| `examples/04_deep-copy.py` | Copying sequences › Deep copy (line 141) | may use names from earlier examples |
+| `examples/05_deep-copy.py` | Copying sequences › Deep copy (line 173) | may use names from earlier examples |
+| `examples/06_how-deep-can-a-deep-copy-go.py` | Copying sequences › How deep can a deep copy go? (line 212) | may use names from earlier examples |
+| `examples/07_unpacking.py` | Unpacking (line 253) | may use names from earlier examples |
+| `examples/08_swapping-with-unpacking.py` | Unpacking › Swapping with unpacking (line 274) | may use names from earlier examples |
+| `examples/09_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 295) | may use names from earlier examples |
+| `examples/10_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 308) | may use names from earlier examples |
+| `examples/11_extended-unpacking-with-rest.py` | Unpacking › Extended unpacking with `*rest` (line 328) | may use names from earlier examples |
+| `examples/12_try-it-yourself.py` | Try it yourself (line 374) | may use names from earlier examples |

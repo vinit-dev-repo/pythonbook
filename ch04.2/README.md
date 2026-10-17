@@ -18,12 +18,12 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_arithmetic-operators.py` | Arithmetic operators (line 56) | runs on its own |
 | `examples/02_mixing-ints-and-floats.py` | Arithmetic operators › Mixing `int`s and `float`s (line 74) | may use names from earlier examples |
 | `examples/03_the-three-divisions-and.py` | Arithmetic operators › The three divisions: `/`, `//` and `%` (line 93) | may use names from earlier examples |
-| `examples/04_the-three-divisions-and.py` | Arithmetic operators › The three divisions: `/`, `//` and `%` (line 113) | may use names from earlier examples |
-| `examples/05_operator-precedence-who-goes-first.py` | Arithmetic operators › Operator precedence: who goes first (line 138) | may use names from earlier examples |
-| `examples/06_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 162) | may use names from earlier examples |
-| `examples/07_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 180) | may use names from earlier examples |
-| `examples/08_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 228) | may use names from earlier examples |
-| `examples/09_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 264) | raises an error on purpose |
-| `examples/10_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 278) | may use names from earlier examples |
-| `examples/11_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 295) | may use names from earlier examples |
-| `examples/12_try-it-yourself.py` | Try it yourself (line 348) | may use names from earlier examples |
+| `examples/04_the-three-divisions-and.py` | Arithmetic operators › The three divisions: `/`, `//` and `%` (line 115) | may use names from earlier examples |
+| `examples/05_operator-precedence-who-goes-first.py` | Arithmetic operators › Operator precedence: who goes first (line 140) | may use names from earlier examples |
+| `examples/06_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 164) | may use names from earlier examples |
+| `examples/07_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 182) | may use names from earlier examples |
+| `examples/08_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 230) | may use names from earlier examples |
+| `examples/09_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 266) | raises an error on purpose |
+| `examples/10_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 280) | may use names from earlier examples |
+| `examples/11_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 297) | may use names from earlier examples |
+| `examples/12_try-it-yourself.py` | Try it yourself (line 350) | may use names from earlier examples |

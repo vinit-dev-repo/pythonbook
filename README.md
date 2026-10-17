@@ -39,10 +39,21 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch07.2`](ch07.2/) | Hashable Keys and How Lookup Works | Why dictionary keys must be **hashable**, in plain words; How a dictionary turns a hash into a slot, and… | 0 | 8 | 0 |
 | [`ch07.3`](ch07.3/) | Looping, Nesting and Counting with Dictionaries | How to loop over a dictionary's keys, values, and key-value pairs; Why `in` checks keys, and how to check… | 0 | 9 | 0 |
 | [`ch07.4`](ch07.4/) | Sets and Choosing a Collection | What a set is, how it differs from a list, and the `{}` empty-set trap; Set operations: union, intersection,… | 0 | 9 | 0 |
-| [`ch08`](ch08/) | Comprehensions | The idea behind a comprehension: turning a build-a-list loop into one readable line; The exact anatomy of a… | 0 | 34 | 0 |
-| [`ch09`](ch09/) | Functions | What a function is, and why reusing code matters; Defining a function with `def`, calling it, and what… | 0 | 51 | 0 |
-| [`ch10`](ch10/) | Errors and Exceptions | The three different ways a program can go wrong, and how to tell them apart; What an exception is, how a… | 5 | 29 | 0 |
-| [`ch11`](ch11/) | Modules, Packages and Files | What a module is, and the different ways to `import` one; What Python's standard library gives you for free;… | 8 | 15 | 0 |
+| [`ch08.1`](ch08.1/) | List Comprehensions | The idea behind a comprehension: turning a build-a-list loop into one readable line; The exact anatomy of a… | 0 | 21 | 0 |
+| [`ch08.2`](ch08.2/) | Dict and Set Comprehensions and the Walrus | Dict comprehensions, including inverting a dictionary and building one with `zip()`; Set comprehensions,… | 0 | 9 | 0 |
+| [`ch08.3`](ch08.3/) | When Not to Use One, Generators and Practice | When NOT to use a comprehension; How a generator expression produces items on demand and is consumed once;… | 0 | 5 | 0 |
+| [`ch09.1`](ch09.1/) | Defining, Calling and Returning | What a function is, and why reusing code matters; Defining a function with `def`, calling it, and what… | 0 | 10 | 0 |
+| [`ch09.2`](ch09.2/) | Positional, Keyword and Default Arguments | Positional arguments, keyword arguments, and default values; The mutable default argument trap, and how to… | 0 | 11 | 0 |
+| [`ch09.3`](ch09.3/) | Collecting and Unpacking Arguments | `*args` and `**kwargs`, which collect extra arguments; Unpacking a list or a dictionary into a call;… | 0 | 11 | 0 |
+| [`ch09.4`](ch09.4/) | Docstrings, dir and Type Annotations | Docstrings: how to describe a function and read it back with `help()`; `dir()`: how to list an object's… | 0 | 8 | 0 |
+| [`ch09.5`](ch09.5/) | Lambdas, map, filter and Built-in Helpers | Lambdas: how to write a short nameless function, and when `def` is better; `map()` and `filter()`, and how… | 0 | 14 | 0 |
+| [`ch10.1`](ch10.1/) | What Goes Wrong and How to Read a Traceback | The three different ways a program can go wrong, and how to tell them apart; What an exception is, and when… | 0 | 14 | 0 |
+| [`ch10.2`](ch10.2/) | Catching Exceptions with try and except | How to catch errors with `try`/`except`, and why a bare `except:` is dangerous; `else` and `finally`, the… | 1 | 8 | 0 |
+| [`ch10.3`](ch10.3/) | Raising, Asserting and Inspecting Exceptions | How to raise your own exceptions, and re-raise the same one; `assert`, and why it can be switched off; How… | 3 | 5 | 0 |
+| [`ch10.4`](ch10.4/) | Nested Loops, When to Catch and EAFP | How to leave several nested loops at once with a custom exception; When to catch an exception, and when to… | 1 | 4 | 0 |
+| [`ch11.1`](ch11.1/) | Modules, the Standard Library and Packages | What a module is, and the different ways to `import` one; What Python's standard library gives you for free;… | 6 | 4 | 0 |
+| [`ch11.2`](ch11.2/) | Working with Text Files | How to open, read and write text files safely with `with`; The difference between `"w"` and `"a"`, and why… | 0 | 9 | 0 |
+| [`ch11.3`](ch11.3/) | File Paths and pathlib | The difference between an absolute and a relative file path; The modern way to work with paths: `pathlib`;… | 2 | 4 | 0 |
 | [`ch12`](ch12/) | The Standard Library Tour | `time` — timestamps and pausing the current thread; `datetime` — dates, times, formatting and parsing; Date… | 4 | 45 | 0 |
 | [`ch13`](ch13/) | Regular Expressions | How Python's `re` API applies the pattern language from the shared Regular Expressions module; How to search… | 0 | 15 | 0 |
 | [`ch14`](ch14/) | Text, Bytes and Encodings | What a character really is, and the difference between a **code point** and a **byte**; The `bytes` and… | 6 | 36 | 1 |

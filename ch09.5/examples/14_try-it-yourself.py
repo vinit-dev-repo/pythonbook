@@ -1,43 +1,20 @@
 # 1
-def is_even(n):
-    return n % 2 == 0
-
-print(is_even(4))    # True
-print(is_even(7))    # False
-
-# 2
-def power(base, exponent=2):
-    return base ** exponent
-
-print(power(3))       # 9
-print(power(2, 5))    # 32
-
-# 3
-def total(*numbers):
-    return sum(numbers)
-
-print(total(1, 2))            # 3
-print(total(1, 2, 3))         # 6
-print(total(1, 2, 3, 4, 5))   # 15
-
-# 4
-def add_score(score, scores=None):
-    if scores is None:
-        scores = []
-    scores.append(score)
-    return scores
-
-print(add_score(10))   # [10]
-print(add_score(20))   # [20]  -- not [10, 20], because it's a fresh list each time
-
-# 5
 words = ["kiwi", "fig", "banana", "apple"]
 print(sorted(words, key=lambda word: len(word), reverse=True))
 # ['banana', 'apple', 'kiwi', 'fig']
 # Simpler equivalent: len is already the one-argument function we need.
 print(sorted(words, key=len, reverse=True))   # ['banana', 'apple', 'kiwi', 'fig']
 
-# 6
+# 2
+nums = [1, 2, 3, 4, 5, 6]
+print(list(map(lambda n: n * n, filter(lambda n: n % 2 == 0, nums))))   # [4, 16, 36]
+print([n * n for n in nums if n % 2 == 0])                              # [4, 16, 36]
+
+# 3
+print(round(0.5), round(1.5), round(2.5))   # 0 2 2: ties go to the even neighbour
+print(min(words, key=len), max(words, key=len))   # fig banana
+
+# 4
 def summarize_scores(records, threshold=80):
     counts = {}
     qualifying = set()

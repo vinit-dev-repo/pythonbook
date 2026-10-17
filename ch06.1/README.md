@@ -16,13 +16,13 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_lists.py` | Lists (line 64) | runs on its own |
 | `examples/02_indexing.py` | Lists › Indexing (line 82) | may use names from earlier examples |
-| `examples/03_negative-indexes.py` | Lists › Negative indexes (line 117) | may use names from earlier examples |
-| `examples/04_len.py` | Lists › `len()` (line 134) | may use names from earlier examples |
-| `examples/05_changing-a-list-append-insert-remove-pop.py` | Lists › Changing a list: append, insert, remove, pop (line 164) | may use names from earlier examples |
-| `examples/06_checking-membership-with-in.py` | Lists › Checking membership with in (line 203) | may use names from earlier examples |
-| `examples/07_iterating-over-a-list.py` | Lists › Iterating over a list (line 221) | may use names from earlier examples |
-| `examples/08_nesting.py` | Lists › Nesting (line 245) | may use names from earlier examples |
-| `examples/09_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 272) | may use names from earlier examples |
-| `examples/10_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 293) | may use names from earlier examples |
-| `examples/11_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 316) | may use names from earlier examples |
-| `examples/12_try-it-yourself.py` | Try it yourself (line 357) | may use names from earlier examples |
+| `examples/03_negative-indexes.py` | Lists › Negative indexes (line 119) | may use names from earlier examples |
+| `examples/04_len.py` | Lists › `len()` (line 136) | may use names from earlier examples |
+| `examples/05_changing-a-list-append-insert-remove-pop.py` | Lists › Changing a list: append, insert, remove, pop (line 166) | may use names from earlier examples |
+| `examples/06_checking-membership-with-in.py` | Lists › Checking membership with in (line 205) | may use names from earlier examples |
+| `examples/07_iterating-over-a-list.py` | Lists › Iterating over a list (line 223) | may use names from earlier examples |
+| `examples/08_nesting.py` | Lists › Nesting (line 247) | may use names from earlier examples |
+| `examples/09_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 274) | may use names from earlier examples |
+| `examples/10_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 295) | may use names from earlier examples |
+| `examples/11_changing-a-list-while-you-loop-over-it.py` | Changing a list while you loop over it (line 318) | may use names from earlier examples |
+| `examples/12_try-it-yourself.py` | Try it yourself (line 359) | may use names from earlier examples |

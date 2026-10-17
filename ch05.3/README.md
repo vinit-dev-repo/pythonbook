@@ -13,13 +13,13 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_break-and-continue.py` | `break` and `continue` (line 41) | runs on its own |
-| `examples/02_break-and-continue.py` | `break` and `continue` (line 58) | may use names from earlier examples |
-| `examples/03_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 92) | raises an error on purpose |
-| `examples/04_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 107) | may use names from earlier examples |
-| `examples/05_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 122) | may use names from earlier examples |
-| `examples/06_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 144) | may use names from earlier examples |
-| `examples/07_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 158) | may use names from earlier examples |
-| `examples/08_the-loop-else-clause.py` | The loop `else` clause (line 190) | may use names from earlier examples |
-| `examples/09_the-loop-else-clause.py` | The loop `else` clause (line 207) | may use names from earlier examples |
-| `examples/10_try-it-yourself.py` | Try it yourself (line 258) | may use names from earlier examples |
+| `examples/01_break-and-continue.py` | `break` and `continue` (line 43) | runs on its own |
+| `examples/02_break-and-continue.py` | `break` and `continue` (line 60) | may use names from earlier examples |
+| `examples/03_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 94) | raises an error on purpose |
+| `examples/04_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 109) | may use names from earlier examples |
+| `examples/05_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 124) | may use names from earlier examples |
+| `examples/06_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 146) | may use names from earlier examples |
+| `examples/07_pass-the-statement-that-does-nothing.py` | `pass`: the statement that does nothing (line 160) | may use names from earlier examples |
+| `examples/08_the-loop-else-clause.py` | The loop `else` clause (line 192) | may use names from earlier examples |
+| `examples/09_the-loop-else-clause.py` | The loop `else` clause (line 209) | may use names from earlier examples |
+| `examples/10_try-it-yourself.py` | Try it yourself (line 260) | may use names from earlier examples |

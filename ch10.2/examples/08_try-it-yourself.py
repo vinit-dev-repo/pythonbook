@@ -25,14 +25,6 @@ for value in ["10", "0", "x", "5"]:
         print("Cannot divide by zero")
 
 # 4
-def withdraw(balance, amount):
-    if amount > balance:
-        raise ValueError("Not enough balance")
-    return balance - amount
-
-print(withdraw(100, 40))    # 60
-
-# 5
 try:
     print("trying")
     x = 5 / 1
