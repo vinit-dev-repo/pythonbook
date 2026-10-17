@@ -22,10 +22,23 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch04`](ch04/) | Values, Variables and Operators | The basic kinds of data Python works with: numbers, text, and true/false values; That *everything* in Python… | 0 | 32 | 0 |
-| [`ch05`](ch05/) | Control Flow | What "control flow" means, and why a program needs it; Why indentation matters in Python (it is not just… | 0 | 29 | 0 |
-| [`ch06`](ch06/) | Lists, Tuples and Strings | What a **sequence** is, and the three you'll use daily: `list`s, `tuple`s, `string`s; Lists: creating,… | 0 | 52 | 0 |
-| [`ch07`](ch07/) | Dictionaries and Sets | What a dictionary is, and why it is called an **associative array**; How to create, read, add, update and… | 0 | 35 | 0 |
+| [`ch04.1`](ch04.1/) | Values, Types and Variables | The basic kinds of data Python works with: numbers, text, and true/false values; That *everything* in Python… | 0 | 9 | 0 |
+| [`ch04.2`](ch04.2/) | Arithmetic and Assignment Shortcuts | The arithmetic operators, including the two "strange" ones: `//` and `%`; The order Python does maths in… | 0 | 12 | 0 |
+| [`ch04.3`](ch04.3/) | Comparisons, Printing and Boolean Operators | How to compare values, and how to chain comparisons; How `print` separates and ends the values it shows; How… | 0 | 9 | 0 |
+| [`ch04.4`](ch04.4/) | Bitwise Operators and Flags | What bits are, and how to write a number in binary; The bitwise operators `&`, `\|`, `^`, `~`, `<<` and… | 0 | 4 | 0 |
+| [`ch05.1`](ch05.1/) | Control Flow, Indentation and Decisions | What "control flow" means, and why a program needs it; Why indentation matters in Python (it is not just… | 0 | 9 | 0 |
+| [`ch05.2`](ch05.2/) | Repeating Work with range, for and while | `range()`, and how `for` loops walk through things; `while` loops, and the different ways a loop can end | 0 | 9 | 0 |
+| [`ch05.3`](ch05.3/) | Leaving, Skipping and Finishing Loops | `break`, `continue`, and the loop `else` clause (this one confuses everyone at first); What `pass` does, and… | 0 | 10 | 0 |
+| [`ch05.4`](ch05.4/) | Infinite Loops, Choosing a Loop and Worked Examples | How to escape an infinite loop; When to reach for `for` and when to reach for `while`; A small worked… | 0 | 4 | 0 |
+| [`ch06.1`](ch06.1/) | Sequences and Lists | What a **sequence** is, and the three you'll use daily: `list`s, `tuple`s, `string`s; Lists: creating,… | 0 | 12 | 0 |
+| [`ch06.2`](ch06.2/) | Tuples and Slicing | Tuples: what "immutable" means, and when a tuple beats a list; Slicing: selecting items with… | 0 | 8 | 0 |
+| [`ch06.3`](ch06.3/) | Copying and Unpacking Sequences | Why `b = a` does not copy a list, and the three ways to actually copy one; Unpacking: pulling values out of… | 0 | 12 | 0 |
+| [`ch06.4`](ch06.4/) | Strings in Depth | Strings in depth: quoting, escapes and methods; Why a string never changes, and how to build new text from… | 0 | 16 | 0 |
+| [`ch06.5`](ch06.5/) | f-strings and Unicode | f-strings: putting values and formats inside text; Unicode characters: why emoji work | 0 | 8 | 0 |
+| [`ch07.1`](ch07.1/) | Dictionary Basics | What a dictionary is, and why it is called an **associative array**; How to create, read, add, update and… | 0 | 11 | 0 |
+| [`ch07.2`](ch07.2/) | Hashable Keys and How Lookup Works | Why dictionary keys must be **hashable**, in plain words; How a dictionary turns a hash into a slot, and… | 0 | 8 | 0 |
+| [`ch07.3`](ch07.3/) | Looping, Nesting and Counting with Dictionaries | How to loop over a dictionary's keys, values, and key-value pairs; Why `in` checks keys, and how to check… | 0 | 9 | 0 |
+| [`ch07.4`](ch07.4/) | Sets and Choosing a Collection | What a set is, how it differs from a list, and the `{}` empty-set trap; Set operations: union, intersection,… | 0 | 9 | 0 |
 | [`ch08`](ch08/) | Comprehensions | The idea behind a comprehension: turning a build-a-list loop into one readable line; The exact anatomy of a… | 0 | 34 | 0 |
 | [`ch09`](ch09/) | Functions | What a function is, and why reusing code matters; Defining a function with `def`, calling it, and what… | 0 | 51 | 0 |
 | [`ch10`](ch10/) | Errors and Exceptions | The three different ways a program can go wrong, and how to tell them apart; What an exception is, how a… | 5 | 29 | 0 |
