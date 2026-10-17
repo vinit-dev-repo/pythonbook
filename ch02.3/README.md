@@ -15,14 +15,14 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `main.py` | Set up and run your first project (line 221) |  |
+| `main.py` | Set up and run your first project (line 237) |  |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_seeing-what-is-installed.sh` | Installing packages with `pip` › Seeing what is installed (line 129) | bash commands to type in a terminal |
-| `commands/02_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 143) | bash commands to type in a terminal |
-| `commands/03_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 153) | bash commands to type in a terminal |
-| `commands/04_set-up-and-run-your-first-project.sh` | Set up and run your first project (line 236) | bash commands to type in a terminal |
-| `commands/05_set-up-and-run-your-first-project.ps1` | Set up and run your first project (line 243) | powershell commands to type in a terminal |
+| `commands/01_seeing-what-is-installed.sh` | Installing packages with `pip` › Seeing what is installed (line 139) | bash commands to type in a terminal |
+| `commands/02_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 153) | bash commands to type in a terminal |
+| `commands/03_freezing-your-requirements.sh` | Installing packages with `pip` › Freezing your requirements (line 163) | bash commands to type in a terminal |
+| `commands/04_set-up-and-run-your-first-project.sh` | Set up and run your first project (line 252) | bash commands to type in a terminal |
+| `commands/05_set-up-and-run-your-first-project.ps1` | Set up and run your first project (line 259) | powershell commands to type in a terminal |

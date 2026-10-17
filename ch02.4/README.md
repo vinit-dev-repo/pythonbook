@@ -14,14 +14,14 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `poetry-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 91) |  |
-| `uv-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 132) |  |
+| `poetry-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 95) |  |
+| `uv-practice/pyproject.toml` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 140) |  |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `commands/01_install-command-line-tools-separately.sh` | Optional: Poetry and uv for the same small program › Install command-line tools separately (line 71) | bash commands to type in a terminal |
-| `commands/02_poetry-declare-lock-install-run.sh` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 111) | bash commands to type in a terminal |
-| `commands/03_uv-the-project-workflow.sh` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 141) | bash commands to type in a terminal |
-| `commands/04_where-conda-fits.sh` | Optional: Poetry and uv for the same small program › Where Conda fits (line 166) | bash commands to type in a terminal |
+| `commands/02_poetry-declare-lock-install-run.sh` | Optional: Poetry and uv for the same small program › Poetry: declare, lock, install, run (line 115) | bash commands to type in a terminal |
+| `commands/03_uv-the-project-workflow.sh` | Optional: Poetry and uv for the same small program › uv: the project workflow (line 149) | bash commands to type in a terminal |
+| `commands/04_where-conda-fits.sh` | Optional: Poetry and uv for the same small program › Where Conda fits (line 174) | bash commands to type in a terminal |

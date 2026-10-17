@@ -17,8 +17,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `check_stock.py` | Useful flags when you run Python (line 287) |  |
-| `totals.py` | Useful flags when you run Python (line 321) |  |
+| `check_stock.py` | Useful flags when you run Python (line 295) |  |
+| `totals.py` | Useful flags when you run Python (line 329) |  |
 
 ## Examples, in chapter order
 
@@ -28,7 +28,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_first-successful-run-follow-this-order.py` | First successful run: follow this order (line 45) | runs on its own |
 | `examples/02_repair-your-first-typing-mistake.py` | Repair your first typing mistake (line 76) | raises an error on purpose |
-| `examples/03_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 103) | may use names from earlier examples |
-| `examples/04_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 123) | may use names from earlier examples |
-| `examples/05_script-files.py` | Three ways to run Python › Script files (line 176) | may use names from earlier examples |
-| `examples/06_the-shebang-line.py` | Useful flags when you run Python › The shebang line (line 358) | runs on its own |
+| `examples/03_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 105) | may use names from earlier examples |
+| `examples/04_one-included-tool-the-standard-library.py` | One included tool: the standard library (line 125) | may use names from earlier examples |
+| `examples/05_script-files.py` | Three ways to run Python › Script files (line 182) | may use names from earlier examples |
+| `examples/06_the-shebang-line.py` | Useful flags when you run Python › The shebang line (line 372) | runs on its own |
