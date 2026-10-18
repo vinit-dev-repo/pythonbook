@@ -120,7 +120,10 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch24.3`](ch24.3/) | Nested Handlers, Causes and Recovery | Following nested handlers and distinguishing stored diagnostic information from traceback display; `raise… | 0 | 15 | 0 |
 | [`ch24.4`](ch24.4/) | Diagnosing and Repairing an Inventory | How a small module defines an exception family and handles it; How a missing check lets invalid quantities… | 0 | 5 | 0 |
 | [`ch24.5`](ch24.5/) | Account Identity and Overdraft Decisions | How to build an `Account` with read-only properties, an identifier and an opening ledger entry; How equality… | 0 | 7 | 0 |
-| [`ch25`](ch25/) | Testing Your Code | Why tests are useful and which problems they help you find; What a test is, in plain words; How to write and… | 30 | 18 | 2 |
+| [`ch25.1`](ch25.1/) | Why Tests Exist, What a Test Is and Running pytest | Why tests are useful and which problems they help you find; What a test is, in plain words, and how `assert`… | 3 | 2 | 0 |
+| [`ch25.2`](ch25.2/) | What to Test, Parametrize, State Checks and Fixtures | The three kinds of case a function needs: normal, edge and error; How `pytest.raises` checks an error and… | 12 | 10 | 2 |
+| [`ch25.3`](ch25.3/) | unittest, doctest and Mocks | How `unittest` organises tests as `TestCase` methods, and how it compares with pytest; How `setUp`,… | 12 | 5 | 0 |
+| [`ch25.4`](ch25.4/) | Coverage, TDD and a Callable Boundary | What line coverage measures, and why 100% coverage does not prove correctness; How red, green, refactor… | 9 | 3 | 0 |
 | [`ch25a`](ch25a/) | Project - Parsing Records Before Publishing Data | How to parse a small CSV policy into date/`Decimal` observation records; Why a complete candidate tuple must… | 4 | 0 | 0 |
 | [`ch25b`](ch25b/) | Project - Testing a Timer with Two Clocks | How a `Timer` has idle, running, and stopped states; Why duration needs a monotonic counter while timestamps… | 5 | 0 | 0 |
 | [`ch25c`](ch25c/) | Project - Modular Values and Operator Contracts | How to do arithmetic while keeping old aliases and dictionary keys unchanged; Why mathematical congruence,… | 7 | 0 | 0 |

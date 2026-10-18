@@ -15,10 +15,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `mod_direct.py` | A normalized value with a stable public contract › Choose the public contract before writing the class (line 84) |  |
+| `mod_direct.py` | A normalized value with a stable public contract › Choose the public contract before writing the class (line 85) |  |
 | `value_demo.py` | A normalized value with a stable public contract › Choose the public contract before writing the class (line 220) |  |
-| `mod_demo.py` | Operator dispatch and exponent meaning › Follow a new result without changing an old key (line 291) |  |
-| `test_modular.py` | Refactoring under regression tests (line 346) |  |
+| `mod_demo.py` | Operator dispatch and exponent meaning › Follow a new result without changing an old key (line 290) |  |
+| `test_modular.py` | Refactoring under regression tests (line 347) |  |
 | `mod_compatible.py` | Refactoring under regression tests › First refactor: one operand compatibility helper (line 628) |  |
-| `modular.py` | Refactoring under regression tests › Second refactor: pass the arithmetic operation (line 754) |  |
-| `mod_transfer.py` | Try it yourself (line 891) |  |
+| `modular.py` | Refactoring under regression tests › Second refactor: pass the arithmetic operation (line 752) |  |
+| `mod_transfer.py` | Try it yourself (line 886) |  |

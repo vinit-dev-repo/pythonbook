@@ -1,7 +1,6 @@
 # test_weak_replacement.py
 from catalog import Catalog
 
-
 def test_shared_record_changes():
     catalog = Catalog()
     original = {"id": "pen", "quantity": 2}

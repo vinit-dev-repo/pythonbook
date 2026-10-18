@@ -1,6 +1,5 @@
 import pytest
 
-
 @pytest.fixture
 def cleanup_observer():
     state = {"file": None, "events": []}
@@ -16,7 +15,6 @@ def cleanup_observer():
     finally:
         file.close()  # closes the intentionally leaked file after observing it
 
-
 @pytest.fixture
 def yield_only(cleanup_observer, tmp_path):
     state = cleanup_observer
@@ -30,7 +28,6 @@ def yield_only(cleanup_observer, tmp_path):
     yield file
     file.close()
     state["events"].append("closed")
-
 
 @pytest.fixture
 def registered_cleanup(cleanup_observer, tmp_path, request):
@@ -50,10 +47,8 @@ def registered_cleanup(cleanup_observer, tmp_path, request):
     raise RuntimeError("setup stopped after registering cleanup")
     return file
 
-
 def test_yield_only_stops_before_test(yield_only):
     raise AssertionError("This test body should not run")
-
 
 def test_registered_stops_before_test(registered_cleanup):
     raise AssertionError("This test body should not run")

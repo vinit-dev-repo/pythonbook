@@ -15,7 +15,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `csv_records.py` | Parsing records before publishing data (line 83) |  |
-| `csv_demo.py` | Parsing records before publishing data (line 164) |  |
-| `test_csv_records.py` | Parsing records before publishing data › Construction, failures, and tests (line 229) |  |
-| `csv_transfer.py` | Try it yourself (line 463) |  |
+| `csv_records.py` | Parsing records before publishing data (line 89) |  |
+| `csv_demo.py` | Parsing records before publishing data (line 170) |  |
+| `test_csv_records.py` | Parsing records before publishing data › Construction, failures, and tests (line 238) |  |
+| `csv_transfer.py` | Try it yourself (line 467) |  |

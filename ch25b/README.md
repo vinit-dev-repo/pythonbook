@@ -15,8 +15,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `timer.py` | A Timer with two kinds of clock (line 65) |  |
-| `controlled_clocks.py` | A Timer with two kinds of clock (line 175) |  |
-| `timer_demo.py` | A Timer with two kinds of clock (line 220) |  |
-| `test_timer.py` | Testing Timer transitions and failures (line 299) |  |
-| `timer_transfer.py` | Try it yourself (line 631) |  |
+| `timer.py` | A Timer with two kinds of clock (line 66) |  |
+| `controlled_clocks.py` | A Timer with two kinds of clock (line 177) |  |
+| `timer_demo.py` | A Timer with two kinds of clock (line 221) |  |
+| `test_timer.py` | Testing Timer transitions and failures (line 304) |  |
+| `timer_transfer.py` | Try it yourself (line 634) |  |
