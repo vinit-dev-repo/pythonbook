@@ -13,7 +13,6 @@ class Circle:
             raise ValueError("radius must be positive")
         self._radius = value
 
-
 # The same thing, as a hand-written descriptor
 class RadiusDescriptor:
     def __set_name__(self, owner, name):
@@ -34,7 +33,6 @@ class Circle2:
 
     def __init__(self, radius):
         self.radius = radius
-
 
 c1 = Circle(5)
 c2 = Circle2(5)

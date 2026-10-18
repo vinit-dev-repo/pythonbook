@@ -12,9 +12,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `binding_stages.py` | Session 1 — failures show the missing piece (line 53) |  |
-| `counted.py` | Session 2 — fresh wrappers, durable subject counts (line 173) |  |
-| `inventory.py` | Session 2 — fresh wrappers, durable subject counts (line 245) |  |
-| `binding_demo.py` | Session 2 — fresh wrappers, durable subject counts (line 278) |  |
-| `test_binding.py` | Session 3 — retained closure, same contract (line 375) |  |
-| `ticket_transfer.py` | Transfer — two ticket offices (line 496) |  |
+| `binding_stages.py` | Session 1: failures show the missing piece (line 48) |  |
+| `counted.py` | Session 2: fresh wrappers, durable subject counts (line 166) |  |
+| `inventory.py` | Session 2: fresh wrappers, durable subject counts (line 241) |  |
+| `binding_demo.py` | Session 2: fresh wrappers, durable subject counts (line 273) |  |
+| `test_binding.py` | Session 3: retained closure, same contract (line 365) |  |
+| `ticket_transfer.py` | Transfer: two ticket offices (line 484) |  |

@@ -8,5 +8,5 @@ class Point:
 p = Point(3, 4)
 print(p)
 
-p.x = 100        # allowed — dataclasses are mutable by default
+p.x = 100        # allowed: dataclasses are mutable by default
 print(p)

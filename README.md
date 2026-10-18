@@ -137,8 +137,12 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch27.2`](ch27.2/) | Decorator Classes and Configured Decorators | Explain why a callable decorator instance does not automatically bind like a method.; Write a decorator… | 1 | 6 | 0 |
 | [`ch27.3`](ch27.3/) | Decorating Classes | Add behavior to a class with a decorator, and keep the class identity.; Return the class, and see what a… | 0 | 9 | 0 |
 | [`ch27.4`](ch27.4/) | Shared State, Caches and Registration | Diagnose accidental shared state and distinguish it from deliberate caching and registration.; Repair a… | 1 | 5 | 0 |
-| [`ch28`](ch28/) | Record Classes, Dataclasses and Identity | Add methods to records made with `namedtuple`.; Compare records made with `collections.namedtuple`,… | 7 | 16 | 0 |
-| [`ch29`](ch29/) | Descriptors | How one mechanism supports `@property`, methods, and `__slots__`; What a **descriptor** is and which three… | 1 | 27 | 0 |
+| [`ch28.1`](ch28.1/) | Named Tuples, NamedTuple and Dataclass Defaults | Add methods to records made with `namedtuple`.; Compare records made with `collections.namedtuple`,… | 0 | 10 | 0 |
+| [`ch28.2`](ch28.2/) | Frozen Records, Dictionary Rows and Class Reloading | Distinguish frozen fields from deeply immutable values.; Convert dictionary rows into one consistent record… | 7 | 6 | 0 |
+| [`ch29.1`](ch29.1/) | What a Descriptor Is, the Protocol and Data Versus Non-Data | Explain how one mechanism supports `@property`, methods, and `__slots__`.; Say what a **descriptor** is and… | 0 | 4 | 0 |
+| [`ch29.2`](ch29.2/) | Building a Descriptor, Storage and Attribute Lookup | Build a descriptor and fix each problem in order.; Explain why a descriptor must not keep per-instance… | 0 | 11 | 0 |
+| [`ch29.3`](ch29.3/) | Property, Functions and Binding | Show that `property` is a data descriptor and compare it with a hand-written descriptor.; Explain how a… | 1 | 6 | 0 |
+| [`ch29.4`](ch29.4/) | Inheritance, Reusable Fields and Lazy Attributes | See how a descriptor is found through the MRO, and how a subclass can hide it.; Build two reusable… | 0 | 9 | 0 |
 | [`ch29a`](ch29a/) | Project - Counting Calls Without Losing the Receiver | A call counter needs to know both which operation ran and which inventory received it. Start with a… | 6 | 0 | 0 |
 | [`ch30`](ch30/) | Enums | Why repeated unexplained numbers and strings can cause bugs; How to define an **enumeration**, or enum, with… | 3 | 43 | 0 |
 | [`ch31`](ch31/) | Metaclasses and Metaprogramming | What a metaclass is and how it relates to a class object; How `type` acts as the default metaclass, and how… | 26 | 27 | 0 |
