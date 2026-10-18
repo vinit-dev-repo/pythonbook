@@ -17,11 +17,11 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `manager_comparison.py` | Specialize or compose the record (line 234) |  |
-| `person.py` | Specialize or compose the record (line 266) | rewritten later in the chapter |
-| `record_client.py` | Specialize or compose the record (line 365) | rewritten later in the chapter |
-| `check_records.py` | Deterministic checks (line 439) |  |
-| `trainee_transfer.py` | Transfer: add a Trainee record (line 544) |  |
+| `manager_comparison.py` | Specialize or compose the record (line 225) |  |
+| `person.py` | Specialize or compose the record (line 258) | rewritten later in the chapter |
+| `record_client.py` | Specialize or compose the record (line 356) | rewritten later in the chapter |
+| `check_records.py` | Deterministic checks (line 426) |  |
+| `trainee_transfer.py` | Transfer: add a Trainee record (line 528) |  |
 
 ## Examples, in chapter order
 
@@ -29,5 +29,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_session-1-give-a-record-behavior.py` | Session 1: give a record behavior (line 46) | runs on its own |
-| `examples/02_check-a-fractional-result-and-unchanged-state.py` | Session 1: give a record behavior › Check a fractional result and unchanged state (line 191) | may use names from earlier examples |
+| `examples/01_session-1-give-a-record-behavior.py` | Session 1: give a record behavior (line 43) | runs on its own |
+| `examples/02_check-a-fractional-result-and-unchanged-state.py` | Session 1: give a record behavior › Check a fractional result and unchanged state (line 184) | may use names from earlier examples |

@@ -106,10 +106,20 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch21.3`](ch21.3/) | Callable Classes and Runtime Attributes | Why a class is callable, and why `int` is a class too; How `type` and `isinstance` ask different questions;… | 0 | 12 | 0 |
 | [`ch21.4`](ch21.4/) | Properties, Validation and Caching | Why a bare attribute gives no control over a new value; How `@property` and `@x.setter` run a method on read… | 1 | 17 | 0 |
 | [`ch21.5`](ch21.5/) | Class Methods, Static Methods and the Class Body | How `@classmethod` and `cls` build an alternative constructor; How `@staticmethod` groups a helper with the… | 0 | 14 | 0 |
-| [`ch22`](ch22/) | Special Dunder Methods | What dunder methods are and which Python operations call them; `__str__` vs `__repr__` — text for people vs… | 0 | 43 | 0 |
-| [`ch23`](ch23/) | Inheritance and Polymorphism | How a child class can reuse methods and class attributes from a parent class; `super()` — calling the next… | 10 | 32 | 0 |
+| [`ch22.1`](ch22.1/) | What Dunder Methods Are, Text, Bytes and Operators | What dunder methods are and which Python operations call them; How `__str__` and `__repr__` give text for… | 0 | 10 | 0 |
+| [`ch22.2`](ch22.2/) | Hashing, Truth, Calls and Formats | Why `__eq__` and `__hash__` must agree, and what breaks in dicts and sets if they do not; How `__bool__` and… | 0 | 12 | 0 |
+| [`ch22.3`](ch22.3/) | Cleanup, Indexing and the Overview Table | Why `__del__` should not be trusted for cleanup; What `__getitem__` adds: indexing and slicing; How… | 0 | 3 | 0 |
+| [`ch22.4`](ch22.4/) | Operator Overloading with Mixed Types | How Python picks the method that runs for `a + b`; How `NotImplemented` differs from `NotImplementedError`;… | 0 | 21 | 0 |
+| [`ch23.1`](ch23.1/) | Inheritance, Overriding and super() | How a child class can reuse methods and class attributes from a parent class; How overriding replaces a… | 1 | 10 | 0 |
+| [`ch23.2`](ch23.2/) | Composition and the Four Pillars of OOP | When inheritance is the right tool, and when composition is better; The four pillars of OOP in plain words:… | 0 | 13 | 0 |
+| [`ch23.3`](ch23.3/) | Method Resolution Order, Mixins and Slots | The Method Resolution Order (MRO): the order Python searches for a method; How multiple inheritance, C3 and… | 6 | 6 | 0 |
+| [`ch23.4`](ch23.4/) | The Diamond and Cooperative super() | Why naming the parent class in each method runs a shared grandparent twice; How `super()` selects the next… | 3 | 6 | 0 |
 | [`ch23a`](ch23a/) | Project - Records with Behavior - Person, Manager and Department | Before the second session, revisit Favour composition over inheritance. Read the neutral problem, fix, and… | 5 | 2 | 0 |
-| [`ch24`](ch24/) | Custom Exceptions | The main branches of Python's built-in exception tree, and why normal handlers catch `Exception` instead of… | 1 | 46 | 0 |
+| [`ch24.1`](ch24.1/) | Exception Families and Why Make Your Own | The main branches of Python's built-in exception tree, and why normal handlers catch `Exception` instead of… | 0 | 5 | 0 |
+| [`ch24.2`](ch24.2/) | Exception Data, Behavior and Hierarchies | What an exception class, an instance, its message and its `args` are; How to add extra data to an exception,… | 1 | 18 | 0 |
+| [`ch24.3`](ch24.3/) | Nested Handlers, Causes and Recovery | Following nested handlers and distinguishing stored diagnostic information from traceback display; `raise… | 0 | 15 | 0 |
+| [`ch24.4`](ch24.4/) | Diagnosing and Repairing an Inventory | How a small module defines an exception family and handles it; How a missing check lets invalid quantities… | 0 | 5 | 0 |
+| [`ch24.5`](ch24.5/) | Account Identity and Overdraft Decisions | How to build an `Account` with read-only properties, an identifier and an opening ledger entry; How equality… | 0 | 7 | 0 |
 | [`ch25`](ch25/) | Testing Your Code | Why tests are useful and which problems they help you find; What a test is, in plain words; How to write and… | 30 | 18 | 2 |
 | [`ch25a`](ch25a/) | Project - Parsing Records Before Publishing Data | How to parse a small CSV policy into date/`Decimal` observation records; Why a complete candidate tuple must… | 4 | 0 | 0 |
 | [`ch25b`](ch25b/) | Project - Testing a Timer with Two Clocks | How a `Timer` has idle, running, and stopped states; Why duration needs a monotonic counter while timestamps… | 5 | 0 | 0 |
