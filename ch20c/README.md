@@ -12,8 +12,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `retry_checkpoint.py` | 3. Build (line 96) |  |
-| `check_retry.py` | 3. Build (line 143) |  |
+| `retry_checkpoint.py` | 3. Build (line 97) |  |
+| `check_retry.py` | 3. Build (line 144) |  |
 
 ## Examples, in chapter order
 

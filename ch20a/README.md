@@ -12,9 +12,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `cli_demo/labels.py` | A library with a command-line entry point (line 27) |  |
+| `cli_demo/labels.py` | A library with a command-line entry point (line 25) |  |
 | `cli_demo/check.py` | A library with a command-line entry point (line 78) |  |
-| `cli_demo/count.py` | A library with a command-line entry point (line 108) |  |
-| `cli_demo/app/labels.py` | A library with a command-line entry point › Directory and ZIP entry points (line 136) |  |
-| `cli_demo/app/__main__.py` | A library with a command-line entry point › Directory and ZIP entry points (line 167) |  |
-| `cli_demo/build_zip.py` | A library with a command-line entry point › Directory and ZIP entry points (line 177) |  |
+| `cli_demo/count.py` | A library with a command-line entry point (line 106) |  |
+| `cli_demo/app/labels.py` | A library with a command-line entry point › Directory and ZIP entry points (line 130) |  |
+| `cli_demo/app/__main__.py` | A library with a command-line entry point › Directory and ZIP entry points (line 161) |  |
+| `cli_demo/build_zip.py` | A library with a command-line entry point › Directory and ZIP entry points (line 170) |  |

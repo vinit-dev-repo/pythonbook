@@ -39,18 +39,18 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `package_trace/myapp/utils/unused.py` | Structuring a real project › Package objects and a nested import trace (line 288) |  |
 | `package_trace/check.py` | Structuring a real project › Package objects and a nested import trace (line 293) |  |
 | `package_trace/check_spec.py` | Structuring a real project › Inspecting a dotted name can import its parent (line 346) |  |
-| `package_api/myapp/utils/strings.py` | Structuring a real project › Keeping a public API while files move (line 405) |  |
-| `package_api/myapp/utils/numbers.py` | Structuring a real project › Keeping a public API while files move (line 411) |  |
-| `package_api/myapp/utils/__init__.py` | Structuring a real project › Keeping a public API while files move (line 419) |  |
-| `package_api/myapp/__init__.py` | Structuring a real project › Keeping a public API while files move (line 426) |  |
-| `package_api/check.py` | Structuring a real project › Keeping a public API while files move (line 434) |  |
-| `package_api/check_relative.py` | Structuring a real project › Keeping a public API while files move (line 464) |  |
-| `package_star/unbound/export_demo/__init__.py` | Structuring a real project › When package `__all__` names a submodule (line 484) |  |
-| `package_star/unbound/export_demo/child.py` | Structuring a real project › When package `__all__` names a submodule (line 489) |  |
-| `package_star/unbound/check.py` | Structuring a real project › When package `__all__` names a submodule (line 496) |  |
-| `package_star/attribute/export_demo/__init__.py` | Structuring a real project › When package `__all__` names a submodule (line 513) |  |
-| `package_star/attribute/export_demo/child.py` | Structuring a real project › When package `__all__` names a submodule (line 519) |  |
-| `package_star/attribute/check.py` | Structuring a real project › When package `__all__` names a submodule (line 526) |  |
+| `package_api/myapp/utils/strings.py` | Structuring a real project › Keeping a public API while files move (line 407) |  |
+| `package_api/myapp/utils/numbers.py` | Structuring a real project › Keeping a public API while files move (line 413) |  |
+| `package_api/myapp/utils/__init__.py` | Structuring a real project › Keeping a public API while files move (line 421) |  |
+| `package_api/myapp/__init__.py` | Structuring a real project › Keeping a public API while files move (line 428) |  |
+| `package_api/check.py` | Structuring a real project › Keeping a public API while files move (line 436) |  |
+| `package_api/check_relative.py` | Structuring a real project › Keeping a public API while files move (line 466) |  |
+| `package_star/unbound/export_demo/__init__.py` | Structuring a real project › When package `__all__` names a submodule (line 486) |  |
+| `package_star/unbound/export_demo/child.py` | Structuring a real project › When package `__all__` names a submodule (line 491) |  |
+| `package_star/unbound/check.py` | Structuring a real project › When package `__all__` names a submodule (line 498) |  |
+| `package_star/attribute/export_demo/__init__.py` | Structuring a real project › When package `__all__` names a submodule (line 515) |  |
+| `package_star/attribute/export_demo/child.py` | Structuring a real project › When package `__all__` names a submodule (line 521) |  |
+| `package_star/attribute/check.py` | Structuring a real project › When package `__all__` names a submodule (line 528) |  |
 
 ## Examples, in chapter order
 
@@ -59,4 +59,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_packages-folders-of-modules.py` | Packages: folders of modules (line 65) | runs on its own |
-| `examples/02_try-it-yourself.py` | Try it yourself (line 580) | may use names from earlier examples |
+| `examples/02_try-it-yourself.py` | Try it yourself (line 582) | may use names from earlier examples |

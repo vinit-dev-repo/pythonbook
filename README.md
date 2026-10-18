@@ -101,7 +101,11 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch21`](ch21/) | Classes and Objects | Why classes exist: keeping data and the functions that work on it together; How to define a class and create… | 2 | 56 | 0 |
+| [`ch21.1`](ch21.1/) | Classes, Objects and Instance Attributes | Why classes exist: keeping data and the functions that work on it together; How to define a class and create… | 0 | 8 | 0 |
+| [`ch21.2`](ch21.2/) | Class Attributes and Methods | How a class attribute is shared, and how an instance can shadow it; Why a mutable class attribute can cause… | 1 | 9 | 0 |
+| [`ch21.3`](ch21.3/) | Callable Classes and Runtime Attributes | Why a class is callable, and why `int` is a class too; How `type` and `isinstance` ask different questions;… | 0 | 12 | 0 |
+| [`ch21.4`](ch21.4/) | Properties, Validation and Caching | Why a bare attribute gives no control over a new value; How `@property` and `@x.setter` run a method on read… | 1 | 17 | 0 |
+| [`ch21.5`](ch21.5/) | Class Methods, Static Methods and the Class Body | How `@classmethod` and `cls` build an alternative constructor; How `@staticmethod` groups a helper with the… | 0 | 14 | 0 |
 | [`ch22`](ch22/) | Special Dunder Methods | What dunder methods are and which Python operations call them; `__str__` vs `__repr__` — text for people vs… | 0 | 43 | 0 |
 | [`ch23`](ch23/) | Inheritance and Polymorphism | How a child class can reuse methods and class attributes from a parent class; `super()` — calling the next… | 10 | 32 | 0 |
 | [`ch23a`](ch23a/) | Project - Records with Behavior - Person, Manager and Department | Before the second session, revisit Favour composition over inheritance. Read the neutral problem, fix, and… | 5 | 2 | 0 |
