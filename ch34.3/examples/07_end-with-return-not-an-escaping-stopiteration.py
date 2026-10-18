@@ -1,12 +1,10 @@
 def broken_reader():
     yield next(iter(()))
 
-
 def finished_reader():
     if False:
         yield 1
     return "complete"
-
 
 try:
     next(broken_reader())

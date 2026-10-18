@@ -3,7 +3,6 @@ from fractions import Fraction
 from itertools import islice
 import math
 
-
 def progression(start, step, stop=None):
     values = (start, step) if stop is None else (start, step, stop)
     supported = (int, float, Fraction, Decimal)
@@ -41,14 +40,12 @@ def progression(start, step, stop=None):
         previous = value
         index += 1
 
-
 class Progression:
     def __init__(self, start, step, stop=None):
         self._arguments = start, step, stop
 
     def __iter__(self):
         return progression(*self._arguments)
-
 
 print("integers:", list(progression(2, 3, 11)))
 print("floats:", list(progression(1, 0.5, 3)))

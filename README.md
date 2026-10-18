@@ -172,7 +172,9 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch33a`](ch33a/) | Project - Forwarding Selected Python Operations | Why direct special-method lookup can succeed while an operator still fails; How to forward five selected… | 6 | 0 | 0 |
 | [`ch33b`](ch33b/) | Project - Reuse a Finite Forwarding Interface | How explicit mixins, a small router, and descriptors reuse the same five forwarding operations; When an… | 7 | 0 | 0 |
 | [`ch33c`](ch33c/) | Project - When Inserting Hooks Changes the Contract | How replacing hooks on an existing class retains class identity while changing behavior; Why object-level… | 5 | 0 | 0 |
-| [`ch34`](ch34/) | Generators | How generators replace a manual iterator class; How `yield` changes a function call and pauses execution;… | 0 | 22 | 0 |
+| [`ch34.1`](ch34.1/) | Generator Functions, yield, Generators as Iterators and Re-iterable Objects | How generators replace a manual iterator class; How `yield` changes a function call and pauses execution;… | 0 | 8 | 0 |
+| [`ch34.2`](ch34.2/) | Generator Expressions, Lazy Text Searches, Memory and Numeric Progressions | Generator expressions, and how they compare to list comprehensions in memory use; How a lazy text search… | 0 | 8 | 0 |
+| [`ch34.3`](ch34.3/) | Pipelines, yield from, Return Values and Practical Patterns | How to connect generators in a lazy pipeline with low extra memory use; What `yield from` does, and how it… | 0 | 8 | 0 |
 | [`ch34a`](ch34a/) | Project - A Shared Contract for Random Draws | How an abstract base class defines a small random-draw contract; How three classes can meet one contract… | 7 | 0 | 0 |
 | [`ch34b`](ch34b/) | Project - Calling and Combining Random Containers | Why removing a value is different from returning it from a callable; How `+` and `+=` have different… | 5 | 0 | 0 |
 | [`ch35`](ch35/) | The itertools Toolbox | What `itertools` provides, which tools read input immediately, and which tools produce output lazily; How to… | 0 | 44 | 0 |

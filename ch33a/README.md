@@ -15,9 +15,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `attribute_policy.py` | Session 1: observe a missing operation, then forward it › Keep the target contract small (line 60) |  |
-| `reading_list.py` | Session 1: observe a missing operation, then forward it › Keep the target contract small (line 98) |  |
-| `operator_policy.py` | Session 1: observe a missing operation, then forward it › Put five forwarding methods on the wrapper type (line 149) |  |
-| `operator_demo.py` | Session 2: policy decisions and returned-object boundaries (line 220) |  |
-| `test_operator_policy.py` | Session 2: policy decisions and returned-object boundaries (line 319) |  |
-| `route_transfer.py` | Build a Route policy (line 528) |  |
+| `attribute_policy.py` | Session 1: observe a missing operation, then forward it › Keep the target contract small (line 55) |  |
+| `reading_list.py` | Session 1: observe a missing operation, then forward it › Keep the target contract small (line 92) |  |
+| `operator_policy.py` | Session 1: observe a missing operation, then forward it › Put five forwarding methods on the wrapper type (line 140) |  |
+| `operator_demo.py` | Session 2: policy decisions and returned-object boundaries (line 214) |  |
+| `test_operator_policy.py` | Session 2: policy decisions and returned-object boundaries (line 311) |  |
+| `route_transfer.py` | Build a Route policy (line 520) |  |

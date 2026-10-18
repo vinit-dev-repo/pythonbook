@@ -2,17 +2,14 @@ import csv
 import io
 import json
 
-
 def csv_records(lines):
     for row in csv.DictReader(lines):
         yield {"name": row["name"], "quantity": int(row["quantity"])}
-
 
 def json_records(lines):
     for line in lines:
         if line.strip():
             yield json.loads(line)
-
 
 def write_records(records, destination):
     written = 0
@@ -26,7 +23,6 @@ def write_records(records, destination):
         destination.write(json.dumps(normalized, ensure_ascii=False) + "\n")
         written += 1
     return written
-
 
 csv_source = io.StringIO("name,quantity\nbolts,3\nwashers,0\n")
 json_source = io.StringIO(

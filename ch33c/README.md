@@ -15,8 +15,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `hook_insertion.py` | Experiment 1: same class, displaced hooks (line 44) |  |
-| `record_fixture.py` | Experiment 1: same class, displaced hooks (line 67) |  |
-| `hook_demo.py` | Experiment 1: same class, displaced hooks (line 100) |  |
-| `test_hook_insertion.py` | Experiment 2: unchanged identity does not preserve access behavior (line 185) |  |
-| `counter_transfer.py` | Try it yourself (line 306) |  |
+| `hook_insertion.py` | Experiment 1: same class, displaced hooks (line 42) |  |
+| `record_fixture.py` | Experiment 1: same class, displaced hooks (line 65) |  |
+| `hook_demo.py` | Experiment 1: same class, displaced hooks (line 98) |  |
+| `test_hook_insertion.py` | Experiment 2: unchanged identity does not preserve access behavior (line 182) |  |
+| `counter_transfer.py` | Try it yourself (line 301) |  |

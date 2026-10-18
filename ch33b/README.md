@@ -15,10 +15,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `attribute_policy.py` | Session 1: two mixins, one finite interface (line 49) |  |
-| `reading_list.py` | Session 1: two mixins, one finite interface (line 85) |  |
-| `operator_policy.py` | Session 1: two mixins, one finite interface (line 117) |  |
-| `forwarding_reuse.py` | Session 1: two mixins, one finite interface (line 169) |  |
-| `reuse_demo.py` | Session 2: router and descriptor comparisons (line 347) |  |
-| `test_forwarding_reuse.py` | Session 2: router and descriptor comparisons (line 422) |  |
-| `formatter_transfer.py` | Try it yourself (line 703) |  |
+| `attribute_policy.py` | Session 1: two mixins, one finite interface (line 50) |  |
+| `reading_list.py` | Session 1: two mixins, one finite interface (line 86) |  |
+| `operator_policy.py` | Session 1: two mixins, one finite interface (line 118) |  |
+| `forwarding_reuse.py` | Session 1: two mixins, one finite interface (line 175) |  |
+| `reuse_demo.py` | Session 2: router and descriptor comparisons (line 356) |  |
+| `test_forwarding_reuse.py` | Session 2: router and descriptor comparisons (line 432) |  |
+| `formatter_transfer.py` | Try it yourself (line 711) |  |
