@@ -9,7 +9,7 @@ add_tax = ns["add_tax"]
 
 code = add_tax.__code__
 # repr(code) embeds a real memory address that is different on every run (same idea as
-# id() in [[15 - Variables, References and Mutability]]); it is masked to "0x..." here so this listing
+# id() in [[15.1 - Names, Types and Rebinding]]); it is masked to "0x..." here so this listing
 # stays exactly reproducible. Run print(code) yourself to see the real, varying address.
 import re
 print(re.sub(r"0x[0-9A-Fa-f]+", "0x...", repr(code)))

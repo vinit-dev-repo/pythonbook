@@ -54,12 +54,28 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch11.1`](ch11.1/) | Modules, the Standard Library and Packages | What a module is, and the different ways to `import` one; What Python's standard library gives you for free;… | 6 | 4 | 0 |
 | [`ch11.2`](ch11.2/) | Working with Text Files | How to open, read and write text files safely with `with`; The difference between `"w"` and `"a"`, and why… | 0 | 9 | 0 |
 | [`ch11.3`](ch11.3/) | File Paths and pathlib | The difference between an absolute and a relative file path; The modern way to work with paths: `pathlib`;… | 2 | 4 | 0 |
-| [`ch12`](ch12/) | The Standard Library Tour | `time` — timestamps and pausing the current thread; `datetime` — dates, times, formatting and parsing; Date… | 4 | 45 | 0 |
-| [`ch13`](ch13/) | Regular Expressions | How Python's `re` API applies the pattern language from the shared Regular Expressions module; How to search… | 0 | 15 | 0 |
-| [`ch14`](ch14/) | Text, Bytes and Encodings | What a character really is, and the difference between a **code point** and a **byte**; The `bytes` and… | 6 | 36 | 1 |
+| [`ch12.1`](ch12.1/) | Clocks, Dates and Time Zones | How `time` measures elapsed time and pauses a program; How to forward a call through a timing helper without… | 0 | 10 | 0 |
+| [`ch12.2`](ch12.2/) | CSV Files, Random Numbers and timeit | How to read and write spreadsheet-style files with `csv`; How `random` draws numbers and choices, and why a… | 0 | 11 | 0 |
+| [`ch12.3`](ch12.3/) | math, bisect, array and deque | How to use `math` for square roots, rounding, `pi` and infinity; How `bisect` finds a position in a sorted… | 4 | 4 | 0 |
+| [`ch12.4`](ch12.4/) | Statistics and Exact Decimals | `statistics`: mean, median, mode and spread, without doing the sums yourself; `decimal`: exact decimal… | 0 | 5 | 0 |
+| [`ch12.5`](ch12.5/) | Annotations, t-strings and Text Formats | `annotationlib`: when annotations are evaluated and how that differs from type checking; Template strings:… | 0 | 17 | 0 |
+| [`ch12.6`](ch12.6/) | Reading a Library's Exact Contract | How `delimiter`, `quotechar` and `skipinitialspace` change what a CSV reader returns; How a model's… | 0 | 3 | 0 |
+| [`ch13.1`](ch13.1/) | Matching with the re Module | How Python's `re` API applies the pattern language from the shared Regular Expressions module; How to search… | 0 | 7 | 0 |
+| [`ch13.2`](ch13.2/) | Groups, Replacing and Splitting | How Python spells and reads named groups; How to find-and-replace with `re.sub`, including captured groups;… | 0 | 5 | 0 |
+| [`ch13.3`](ch13.3/) | Flags, Compiling and Where to Practise | The useful flags: `IGNORECASE`, `MULTILINE`, `DOTALL`, `VERBOSE`; When to compile a reusable `Pattern`… | 0 | 5 | 0 |
+| [`ch14.1`](ch14.1/) | Characters, Bytes and Encodings | What a character really is, and the difference between a **code point** and a **byte**; The `bytes` and… | 1 | 8 | 0 |
+| [`ch14.2`](ch14.2/) | Encoding Errors, Source Files and Evidence | What `UnicodeEncodeError` and `UnicodeDecodeError` each mean; How the `errors=` handlers decide what happens… | 1 | 9 | 0 |
+| [`ch14.3`](ch14.3/) | The Unicode Sandwich, Files and Byte Order Marks | The Unicode sandwich: decode input, work in `str`, encode output; How to open text files with `encoding=`,… | 2 | 6 | 1 |
+| [`ch14.4`](ch14.4/) | Normalisation, str and bytes APIs, Case Folding and Lookup | Why two strings that look the same can compare unequal, and how normalisation fixes it; Which… | 0 | 9 | 0 |
+| [`ch14.5`](ch14.5/) | memoryview, Packed Records and Sorting Text | How a `memoryview` reads and changes existing bytes without copying them; How to cast a view, make it… | 2 | 8 | 0 |
 | [`ch14a`](ch14a/) | Checkpoint - Language foundations | You have practised the basic language and text tools. Later lessons use these ideas. Spend about half an… | 0 | 3 | 0 |
-| [`ch15`](ch15/) | Variables, References and Mutability | Trace names and shared references without guessing about memory addresses.; Distinguish rebinding a name… | 0 | 18 | 0 |
-| [`ch16`](ch16/) | Numbers in Depth | How Python's number types represent values and combine in arithmetic; Why Python integers have no… | 1 | 35 | 0 |
+| [`ch15.1`](ch15.1/) | Names, Types and Rebinding | How to trace names and the objects they refer to without guessing about memory addresses; That the type… | 0 | 5 | 0 |
+| [`ch15.2`](ch15.2/) | Mutability, Aliases and Repeated Rows | Which objects can change in place, and which can only give a new result; How aliasing and shallow copies… | 0 | 9 | 0 |
+| [`ch15.3`](ch15.3/) | Function Arguments, is and == | How a function's parameter shares the caller's object, and what rebinding a parameter does; How to choose… | 0 | 5 | 0 |
+| [`ch16.1`](ch16.1/) | Choosing, Integers and Floats | How Python's number types represent values and combine in arithmetic; Why Python integers have no… | 1 | 13 | 0 |
+| [`ch16.2`](ch16.2/) | Rounding Floats and Exact Decimals | The difference between truncating, flooring, ceiling and rounding, and why `round(0.5)` is `0`; `Decimal`… | 0 | 11 | 0 |
+| [`ch16.3`](ch16.3/) | Fractions and Complex Numbers | How `Fraction` keeps exact ratios, and what a Fraction built from a float holds; How to convert a ratio… | 0 | 7 | 0 |
+| [`ch16.4`](ch16.4/) | bool, Truthiness and Short-Circuiting | Why `True + True` is `2`, and how `sum()` counts `True` values; Which common built-in values are falsy;… | 0 | 6 | 0 |
 | [`ch17`](ch17/) | Scopes, Closures and Higher-Order Functions | How ordinary function-body names resolve to local, enclosing or global bindings, and where built-ins fit;… | 0 | 43 | 0 |
 | [`ch18`](ch18/) | Function Decorators | The problem decorators solve, and why they save you from editing every function by hand; How to build a… | 1 | 31 | 0 |
 | [`ch19`](ch19/) | Tuples and Named Tuples | How to use a tuple as a **record**, where each position has a meaning; How to read a tuple with unpacking,… | 1 | 27 | 0 |
