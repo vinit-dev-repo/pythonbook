@@ -160,9 +160,15 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch32`](ch32/) | The Sequence Protocol and Custom Sequences | What a **protocol** is and how Python uses supported operations; How `__len__` and `__getitem__` provide the… | 5 | 30 | 0 |
+| [`ch32.1`](ch32.1/) | Protocols, the Sequence Protocol and Mutable Sequences | Say what a **protocol** is and how Python uses supported operations.; Say what makes something a sequence.;… | 0 | 4 | 0 |
+| [`ch32.2`](ch32.2/) | Indexes, Slices, Copies, In-Place Operators and Slice Assignment | Explain why indexes start at `0` and what a **half-open** slice means.; Tell a shallow copy from a deep… | 1 | 16 | 0 |
+| [`ch32.3`](ch32.3/) | Building Custom Sequences, Fibonacci and Light Levels | Build a sequence class step by step, from the basic protocol to a mutable one.; Use `MutableSequence` to get… | 1 | 7 | 0 |
+| [`ch32.4`](ch32.4/) | Comparing, Sorting, Comprehension Scope and Unique Sequences | Say how lists and tuples compare, and which pair decides.; Tell `sorted()` from `.sort()`, and use `key` and… | 3 | 6 | 0 |
 | [`ch32a`](ch32a/) | Project - From a Read-Only Deck to a Mutable Sequence | How a small `__len__`/`__getitem__` interface already enables several sequence fallbacks; Why shuffle needs… | 7 | 0 | 0 |
-| [`ch33`](ch33/) | Iterables and Iterators | How one protocol lets `for` work with lists, strings, files, dictionaries, and your own classes; The… | 3 | 18 | 0 |
+| [`ch33.1`](ch33.1/) | Iterables, Iterators, the Protocol, the for Loop and Exhaustion | See how one protocol lets `for` work with lists, strings, files, dictionaries, and your own classes.; Tell… | 0 | 7 | 0 |
+| [`ch33.2`](ch33.2/) | Building Iterators, Lazy Iterables, Built-ins and Delegation | Build your own iterator class, and say why a separate iterable class matters.; Say what a **lazy iterable**… | 1 | 8 | 0 |
+| [`ch33.3`](ch33.3/) | Reversed Iteration, Consumed Iterators, Sorting and Membership | Use `reversed()`, and add `__reversed__` to your own class.; Say what happens when two functions consume the… | 1 | 5 | 0 |
+| [`ch33.4`](ch33.4/) | A Polygon Catalogue That Changes Its Storage Strategy | Compare three storage strategies for the same shapes: values computed on every read, objects stored up… | 1 | 1 | 0 |
 | [`ch33a`](ch33a/) | Project - Forwarding Selected Python Operations | Why direct special-method lookup can succeed while an operator still fails; How to forward five selected… | 6 | 0 | 0 |
 | [`ch33b`](ch33b/) | Project - Reuse a Finite Forwarding Interface | How explicit mixins, a small router, and descriptors reuse the same five forwarding operations; When an… | 7 | 0 | 0 |
 | [`ch33c`](ch33c/) | Project - When Inserting Hooks Changes the Contract | How replacing hooks on an existing class retains class identity while changing behavior; Why object-level… | 5 | 0 | 0 |

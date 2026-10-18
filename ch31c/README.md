@@ -17,12 +17,12 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `tracer_lab.py` | Session 1 - trace, collide and repair › A target method does not supply every wrapper operation (line 49) |  |
-| `trace_limits.py` | Session 1 - trace, collide and repair › A target method does not supply every wrapper operation (line 96) |  |
-| `naive_policy.py` | Session 1 - trace, collide and repair › Start with one real target (line 164) |  |
-| `test_private_contract.py` | Session 1 - trace, collide and repair › Repair storage and check the Private policy (line 239) |  |
-| `attribute_policy.py` | Session 2 - share the mechanism, preserve the behavior › Add Public without duplicating the wrapper (line 307) | rewritten later in the chapter |
-| `policy_models.py` | Session 2 - share the mechanism, preserve the behavior › Retain normal target lookup and property writes (line 357) | rewritten later in the chapter |
-| `policy_demo.py` | Session 2 - share the mechanism, preserve the behavior › Retain normal target lookup and property writes (line 409) |  |
-| `test_policy.py` | Session 2 - share the mechanism, preserve the behavior › Check the complete ordinary read/write contract (line 542) |  |
-| `ticket_counter.py` | Try it yourself (line 696) |  |
+| `tracer_lab.py` | Session 1 - trace, collide and repair › A target method does not supply every wrapper operation (line 46) |  |
+| `trace_limits.py` | Session 1 - trace, collide and repair › A target method does not supply every wrapper operation (line 92) |  |
+| `naive_policy.py` | Session 1 - trace, collide and repair › Start with one real target (line 156) |  |
+| `test_private_contract.py` | Session 1 - trace, collide and repair › Repair storage and check the Private policy (line 227) |  |
+| `attribute_policy.py` | Session 2 - share the mechanism, preserve the behavior › Add Public without duplicating the wrapper (line 292) | rewritten later in the chapter |
+| `policy_models.py` | Session 2 - share the mechanism, preserve the behavior › Retain normal target lookup and property writes (line 339) | rewritten later in the chapter |
+| `policy_demo.py` | Session 2 - share the mechanism, preserve the behavior › Retain normal target lookup and property writes (line 390) |  |
+| `test_policy.py` | Session 2 - share the mechanism, preserve the behavior › Check the complete ordinary read/write contract (line 520) |  |
+| `ticket_counter.py` | Try it yourself (line 672) |  |

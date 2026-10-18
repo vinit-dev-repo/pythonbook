@@ -53,7 +53,6 @@ class Fibonacci:
     def insert(self, index, value):
         self._values.insert(index, value)
 
-
 fib = Fibonacci.first(6)
 print("before:", fib)
 

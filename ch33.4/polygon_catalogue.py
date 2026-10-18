@@ -3,7 +3,6 @@ from dataclasses import dataclass, field, FrozenInstanceError
 from functools import cached_property
 import math
 
-
 def check_dimensions(sides, radius):
     if type(sides) is not int:
         raise TypeError("sides must be an integer, not bool")
@@ -13,7 +12,6 @@ def check_dimensions(sides, radius):
         raise TypeError("radius must be int or float, not bool")
     if not 1e-6 <= radius <= 1e6:
         raise ValueError("this lab supports radii from 1e-6 through 1e6")
-
 
 @dataclass(frozen=True)
 class Polygon:
@@ -52,7 +50,6 @@ class Polygon:
             return NotImplemented
         return self.sides > other.sides
 
-
 @dataclass(frozen=True)
 class CachedPolygon(Polygon):
     interior_angle = cached_property(Polygon.interior_angle.fget)
@@ -61,10 +58,8 @@ class CachedPolygon(Polygon):
     perimeter = cached_property(Polygon.perimeter.fget)
     area = cached_property(Polygon.area.fget)
 
-
 def area_per_boundary(shape):
     return shape.area / shape.perimeter
-
 
 @dataclass(frozen=True)
 class PolygonShelf:
@@ -88,7 +83,6 @@ class PolygonShelf:
     def best(self):
         return max(self, key=area_per_boundary)
 
-
 @dataclass(frozen=True)
 class PolygonWalk:
     limit: int
@@ -107,7 +101,6 @@ class PolygonWalk:
     def best(self):
         return max(self, key=area_per_boundary)
 
-
 @dataclass
 class PolygonCursor:
     limit: int
@@ -124,7 +117,6 @@ class PolygonCursor:
     def __next__(self):
         sides = next(self._remaining)
         return CachedPolygon(sides, self.radius)
-
 
 def check_polygon(kind):
     # Square with diagonals of length 10; no trig formula in this oracle.
@@ -159,7 +151,6 @@ def check_polygon(kind):
     else:
         raise AssertionError("public dimensions must stay fixed")
 
-
 def diagnose_failures():
     class UncheckedPolygon(Polygon):
         def __post_init__(self):
@@ -190,7 +181,6 @@ def diagnose_failures():
         assert repr(Polygon(4, 5)) == "Polygon(sides=4,radius=5)"
     except AssertionError:
         print("bad repr expectation: AssertionError")
-
 
 if __name__ == "__main__":
     diagnose_failures()

@@ -8,7 +8,6 @@ class NumberBag:
     def __iter__(self):
         return NumberBagIterator(self._values)   # a FRESH iterator every time
 
-
 class NumberBagIterator:
     """The ITERATOR -- remembers position for ONE pass."""
 
@@ -29,7 +28,6 @@ class NumberBagIterator:
         value = self._values[self._index]
         self._index += 1
         return value
-
 
 bag = NumberBag([10, 20, 30])
 

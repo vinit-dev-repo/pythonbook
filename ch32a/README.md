@@ -15,10 +15,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `cards.py` | Session 1: a complete read interface (line 43) |  |
-| `frenchdeck.py` | Session 1: a complete read interface (line 62) |  |
-| `deck_demo.py` | Session 1: a complete read interface (line 102) |  |
-| `shuffle_demo.py` | Session 2: shuffle exposes a missing operation (line 158) |  |
-| `mutable_deck.py` | Session 3: declare a mutable card container (line 229) |  |
-| `test_deck.py` | Session 3: declare a mutable card container (line 305) |  |
-| `hand_transfer.py` | Try it yourself (line 514) |  |
+| `cards.py` | Session 1: a complete read interface (line 42) |  |
+| `frenchdeck.py` | Session 1: a complete read interface (line 61) |  |
+| `deck_demo.py` | Session 1: a complete read interface (line 101) |  |
+| `shuffle_demo.py` | Session 2: shuffle exposes a missing operation (line 160) |  |
+| `mutable_deck.py` | Session 3: declare a mutable card container (line 235) |  |
+| `test_deck.py` | Session 3: declare a mutable card container (line 311) |  |
+| `hand_transfer.py` | Try it yourself (line 518) |  |
