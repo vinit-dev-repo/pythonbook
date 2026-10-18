@@ -20,11 +20,11 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `account_timezone.py` | Identity, validated state and display offsets › A fixed offset is a value (line 76) |  |
-| `account.py` | Identity, validated state and display offsets › The complete Account class (line 169) |  |
-| `counter_demo.py` | Counters and transaction decisions (line 633) |  |
-| `confirmations.py` | Encoding and parsing confirmations (line 722) | rewritten later in the chapter |
-| `account_demo.py` | Encoding and parsing confirmations (line 806) |  |
-| `account_failures.py` | Testing the assembled account system (line 870) |  |
-| `test_accounts.py` | Testing the assembled account system (line 955) | rewritten later in the chapter |
-| `account_transfer.py` | Try it yourself (line 1366) |  |
+| `account_timezone.py` | Identity, validated state and display offsets › A fixed offset is a value (line 75) |  |
+| `account.py` | Identity, validated state and display offsets › The complete Account class (line 168) |  |
+| `counter_demo.py` | Counters and transaction decisions (line 627) |  |
+| `confirmations.py` | Encoding and parsing confirmations (line 715) | rewritten later in the chapter |
+| `account_demo.py` | Encoding and parsing confirmations (line 800) |  |
+| `account_failures.py` | Testing the assembled account system (line 863) |  |
+| `test_accounts.py` | Testing the assembled account system (line 947) | rewritten later in the chapter |
+| `account_transfer.py` | Try it yourself (line 1355) |  |

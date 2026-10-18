@@ -16,7 +16,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `callable_cages.py` | Session 1: calling can discard or return the pick (line 46) |  |
-| `bingoaddable.py` | Session 2: combine or extend with explicit policies (line 84) |  |
-| `tombola_ops_demo.py` | Session 2: combine or extend with explicit policies (line 113) |  |
-| `test_tombola_ops.py` | Reuse the common contract suite (line 213) |  |
-| `pool_transfer.py` | Try it yourself (line 449) |  |
+| `bingoaddable.py` | Session 2: combine or extend with explicit policies (line 86) |  |
+| `tombola_ops_demo.py` | Session 2: combine or extend with explicit policies (line 120) |  |
+| `test_tombola_ops.py` | Reuse the common contract suite (line 220) |  |
+| `pool_transfer.py` | Try it yourself (line 456) |  |

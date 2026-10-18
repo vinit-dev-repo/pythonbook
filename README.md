@@ -177,7 +177,9 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch34.3`](ch34.3/) | Pipelines, yield from, Return Values and Practical Patterns | How to connect generators in a lazy pipeline with low extra memory use; What `yield from` does, and how it… | 0 | 8 | 0 |
 | [`ch34a`](ch34a/) | Project - A Shared Contract for Random Draws | How an abstract base class defines a small random-draw contract; How three classes can meet one contract… | 7 | 0 | 0 |
 | [`ch34b`](ch34b/) | Project - Calling and Combining Random Containers | Why removing a value is different from returning it from a callable; How `+` and `+=` have different… | 5 | 0 | 0 |
-| [`ch35`](ch35/) | The itertools Toolbox | What `itertools` provides, which tools read input immediately, and which tools produce output lazily; How to… | 0 | 44 | 0 |
+| [`ch35.1`](ch35.1/) | What itertools Is, Aggregators, Slicing, Filtering and takewhile and dropwhile | What `itertools` provides, which tools read input immediately, and which tools produce output lazily; How… | 0 | 12 | 0 |
+| [`ch35.2`](ch35.2/) | Infinite Iterators, Chaining, Teeing, Mapping and Zipping | How to stop the infinite iterators `count`, `cycle` and `repeat`; How to glue iterators together (`chain`)… | 0 | 21 | 0 |
+| [`ch35.3`](ch35.3/) | Grouping, Combinatorics, Pairs, Batches and Consumption | How `groupby` handles consecutive equal keys, and why you sort first; The four combinatorics tools:… | 0 | 13 | 0 |
 | [`ch35a`](ch35a/) | Project - Accounts and Transaction Confirmations | How account-specific state composes with a fixed display offset and shared class settings; How to compare… | 8 | 0 | 0 |
 | [`ch36`](ch36/) | Context Managers | Why a program must release resources after success or failure; How `try`/`finally` guarantees cleanup; How… | 4 | 30 | 0 |
 

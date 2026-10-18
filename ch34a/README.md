@@ -15,10 +15,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `tombola.py` | Session 1: abstract requirements and inherited helpers (line 59) |  |
-| `bingo.py` | Session 1: abstract requirements and inherited helpers (line 93) |  |
-| `lotto.py` | Session 2: alternative storage and optimized helpers (line 125) |  |
-| `tombolist.py` | Session 3: registration is recognition, not inheritance (line 168) |  |
-| `tombola_demo.py` | Session 3: registration is recognition, not inheritance (line 195) |  |
-| `test_tombola.py` | Session 3: registration is recognition, not inheritance (line 261) |  |
-| `ticket_transfer.py` | Try it yourself (line 488) |  |
+| `tombola.py` | Session 1: abstract requirements and inherited helpers (line 62) |  |
+| `bingo.py` | Session 1: abstract requirements and inherited helpers (line 97) |  |
+| `lotto.py` | Session 2: alternative storage and optimized helpers (line 129) |  |
+| `tombolist.py` | Session 3: registration is recognition, not inheritance (line 173) |  |
+| `tombola_demo.py` | Session 3: registration is recognition, not inheritance (line 199) |  |
+| `test_tombola.py` | Session 3: registration is recognition, not inheritance (line 264) |  |
+| `ticket_transfer.py` | Try it yourself (line 491) |  |
