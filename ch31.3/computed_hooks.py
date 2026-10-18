@@ -20,7 +20,6 @@ class Reading:
             raise AttributeError("volts is computed")
         object.__setattr__(self, name, value)
 
-
 class MissingReading(Reading):
     def __getattr__(self, name):
         print("missing:", name)
@@ -28,14 +27,12 @@ class MissingReading(Reading):
             return self.millivolts / 1000
         raise AttributeError(name)
 
-
 class EveryReading(Reading):
     def __getattribute__(self, name):
         print("ordinary read:", name)
         if name == "volts":
             return object.__getattribute__(self, "millivolts") / 1000
         return object.__getattribute__(self, name)
-
 
 for kind in (MissingReading, EveryReading):
     print(kind.__name__)

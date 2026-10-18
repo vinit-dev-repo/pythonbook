@@ -1,7 +1,6 @@
 # catalog_metadata.py
 from error_catalog import Catalog
 
-
 if __name__ == '__main__':
     by_code = Catalog(100)
     by_name = Catalog['BAD_NAME']

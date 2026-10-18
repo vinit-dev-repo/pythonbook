@@ -14,13 +14,13 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `record_rows.py` | Turning dictionary rows into records (line 185) |  |
-| `row_demo.py` | Turning dictionary rows into records (line 206) |  |
-| `lookup.py` | Turning dictionary rows into records (line 275) |  |
-| `row_transfer.py` | Turning dictionary rows into records (line 303) |  |
-| `shape.py` | Class identity after reloading (line 344) |  |
-| `reload_check.py` | Class identity after reloading (line 368) |  |
-| `saved_class_transfer.py` | Class identity after reloading (line 409) |  |
+| `record_rows.py` | Turning dictionary rows into records (line 186) |  |
+| `row_demo.py` | Turning dictionary rows into records (line 208) |  |
+| `lookup.py` | Turning dictionary rows into records (line 277) |  |
+| `row_transfer.py` | Turning dictionary rows into records (line 305) |  |
+| `shape.py` | Class identity after reloading (line 346) |  |
+| `reload_check.py` | Class identity after reloading (line 370) |  |
+| `saved_class_transfer.py` | Class identity after reloading (line 411) |  |
 
 ## Examples, in chapter order
 
@@ -31,6 +31,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_frozen-records-and-hashability.py` | Frozen records and hashability (line 44) | runs on its own |
 | `examples/02_frozen-records-and-hashability.py` | Frozen records and hashability (line 95) | runs on its own |
 | `examples/03_turning-dictionary-rows-into-records.py` | Turning dictionary rows into records (line 151) | runs on its own |
-| `examples/04_turning-dictionary-rows-into-records.py` | Turning dictionary rows into records (line 248) | runs on its own |
-| `examples/05_class-identity-after-reloading.py` | Class identity after reloading (line 350) | may use names from earlier examples |
-| `examples/06_try-it-yourself.py` | Try it yourself (line 453) | runs on its own |
+| `examples/04_turning-dictionary-rows-into-records.py` | Turning dictionary rows into records (line 250) | runs on its own |
+| `examples/05_class-identity-after-reloading.py` | Class identity after reloading (line 352) | may use names from earlier examples |
+| `examples/06_try-it-yourself.py` | Try it yourself (line 455) | runs on its own |

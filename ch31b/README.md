@@ -16,12 +16,12 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `baseline_client.py` | Session 1 - display the same records (line 132) |  |
-| `display_tools.py` | Session 1 - display the same records (line 226) |  |
-| `decorator_display.py` | Session 1 - display the same records (line 252) |  |
-| `record_models.py` | Session 1 - display the same records (line 284) | rewritten later in the chapter |
-| `inspect_records.py` | Session 1 - display the same records (line 382) |  |
-| `record_view.py` | Session 2 - a view forwards selected operations (line 459) |  |
-| `view_client.py` | Session 2 - a view forwards selected operations (line 472) |  |
-| `check_records.py` | Session 2 - a view forwards selected operations (line 525) |  |
-| `view_transfer.py` | Transfer — remove one shadow, keep another (line 598) |  |
+| `baseline_client.py` | Session 1 - display the same records (line 131) |  |
+| `display_tools.py` | Session 1 - display the same records (line 223) |  |
+| `decorator_display.py` | Session 1 - display the same records (line 249) |  |
+| `record_models.py` | Session 1 - display the same records (line 280) | rewritten later in the chapter |
+| `inspect_records.py` | Session 1 - display the same records (line 377) |  |
+| `record_view.py` | Session 2 - a view forwards selected operations (line 451) |  |
+| `view_client.py` | Session 2 - a view forwards selected operations (line 464) |  |
+| `check_records.py` | Session 2 - a view forwards selected operations (line 515) |  |
+| `view_transfer.py` | Transfer: remove one shadow, keep another (line 587) |  |

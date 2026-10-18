@@ -2,10 +2,8 @@
 import importlib
 from inspection_tools import DefaultView, FieldsView, InheritedView
 
-
 def build(kind, *args, **kwargs):
     return kind(*args, **kwargs)
-
 
 class Device:
     region = "west"
@@ -25,7 +23,6 @@ class Device:
     def offline(self):
         raise RuntimeError("no connection")
 
-
 def demonstrate(view):
     class Screen(Device, view):
         pass
@@ -33,7 +30,6 @@ def demonstrate(view):
     value = build(Screen, "dock", count=2)
     print(value)
     return value
-
 
 if __name__ == "__main__":
     for policy in (FieldsView, InheritedView):

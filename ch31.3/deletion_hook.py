@@ -9,7 +9,6 @@ class DeletionProbe:
         print("delete", name)
         object.__delattr__(self, name)
 
-
 sample = DeletionProbe()
 del sample.label
 print("still present:", hasattr(sample, "label"))

@@ -17,9 +17,9 @@ The chapter saves these files more than once (for example a first version and a 
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `field_demo.py` | Session 1: independent fields, bounds, and storage (line 142) |  |
-| `test_fields.py` | Session 1: independent fields, bounds, and storage (line 185) |  |
-| `binding_demo.py` | Session 2: class creation and late attachment (line 371) |  |
-| `fields.py` | Session 3: refactor without losing constructors (line 451) | rewritten later in the chapter |
-| `base_demo.py` | Session 3: refactor without losing constructors › Check the base contract (line 551) |  |
-| `assignment_demo.py` | Session 3: refactor without losing constructors › Check the base contract (line 590) |  |
-| `booking_transfer.py` | Transfer: Booking fields (line 660) |  |
+| `test_fields.py` | Session 1: independent fields, bounds, and storage (line 184) |  |
+| `binding_demo.py` | Session 2: class creation and late attachment (line 366) |  |
+| `fields.py` | Session 3: refactor without losing constructors (line 446) | rewritten later in the chapter |
+| `base_demo.py` | Session 3: refactor without losing constructors › Check the base contract (line 540) |  |
+| `assignment_demo.py` | Session 3: refactor without losing constructors › Check the base contract (line 578) |  |
+| `booking_transfer.py` | Transfer: Booking fields (line 646) |  |

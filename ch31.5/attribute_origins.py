@@ -1,7 +1,6 @@
 # attribute_origins.py
 from inspect import getattr_static
 
-
 def definition_map(instance, *, include_object=False):
     """List stored definitions, without evaluating their attribute values."""
     layers = []
@@ -20,14 +19,12 @@ def definition_map(instance, *, include_object=False):
             result.setdefault(name, []).append(owner)
     return {name: tuple(result[name]) for name in sorted(result)}
 
-
 def group_by_owner(definitions):
     groups = {}
     for name, owners in sorted(definitions.items()):
         for owner in owners:
             groups.setdefault(owner, []).append(name)
     return groups
-
 
 class OriginBase:
     __slots__ = ("code",)
@@ -40,11 +37,9 @@ class OriginBase:
     def describe(self):
         return "base method"
 
-
 class OriginCard(OriginBase):
     __slots__ = ("__dict__",)
     __hash__ = None
-
 
 card = OriginCard()
 card.code = "C7"

@@ -144,8 +144,14 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch29.3`](ch29.3/) | Property, Functions and Binding | Show that `property` is a data descriptor and compare it with a hand-written descriptor.; Explain how a… | 1 | 6 | 0 |
 | [`ch29.4`](ch29.4/) | Inheritance, Reusable Fields and Lazy Attributes | See how a descriptor is found through the MRO, and how a subclass can hide it.; Build two reusable… | 0 | 9 | 0 |
 | [`ch29a`](ch29a/) | Project - Counting Calls Without Losing the Receiver | A call counter needs to know both which operation ran and which inventory received it. Start with a… | 6 | 0 | 0 |
-| [`ch30`](ch30/) | Enums | Why repeated unexplained numbers and strings can cause bugs; How to define an **enumeration**, or enum, with… | 3 | 43 | 0 |
-| [`ch31`](ch31/) | Metaclasses and Metaprogramming | What a metaclass is and how it relates to a class object; How `type` acts as the default metaclass, and how… | 26 | 27 | 0 |
+| [`ch30.1`](ch30.1/) | Why Enums, Members and Lookup | Say why repeated unexplained numbers and strings can cause bugs.; Define an **enumeration**, or enum, with… | 0 | 12 | 0 |
+| [`ch30.2`](ch30.2/) | Aliases, auto(), Customizing, IntEnum and StrEnum | Explain how aliases, `@unique` and `auto()` decide the values of members.; Write methods, a mix-in base, and… | 0 | 22 | 0 |
+| [`ch30.3`](ch30.3/) | Flags, Choosing an Enum, match and an Error Catalog | Combine choices with `IntFlag` and `Flag`, and tell them apart.; Choose among an enum, a constant, a Boolean… | 3 | 11 | 0 |
+| [`ch31.1`](ch31.1/) | What a Metaclass Is, type and How a Class Is Built | Say what a **metaclass** is and how it relates to a class object.; Explain how `type` acts as the default… | 2 | 5 | 0 |
+| [`ch31.2`](ch31.2/) | Writing Metaclasses, Class Factories and Choosing a Hook | Write a metaclass that rejects or registers classes, and pass keywords to it.; Use `__prepare__` and a… | 6 | 7 | 0 |
+| [`ch31.3`](ch31.3/) | Calling a Class, Class Lookup and Attribute Hooks | Follow what Python runs when code calls `Dog(...)`, and say when `__init__` is skipped.; Say how a class… | 4 | 7 | 0 |
+| [`ch31.4`](ch31.4/) | Small Metaprogramming Applications and Method Wrapping | Pick the simplest tool, a decorator, a hook or a metaclass, for a small class-changing job.; Generate a… | 4 | 4 | 0 |
+| [`ch31.5`](ch31.5/) | Display, Delegation and Tracing Wrappers | Compare display designs and say what a dictionary-based view leaves out.; Inspect own fields, inherited… | 10 | 8 | 0 |
 | [`ch31a`](ch31a/) | Project - Validated Fields - Preserve Behavior While Refactoring | A reusable field needs more than a valid-value example. Its callers also rely on omitted arguments, error… | 7 | 0 | 0 |
 | [`ch31b`](ch31b/) | Project - Display and Delegate Records | The first record application prints a manager with the hardcoded label `Person`. Continue that same… | 9 | 0 | 0 |
 | [`ch31c`](ch31c/) | Project - Attribute Policies Through a Wrapper | Build a wrapper that checks selected attribute reads and writes before they reach another object.… | 9 | 0 | 0 |

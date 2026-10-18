@@ -1,4 +1,4 @@
-from enum import Enum, StrEnum, IntFlag, auto
+from enum import Enum, StrEnum, auto
 import json
 
 # 1 and 2
@@ -28,13 +28,3 @@ class Weekday(StrEnum):
     SUNDAY = "sunday"
 
 print(json.dumps({"day": Weekday.MONDAY}))   # {"day": "monday"}
-
-# 5
-class Toppings(IntFlag):
-    CHEESE = auto()
-    MUSHROOM = auto()
-    OLIVES = auto()
-
-pizza = Toppings.CHEESE | Toppings.OLIVES
-print(Toppings.MUSHROOM in pizza)   # False
-print(Toppings.CHEESE in pizza)     # True
