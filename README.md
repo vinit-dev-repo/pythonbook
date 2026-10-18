@@ -76,10 +76,23 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch16.2`](ch16.2/) | Rounding Floats and Exact Decimals | The difference between truncating, flooring, ceiling and rounding, and why `round(0.5)` is `0`; `Decimal`… | 0 | 11 | 0 |
 | [`ch16.3`](ch16.3/) | Fractions and Complex Numbers | How `Fraction` keeps exact ratios, and what a Fraction built from a float holds; How to convert a ratio… | 0 | 7 | 0 |
 | [`ch16.4`](ch16.4/) | bool, Truthiness and Short-Circuiting | Why `True + True` is `2`, and how `sum()` counts `True` values; Which common built-in values are falsy;… | 0 | 6 | 0 |
-| [`ch17`](ch17/) | Scopes, Closures and Higher-Order Functions | How ordinary function-body names resolve to local, enclosing or global bindings, and where built-ins fit;… | 0 | 43 | 0 |
-| [`ch18`](ch18/) | Function Decorators | The problem decorators solve, and why they save you from editing every function by hand; How to build a… | 1 | 31 | 0 |
-| [`ch19`](ch19/) | Tuples and Named Tuples | How to use a tuple as a **record**, where each position has a meaning; How to read a tuple with unpacking,… | 1 | 27 | 0 |
-| [`ch20`](ch20/) | The Import System in Depth | What Python does when it runs `import something`; Why a module is an object and how to inspect it; Why a… | 119 | 12 | 0 |
+| [`ch17.1`](ch17.1/) | Scopes, LEGB and Local Names | What a scope is, and why a name made inside a function cannot be used outside it; How LEGB orders local,… | 0 | 8 | 0 |
+| [`ch17.2`](ch17.2/) | Nested Functions, nonlocal and Closures | How a nested function reads and changes the bindings of its enclosing function with `nonlocal`; What a… | 0 | 14 | 0 |
+| [`ch17.3`](ch17.3/) | Higher-Order Functions, Inspection and reduce | What a higher-order function is, and how to inspect a function like any other object; How… | 0 | 11 | 0 |
+| [`ch17.4`](ch17.4/) | partial, operator, Combining and Lambdas | How `functools.partial` pre-fills arguments, how to inspect it, and how `Placeholder` reserves a position;… | 0 | 12 | 0 |
+| [`ch18.1`](ch18.1/) | Writing a Decorator, @ and wraps | The problem decorators solve, and why they save you from editing every function by hand; How to build a… | 0 | 8 | 0 |
+| [`ch18.2`](ch18.2/) | Timer, Logger, Stacking and Memoization | How to write a timer and a logger, and how to stack several decorators together; Why decorator order changes… | 0 | 11 | 0 |
+| [`ch18.3`](ch18.3/) | Decorator Factories and Validation | How to write a decorator that takes its own arguments (a decorator factory); How a registration decorator… | 1 | 8 | 0 |
+| [`ch18.4`](ch18.4/) | Dispatching and Common Uses | How to make one function behave differently depending on the *type* of its argument (dispatching); How an… | 0 | 6 | 0 |
+| [`ch19.1`](ch19.1/) | Tuples as Records, Unpacking and Immutability | How to use a tuple as a **record**, where each position has a meaning; How to read a tuple with unpacking,… | 1 | 10 | 0 |
+| [`ch19.2`](ch19.2/) | Creating and Using namedtuple | `namedtuple`: giving each position in a tuple a real name; How to read a field by name or by position, and… | 0 | 11 | 0 |
+| [`ch19.3`](ch19.3/) | Defaults, Extending and Real Uses | How `defaults` fill the rightmost fields, and why a mutable default is shared; How to give a record type… | 0 | 7 | 0 |
+| [`ch20.1`](ch20.1/) | Import Steps, Module Objects and sys.modules | What Python does when it runs `import something`; Why a module is an object and how to inspect it; Why a… | 16 | 6 | 0 |
+| [`ch20.2`](ch20.2/) | sys.path, Finders and Import Forms | Where Python looks for modules with `sys.path`, and how a local file can hide a standard module; What… | 16 | 4 | 0 |
+| [`ch20.3`](ch20.3/) | Reloading Modules and the Main Guard | How to reload a module, and why you rarely should; How `if __name__ == "__main__":` and the direct-run name… | 8 | 3 | 0 |
+| [`ch20.4`](ch20.4/) | Packages and Project Structure | What a package is, what `__init__.py` is for, and how `__all__` selects star-import names; How to structure… | 36 | 2 | 0 |
+| [`ch20.5`](ch20.5/) | Namespace Packages, ZIP Imports and Installation | What namespace packages are and how they combine directory portions; How Python imports code from a ZIP… | 16 | 1 | 0 |
+| [`ch20.6`](ch20.6/) | Depth Sessions and Composed Practice | How to prepare, register, run and clean up a module namespace by hand; How to follow module references and… | 27 | 1 | 0 |
 | [`ch20a`](ch20a/) | Project - Command-line labels library | Prerequisite: Start this required inline visit after the import, package and namespace foundations in lesson… | 6 | 0 | 0 |
 | [`ch20b`](ch20b/) | Project - Shop-report package build and installation | Prerequisite: Start this required inline visit after lesson 20's import, package-context and cache sections,… | 3 | 0 | 3 |
 | [`ch20c`](ch20c/) | Checkpoint - Imports and packages | This part explains why Python behaves in these ways. Use the checkpoint to test both your memory and your… | 2 | 3 | 0 |
