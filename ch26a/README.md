@@ -16,10 +16,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `processor.py` | Implement the interchangeable pieces (line 72) |  |
-| `test_processor.py` | Check behavior across implementations and failures (line 163) |  |
-| `processor_demo.py` | Trace real calls, then substitute the dependencies (line 395) |  |
-| `processor_class.py` | Keep dependencies on an object (line 472) |  |
-| `test_processor_class.py` | Keep dependencies on an object (line 540) |  |
-| `processor_transfer.py` | Try it yourself (line 628) |  |
-| `processor_class_transfer.py` | Try it yourself (line 680) |  |
+| `processor.py` | Implement the interchangeable pieces (line 74) |  |
+| `test_processor.py` | Check behavior across implementations and failures (line 164) |  |
+| `processor_demo.py` | Trace real calls, then substitute the dependencies (line 397) |  |
+| `processor_class.py` | Keep dependencies on an object (line 473) |  |
+| `test_processor_class.py` | Keep dependencies on an object (line 541) |  |
+| `processor_transfer.py` | Try it yourself (line 627) |  |
+| `processor_class_transfer.py` | Try it yourself (line 679) |  |

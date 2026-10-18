@@ -128,9 +128,15 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch25b`](ch25b/) | Project - Testing a Timer with Two Clocks | How a `Timer` has idle, running, and stopped states; Why duration needs a monotonic counter while timestamps… | 5 | 0 | 0 |
 | [`ch25c`](ch25c/) | Project - Modular Values and Operator Contracts | How to do arithmetic while keeping old aliases and dictionary keys unchanged; Why mathematical congruence,… | 7 | 0 | 0 |
 | [`ch25d`](ch25d/) | Project - Inventory Inheritance and Regression Tests | How one stock invariant can govern five related concrete classes; How `super()` lets several initializers… | 13 | 0 | 0 |
-| [`ch26`](ch26/) | Interfaces - Duck Typing, ABCs and Protocols | What an interface means in Python, which has no `interface` keyword; How **duck typing** works and why… | 0 | 33 | 4 |
+| [`ch26.1`](ch26.1/) | Interfaces, Duck Typing and Goose Typing | What an interface is in Python, which has no `interface` keyword; How duck typing works, and why a… | 0 | 9 | 0 |
+| [`ch26.2`](ch26.2/) | collections.abc and Writing Your Own ABC | The main `collections.abc` classes and the dunder methods each one requires; Why recognition by an ABC is… | 0 | 10 | 0 |
+| [`ch26.3`](ch26.3/) | Virtual Subclasses and Subclass Hooks | How `.register()` makes a virtual subclass without adding inheritance; What registration changes… | 0 | 8 | 0 |
+| [`ch26.4`](ch26.4/) | Protocols and Choosing an Approach | How `typing.Protocol` describes a shape without changing the matching class; What `@runtime_checkable`… | 0 | 9 | 4 |
 | [`ch26a`](ch26a/) | Project - Composing Readers, Converters and Writers | Compose three small roles around one unchanged processing function.; Separate a valid record from an… | 7 | 0 | 0 |
-| [`ch27`](ch27/) | Callable Objects and Class Decorators | Distinguish callable objects from calls with valid arguments.; Build attribute and method tools, and reason… | 2 | 27 | 0 |
+| [`ch27.1`](ch27.1/) | Callable Objects and attrgetter | Distinguish callable objects from calls with valid arguments.; Check that functions, classes and `None` are… | 0 | 9 | 0 |
+| [`ch27.2`](ch27.2/) | Decorator Classes and Configured Decorators | Explain why a callable decorator instance does not automatically bind like a method.; Write a decorator… | 1 | 6 | 0 |
+| [`ch27.3`](ch27.3/) | Decorating Classes | Add behavior to a class with a decorator, and keep the class identity.; Return the class, and see what a… | 0 | 9 | 0 |
+| [`ch27.4`](ch27.4/) | Shared State, Caches and Registration | Diagnose accidental shared state and distinguish it from deliberate caching and registration.; Repair a… | 1 | 5 | 0 |
 | [`ch28`](ch28/) | Record Classes, Dataclasses and Identity | Add methods to records made with `namedtuple`.; Compare records made with `collections.namedtuple`,… | 7 | 16 | 0 |
 | [`ch29`](ch29/) | Descriptors | How one mechanism supports `@property`, methods, and `__slots__`; What a **descriptor** is and which three… | 1 | 27 | 0 |
 | [`ch29a`](ch29a/) | Project - Counting Calls Without Losing the Receiver | A call counter needs to know both which operation ran and which inventory received it. Start with a… | 6 | 0 | 0 |
