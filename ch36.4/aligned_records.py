@@ -6,12 +6,10 @@ from itertools import chain, compress, groupby
 
 from managed_csv_records import prepare_reader, pack_row
 
-
 @dataclass(frozen=True)
 class FileSpec:
     path: object
     converters: dict
-
 
 def typed_rows(reader, row_type, converters):
     if set(row_type._fields) != set(converters):
@@ -24,7 +22,6 @@ def typed_rows(reader, row_type, converters):
         values = [converters[name](value)
                   for name, value in zip(raw._fields, raw, strict=True)]
         yield row_type(*values)
-
 
 @contextmanager
 def aligned_records(specs, *, key="site_id", fields=None):
@@ -77,13 +74,11 @@ def aligned_records(specs, *, key="site_id", fields=None):
         resources.callback(rows.close)
         yield rows
 
-
 def ranked_groups(records, *, accept, key):
     ordered = sorted(filter(accept, records), key=key)
     totals = [(name, sum(1 for _ in group))
               for name, group in groupby(ordered, key)]
     return sorted(totals, key=lambda item: (-item[1], item[0]))
-
 
 def tied_leaders(ranking):
     if not ranking:

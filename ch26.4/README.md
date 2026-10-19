@@ -23,8 +23,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/05_a-member-can-exist-without-being-callable.py` | `typing.Protocol`: structural typing (PEP 544) › A member can exist without being callable (line 240) | runs on its own |
 | `examples/06_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 281) | runs on its own |
 | `examples/07_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 313) | runs on its own |
-| `examples/08_check-the-same-behavior-across-implementations.py` | Choosing an approach › Check the same behavior across implementations (line 427) | runs on its own |
-| `examples/09_try-it-yourself.py` | Try it yourself (line 533) | runs on its own |
+| `examples/08_check-the-same-behavior-across-implementations.py` | Choosing an approach › Check the same behavior across implementations (line 428) | runs on its own |
+| `examples/09_try-it-yourself.py` | Try it yourself (line 534) | runs on its own |
 
 ## Terminal commands
 

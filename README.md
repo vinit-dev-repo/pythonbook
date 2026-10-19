@@ -181,14 +181,21 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch35.2`](ch35.2/) | Infinite Iterators, Chaining, Teeing, Mapping and Zipping | How to stop the infinite iterators `count`, `cycle` and `repeat`; How to glue iterators together (`chain`)… | 0 | 21 | 0 |
 | [`ch35.3`](ch35.3/) | Grouping, Combinatorics, Pairs, Batches and Consumption | How `groupby` handles consecutive equal keys, and why you sort first; The four combinatorics tools:… | 0 | 13 | 0 |
 | [`ch35a`](ch35a/) | Project - Accounts and Transaction Confirmations | How account-specific state composes with a fixed display offset and shared class settings; How to compare… | 8 | 0 | 0 |
-| [`ch36`](ch36/) | Context Managers | Why a program must release resources after success or failure; How `try`/`finally` guarantees cleanup; How… | 4 | 30 | 0 |
+| [`ch36.1`](ch36.1/) | Cleanup, try and finally, with and Writing a Manager Class | Why a program must release resources after success or failure; How `try`/`finally` guarantees cleanup; How… | 0 | 8 | 0 |
+| [`ch36.2`](ch36.2/) | Exit Arguments, Suppressing Errors, Temporary State, Lazy Iterators and Generator Managers | What the three `__exit__` arguments mean and how its return value controls an exception; That context… | 0 | 13 | 0 |
+| [`ch36.3`](ch36.3/) | contextlib, Nesting, Failed Entry, Generator Errors and Dynamic Resources | A tour of `contextlib`'s ready-made helpers; How to nest several context managers at once, and in which… | 0 | 11 | 0 |
+| [`ch36.4`](ch36.4/) | Transfer Projects, a Managed CSV Stream and Aligned Record Streams | How a context manager owns a file until the last use of the rows that come from it; How a class and a… | 4 | 1 | 0 |
 
 ## 05 - Runtime
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch37`](ch37/) | Object Lifetime and Memory Management | Explain CPython reference counts and unreachable reference cycles.; Find caches and callbacks that keep… | 3 | 16 | 0 |
-| [`ch38`](ch38/) | How Python Runs Your Code | How Python turns source text into instructions and runs them; How to inspect each stage with the `tokenize`,… | 5 | 34 | 0 |
+| [`ch37.1`](ch37.1/) | Reference Counts, Cycles and Weak References | Explain CPython reference counts and unreachable reference cycles.; Observe an object through a weak… | 0 | 9 | 0 |
+| [`ch37.2`](ch37.2/) | Retained Objects, tracemalloc and Interning | Find caches and callbacks that keep objects in memory, then release and remeasure retained data.; Use… | 3 | 8 | 0 |
+| [`ch38.1`](ch38.1/) | From Source Text to a Syntax Tree | How Python turns source text into instructions and runs them; Why a file with a syntax error never starts,… | 0 | 7 | 0 |
+| [`ch38.2`](ch38.2/) | Symbol Tables, Code Objects, Bytecode and the Stack Machine | Where each name lives: local, global or free, and how a closure shares a cell; The difference between… | 0 | 12 | 0 |
+| [`ch38.3`](ch38.3/) | Frames, Interpreter State, Exception Tables and Generators | How a traceback records the calls that led to an error; Why some CPython builds limit threads with the GIL;… | 0 | 8 | 0 |
+| [`ch38.4`](ch38.4/) | Cached Bytecode, exec and eval, Future Imports, Implementations and Constant Folding | What a `.pyc` file caches, and what it does NOT cache; Why `eval()` and `exec()` need trusted input; What a… | 5 | 10 | 0 |
 | [`ch38a`](ch38a/) | Checkpoint - Python runtime | 1. Which identity rules does Python promise? Which memory details belong only to CPython? | 0 | 1 | 0 |
 
 ## 06 - Containers and data boundaries

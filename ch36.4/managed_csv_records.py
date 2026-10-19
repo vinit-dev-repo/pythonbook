@@ -7,7 +7,6 @@ from functools import partial
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-
 def prepare_reader(source, delimiter=None):
     if delimiter is None:
         dialect = csv.Sniffer().sniff(source.read(4096), delimiters=",;\t|")
@@ -22,13 +21,11 @@ def prepare_reader(source, delimiter=None):
     row_type = namedtuple("Row", names)  # rejects duplicate/invalid names
     return reader, row_type
 
-
 def pack_row(reader, row_type):
     cells = next(reader)
     if len(cells) != len(row_type._fields):
         raise ValueError("record width does not match header")
     return row_type(*cells)
-
 
 class CSVRows:
     def __init__(self, path, delimiter=None):
@@ -73,7 +70,6 @@ class CSVRows:
             self._ended = True
             raise
 
-
 @contextmanager
 def managed_rows(path, delimiter=None):
     with open(path, encoding="utf-8", newline="") as source:
@@ -93,13 +89,11 @@ def managed_rows(path, delimiter=None):
         finally:
             rows.close()
 
-
 def integer_or_none(text):
     try:
         return int(text)
     except ValueError:
         return None
-
 
 def date_or_none(text, format="%Y-%m-%d"):
     try:
@@ -107,10 +101,8 @@ def date_or_none(text, format="%Y-%m-%d"):
     except ValueError:
         return None
 
-
 def clean_text(text, default=None):
     return text.strip() or default
-
 
 def converted_rows(rows, converters, reject):
     for number, row in enumerate(rows, start=2):
@@ -123,13 +115,11 @@ def converted_rows(rows, converters, reject):
         else:
             reject(number, row)
 
-
 def count_zones(records):
     counts = defaultdict(int)
     for record in records:
         counts[record.zone] += 1
     return dict(sorted(counts.items(), key=lambda pair: (-pair[1], pair[0])))
-
 
 SCHEMA = {
     "inspection_id": integer_or_none,
@@ -137,7 +127,6 @@ SCHEMA = {
     "zone": clean_text,
     "note": partial(clean_text, default=""),
 }
-
 
 def conversion_traps():
     def broken(text, caught):
@@ -161,7 +150,6 @@ def conversion_traps():
     values = [0, ""]
     assert all(value is not None for value in values)
     print("saved conversion:", Pair(*values), "truthiness:", all(values))
-
 
 def main():
     conversion_traps()
@@ -194,7 +182,6 @@ def main():
             first = next(converted_rows(raw, SCHEMA, lambda *args: None))
             print("types:", type(first.inspection_id).__name__,
                   type(first.checked_on).__name__, type(first.note).__name__)
-
 
 if __name__ == "__main__":
     main()

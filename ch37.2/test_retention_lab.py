@@ -2,7 +2,6 @@
 import tracemalloc
 import retention_lab
 
-
 def check(count, size):
     report = retention_lab.run_experiment(count, size)
     assert not tracemalloc.is_tracing()
@@ -12,7 +11,6 @@ def check(count, size):
     assert report["scalar_result"] == (count, count * size)
     assert report["scalar_before_bytes"] == report["scalar_after_bytes"]
     assert report["scalar_retained_nothing"]
-
 
 def check_decrease_rule():
     report = retention_lab.run_experiment(16, 4096)
@@ -25,7 +23,6 @@ def check_decrease_rule():
         raise AssertionError("the actual still-owned snapshot must not count as release")
     retention_lab.require_decrease(report["still_owned_bytes"], report["released_bytes"])
     assert report["released"]
-
 
 if __name__ == "__main__":
     check(32, 8192)

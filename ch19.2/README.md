@@ -24,5 +24,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/07_asdict-turn-it-into-a-dictionary.py` | Tools for working with named tuples › `_asdict`: turn it into a dictionary (line 160) | may use names from earlier examples |
 | `examples/08_replace-a-modified-copy.py` | Tools for working with named tuples › `_replace`: a modified copy (line 171) | may use names from earlier examples |
 | `examples/09_replace-a-modified-copy.py` | Tools for working with named tuples › `_replace`: a modified copy (line 188) | may use names from earlier examples |
-| `examples/10_fields-the-field-names-themselves.py` | Tools for working with named tuples › `_fields`: the field names themselves (line 219) | may use names from earlier examples |
-| `examples/11_try-it-yourself.py` | Try it yourself (line 259) | may use names from earlier examples |
+| `examples/10_fields-the-field-names-themselves.py` | Tools for working with named tuples › `_fields`: the field names themselves (line 221) | may use names from earlier examples |
+| `examples/11_try-it-yourself.py` | Try it yourself (line 261) | may use names from earlier examples |

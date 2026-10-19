@@ -4,7 +4,7 @@ The code of the chapter **54c - Boundary visit - HTTP Resources and Retry Policy
 
 ## About this chapter
 
-Finish weather and the response-cache visit first. Refresh [[Python Tutorial/04 - Iteration and resource management/36 - Context Managers#What `with` really does|context entry, cleanup and exception propagation]], including the existing cleanup diagram, then return here. The timing prerequisite is [[Python Tutorial/10 - Web applications and production boundaries/54a - Boundary visit - HTTP status and error handling#Status codes and error handling|B2's timeout explanation]].
+Finish weather and the response-cache visit first. Refresh [[Python Tutorial/04 - Iteration and resource management/36.1 - Cleanup, try and finally, with and Writing a Manager Class#What `with` really does|context entry, cleanup and exception propagation]], including the existing cleanup diagram, then return here. The timing prerequisite is [[Python Tutorial/10 - Web applications and production boundaries/54a - Boundary visit - HTTP status and error handling#Status codes and error handling|B2's timeout explanation]].
 
 ## Files the chapter asks you to save
 

@@ -29,7 +29,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/04_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 175) | raises an error on purpose |
 | `examples/05_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 192) | raises an error on purpose |
 | `examples/06_a-tuple-can-contain-a-mutable-object.py` | A tuple can contain a mutable object (line 221) | may use names from earlier examples |
-| `examples/07_why-immutability-is-a-feature.py` | Why immutability is a feature (line 261) | may use names from earlier examples |
-| `examples/08_why-immutability-is-a-feature.py` | Why immutability is a feature (line 275) | may use names from earlier examples |
-| `examples/09_why-immutability-is-a-feature.py` | Why immutability is a feature (line 288) | may use names from earlier examples |
-| `examples/10_try-it-yourself.py` | Try it yourself (line 329) | may use names from earlier examples |
+| `examples/07_why-immutability-is-a-feature.py` | Why immutability is a feature (line 263) | may use names from earlier examples |
+| `examples/08_why-immutability-is-a-feature.py` | Why immutability is a feature (line 277) | may use names from earlier examples |
+| `examples/09_why-immutability-is-a-feature.py` | Why immutability is a feature (line 290) | may use names from earlier examples |
+| `examples/10_try-it-yourself.py` | Try it yourself (line 331) | may use names from earlier examples |

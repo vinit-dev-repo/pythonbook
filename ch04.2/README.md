@@ -23,7 +23,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/06_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 166) | may use names from earlier examples |
 | `examples/07_multi-line-statements.py` | Arithmetic operators › Multi-line statements (line 184) | may use names from earlier examples |
 | `examples/08_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 232) | may use names from earlier examples |
-| `examples/09_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 268) | raises an error on purpose |
-| `examples/10_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 282) | may use names from earlier examples |
-| `examples/11_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 299) | may use names from earlier examples |
-| `examples/12_try-it-yourself.py` | Try it yourself (line 352) | may use names from earlier examples |
+| `examples/09_augmented-assignment-and-friends.py` | Assignment shortcuts: augmented and multiple-target assignment › Augmented assignment: `+=` and friends (line 269) | raises an error on purpose |
+| `examples/10_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 283) | may use names from earlier examples |
+| `examples/11_multiple-target-assignment-a-b-c.py` | Assignment shortcuts: augmented and multiple-target assignment › Multiple-target assignment: `a = b = c` (line 300) | may use names from earlier examples |
+| `examples/12_try-it-yourself.py` | Try it yourself (line 353) | may use names from earlier examples |

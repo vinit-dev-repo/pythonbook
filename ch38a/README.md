@@ -12,4 +12,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_3-build.py` | 3. Build (line 44) | runs on its own |
+| `examples/01_3-build.py` | 3. Build (line 43) | runs on its own |
