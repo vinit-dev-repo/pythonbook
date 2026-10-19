@@ -202,10 +202,17 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch39`](ch39/) | Hash Tables and Dictionaries in Depth | What an "associative array" is, and why `dict` is Python's version of it; How Python uses a hash table to… | 2 | 30 | 0 |
-| [`ch40`](ch40/) | Sets in Depth | Basic set operations: membership, subset, union, intersection, and difference; Why set membership is usually… | 1 | 22 | 0 |
-| [`ch41`](ch41/) | Specialized Dictionaries | Why the `collections` module exists and when to use it instead of `dict`; How `defaultdict` creates values… | 2 | 32 | 0 |
-| [`ch42`](ch42/) | Serialization | What serialization is and why programs use it; `pickle` — Python's own format, what it can do, and its… | 11 | 25 | 0 |
+| [`ch39.1`](ch39.1/) | Associative Arrays, Hash Tables, Collisions and hash() | What an "associative array" is, and why `dict` is Python's version of it; How Python uses a hash table to… | 1 | 5 | 0 |
+| [`ch39.2`](ch39.2/) | Creating Dictionaries, Safe Lookup, Removal, Views and Merging | Six common ways to build a dictionary; How to use `get`, `setdefault`, `pop`, `popitem`, and the… | 1 | 20 | 0 |
+| [`ch39.3`](ch39.3/) | Custom Keys, Sparse Coordinates, Job Practice and Counting | How to make your own classes usable as dictionary keys, safely; Why a key's hash must not change while it is… | 0 | 7 | 0 |
+| [`ch40.1`](ch40.1/) | Set Basics, Fast Membership, Creating Sets and Hashable Elements | Basic set operations: membership, subset, union, intersection, and difference; Why set membership is usually… | 1 | 7 | 0 |
+| [`ch40.2`](ch40.2/) | Adding and Removing, Operators and Methods, In-Place Updates and Copies | How to add and remove items, and which removal is silent; The operations you can call as methods vs the… | 0 | 10 | 0 |
+| [`ch40.3`](ch40.3/) | Frozensets, Dictionary Views as Sets and Practical Patterns | What a `frozenset` is and why you'd want one; How dictionary views borrow set behaviour; Useful patterns for… | 0 | 7 | 0 |
+| [`ch41.1`](ch41.1/) | The collections Module, defaultdict, OrderedDict and Counter | Why the `collections` module exists and when to use it instead of `dict`; How `defaultdict` creates values… | 0 | 19 | 0 |
+| [`ch41.2`](ch41.2/) | ChainMap, UserDict, MappingProxyType and Choosing a Tool | `ChainMap`: searching several dictionaries as if they were one; `UserDict`: a base for custom mappings, with… | 2 | 14 | 0 |
+| [`ch42.1`](ch42.1/) | Serialization, pickle, JSON and Custom Encoding | What serialization is and why programs use it; `pickle`: Python's own format, what it can do, and its… | 0 | 14 | 0 |
+| [`ch42.2`](ch42.2/) | Custom Decoding, JSON Schema, Shape Validators and Nested Data Views | How to rebuild your own classes with custom decoders; How to use a schema to reject invalid JSON before… | 6 | 5 | 0 |
+| [`ch42.3`](ch42.3/) | Related Tools, Typed Records, XML and Choosing a Format | How a `shelve` file keeps a dictionary on disk, and how properties follow stored references; A quick tour of… | 5 | 8 | 0 |
 | [`ch42a`](ch42a/) | Project - Store and Reopen Records | Continue the `Person`/`Manager` application across program runs. Save records under stable string IDs,… | 16 | 0 | 0 |
 | [`ch42b`](ch42b/) | Checkpoint - Containers and serialization | 1. What does "hashable" actually require? Is it the same as "immutable"? | 1 | 2 | 0 |
 
