@@ -1,5 +1,6 @@
 import pytest
 
+
 @pytest.fixture
 def lifecycle():
     state = {"file": None, "events": []}
@@ -15,6 +16,7 @@ def lifecycle():
     finally:
         file.close()  # rescue cleanup if the observed fixture was broken
 
+
 @pytest.fixture
 def tracked_log_file(lifecycle, tmp_path):
     file = open(tmp_path / "log.txt", "w", encoding="utf-8")
@@ -23,6 +25,7 @@ def tracked_log_file(lifecycle, tmp_path):
     yield file
     file.close()
     lifecycle["events"].append("closed")
+
 
 def test_write_then_close(tracked_log_file, lifecycle):
     lifecycle["events"].append("test")

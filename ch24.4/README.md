@@ -15,7 +15,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_worked-example-a-tiny-inventory-module.py` | Worked example: a tiny inventory module (line 39) | runs on its own |
-| `examples/02_diagnose-an-invalid-request.py` | Worked example: a tiny inventory module › Diagnose an invalid request (line 108) | may use names from earlier examples |
-| `examples/03_validate-before-changing-stock.py` | Worked example: a tiny inventory module › Validate before changing stock (line 139) | may use names from earlier examples |
-| `examples/04_validate-before-changing-stock.py` | Worked example: a tiny inventory module › Validate before changing stock (line 202) | may use names from earlier examples |
-| `examples/05_try-it-yourself.py` | Try it yourself (line 242) | may use names from earlier examples |
+| `examples/02_diagnose-an-invalid-request.py` | Worked example: a tiny inventory module › Diagnose an invalid request (line 110) | may use names from earlier examples |
+| `examples/03_validate-before-changing-stock.py` | Worked example: a tiny inventory module › Validate before changing stock (line 141) | may use names from earlier examples |
+| `examples/04_validate-before-changing-stock.py` | Worked example: a tiny inventory module › Validate before changing stock (line 204) | may use names from earlier examples |
+| `examples/05_try-it-yourself.py` | Try it yourself (line 244) | may use names from earlier examples |

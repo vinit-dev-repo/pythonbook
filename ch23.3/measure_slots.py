@@ -3,11 +3,14 @@ import json
 import platform
 import timeit
 
+
 class DictionaryRecord:
     pass
 
+
 class SlotRecord:
     __slots__ = ("left", "right")
+
 
 def workload(record_class, count=500):
     records = []
@@ -19,6 +22,7 @@ def workload(record_class, count=500):
         total += record.left + record.right
         records.append(record)
     return total, len(records)
+
 
 def measure():
     expected = (500 * 500, 500)
@@ -40,6 +44,7 @@ def measure():
             name: min(batches) / 50 for name, batches in samples.items()
         },
     }
+
 
 if __name__ == "__main__":
     print(json.dumps(measure(), indent=2))

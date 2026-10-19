@@ -2,6 +2,7 @@
 import asyncio
 import threading
 
+
 async def run_case(*, preserve_result=False, value=42):
     loop = asyncio.get_running_loop()
     ready = asyncio.Event()
@@ -54,8 +55,10 @@ async def run_case(*, preserve_result=False, value=42):
         "worker": workers[0],
     }
 
+
 async def main():
     return [await run_case(), await run_case(preserve_result=True)]
+
 
 if __name__ == "__main__":
     reports = asyncio.run(main())

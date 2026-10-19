@@ -4,6 +4,7 @@ import threading
 
 END = object()
 
+
 def run_batch(values, *, fail_on=None):
     work = queue.Queue(maxsize=2)
     outcomes = queue.Queue()

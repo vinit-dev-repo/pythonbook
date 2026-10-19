@@ -4,6 +4,7 @@ from concurrent.futures import CancelledError
 from buffered_map import observe_map
 from future_lifecycle import run_lifecycle, run_shutdown
 
+
 def main():
     for _ in range(2):
         state = run_lifecycle()
@@ -35,6 +36,7 @@ def main():
         assert buffered_seen == [0, 1]
         assert default_values == buffered_values == [0, 1, 4, 9, 16, 25]
     print("future lifecycle and buffering assertions passed")
+
 
 if __name__ == "__main__":
     main()

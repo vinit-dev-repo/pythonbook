@@ -1,5 +1,6 @@
 from collections.abc import Sequence
 
+
 class ReadingList(Sequence):
     def __init__(self, titles):
         self._titles = list(titles)
@@ -9,6 +10,7 @@ class ReadingList(Sequence):
 
     def __len__(self):
         return len(self._titles)
+
 
 names = ["Ada", "Lin", "Ada"]
 reading = ReadingList(names)

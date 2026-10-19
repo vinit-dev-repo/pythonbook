@@ -27,4 +27,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_an-iterator-is-single-use.py` | An iterator is single-use (line 83) | raises an error on purpose |
 | `examples/03_an-iterator-is-single-use.py` | An iterator is single-use (line 104) | may use names from earlier examples |
 | `examples/04_sorting-any-iterable.py` | Sorting any iterable (line 128) | may use names from earlier examples |
-| `examples/05_try-it-yourself.py` | Try it yourself (line 250) | runs on its own |
+| `examples/05_try-it-yourself.py` | Try it yourself (line 253) | runs on its own |

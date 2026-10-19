@@ -4,11 +4,13 @@ import pytest
 
 from catalog import Catalog
 
+
 def snapshot(catalog):
     return {
         key: (record["id"], record["quantity"])
         for key, record in catalog.records.items()
     }
+
 
 def test_put_sequence():
     catalog = Catalog()
@@ -32,10 +34,12 @@ def test_put_sequence():
     assert original == {"id": "pen", "quantity": 2}
     assert before == {"pen": ("pen", 2)}
 
+
 def test_zero_quantity_is_valid():
     catalog = Catalog()
     catalog.put({"id": "pen", "quantity": 0})
     assert snapshot(catalog) == {"pen": ("pen", 0)}
+
 
 @pytest.mark.parametrize(
     "record, expected_error",

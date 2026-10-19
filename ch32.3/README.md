@@ -14,7 +14,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `light_levels.py` | Put several protocols under one contract (line 350) |  |
+| `light_levels.py` | Put several protocols under one contract (line 351) |  |
 
 ## Examples, in chapter order
 
@@ -26,6 +26,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_step-2-support-slices-too.py` | Worked project: building a full custom sequence › Step 2: support slices too (line 87) | may use names from earlier examples |
 | `examples/03_step-3-add-iadd-mul.py` | Worked project: building a full custom sequence › Step 3: `__add__`, `__iadd__`, `__mul__` (line 134) | may use names from earlier examples |
 | `examples/04_step-4-making-it-mutable.py` | Worked project: building a full custom sequence › Step 4: making it mutable (line 202) | may use names from earlier examples |
-| `examples/05_step-4-making-it-mutable.py` | Worked project: building a full custom sequence › Step 4: making it mutable (line 301) | may use names from earlier examples |
-| `examples/06_a-normalized-reverse-slice-is-a-range-of-indices.py` | Put several protocols under one contract › A normalized reverse slice is a range of indices (line 461) | may use names from earlier examples |
-| `examples/07_try-it-yourself.py` | Try it yourself (line 507) | runs on its own |
+| `examples/05_step-4-making-it-mutable.py` | Worked project: building a full custom sequence › Step 4: making it mutable (line 302) | may use names from earlier examples |
+| `examples/06_a-normalized-reverse-slice-is-a-range-of-indices.py` | Put several protocols under one contract › A normalized reverse slice is a range of indices (line 464) | may use names from earlier examples |
+| `examples/07_try-it-yourself.py` | Try it yourself (line 510) | runs on its own |

@@ -1,9 +1,11 @@
 import multiprocessing
 
+
 def add_many(counter, repeats):
     for _ in range(repeats):
         with counter.get_lock():
             counter.value += 1
+
 
 if __name__ == "__main__":
     counter = multiprocessing.Value("i", 0)

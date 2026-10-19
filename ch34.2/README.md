@@ -16,9 +16,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_generator-expressions.py` | Generator expressions (line 45) | runs on its own |
 | `examples/02_observe-creation-and-consumption-separately.py` | Generator expressions › Observe creation and consumption separately (line 69) | runs on its own |
-| `examples/03_from-stored-matches-to-lazy-text-traversal.py` | Generator expressions › From stored matches to lazy text traversal (line 121) | runs on its own |
-| `examples/04_produce-cyclic-starts-without-storing-every-resu.py` | Generator expressions › Produce cyclic starts without storing every result (line 195) | may use names from earlier examples |
-| `examples/05_memory-list-comprehension-vs-generator-expressio.py` | Generator expressions › Memory: list comprehension vs generator expression (line 232) | may use names from earlier examples |
-| `examples/06_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 280) | runs on its own |
-| `examples/07_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 360) | runs on its own |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 408) | runs on its own |
+| `examples/03_from-stored-matches-to-lazy-text-traversal.py` | Generator expressions › From stored matches to lazy text traversal (line 124) | runs on its own |
+| `examples/04_produce-cyclic-starts-without-storing-every-resu.py` | Generator expressions › Produce cyclic starts without storing every result (line 203) | may use names from earlier examples |
+| `examples/05_memory-list-comprehension-vs-generator-expressio.py` | Generator expressions › Memory: list comprehension vs generator expression (line 240) | may use names from earlier examples |
+| `examples/06_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 288) | runs on its own |
+| `examples/07_numeric-progressions-state-the-number-policy.py` | Numeric progressions: state the number policy (line 371) | runs on its own |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 419) | runs on its own |

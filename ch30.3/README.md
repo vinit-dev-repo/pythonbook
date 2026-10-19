@@ -35,4 +35,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/08_duplicate-codes-remain-errors-even-with-differen.py` | Construct the catalog and preserve member identity › Duplicate codes remain errors even with different metadata (line 380) | runs on its own |
 | `examples/09_share-construction-without-sharing-members.py` | Construct the catalog and preserve member identity › Share construction without sharing members (line 414) | runs on its own |
 | `examples/10_raise-selected-exceptions-and-inspect-the-catalo.py` | Raise selected exceptions and inspect the catalog (line 517) | runs on its own |
-| `examples/11_try-it-yourself.py` | Try it yourself (line 609) | runs on its own |
+| `examples/11_try-it-yourself.py` | Try it yourself (line 610) | runs on its own |

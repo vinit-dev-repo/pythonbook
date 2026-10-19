@@ -16,7 +16,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `development_decoration.py` | Choose development-only decoration explicitly (line 253) |  |
+| `development_decoration.py` | Choose development-only decoration explicitly (line 270) |  |
 
 ## Examples, in chapter order
 
@@ -25,7 +25,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_a-shared-wrapper-can-silently-overwrite-an-earli.py` | A shared wrapper can silently overwrite an earlier record (line 45) | runs on its own |
-| `examples/02_a-shared-wrapper-can-silently-overwrite-an-earli.py` | A shared wrapper can silently overwrite an earlier record (line 86) | runs on its own |
-| `examples/03_deliberate-first-instance-caching.py` | Deliberate first-instance caching (line 131) | runs on its own |
-| `examples/04_registration-can-leave-later-calls-unchanged.py` | Registration can leave later calls unchanged (line 188) | runs on its own |
-| `examples/05_try-it-yourself.py` | Try it yourself (line 344) | runs on its own |
+| `examples/02_a-shared-wrapper-can-silently-overwrite-an-earli.py` | A shared wrapper can silently overwrite an earlier record (line 89) | runs on its own |
+| `examples/03_deliberate-first-instance-caching.py` | Deliberate first-instance caching (line 137) | runs on its own |
+| `examples/04_registration-can-leave-later-calls-unchanged.py` | Registration can leave later calls unchanged (line 197) | runs on its own |
+| `examples/05_try-it-yourself.py` | Try it yourself (line 361) | runs on its own |

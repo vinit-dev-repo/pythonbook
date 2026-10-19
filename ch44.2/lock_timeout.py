@@ -4,6 +4,7 @@ import threading
 lock_b = threading.Lock()
 attempts = []
 
+
 def try_lock():
     acquired = lock_b.acquire(timeout=0.05)
     try:
@@ -11,6 +12,7 @@ def try_lock():
     finally:
         if acquired:
             lock_b.release()
+
 
 lock_b.acquire()
 try:

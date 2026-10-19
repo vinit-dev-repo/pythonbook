@@ -15,8 +15,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `process_lifecycle.py` | Exchanging data between processes › Observe child completion and release resources (line 111) |  |
-| `test_process_lifecycle.py` | Exchanging data between processes › Observe child completion and release resources (line 273) |  |
-| `exercise_process.py` | Exchanging data between processes › Practice: diagnose two child outcomes (line 334) |  |
+| `test_process_lifecycle.py` | Exchanging data between processes › Observe child completion and release resources (line 281) |  |
+| `exercise_process.py` | Exchanging data between processes › Practice: diagnose two child outcomes (line 346) |  |
 
 ## Examples, in chapter order
 
@@ -26,5 +26,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_multiprocessing-queue.py` | Exchanging data between processes › multiprocessing.Queue (line 45) | runs on its own |
 | `examples/02_pipe.py` | Exchanging data between processes › Pipe (line 72) | runs on its own |
-| `examples/03_shared-storage-with-value.py` | Exchanging data between processes › Shared storage with `Value` (line 377) | runs on its own |
-| `examples/04_try-it-yourself.py` | Try it yourself (line 431) | runs on its own |
+| `examples/03_shared-storage-with-value.py` | Exchanging data between processes › Shared storage with `Value` (line 389) | runs on its own |
+| `examples/04_try-it-yourself.py` | Try it yourself (line 445) | runs on its own |

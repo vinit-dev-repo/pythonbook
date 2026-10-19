@@ -1,7 +1,9 @@
 from collections.abc import Hashable, Sized
 
+
 class BrokenLength:
     __len__ = 3
+
 
 tuple_with_list = ([],)
 print(isinstance(tuple_with_list, Hashable))

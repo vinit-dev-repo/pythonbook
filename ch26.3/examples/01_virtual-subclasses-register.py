@@ -1,5 +1,6 @@
 import abc
 
+
 class PaymentGateway(abc.ABC):
     @abc.abstractmethod
     def charge(self, amount):
@@ -12,6 +13,7 @@ class PaymentGateway(abc.ABC):
     def describe(self):
         return f"{type(self).__name__} payment gateway"
 
+
 class LegacyGateway:
     """Comes from a third-party library - we cannot edit its source."""
     def charge(self, amount):
@@ -19,6 +21,7 @@ class LegacyGateway:
 
     def refund(self, transaction_id):
         return f"legacy-refund {transaction_id}"
+
 
 print(isinstance(LegacyGateway(), PaymentGateway))
 PaymentGateway.register(LegacyGateway)

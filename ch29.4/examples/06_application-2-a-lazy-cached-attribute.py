@@ -15,6 +15,7 @@ class LazyProperty:
         self.func = func
         return self
 
+
 class Report:
     def __init__(self, numbers):
         self.numbers = numbers
@@ -22,6 +23,7 @@ class Report:
     @LazyProperty()
     def total(self):
         return sum(self.numbers)
+
 
 r = Report([10, 20, 30, 40])
 print("First read:")

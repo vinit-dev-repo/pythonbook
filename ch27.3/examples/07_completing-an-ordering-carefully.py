@@ -15,5 +15,6 @@ class RankedTask:
             return self.score < other.score
         return NotImplemented
 
+
 print(RankedTask(2) <= RankedTask(7))
 print(RankedTask(7) > RankedTask(2))

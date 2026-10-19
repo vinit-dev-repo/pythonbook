@@ -4,9 +4,11 @@ def fresh_constructor(cls):
 
     return build
 
+
 class DraftNote:
     def __init__(self, text):
         self.text = text
+
 
 OriginalDraftNote = DraftNote
 DraftNote = fresh_constructor(DraftNote)

@@ -17,7 +17,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 |---|---|---|
 | `counted_sequence_fragment.py` | List comprehensions, revisited › Extend the existing sequence and state what the counter means (line 188) |  |
 | `unique_sequence.py` | Keep first-seen order while removing duplicates (line 259) |  |
-| `list_invariant_fragment.py` | Keep first-seen order while removing duplicates › A constructor cannot protect every inherited list method (line 351) |  |
+| `list_invariant_fragment.py` | Keep first-seen order while removing duplicates › A constructor cannot protect every inherited list method (line 353) |  |
 
 ## Examples, in chapter order
 
@@ -30,4 +30,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/03_key-functions.py` | Sorting sequences › Key functions (line 106) | may use names from earlier examples |
 | `examples/04_stability-and-sorting-by-two-keys.py` | Sorting sequences › Stability, and sorting by two keys (line 126) | may use names from earlier examples |
 | `examples/05_list-comprehensions-revisited.py` | List comprehensions, revisited (line 166) | may use names from earlier examples |
-| `examples/06_try-it-yourself.py` | Try it yourself (line 398) | runs on its own |
+| `examples/06_try-it-yourself.py` | Try it yourself (line 400) | runs on its own |

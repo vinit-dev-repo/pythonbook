@@ -2,6 +2,7 @@ class Reminder:
     def __call__(self, message: str) -> str:
         return f"remember: {message}"
 
+
 reminder = Reminder()
 print(callable(reminder))
 try:

@@ -9,15 +9,18 @@ def first_instance_cache(cls):
 
     return build
 
+
 @first_instance_cache
 class CachedDesk:
     def __init__(self, label):
         self.label = label
 
+
 @first_instance_cache
 class CachedShelf:
     def __init__(self, label):
         self.label = label
+
 
 desk_first = CachedDesk("front")
 desk_later = CachedDesk("ignored")

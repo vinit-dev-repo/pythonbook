@@ -4,6 +4,7 @@ import reprlib
 
 LABEL = re.compile(r"\b[A-Z]{2}-[0-9]{3}\b")
 
+
 class StoredLabels:
     def __init__(self, text):
         self._text = text
@@ -18,10 +19,12 @@ class StoredLabels:
     def __repr__(self):
         return f"StoredLabels({reprlib.repr(self._text)})"
 
+
 class YieldedLabels(StoredLabels):
     def __iter__(self):
         for label in self._labels:
             yield label
+
 
 class LazyLabels:
     def __init__(self, text):
@@ -31,9 +34,11 @@ class LazyLabels:
         for match in LABEL.finditer(self._text):
             yield match.group()
 
+
 class ExpressionLabels(LazyLabels):
     def __iter__(self):
         return (match.group() for match in LABEL.finditer(self._text))
+
 
 text = "AA-103, BB-207; AA-103"
 for kind in (StoredLabels, YieldedLabels, LazyLabels, ExpressionLabels):

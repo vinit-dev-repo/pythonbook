@@ -20,10 +20,10 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `report.py` | Keep the repair and add two summary strategies (line 183) | rewritten later in the chapter |
-| `test_report.py` | Keep the repair and add two summary strategies (line 216) | rewritten later in the chapter |
-| `profile_report.py` | Session B: profile repeated work (line 268) |  |
-| `measure_report.py` | Session B: profile repeated work › Measure without profiler overhead (line 377) |  |
+| `report.py` | Keep the repair and add two summary strategies (line 185) | rewritten later in the chapter |
+| `test_report.py` | Keep the repair and add two summary strategies (line 221) | rewritten later in the chapter |
+| `profile_report.py` | Session B: profile repeated work (line 278) |  |
+| `measure_report.py` | Session B: profile repeated work › Measure without profiler overhead (line 391) |  |
 
 ## Examples, in chapter order
 
@@ -31,4 +31,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_pause-at-the-decision-with-pdb.py` | Session A: reproduce, inspect, and repair a wrong result › Pause at the decision with `pdb` (line 161) | runs on its own |
+| `examples/01_pause-at-the-decision-with-pdb.py` | Session A: reproduce, inspect, and repair a wrong result › Pause at the decision with `pdb` (line 163) | runs on its own |

@@ -18,9 +18,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `c3_order.py` | Method Resolution Order (MRO) › C3 preserves earlier ordering decisions (line 108) |  |
 | `selected_method.py` | Method Resolution Order (MRO) › Select one method without reversing every lookup (line 157) |  |
 | `inspect_frameworks.py` | Method Resolution Order (MRO) › Find the owner of a method in a library (line 254) |  |
-| `slot_boundaries.py` | `__slots__`: a fixed attribute list › Slot names describe storage, not default values (line 427) |  |
-| `measure_slots.py` | `__slots__`: a fixed attribute list › Measure a concrete slot workload (line 478) |  |
-| `measure_slot_memory.py` | `__slots__`: a fixed attribute list › Measure retained allocations separately from time (line 536) |  |
+| `slot_boundaries.py` | `__slots__`: a fixed attribute list › Slot names describe storage, not default values (line 429) |  |
+| `measure_slots.py` | `__slots__`: a fixed attribute list › Measure a concrete slot workload (line 480) |  |
+| `measure_slot_memory.py` | `__slots__`: a fixed attribute list › Measure retained allocations separately from time (line 543) |  |
 
 ## Examples, in chapter order
 
@@ -31,6 +31,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_method-resolution-order-mro.py` | Method Resolution Order (MRO) (line 40) | runs on its own |
 | `examples/02_multiple-inheritance.py` | Method Resolution Order (MRO) › Multiple inheritance (line 65) | may use names from earlier examples |
 | `examples/03_reusing-a-narrow-behavior-with-a-mixin.py` | Method Resolution Order (MRO) › Reusing a narrow behavior with a mixin (line 211) | may use names from earlier examples |
-| `examples/04_slots-a-fixed-attribute-list.py` | `__slots__`: a fixed attribute list (line 330) | raises an error on purpose |
-| `examples/05_slots-and-dictionaries-across-a-hierarchy.py` | `__slots__`: a fixed attribute list › Slots and dictionaries across a hierarchy (line 364) | may use names from earlier examples |
-| `examples/06_try-it-yourself.py` | Try it yourself (line 623) | may use names from earlier examples |
+| `examples/04_slots-a-fixed-attribute-list.py` | `__slots__`: a fixed attribute list (line 332) | raises an error on purpose |
+| `examples/05_slots-and-dictionaries-across-a-hierarchy.py` | `__slots__`: a fixed attribute list › Slots and dictionaries across a hierarchy (line 366) | may use names from earlier examples |
+| `examples/06_try-it-yourself.py` | Try it yourself (line 632) | may use names from earlier examples |

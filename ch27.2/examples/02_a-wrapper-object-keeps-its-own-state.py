@@ -1,5 +1,6 @@
 import functools
 
+
 class CountCalls:
     def __init__(self, func):
         functools.update_wrapper(self, func)
@@ -13,18 +14,22 @@ class CountCalls:
     def reset(self):
         self.calls = 0
 
+
 @CountCalls
 def total(price, *, tax):
     "Return a price after tax."
     return price + tax
 
+
 @CountCalls
 def welcome(name):
     return f"Hello, {name}"
 
+
 @CountCalls
 def reject():
     raise ValueError("not available")
+
 
 print(total(10, tax=2))
 print(welcome("Ana"))

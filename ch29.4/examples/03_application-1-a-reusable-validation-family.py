@@ -20,6 +20,7 @@ class Typed:
             )
         instance.__dict__[self.private_name] = value
 
+
 class Bounded:
     """A descriptor that only accepts numbers inside a range."""
     def __init__(self, minimum, maximum):
@@ -45,6 +46,7 @@ class Bounded:
             )
         instance.__dict__[self.private_name] = value
 
+
 class Employee:
     name = Typed(str)
     age = Bounded(18, 70)
@@ -55,6 +57,7 @@ class Employee:
         self.age = age
         self.salary = salary
 
+
 class Product:
     name = Typed(str)
     rating = Bounded(0, 5)
@@ -62,6 +65,7 @@ class Product:
     def __init__(self, name, rating):
         self.name = name
         self.rating = rating
+
 
 e = Employee("Vinit", 30, 55000)
 print(e.name, e.age, e.salary)

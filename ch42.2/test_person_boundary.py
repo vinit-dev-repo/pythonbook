@@ -4,10 +4,12 @@ import json
 import person_boundary
 from jsonschema import ValidationError, validate
 
+
 def text_for(**changes):
     data = {"__type__": "Person", "name": "Amy", "birthdate": "2000-05-01"}
     data.update(changes)
     return json.dumps(data)
+
 
 def rejects(value, error, loader=person_boundary.load_person):
     try:
@@ -15,6 +17,7 @@ def rejects(value, error, loader=person_boundary.load_person):
     except error:
         return
     raise AssertionError(f"expected {error.__name__}")
+
 
 def check_construction_happens_last():
     original = person_boundary.Person
@@ -37,12 +40,14 @@ def check_construction_happens_last():
     finally:
         person_boundary.Person = original
 
+
 def check_hook_is_explicit():
     seen = []
     assert json.loads('{"name": "Amy"}') == {"name": "Amy"}
     assert seen == []
     assert json.loads('{"name": "Amy"}', object_hook=lambda data: seen.append(data) or data) == {"name": "Amy"}
     assert seen == [{"name": "Amy"}]
+
 
 def check_extra_field_boundary():
     extra = text_for(admin=True)
@@ -62,6 +67,7 @@ def check_extra_field_boundary():
     else:
         raise AssertionError("the rejection check did not expose the bypass")
     rejects(extra, ValidationError)  # same check, repaired boundary
+
 
 if __name__ == "__main__":
     accepted = person_boundary.load_person(text_for())

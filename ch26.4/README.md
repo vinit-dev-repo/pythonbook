@@ -17,20 +17,20 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_typing-protocol-structural-typing-pep-544.py` | `typing.Protocol`: structural typing (PEP 544) (line 49) | runs on its own |
-| `examples/02_runtime-checkable-and-its-real-limit.py` | `typing.Protocol`: structural typing (PEP 544) › `@runtime_checkable` and its real limit (line 92) | runs on its own |
-| `examples/03_use-a-saved-file-to-check-a-signature-before-run.py` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 151) | runs on its own |
-| `examples/04_use-a-saved-file-to-check-a-signature-before-run.py` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 218) | a fragment, not a complete program |
-| `examples/05_a-member-can-exist-without-being-callable.py` | `typing.Protocol`: structural typing (PEP 544) › A member can exist without being callable (line 240) | runs on its own |
-| `examples/06_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 281) | runs on its own |
-| `examples/07_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 313) | runs on its own |
-| `examples/08_check-the-same-behavior-across-implementations.py` | Choosing an approach › Check the same behavior across implementations (line 428) | runs on its own |
-| `examples/09_try-it-yourself.py` | Try it yourself (line 534) | runs on its own |
+| `examples/02_runtime-checkable-and-its-real-limit.py` | `typing.Protocol`: structural typing (PEP 544) › `@runtime_checkable` and its real limit (line 96) | runs on its own |
+| `examples/03_use-a-saved-file-to-check-a-signature-before-run.py` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 158) | runs on its own |
+| `examples/04_use-a-saved-file-to-check-a-signature-before-run.py` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 230) | a fragment, not a complete program |
+| `examples/05_a-member-can-exist-without-being-callable.py` | `typing.Protocol`: structural typing (PEP 544) › A member can exist without being callable (line 252) | runs on its own |
+| `examples/06_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 296) | runs on its own |
+| `examples/07_method-bodies-in-a-protocol.py` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 328) | runs on its own |
+| `examples/08_check-the-same-behavior-across-implementations.py` | Choosing an approach › Check the same behavior across implementations (line 449) | runs on its own |
+| `examples/09_try-it-yourself.py` | Try it yourself (line 562) | runs on its own |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 134) | powershell commands to type in a terminal |
-| `commands/02_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 183) | powershell commands to type in a terminal |
-| `commands/03_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 201) | powershell commands to type in a terminal |
-| `commands/04_method-bodies-in-a-protocol.ps1` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 346) | powershell commands to type in a terminal |
+| `commands/01_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 141) | powershell commands to type in a terminal |
+| `commands/02_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 195) | powershell commands to type in a terminal |
+| `commands/03_use-a-saved-file-to-check-a-signature-before-run.ps1` | `typing.Protocol`: structural typing (PEP 544) › Use a saved file to check a signature before running it (line 213) | powershell commands to type in a terminal |
+| `commands/04_method-bodies-in-a-protocol.ps1` | `typing.Protocol`: structural typing (PEP 544) › Method bodies in a Protocol (line 367) | powershell commands to type in a terminal |

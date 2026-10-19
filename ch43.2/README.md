@@ -17,8 +17,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `to_thread_lifecycle.py` | What `async` is for, and what it is NOT for › A timed-out wait can leave a worker running (line 155) |  |
-| `test_to_thread_lifecycle.py` | What `async` is for, and what it is NOT for › Check the actual task and worker states (line 257) |  |
-| `exercise_to_thread_lifecycle.py` | What `async` is for, and what it is NOT for › Practice: preserve a result without abandoning work (line 313) |  |
+| `test_to_thread_lifecycle.py` | What `async` is for, and what it is NOT for › Check the actual task and worker states (line 260) |  |
+| `exercise_to_thread_lifecycle.py` | What `async` is for, and what it is NOT for › Practice: preserve a result without abandoning work (line 320) |  |
 
 ## Examples, in chapter order
 
@@ -30,7 +30,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_calls-between-async-and-regular-functions.py` | What `async` is for, and what it is NOT for › Calls between async and regular functions (line 75) | may use names from earlier examples |
 | `examples/03_calls-between-async-and-regular-functions.py` | What `async` is for, and what it is NOT for › Calls between async and regular functions (line 96) | may use names from earlier examples |
 | `examples/04_calls-between-async-and-regular-functions.py` | What `async` is for, and what it is NOT for › Calls between async and regular functions (line 117) | may use names from earlier examples |
-| `examples/05_async-for-and-async-with.py` | `async for` and `async with` (line 362) | may use names from earlier examples |
-| `examples/06_async-generators-and-early-cleanup.py` | Async generators and early cleanup (line 406) | may use names from earlier examples |
-| `examples/07_mini-project-fetching-several-things-concurrentl.py` | Mini project: fetching several things concurrently (line 467) | runs on its own |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 544) | runs on its own |
+| `examples/05_async-for-and-async-with.py` | `async for` and `async with` (line 369) | may use names from earlier examples |
+| `examples/06_async-generators-and-early-cleanup.py` | Async generators and early cleanup (line 413) | may use names from earlier examples |
+| `examples/07_mini-project-fetching-several-things-concurrentl.py` | Mini project: fetching several things concurrently (line 474) | runs on its own |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 551) | runs on its own |

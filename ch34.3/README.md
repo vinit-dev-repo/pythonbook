@@ -17,9 +17,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_generator-pipelines.py` | Generator pipelines (line 46) | runs on its own |
 | `examples/02_two-input-formats-one-record-writer.py` | Generator pipelines › Two input formats, one record writer (line 93) | runs on its own |
-| `examples/03_walk-a-directory-tree-and-prune-work.py` | Generator pipelines › Walk a directory tree and prune work (line 170) | runs on its own |
-| `examples/04_yield-from-delegating-to-a-sub-generator.py` | `yield from`: delegating to a sub-generator (line 229) | may use names from earlier examples |
-| `examples/05_flattening-nested-structures.py` | `yield from`: delegating to a sub-generator › Flattening nested structures (line 257) | may use names from earlier examples |
-| `examples/06_generator-return-values.py` | Generator return values (line 296) | may use names from earlier examples |
-| `examples/07_end-with-return-not-an-escaping-stopiteration.py` | Generator return values › End with `return`, not an escaping `StopIteration` (line 329) | runs on its own |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 405) | runs on its own |
+| `examples/03_walk-a-directory-tree-and-prune-work.py` | Generator pipelines › Walk a directory tree and prune work (line 174) | runs on its own |
+| `examples/04_yield-from-delegating-to-a-sub-generator.py` | `yield from`: delegating to a sub-generator (line 233) | may use names from earlier examples |
+| `examples/05_flattening-nested-structures.py` | `yield from`: delegating to a sub-generator › Flattening nested structures (line 261) | may use names from earlier examples |
+| `examples/06_generator-return-values.py` | Generator return values (line 300) | may use names from earlier examples |
+| `examples/07_end-with-return-not-an-escaping-stopiteration.py` | Generator return values › End with `return`, not an escaping `StopIteration` (line 333) | runs on its own |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 411) | runs on its own |

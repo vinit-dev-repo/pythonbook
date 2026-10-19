@@ -1,6 +1,7 @@
 # async_limits.py
 import asyncio
 
+
 async def run_limited(values, *, limit=2, fail_on=None):
     if not values:
         return {
@@ -57,6 +58,7 @@ async def run_limited(values, *, limit=2, fail_on=None):
         "all_done": coordinator.done() and all(task.done() for task in jobs),
     }
 
+
 async def main():
     report = await run_limited([0, 1, 2, 3, 4], limit=2)
     print("indexed results:", report["results"])
@@ -64,6 +66,7 @@ async def main():
     print("processing tasks:", report["processing_tasks"])
     print("active after group:", report["active"])
     print("all child tasks done:", report["all_done"])
+
 
 if __name__ == "__main__":
     asyncio.run(main())

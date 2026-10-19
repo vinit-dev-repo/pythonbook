@@ -25,9 +25,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_every-iterator-is-also-an-iterable.py` | Every iterator is also an iterable (line 41) | runs on its own |
 | `examples/02_building-your-own-iterator.py` | Building your own iterator (line 65) | may use names from earlier examples |
-| `examples/03_a-cyclic-iterator.py` | Building your own iterator › A cyclic iterator (line 190) | may use names from earlier examples |
-| `examples/04_lazy-iterables-values-made-on-demand.py` | Lazy iterables: values made on demand (line 236) | may use names from earlier examples |
-| `examples/05_a-tour-of-python-s-built-in-iterables-and-iterat.py` | A tour of Python's built-in iterables and iterators (line 296) | may use names from earlier examples |
-| `examples/06_iter-s-second-form-a-sentinel.py` | A tour of Python's built-in iterables and iterators › `iter()`'s second form: a sentinel (line 316) | may use names from earlier examples |
-| `examples/07_delegating-iteration.py` | Delegating iteration (line 350) | may use names from earlier examples |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 396) | runs on its own |
+| `examples/03_a-cyclic-iterator.py` | Building your own iterator › A cyclic iterator (line 192) | may use names from earlier examples |
+| `examples/04_lazy-iterables-values-made-on-demand.py` | Lazy iterables: values made on demand (line 238) | may use names from earlier examples |
+| `examples/05_a-tour-of-python-s-built-in-iterables-and-iterat.py` | A tour of Python's built-in iterables and iterators (line 299) | may use names from earlier examples |
+| `examples/06_iter-s-second-form-a-sentinel.py` | A tour of Python's built-in iterables and iterators › `iter()`'s second form: a sentinel (line 319) | may use names from earlier examples |
+| `examples/07_delegating-iteration.py` | Delegating iteration (line 353) | may use names from earlier examples |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 399) | runs on its own |

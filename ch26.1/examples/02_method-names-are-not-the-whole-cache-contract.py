@@ -8,6 +8,7 @@ class MemoryCache:
     def set(self, key, value):
         self._data[key] = value
 
+
 class SameShapeWrongCache:
     def get(self, key):
         return None
@@ -15,11 +16,13 @@ class SameShapeWrongCache:
     def set(self, key, value):
         pass
 
+
 def require_read_after_write(cache, key, value):
     cache.set(key, value)
     observed = cache.get(key)
     if observed != value:
         raise AssertionError(f"read-after-write expected {value!r}, got {observed!r}")
+
 
 for cache in [MemoryCache(), SameShapeWrongCache()]:
     try:

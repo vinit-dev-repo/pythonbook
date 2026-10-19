@@ -16,9 +16,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `managed_csv_records.py` | Transfer project: own a lazy CSV stream until its last use (line 76) |  |
-| `aligned_records.py` | Transfer project: combine four aligned record streams (line 363) |  |
-| `site_report.py` | Transfer project: combine four aligned record streams (line 464) |  |
-| `group_lifetime_lab.py` | Transfer project: combine four aligned record streams › Diagnose an exhausted mask and shared groups (line 563) |  |
+| `aligned_records.py` | Transfer project: combine four aligned record streams (line 376) |  |
+| `site_report.py` | Transfer project: combine four aligned record streams (line 482) |  |
+| `group_lifetime_lab.py` | Transfer project: combine four aligned record streams › Diagnose an exhausted mask and shared groups (line 586) |  |
 
 ## Examples, in chapter order
 
@@ -26,4 +26,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_try-it-yourself.py` | Try it yourself (line 658) | runs on its own |
+| `examples/01_try-it-yourself.py` | Try it yourself (line 684) | runs on its own |

@@ -1,5 +1,6 @@
 import abc
 
+
 class PaymentGateway(abc.ABC):
     @abc.abstractmethod
     def charge(self, amount):
@@ -12,12 +13,14 @@ class PaymentGateway(abc.ABC):
     def describe(self):
         return f"{type(self).__name__} payment gateway"
 
+
 class StripeGateway(PaymentGateway):
     def charge(self, amount):
         return f"stripe-txn-{amount}"
 
     def refund(self, transaction_id):
         return f"refunded {transaction_id}"
+
 
 class FakeGateway(PaymentGateway):
     """Stands in for Stripe during tests - no network call."""
@@ -31,9 +34,11 @@ class FakeGateway(PaymentGateway):
     def refund(self, transaction_id):
         return f"pretend-refunded {transaction_id}"
 
+
 def checkout(gateway, amount):
     txn = gateway.charge(amount)
     print(gateway.describe(), "->", txn)
+
 
 checkout(StripeGateway(), 42)
 checkout(FakeGateway(), 42)

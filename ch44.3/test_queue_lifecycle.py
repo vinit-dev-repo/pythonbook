@@ -3,6 +3,7 @@ import queue
 
 from queue_lifecycle import run_batch
 
+
 assert run_batch([]) == ([], [])
 assert run_batch([0, 1, 2, 3, 4]) == (
     [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16)],

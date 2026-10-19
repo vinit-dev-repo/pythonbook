@@ -5,11 +5,13 @@ def add_ge_from_lt(cls):
         cls.__ge__ = ge_from_lt
     return cls
 
+
 def ge_from_lt(self, other):
     result = self.__lt__(other)
     if result is NotImplemented:
         return NotImplemented
     return not result
+
 
 class Ticket:
     def __init__(self, score):
@@ -25,6 +27,7 @@ class Ticket:
             return self.score < other.score
         return NotImplemented
 
+
 print("__ge__" in Ticket.__dict__)
 Ticket = add_ge_from_lt(Ticket)
 print("__ge__" in Ticket.__dict__)
@@ -33,6 +36,7 @@ try:
     Ticket(8) >= 5
 except TypeError as error:
     print(type(error).__name__)
+
 
 class ExistingTicket:
     def __eq__(self, other):
@@ -43,6 +47,7 @@ class ExistingTicket:
 
     def __ge__(self, other):
         return "kept"
+
 
 saved_ge = ExistingTicket.__ge__
 ExistingTicket = add_ge_from_lt(ExistingTicket)

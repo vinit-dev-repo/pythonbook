@@ -4,6 +4,7 @@ from datetime import date
 
 from jsonschema import ValidationError, validate
 
+
 PERSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -15,6 +16,7 @@ PERSON_SCHEMA = {
     "additionalProperties": False,
 }
 
+
 class Person:
     def __init__(self, name, birthdate):
         self.name = name
@@ -22,6 +24,7 @@ class Person:
 
     def __repr__(self):
         return f"Person({self.name!r}, {self.birthdate})"
+
 
 def load_person(text):
     if not isinstance(text, str):
@@ -36,6 +39,7 @@ def load_person(text):
     if birthday.isoformat() != data["birthdate"]:
         raise ValueError("birthdate must use YYYY-MM-DD")
     return Person(data["name"], birthday)
+
 
 if __name__ == "__main__":
     original = Person("Amy", date(2000, 5, 1))

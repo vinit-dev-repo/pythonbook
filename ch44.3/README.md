@@ -16,8 +16,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `queue_lifecycle.py` | queue.Queue: the safe way to hand off work › A finite batch with two consumers (line 100) |  |
-| `test_queue_lifecycle.py` | queue.Queue: the safe way to hand off work › A finite batch with two consumers (line 180) |  |
-| `exercise5_queue.py` | Try it yourself (line 375) |  |
+| `test_queue_lifecycle.py` | queue.Queue: the safe way to hand off work › A finite batch with two consumers (line 181) |  |
+| `exercise5_queue.py` | Try it yourself (line 377) |  |
 
 ## Examples, in chapter order
 
@@ -26,5 +26,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_queue-queue-the-safe-way-to-hand-off-work.py` | queue.Queue: the safe way to hand off work (line 43) | runs on its own |
-| `examples/02_threadpoolexecutor-preview.py` | ThreadPoolExecutor preview (line 237) | runs on its own |
-| `examples/03_try-it-yourself.py` | Try it yourself (line 320) | runs on its own |
+| `examples/02_threadpoolexecutor-preview.py` | ThreadPoolExecutor preview (line 239) | runs on its own |
+| `examples/03_try-it-yourself.py` | Try it yourself (line 322) | runs on its own |

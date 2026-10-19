@@ -8,6 +8,7 @@ class TicketNumber:
         self.next_number += 1
         return value
 
+
 left = TicketNumber("left")
 right = TicketNumber("right")
 print(left())

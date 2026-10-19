@@ -26,8 +26,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `test_labels.py` | What to actually test › Use a round trip alongside known values (line 275) |  |
 | `catalog.py` | What to actually test › Check the state after an operation (line 312) |  |
 | `test_catalog.py` | What to actually test › Check the state after an operation (line 353) |  |
-| `test_weak_replacement.py` | What to actually test › Make sure a test can catch the defect (line 436) |  |
-| `test_practice.py` | Try it yourself (line 777) |  |
+| `test_weak_replacement.py` | What to actually test › Make sure a test can catch the defect (line 440) |  |
+| `test_practice.py` | Try it yourself (line 792) |  |
 
 ## Examples, in chapter order
 
@@ -38,17 +38,17 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_the-arrange-act-assert-pattern.py` | What to actually test › The Arrange-Act-Assert pattern (line 177) | runs on its own |
 | `examples/02_naming-tests-so-they-read-like-sentences.py` | What to actually test › Naming tests so they read like sentences (line 196) | may use names from earlier examples |
 | `examples/03_check-a-relation-the-contract-promises.py` | What to actually test › Check a relation the contract promises (line 214) | may use names from earlier examples |
-| `examples/04_make-sure-a-test-can-catch-the-defect.py` | What to actually test › Make sure a test can catch the defect (line 457) | a fragment, not a complete program |
-| `examples/05_fixtures-shared-setup.py` | What to actually test › Fixtures: shared setup (line 490) | may use names from earlier examples |
-| `examples/06_a-fixture-can-request-another-fixture.py` | What to actually test › A fixture can request another fixture (line 525) | may use names from earlier examples |
-| `examples/07_rerun-the-old-checks-after-changing-setup.py` | What to actually test › Rerun the old checks after changing setup (line 551) | may use names from earlier examples |
-| `examples/08_setup-yield-and-teardown.py` | What to actually test › Setup, yield and teardown (line 577) | may use names from earlier examples |
-| `examples/09_observe-cleanup-after-it-happens.py` | What to actually test › Observe cleanup after it happens (line 613) | may use names from earlier examples |
-| `examples/10_setup-can-fail-before-yield.py` | What to actually test › Setup can fail before yield (line 674) | may use names from earlier examples |
+| `examples/04_make-sure-a-test-can-catch-the-defect.py` | What to actually test › Make sure a test can catch the defect (line 462) | a fragment, not a complete program |
+| `examples/05_fixtures-shared-setup.py` | What to actually test › Fixtures: shared setup (line 495) | may use names from earlier examples |
+| `examples/06_a-fixture-can-request-another-fixture.py` | What to actually test › A fixture can request another fixture (line 530) | may use names from earlier examples |
+| `examples/07_rerun-the-old-checks-after-changing-setup.py` | What to actually test › Rerun the old checks after changing setup (line 558) | may use names from earlier examples |
+| `examples/08_setup-yield-and-teardown.py` | What to actually test › Setup, yield and teardown (line 584) | may use names from earlier examples |
+| `examples/09_observe-cleanup-after-it-happens.py` | What to actually test › Observe cleanup after it happens (line 620) | may use names from earlier examples |
+| `examples/10_setup-can-fail-before-yield.py` | What to actually test › Setup can fail before yield (line 684) | may use names from earlier examples |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_check-the-state-after-an-operation.sh` | What to actually test › Check the state after an operation (line 425) | bash commands to type in a terminal |
-| `commands/02_make-sure-a-test-can-catch-the-defect.sh` | What to actually test › Make sure a test can catch the defect (line 463) | bash commands to type in a terminal |
+| `commands/01_check-the-state-after-an-operation.sh` | What to actually test › Check the state after an operation (line 429) | bash commands to type in a terminal |
+| `commands/02_make-sure-a-test-can-catch-the-defect.sh` | What to actually test › Make sure a test can catch the defect (line 468) | bash commands to type in a terminal |

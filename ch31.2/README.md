@@ -33,4 +33,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/04_metaclass-keyword-and-metaclass-parameters.py` | `metaclass=` keyword and metaclass parameters (line 142) | may use names from earlier examples |
 | `examples/05_prepare-choosing-the-namespace-briefly.py` | `__prepare__`: choosing the namespace, briefly (line 173) | may use names from earlier examples |
 | `examples/06_init-subclass-the-modern-hook-and-the-one-to-rea.py` | Choose among class-creation tools › `__init_subclass__`: the modern hook, and the one to reach for first (line 356) | may use names from earlier examples |
-| `examples/07_try-it-yourself.py` | Try it yourself (line 700) | runs on its own |
+| `examples/07_try-it-yourself.py` | Try it yourself (line 705) | runs on its own |

@@ -16,9 +16,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_account-identity-and-ledger-snapshots.py` | Account identity and ledger snapshots (line 61) | runs on its own |
-| `examples/02_overdraft-decisions-without-partial-state.py` | Overdraft decisions without partial state (line 211) | may use names from earlier examples |
-| `examples/03_trace-accepted-and-rejected-changes.py` | Overdraft decisions without partial state › Trace accepted and rejected changes (line 325) | may use names from earlier examples |
-| `examples/04_a-saved-snapshot-keeps-its-old-length.py` | Overdraft decisions without partial state › A saved snapshot keeps its old length (line 387) | may use names from earlier examples |
-| `examples/05_check-rejected-inputs-and-numeric-boundaries.py` | Overdraft decisions without partial state › Check rejected inputs and numeric boundaries (line 406) | may use names from earlier examples |
-| `examples/06_build-and-explain-a-new-sequence.py` | Overdraft decisions without partial state › Build and explain a new sequence (line 483) | may use names from earlier examples |
-| `examples/07_try-it-yourself.py` | Try it yourself (line 537) | may use names from earlier examples |
+| `examples/02_overdraft-decisions-without-partial-state.py` | Overdraft decisions without partial state (line 219) | may use names from earlier examples |
+| `examples/03_trace-accepted-and-rejected-changes.py` | Overdraft decisions without partial state › Trace accepted and rejected changes (line 333) | may use names from earlier examples |
+| `examples/04_a-saved-snapshot-keeps-its-old-length.py` | Overdraft decisions without partial state › A saved snapshot keeps its old length (line 395) | may use names from earlier examples |
+| `examples/05_check-rejected-inputs-and-numeric-boundaries.py` | Overdraft decisions without partial state › Check rejected inputs and numeric boundaries (line 414) | may use names from earlier examples |
+| `examples/06_build-and-explain-a-new-sequence.py` | Overdraft decisions without partial state › Build and explain a new sequence (line 491) | may use names from earlier examples |
+| `examples/07_try-it-yourself.py` | Try it yourself (line 545) | may use names from earlier examples |

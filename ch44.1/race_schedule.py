@@ -1,6 +1,7 @@
 # race_schedule.py
 import threading
 
+
 def lost_update(start=100, amount=1):
     balance = start
     both_read = threading.Barrier(2)
@@ -18,6 +19,7 @@ def lost_update(start=100, amount=1):
         worker.join()
     assert all(not worker.is_alive() for worker in workers)
     return balance
+
 
 if __name__ == "__main__":
     actual = lost_update()

@@ -17,8 +17,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `lock_order.py` | Deadlock: everyone waiting forever (line 43) |  |
-| `lock_timeout.py` | Deadlock: everyone waiting forever › Three fixes for deadlock (line 140) |  |
-| `exercise_lock_order.py` | Try it yourself (line 473) |  |
+| `lock_timeout.py` | Deadlock: everyone waiting forever › Three fixes for deadlock (line 144) |  |
+| `exercise_lock_order.py` | Try it yourself (line 479) |  |
 
 ## Examples, in chapter order
 
@@ -26,9 +26,9 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_rlock-a-lock-a-thread-can-re-take.py` | RLock: a lock a thread can re-take (line 197) | runs on its own |
-| `examples/02_semaphore-allow-a-limited-number-of-threads.py` | Semaphore: allow a limited number of threads (line 239) | runs on its own |
-| `examples/03_event-signal-waiting-threads.py` | Event: signal waiting threads (line 289) | runs on its own |
-| `examples/04_condition-wait-until-something-is-true.py` | Condition: wait until something is true (line 345) | runs on its own |
-| `examples/05_try-it-yourself.py` | Try it yourself (line 416) | runs on its own |
-| `examples/06_try-it-yourself.py` | Try it yourself (line 454) | runs on its own |
+| `examples/01_rlock-a-lock-a-thread-can-re-take.py` | RLock: a lock a thread can re-take (line 203) | runs on its own |
+| `examples/02_semaphore-allow-a-limited-number-of-threads.py` | Semaphore: allow a limited number of threads (line 245) | runs on its own |
+| `examples/03_event-signal-waiting-threads.py` | Event: signal waiting threads (line 295) | runs on its own |
+| `examples/04_condition-wait-until-something-is-true.py` | Condition: wait until something is true (line 351) | runs on its own |
+| `examples/05_try-it-yourself.py` | Try it yourself (line 422) | runs on its own |
+| `examples/06_try-it-yourself.py` | Try it yourself (line 460) | runs on its own |

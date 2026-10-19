@@ -4,9 +4,11 @@ import os
 
 from process_lifecycle import observe_result, observe_stop
 
+
 def require_success(report, value):
     assert report["exitcode"] == 0 and report["message"] == ("ok", value * value), "child did not deliver a successful result"
     assert not report["eof"]
+
 
 def require_cleanup(report):
     assert report["pid"] != os.getpid()
@@ -14,6 +16,7 @@ def require_cleanup(report):
     assert report["receiver_closed"] and report["sender_closed"]
     assert report["process_closed"] and not report["forced_termination"]
     assert all(child.pid != report["pid"] for child in multiprocessing.active_children())
+
 
 def main():
     success = observe_result(3)
@@ -42,6 +45,7 @@ def main():
     require_cleanup(fresh)
     assert multiprocessing.active_children() == []
     print("raw process lifecycle assertions passed")
+
 
 if __name__ == "__main__":
     main()

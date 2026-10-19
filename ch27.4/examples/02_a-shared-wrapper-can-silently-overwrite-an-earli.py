@@ -5,15 +5,18 @@ def fresh_wrapper(cls):
 
     return Wrapper
 
+
 @fresh_wrapper
 class SafeCard:
     def __init__(self, label):
         self.label = label
 
+
 @fresh_wrapper
 class SafeBadge:
     def __init__(self, label):
         self.label = label
+
 
 safe_one = SafeCard("first")
 safe_two = SafeCard("second")

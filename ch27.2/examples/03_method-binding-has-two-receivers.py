@@ -1,5 +1,6 @@
 import functools
 
+
 class CountCalls:
     def __init__(self, func):
         self.func = func
@@ -8,6 +9,7 @@ class CountCalls:
     def __call__(self, *args, **kwargs):
         self.calls += 1
         return self.func(*args, **kwargs)
+
 
 class BrokenLedger:
     def __init__(self):
@@ -18,10 +20,12 @@ class BrokenLedger:
         self.total += amount
         return self.total
 
+
 try:
     BrokenLedger().add(3)
 except TypeError as error:
     print(type(error).__name__)
+
 
 def count_method(func):
     calls = 0
@@ -38,6 +42,7 @@ def count_method(func):
     wrapper.get_calls = get_calls
     return wrapper
 
+
 class Ledger:
     def __init__(self):
         self.total = 0
@@ -46,6 +51,7 @@ class Ledger:
     def add(self, amount):
         self.total += amount
         return self.total
+
 
 first = Ledger()
 second = Ledger()

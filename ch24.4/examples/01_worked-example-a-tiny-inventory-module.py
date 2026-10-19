@@ -14,6 +14,7 @@ class UnknownItemError(InventoryError):
         super().__init__(f"No such item: {item!r}")
         self.item = item
 
+
 class Inventory:
     def __init__(self):
         self.stock = {"apple": 10, "banana": 0}
@@ -26,6 +27,7 @@ class Inventory:
             raise OutOfStockError(item, quantity, available)
         self.stock[item] -= quantity
         return quantity
+
 
 inventory = Inventory()
 

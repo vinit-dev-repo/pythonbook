@@ -1,5 +1,6 @@
 from operator import attrgetter, itemgetter, methodcaller
 
+
 class PersonTool:
     def __init__(self, name: str, age: int):
         self.name = name
@@ -10,6 +11,7 @@ class PersonTool:
 
     def __repr__(self) -> str:
         return f"PersonTool({self.name!r}, {self.age})"
+
 
 people = [PersonTool("Ben", 25), PersonTool("Amy", 25), PersonTool("Cal", 30)]
 attribute_name = "age"

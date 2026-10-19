@@ -4,8 +4,10 @@ import asyncio
 from async_counter import lost_update, protected_update
 from async_limits import run_limited
 
+
 def require_intended_total(actual, start, amount):
     assert actual == start + 2 * amount, "one increment was lost"
+
 
 async def main():
     for values, limit in [([], 2), ([0, 1, 2, 3, 4], 2), ([1, 2], 1), ([2, 2, 5], 2)]:
@@ -42,6 +44,7 @@ async def main():
         require_intended_total(fixed, start, amount)
         assert asyncio.all_tasks() == {asyncio.current_task()}
     print("async capacity, cleanup and counter assertions passed")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

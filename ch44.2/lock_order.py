@@ -1,11 +1,13 @@
 # lock_order.py
 import threading
 
+
 def check_released(locks):
     for lock in locks:
         acquired = lock.acquire(blocking=False)
         assert acquired, "a worker left a lock held"
         lock.release()
+
 
 def opposite_order():
     lock_a = threading.Lock()
@@ -42,6 +44,7 @@ def opposite_order():
     check_released((lock_a, lock_b))
     return outcomes
 
+
 def same_order():
     lock_a = threading.Lock()
     lock_b = threading.Lock()
@@ -61,6 +64,7 @@ def same_order():
     assert outcomes == ["completed", "completed"]
     check_released((lock_a, lock_b))
     return outcomes
+
 
 if __name__ == "__main__":
     opposite = opposite_order()

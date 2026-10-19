@@ -17,8 +17,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `race_schedule.py` | A race condition › Deliberately expose one lost update (line 215) |  |
-| `locked_update.py` | Lock: protect a critical section › A small protected counterpart (line 391) |  |
-| `exercise_race.py` | Try it yourself (line 474) |  |
+| `locked_update.py` | Lock: protect a critical section › A small protected counterpart (line 393) |  |
+| `exercise_race.py` | Try it yourself (line 478) |  |
 
 ## Examples, in chapter order
 
@@ -29,7 +29,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_the-gil-is-finally-becoming-optional.py` | The GIL, honestly › The GIL is finally becoming optional (line 108) | runs on its own |
 | `examples/02_creating-threads.py` | Creating threads (line 141) | runs on its own |
 | `examples/03_naming-threads-for-readable-demos.py` | Creating threads › Naming threads for readable demos (line 179) | runs on its own |
-| `examples/04_an-uncontrolled-stress-run.py` | A race condition › An uncontrolled stress run (line 265) | runs on its own |
-| `examples/05_lock-protect-a-critical-section.py` | Lock: protect a critical section (line 346) | runs on its own |
-| `examples/06_what-with-lock-does-underneath.py` | Lock: protect a critical section › What `with lock:` does underneath (line 432) | runs on its own |
-| `examples/07_try-it-yourself.py` | Try it yourself (line 525) | runs on its own |
+| `examples/04_an-uncontrolled-stress-run.py` | A race condition › An uncontrolled stress run (line 267) | runs on its own |
+| `examples/05_lock-protect-a-critical-section.py` | Lock: protect a critical section (line 348) | runs on its own |
+| `examples/06_what-with-lock-does-underneath.py` | Lock: protect a critical section › What `with lock:` does underneath (line 436) | runs on its own |
+| `examples/07_try-it-yourself.py` | Try it yourself (line 529) | runs on its own |

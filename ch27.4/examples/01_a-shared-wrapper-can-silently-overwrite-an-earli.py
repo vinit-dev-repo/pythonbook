@@ -7,15 +7,18 @@ class SharedWrapper:
         self.wrapped = self.cls(label)
         return self
 
+
 @SharedWrapper
 class BrokenCard:
     def __init__(self, label):
         self.label = label
 
+
 @SharedWrapper
 class BrokenBadge:
     def __init__(self, label):
         self.label = label
+
 
 first_card = BrokenCard("first")
 second_card = BrokenCard("second")

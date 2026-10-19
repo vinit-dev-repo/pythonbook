@@ -1,11 +1,14 @@
 from typing import Protocol, runtime_checkable
 
+
 @runtime_checkable
 class CallableCharge(Protocol):
     def charge(self, amount: float) -> str: ...
 
+
 class LabelOnly:
     charge = "not callable"
+
 
 label = LabelOnly()
 print(isinstance(label, CallableCharge))

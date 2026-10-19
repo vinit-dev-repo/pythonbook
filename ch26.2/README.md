@@ -18,11 +18,11 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_standard-interfaces-in-collections-abc.py` | Standard interfaces in `collections.abc` (line 44) | runs on its own |
 | `examples/02_standard-interfaces-in-collections-abc.py` | Standard interfaces in `collections.abc` (line 92) | runs on its own |
-| `examples/03_standard-interfaces-in-collections-abc.py` | Standard interfaces in `collections.abc` (line 125) | runs on its own |
-| `examples/04_numeric-contracts-the-numbers-abc-tower.py` | Standard interfaces in `collections.abc` › Numeric contracts: the `numbers` ABC tower (line 163) | runs on its own |
-| `examples/05_writing-your-own-abc.py` | Writing your own ABC (line 204) | runs on its own |
-| `examples/06_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 238) | runs on its own |
-| `examples/07_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 291) | runs on its own |
-| `examples/08_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 323) | runs on its own |
-| `examples/09_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 365) | runs on its own |
-| `examples/10_try-it-yourself.py` | Try it yourself (line 461) | runs on its own |
+| `examples/03_standard-interfaces-in-collections-abc.py` | Standard interfaces in `collections.abc` (line 127) | runs on its own |
+| `examples/04_numeric-contracts-the-numbers-abc-tower.py` | Standard interfaces in `collections.abc` › Numeric contracts: the `numbers` ABC tower (line 167) | runs on its own |
+| `examples/05_writing-your-own-abc.py` | Writing your own ABC (line 208) | runs on its own |
+| `examples/06_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 244) | runs on its own |
+| `examples/07_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 302) | runs on its own |
+| `examples/08_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 337) | runs on its own |
+| `examples/09_an-abstract-method-can-sit-beside-a-working-one.py` | Writing your own ABC › An abstract method can sit beside a working one (line 382) | runs on its own |
+| `examples/10_try-it-yourself.py` | Try it yourself (line 478) | runs on its own |

@@ -15,8 +15,8 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `retention_lab.py` | Objects kept in memory by mistake › Follow one retained allocation through release (line 162) |  |
-| `test_retention_lab.py` | Objects kept in memory by mistake › Follow one retained allocation through release (line 242) |  |
-| `exercise_retention.py` | Objects kept in memory by mistake › Practice: a second owner (line 301) |  |
+| `test_retention_lab.py` | Objects kept in memory by mistake › Follow one retained allocation through release (line 249) |  |
+| `exercise_retention.py` | Objects kept in memory by mistake › Practice: a second owner (line 311) |  |
 
 ## Examples, in chapter order
 
@@ -28,7 +28,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_leak-one-a-cache-that-never-forgets.py` | Objects kept in memory by mistake › Leak one: a cache that never forgets (line 68) | may use names from earlier examples |
 | `examples/03_leak-two-something-still-listening.py` | Objects kept in memory by mistake › Leak two: something still listening (line 93) | may use names from earlier examples |
 | `examples/04_finding-a-leak-tracemalloc.py` | Objects kept in memory by mistake › Finding a leak: `tracemalloc` (line 130) | may use names from earlier examples |
-| `examples/05_small-integers-are-pre-made.py` | Interning: reusing common objects › Small integers are pre-made (line 369) | may use names from earlier examples |
-| `examples/06_small-integers-are-pre-made.py` | Interning: reusing common objects › Small integers are pre-made (line 381) | may use names from earlier examples |
-| `examples/07_strings-get-a-similar-trick.py` | Interning: reusing common objects › Strings get a similar trick (line 398) | may use names from earlier examples |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 447) | runs on its own |
+| `examples/05_small-integers-are-pre-made.py` | Interning: reusing common objects › Small integers are pre-made (line 379) | may use names from earlier examples |
+| `examples/06_small-integers-are-pre-made.py` | Interning: reusing common objects › Small integers are pre-made (line 391) | may use names from earlier examples |
+| `examples/07_strings-get-a-similar-trick.py` | Interning: reusing common objects › Strings get a similar trick (line 408) | may use names from earlier examples |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 457) | runs on its own |

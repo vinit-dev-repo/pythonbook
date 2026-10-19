@@ -15,7 +15,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `call_timings.py` | Retain timing totals without losing the receiver (line 382) |  |
+| `call_timings.py` | Retain timing totals without losing the receiver (line 398) |  |
 
 ## Examples, in chapter order
 
@@ -25,7 +25,7 @@ Every other Python block of the chapter, numbered in reading order and named aft
 |---|---|---|
 | `examples/01_decorator-classes.py` | Decorator classes (line 42) | runs on its own |
 | `examples/02_a-wrapper-object-keeps-its-own-state.py` | Decorator classes › A wrapper object keeps its own state (line 88) | runs on its own |
-| `examples/03_method-binding-has-two-receivers.py` | Decorator classes › Method binding has two receivers (line 163) | runs on its own |
-| `examples/04_dispatch-on-a-method-argument.py` | Decorator classes › Dispatch on a method argument (line 248) | runs on its own |
-| `examples/05_a-configured-decorator-creates-a-wrapper-functio.py` | A configured decorator creates a wrapper function (line 310) | runs on its own |
-| `examples/06_try-it-yourself.py` | Try it yourself (line 482) | runs on its own |
+| `examples/03_method-binding-has-two-receivers.py` | Decorator classes › Method binding has two receivers (line 168) | runs on its own |
+| `examples/04_dispatch-on-a-method-argument.py` | Decorator classes › Dispatch on a method argument (line 259) | runs on its own |
+| `examples/05_a-configured-decorator-creates-a-wrapper-functio.py` | A configured decorator creates a wrapper function (line 321) | runs on its own |
+| `examples/06_try-it-yourself.py` | Try it yourself (line 498) | runs on its own |

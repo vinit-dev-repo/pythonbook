@@ -1,6 +1,7 @@
 from datetime import datetime, timezone
 from math import isfinite
 
+
 def _number_text(value):
     # Internal callers supply a validated built-in int or float.
     try:
@@ -8,9 +9,13 @@ def _number_text(value):
     except ValueError:
         return "<integer exceeds decimal display limit>"
 
+
+
+
 def finite_number(value):
     # bool and numeric subclasses are outside this exercise's input domain.
     return type(value) is int or (type(value) is float and isfinite(value))
+
 
 class Account:
     def __init__(self, first_name, last_name, account_number,
@@ -60,6 +65,9 @@ class Account:
         if not value and self.balance < 0:
             raise ValueError("Restore a nonnegative balance before disabling overdraft")
         self._is_overdraft_allowed = value
+
+
+
 
     def __str__(self):
         return f"{self.account_number}: {_number_text(self.balance)}"

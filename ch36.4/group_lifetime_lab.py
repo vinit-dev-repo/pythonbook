@@ -1,8 +1,10 @@
 # group_lifetime_lab.py
 from itertools import compress, groupby, tee
 
+
 def report(groups):
     return [(key, sum(1 for _ in group)) for key, group in groups]
+
 
 def main():
     rows = [("S1", "Pine", "S1"), ("S2", "Cedar", "S2")]
@@ -27,6 +29,7 @@ def main():
     counts = ((key, sum(1 for _ in group)) for key, group in groupby(values))
     first, second = tee(counts)
     print("tee counts:", list(first), list(second))
+
 
 if __name__ == "__main__":
     main()

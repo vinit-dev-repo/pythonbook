@@ -8,6 +8,7 @@ class DictCache:
     def set(self, key, value):
         self._data[key] = value
 
+
 class ListLoggingCache:
     """No shared application-specific base with DictCache."""
     def __init__(self):
@@ -20,9 +21,11 @@ class ListLoggingCache:
     def set(self, key, value):
         self._log.append(("set", key, value))
 
+
 def remember_score(cache, name, score):
     cache.set(name, score)
     print(cache.get(name))
+
 
 for cache in [DictCache(), ListLoggingCache()]:
     remember_score(cache, "Aisha", 95)

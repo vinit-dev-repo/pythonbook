@@ -4,11 +4,13 @@ import tkinter
 from django.views.generic import ListView, TemplateView
 from django.views.generic.base import View
 
+
 def defining_class(kind, name):
     for base in kind.__mro__:
         if name in vars(base):
             return base
     raise AttributeError(name)
+
 
 if __name__ == "__main__":
     for kind in (tkinter.Text, ListView):

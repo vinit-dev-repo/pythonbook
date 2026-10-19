@@ -1,6 +1,7 @@
 # process_lifecycle.py
 import multiprocessing
 
+
 def result_child(sender, value, fail):
     try:
         if fail:
@@ -8,6 +9,7 @@ def result_child(sender, value, fail):
         sender.send(("ok", value * value))
     finally:
         sender.close()
+
 
 def waiting_child(sender, stop):
     try:
@@ -19,6 +21,7 @@ def waiting_child(sender, stop):
         finally:
             sender.close()
 
+
 def receive_reply(receiver):
     if not receiver.poll(5):
         raise TimeoutError("child reply did not become ready")
@@ -26,6 +29,7 @@ def receive_reply(receiver):
         return receiver.recv(), False
     except EOFError:
         return None, True
+
 
 def close_owned_child(process, receiver, sender, stop=None):
     forced = False
@@ -58,6 +62,7 @@ def close_owned_child(process, receiver, sender, stop=None):
         "forced_termination": forced,
     }
 
+
 def observe_result(value, *, fail=False):
     context = multiprocessing.get_context("spawn")
     receiver, sender = context.Pipe(duplex=False)
@@ -80,6 +85,7 @@ def observe_result(value, *, fail=False):
         resources = close_owned_child(process, receiver, sender)
     report.update(resources)
     return report
+
 
 def observe_stop():
     context = multiprocessing.get_context("spawn")
@@ -117,6 +123,7 @@ def observe_stop():
     report.update(resources)
     return report
 
+
 def main():
     success = observe_result(3)
     failure = observe_result(3, fail=True)
@@ -131,6 +138,7 @@ def main():
         item["receiver_closed"] and item["sender_closed"] and item["process_closed"]
         for item in reports
     ))
+
 
 if __name__ == "__main__":
     main()

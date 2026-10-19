@@ -247,9 +247,15 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch49`](ch49/) | NumPy | Why plain Python lists are slow for number-crunching, and what NumPy does differently; What an array, a… | 4 | 37 | 0 |
-| [`ch50`](ch50/) | Pandas | What pandas is for, and when to reach for it instead of NumPy; The two core objects: `Series` and… | 4 | 37 | 0 |
-| [`ch51`](ch51/) | Visualization - Matplotlib and Seaborn | Why a picture can show you things a table of numbers hides; The two ways to use matplotlib, and why the… | 0 | 24 | 0 |
+| [`ch49.1`](ch49.1/) | Why NumPy Exists, Creating Arrays, Reshaping, Stacking and Splitting | Why plain Python lists are slow for number-crunching, and what NumPy does differently; What an array, a… | 0 | 21 | 0 |
+| [`ch49.2`](ch49.2/) | Indexing, Slicing, Fancy Indexing and Boolean Masks | How to pick out data with indexing, slicing, fancy indexing and masks; How a slice differs from a copy, and… | 2 | 9 | 0 |
+| [`ch49.3`](ch49.3/) | Ufuncs, Broadcasting, Statistics, Stored Arrays and a Worked Example | How **ufuncs** and **broadcasting** let you skip loops entirely; How to summarise arrays with `sum`, `mean`,… | 2 | 14 | 0 |
+| [`ch50.1`](ch50.1/) | What pandas Is For, Series, DataFrames, Indexes, Building and Loading Tables | What pandas is for, and when to reach for it instead of NumPy; The two core objects: `Series` and… | 1 | 12 | 0 |
+| [`ch50.2`](ch50.2/) | Checking a Dataset, Selecting, Missing Data, Basic Analysis and Sorting | How to look at a new dataset for the first time; How to select rows, columns and cells with `loc` and… | 2 | 19 | 0 |
+| [`ch50.3`](ch50.3/) | Manipulating, groupby, a Closing Analysis, an Audit and a Transfer Analysis | How `groupby` splits data into groups, does maths on each, and combines the results; How to add, rename and… | 1 | 13 | 0 |
+| [`ch51.1`](ch51.1/) | Why Charts Help, the Figure and Axes APIs, Styling and a Grid of Axes | Why a picture can show you things a table of numbers hides; The two ways to use matplotlib, and why the… | 0 | 7 | 0 |
+| [`ch51.2`](ch51.2/) | The Core Chart Types, a Chart Chooser and Plotting from pandas | The core chart types (line, bar, histogram, scatter, pie, box) and when to use each; How to plot straight… | 0 | 9 | 0 |
+| [`ch51.3`](ch51.3/) | Seaborn, Choosing between Matplotlib and Seaborn, and Exporting a Report | What seaborn adds on top of matplotlib, and its statistical chart types; How axes-level and figure-level… | 0 | 14 | 0 |
 | [`ch52`](ch52/) | SQLite from Python | Why plain files and CSV stop being enough once a program grows; What SQLite is, and how Python exposes it… | 0 | 17 | 0 |
 | [`ch52a`](ch52a/) | Boundary visit - SQL values and commands | First finish lesson 52 through the basic SQL examples. You should be able to create a table, insert rows and… | 0 | 5 | 0 |
 | [`ch52b`](ch52b/) | Project - SQLite expense tracker | Prerequisite: Finish lesson 52's connection, transaction and basic SQL teaching, then the SQL values visit's… | 0 | 1 | 0 |

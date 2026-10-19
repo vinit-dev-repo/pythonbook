@@ -23,26 +23,26 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `dependency_lab/walk_modules.py` | Depth session: inspecting module dependencies › Pending work, seen objects and repeated paths (line 216) |  |
 | `dependency_lab/check.py` | Depth session: inspecting module dependencies › Pending work, seen objects and repeated paths (line 248) |  |
 | `reload_group.py` | Depth session: inspecting module dependencies › Reloading a declared group in dependency order (line 314) |  |
-| `import_measure/check.py` | Depth session: measuring cached import and lookup (line 433) |  |
-| `startup_inputs.py` | Depth session: startup settings and path files › Observe the environment at interpreter startup (line 488) |  |
-| `path_file_lab.py` | Depth session: startup settings and path files › A path file is processed by `site` (line 542) |  |
-| `startup_hooks.py` | Depth session: startup settings and path files › Interactive startup is different from a script (line 593) |  |
-| `import_practice/formatting.py` | Composed import practice › 1. Build a reusable library and caller (line 646) |  |
-| `import_practice/library.py` | Composed import practice › 1. Build a reusable library and caller (line 653) |  |
-| `import_practice/caller.py` | Composed import practice › 1. Build a reusable library and caller (line 663) |  |
-| `import_practice/client_from.py` | Composed import practice › 2. Compare explicit and star bindings (line 685) |  |
-| `import_practice/client_star.py` | Composed import practice › 2. Compare explicit and star bindings (line 693) |  |
-| `import_practice/check_guard.py` | Composed import practice › 3. Check the guarded demonstration (line 713) |  |
-| `import_practice/nested_module.py` | Composed import practice › 4. Inspect a nested client's namespace (line 730) |  |
-| `import_practice/nested_from.py` | Composed import practice › 4. Inspect a nested client's namespace (line 735) |  |
-| `import_practice/check_nested.py` | Composed import practice › 4. Inspect a nested client's namespace (line 740) |  |
-| `import_practice_package/myapp/utils/formatting.py` | Composed import practice › 5. Place the library inside a package (line 765) |  |
-| `import_practice_package/myapp/utils/library.py` | Composed import practice › 5. Place the library inside a package (line 771) |  |
-| `import_practice_package/myapp/utils/__init__.py` | Composed import practice › 5. Place the library inside a package (line 781) |  |
-| `import_practice_package/myapp/__init__.py` | Composed import practice › 5. Place the library inside a package (line 788) |  |
-| `import_practice_package/check.py` | Composed import practice › 5. Place the library inside a package (line 795) |  |
-| `import_practice_reload/library.py` | Composed import practice › 6. Edit and reload a callable (line 822) |  |
-| `import_practice_reload/check.py` | Composed import practice › 6. Edit and reload a callable (line 828) |  |
+| `import_measure/check.py` | Depth session: measuring cached import and lookup (line 435) |  |
+| `startup_inputs.py` | Depth session: startup settings and path files › Observe the environment at interpreter startup (line 490) |  |
+| `path_file_lab.py` | Depth session: startup settings and path files › A path file is processed by `site` (line 544) |  |
+| `startup_hooks.py` | Depth session: startup settings and path files › Interactive startup is different from a script (line 595) |  |
+| `import_practice/formatting.py` | Composed import practice › 1. Build a reusable library and caller (line 648) |  |
+| `import_practice/library.py` | Composed import practice › 1. Build a reusable library and caller (line 655) |  |
+| `import_practice/caller.py` | Composed import practice › 1. Build a reusable library and caller (line 665) |  |
+| `import_practice/client_from.py` | Composed import practice › 2. Compare explicit and star bindings (line 687) |  |
+| `import_practice/client_star.py` | Composed import practice › 2. Compare explicit and star bindings (line 695) |  |
+| `import_practice/check_guard.py` | Composed import practice › 3. Check the guarded demonstration (line 715) |  |
+| `import_practice/nested_module.py` | Composed import practice › 4. Inspect a nested client's namespace (line 732) |  |
+| `import_practice/nested_from.py` | Composed import practice › 4. Inspect a nested client's namespace (line 737) |  |
+| `import_practice/check_nested.py` | Composed import practice › 4. Inspect a nested client's namespace (line 742) |  |
+| `import_practice_package/myapp/utils/formatting.py` | Composed import practice › 5. Place the library inside a package (line 767) |  |
+| `import_practice_package/myapp/utils/library.py` | Composed import practice › 5. Place the library inside a package (line 773) |  |
+| `import_practice_package/myapp/utils/__init__.py` | Composed import practice › 5. Place the library inside a package (line 783) |  |
+| `import_practice_package/myapp/__init__.py` | Composed import practice › 5. Place the library inside a package (line 790) |  |
+| `import_practice_package/check.py` | Composed import practice › 5. Place the library inside a package (line 797) |  |
+| `import_practice_reload/library.py` | Composed import practice › 6. Edit and reload a callable (line 824) |  |
+| `import_practice_reload/check.py` | Composed import practice › 6. Edit and reload a callable (line 830) |  |
 
 ## Examples, in chapter order
 
@@ -50,4 +50,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_try-it-yourself.py` | Try it yourself (line 898) | runs on its own |
+| `examples/01_try-it-yourself.py` | Try it yourself (line 900) | runs on its own |

@@ -1,5 +1,6 @@
 import abc
 
+
 class PaymentGateway(abc.ABC):
     @abc.abstractmethod
     def charge(self, amount):
@@ -11,6 +12,7 @@ class PaymentGateway(abc.ABC):
 
     def describe(self):
         return f"{type(self).__name__} payment gateway"
+
 
 try:
     gateway = PaymentGateway()

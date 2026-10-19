@@ -21,6 +21,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/04_returning-the-value-that-the-name-needs.py` | Decorating classes › Returning the value that the name needs (line 123) | runs on its own |
 | `examples/05_one-reusable-method-for-local-classes.py` | Decorating classes › One reusable method for local classes (line 153) | runs on its own |
 | `examples/06_completing-an-ordering-carefully.py` | Decorating classes › Completing an ordering carefully (line 208) | runs on its own |
-| `examples/07_completing-an-ordering-carefully.py` | Decorating classes › Completing an ordering carefully (line 277) | runs on its own |
-| `examples/08_a-decorator-can-replace-a-class-name-with-a-cons.py` | A decorator can replace a class name with a construction function (line 330) | runs on its own |
-| `examples/09_try-it-yourself.py` | Try it yourself (line 381) | runs on its own |
+| `examples/07_completing-an-ordering-carefully.py` | Decorating classes › Completing an ordering carefully (line 282) | runs on its own |
+| `examples/08_a-decorator-can-replace-a-class-name-with-a-cons.py` | A decorator can replace a class name with a construction function (line 336) | runs on its own |
+| `examples/09_try-it-yourself.py` | Try it yourself (line 389) | runs on its own |

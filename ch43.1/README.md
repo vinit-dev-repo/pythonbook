@@ -18,13 +18,13 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `await_ready.py` | Modern async: `async def` and `await` › Awaiting a ready operation need not suspend (line 267) |  |
-| `group_lifecycle.py` | Modern async: `async def` and `await` › Failure, sibling cancellation and cleanup (line 493) |  |
-| `test_group_lifecycle.py` | Modern async: `async def` and `await` › Failure, sibling cancellation and cleanup (line 595) |  |
-| `async_limits.py` | Modern async: `async def` and `await` › Limit active work with an async semaphore (line 653) |  |
-| `async_counter.py` | Modern async: `async def` and `await` › Shared state across a suspending await (line 760) |  |
-| `test_async_limits.py` | Modern async: `async def` and `await` › Shared state across a suspending await (line 829) |  |
-| `exercise_async_limits.py` | Modern async: `async def` and `await` › Practice: capacity and shared updates (line 890) |  |
-| `exercise_group.py` | Try it yourself (line 1079) |  |
+| `group_lifecycle.py` | Modern async: `async def` and `await` › Failure, sibling cancellation and cleanup (line 496) |  |
+| `test_group_lifecycle.py` | Modern async: `async def` and `await` › Failure, sibling cancellation and cleanup (line 601) |  |
+| `async_limits.py` | Modern async: `async def` and `await` › Limit active work with an async semaphore (line 661) |  |
+| `async_counter.py` | Modern async: `async def` and `await` › Shared state across a suspending await (line 771) |  |
+| `test_async_limits.py` | Modern async: `async def` and `await` › Shared state across a suspending await (line 844) |  |
+| `exercise_async_limits.py` | Modern async: `async def` and `await` › Practice: capacity and shared updates (line 908) |  |
+| `exercise_group.py` | Try it yourself (line 1097) |  |
 
 ## Examples, in chapter order
 
@@ -39,11 +39,11 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/05_asyncio-sleep-compared-with-time-sleep.py` | Modern async: `async def` and `await` › `asyncio.sleep` compared with `time.sleep` (line 186) | may use names from earlier examples |
 | `examples/06_asyncio-sleep-compared-with-time-sleep.py` | Modern async: `async def` and `await` › `asyncio.sleep` compared with `time.sleep` (line 208) | may use names from earlier examples |
 | `examples/07_creating-tasks-schedule-now-and-await-later.py` | Modern async: `async def` and `await` › Creating tasks: schedule now and await later (line 236) | may use names from earlier examples |
-| `examples/08_gather-run-several-operations-and-collect-result.py` | Modern async: `async def` and `await` › `gather`: run several operations and collect results (line 305) | may use names from earlier examples |
-| `examples/09_gather-run-several-operations-and-collect-result.py` | Modern async: `async def` and `await` › `gather`: run several operations and collect results (line 334) | may use names from earlier examples |
-| `examples/10_observe-a-surviving-sibling-after-gather-fails.py` | Modern async: `async def` and `await` › Observe a surviving sibling after `gather` fails (line 364) | may use names from earlier examples |
-| `examples/11_taskgroup-manage-related-tasks-3-11.py` | Modern async: `async def` and `await` › `TaskGroup`: manage related tasks (3.11+) (line 422) | may use names from earlier examples |
-| `examples/12_stop-a-group-early-with-cancel-3-15.py` | Modern async: `async def` and `await` › Stop a group early with `cancel()` (3.15) (line 456) | may use names from earlier examples |
-| `examples/13_timeouts-limit-how-long-code-waits.py` | Modern async: `async def` and `await` › Timeouts: limit how long code waits (line 929) | may use names from earlier examples |
-| `examples/14_timeouts-limit-how-long-code-waits.py` | Modern async: `async def` and `await` › Timeouts: limit how long code waits (line 952) | may use names from earlier examples |
-| `examples/15_try-it-yourself.py` | Try it yourself (line 1007) | may use names from earlier examples |
+| `examples/08_gather-run-several-operations-and-collect-result.py` | Modern async: `async def` and `await` › `gather`: run several operations and collect results (line 308) | may use names from earlier examples |
+| `examples/09_gather-run-several-operations-and-collect-result.py` | Modern async: `async def` and `await` › `gather`: run several operations and collect results (line 337) | may use names from earlier examples |
+| `examples/10_observe-a-surviving-sibling-after-gather-fails.py` | Modern async: `async def` and `await` › Observe a surviving sibling after `gather` fails (line 367) | may use names from earlier examples |
+| `examples/11_taskgroup-manage-related-tasks-3-11.py` | Modern async: `async def` and `await` › `TaskGroup`: manage related tasks (3.11+) (line 425) | may use names from earlier examples |
+| `examples/12_stop-a-group-early-with-cancel-3-15.py` | Modern async: `async def` and `await` › Stop a group early with `cancel()` (3.15) (line 459) | may use names from earlier examples |
+| `examples/13_timeouts-limit-how-long-code-waits.py` | Modern async: `async def` and `await` › Timeouts: limit how long code waits (line 947) | may use names from earlier examples |
+| `examples/14_timeouts-limit-how-long-code-waits.py` | Modern async: `async def` and `await` › Timeouts: limit how long code waits (line 970) | may use names from earlier examples |
+| `examples/15_try-it-yourself.py` | Try it yourself (line 1025) | may use names from earlier examples |

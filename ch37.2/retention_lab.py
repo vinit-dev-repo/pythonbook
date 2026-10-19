@@ -3,20 +3,25 @@ import gc
 import inspect
 import tracemalloc
 
+
 def allocate_payload(size):
     return bytearray(size)
+
 
 def allocator_line_number():
     lines, first_line = inspect.getsourcelines(allocate_payload)
     return first_line + next(index for index, line in enumerate(lines) if "bytearray(size)" in line)
+
 
 def bytes_at_allocator(snapshot):
     line = allocator_line_number()
     only_allocator = tracemalloc.Filter(True, __file__, lineno=line)
     return sum(stat.size for stat in snapshot.filter_traces((only_allocator,)).statistics("lineno"))
 
+
 def require_decrease(before, after):
     assert after < before, (before, after)
+
 
 def run_experiment(count=32, size=8192):
     if count <= 0 or size <= 0:
@@ -58,9 +63,11 @@ def run_experiment(count=32, size=8192):
     finally:
         tracemalloc.stop()
 
+
 def scalar_only_work(count, size):
     batch = [allocate_payload(size) for _ in range(count)]
     return len(batch), sum(map(len, batch))
+
 
 if __name__ == "__main__":
     report = run_experiment()

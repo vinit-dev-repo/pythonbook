@@ -15,9 +15,9 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `future_lifecycle.py` | concurrent.futures: the modern, unified interface › Futures can succeed, fail or be cancelled (line 199) |  |
-| `buffered_map.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 368) |  |
-| `test_future_lifecycle.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 423) |  |
-| `exercise_futures.py` | Try it yourself (line 549) |  |
+| `buffered_map.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 372) |  |
+| `test_future_lifecycle.py` | concurrent.futures: the modern, unified interface › Worker count does not bound all submitted work (line 430) |  |
+| `exercise_futures.py` | Try it yourself (line 558) |  |
 
 ## Examples, in chapter order
 
@@ -29,4 +29,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/02_pool-mapping-over-many-inputs.py` | Pool: mapping over many inputs (line 67) | runs on its own |
 | `examples/03_concurrent-futures-the-modern-unified-interface.py` | concurrent.futures: the modern, unified interface (line 100) | runs on its own |
 | `examples/04_submit-and-as-completed-results-as-they-finish.py` | concurrent.futures: the modern, unified interface › submit and as_completed: results as they finish (line 135) | may use names from earlier examples |
-| `examples/05_try-it-yourself.py` | Try it yourself (line 505) | runs on its own |
+| `examples/05_try-it-yourself.py` | Try it yourself (line 514) | runs on its own |

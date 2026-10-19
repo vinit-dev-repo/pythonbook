@@ -4,18 +4,22 @@ from contextlib import ExitStack, contextmanager
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+
 HEADER = ["task", "tags", "minutes"]
+
 
 def send_to_writer(writer):
     while True:
         row = yield
         writer.writerow(row)
 
+
 def keep_if(predicate, target):
     while True:
         row = yield
         if predicate(row):
             target.send(row)
+
 
 @contextmanager
 def csv_pipeline(target_path, predicates):
@@ -38,6 +42,7 @@ def csv_pipeline(target_path, predicates):
             head = own(keep_if(predicate, head))
         yield head
 
+
 def export_orders(source_path, target_path, required_tags):
     if source_path.resolve() == target_path.resolve():
         raise ValueError("use a separate output file")
@@ -55,6 +60,7 @@ def export_orders(source_path, target_path, required_tags):
                 if len(row) != len(HEADER):
                     raise ValueError("expected three fields")
                 head.send(row)
+
 
 def main():
     with TemporaryDirectory() as directory:
@@ -74,6 +80,7 @@ def main():
         with target.open(encoding="utf-8", newline="") as stream:
             for row in csv.reader(stream):
                 print(" | ".join(row))
+
 
 if __name__ == "__main__":
     main()

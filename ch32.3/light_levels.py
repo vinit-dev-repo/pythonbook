@@ -1,6 +1,7 @@
 # light_levels.py
 import reprlib
 
+
 class LightLevels:
     __slots__ = ("_levels",)
 
@@ -64,6 +65,7 @@ class LightLevels:
                 raise ValueError("an empty series has no mean")
             return "mean=" + format(sum(self) / len(self), spec[5:])
         return "[" + " / ".join(format(value, spec) for value in self) + "]"
+
 
 if __name__ == "__main__":
     source = [12, 30, 18]

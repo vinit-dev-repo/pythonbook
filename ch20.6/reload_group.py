@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+
 def dependency_order(dependencies):
     names = set(dependencies)
     if any(child not in names for children in dependencies.values()
@@ -22,6 +23,7 @@ def dependency_order(dependencies):
         finished.add(ready)
         order.append(ready)
     return order
+
 
 dependencies = {
     "lab_report": ("lab_left", "lab_right"),

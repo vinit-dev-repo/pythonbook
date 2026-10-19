@@ -7,6 +7,7 @@ class LazySquares:
     def __iter__(self):
         return LazySquaresIterator(self._limit)
 
+
 class LazySquaresIterator:
     def __init__(self, limit):
         self._limit = limit

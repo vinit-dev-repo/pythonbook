@@ -17,10 +17,10 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 44) | runs on its own |
-| `examples/02_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 91) | runs on its own |
-| `examples/03_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 136) | runs on its own |
-| `examples/04_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 167) | runs on its own |
-| `examples/05_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 210) | runs on its own |
-| `examples/06_subclasshook-isinstance-with-no-registration-eit.py` | `__subclasshook__`: `isinstance` with no registration either (line 245) | runs on its own |
-| `examples/07_subclasshook-isinstance-with-no-registration-eit.py` | `__subclasshook__`: `isinstance` with no registration either (line 270) | runs on its own |
-| `examples/08_try-it-yourself.py` | Try it yourself (line 359) | runs on its own |
+| `examples/02_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 94) | runs on its own |
+| `examples/03_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 144) | runs on its own |
+| `examples/04_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 178) | runs on its own |
+| `examples/05_virtual-subclasses-register.py` | Virtual subclasses: `.register()` (line 221) | runs on its own |
+| `examples/06_subclasshook-isinstance-with-no-registration-eit.py` | `__subclasshook__`: `isinstance` with no registration either (line 259) | runs on its own |
+| `examples/07_subclasshook-isinstance-with-no-registration-eit.py` | `__subclasshook__`: `isinstance` with no registration either (line 286) | runs on its own |
+| `examples/08_try-it-yourself.py` | Try it yourself (line 375) | runs on its own |

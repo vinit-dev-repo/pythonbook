@@ -7,13 +7,16 @@ from tempfile import TemporaryDirectory
 
 from aligned_records import FileSpec, aligned_records, ranked_groups, tied_leaders
 
+
 def utc_stamp(text):
     # A literal Z declares UTC; strptime alone leaves tzinfo unset.
     return datetime.strptime(text, "%Y-%m-%dT%H:%M:%SZ").replace(
         tzinfo=timezone.utc)
 
+
 def current_in(row, *, since, region):
     return row.updated >= since and row.region == region
+
 
 def fixture_specs(folder):
     # Configuration pairs each file with its own schema, not parallel lists.
@@ -47,6 +50,7 @@ def fixture_specs(folder):
         specs.append(FileSpec(path, converters))
     return specs
 
+
 def main():
     cutoff = datetime(2026, 6, 1, tzinfo=timezone.utc)
     with TemporaryDirectory() as folder:
@@ -64,6 +68,7 @@ def main():
             print(region, ranking, "leaders:", tied_leaders(ranking))
         with aligned_records(specs, fields=("maker", "site_id")) as rows:
             print("projection:", next(rows))
+
 
 if __name__ == "__main__":
     main()

@@ -8,6 +8,7 @@ class CountdownFrom:
             raise IndexError(index)
         return value
 
+
 cd = CountdownFrom(3)
 for number in cd:
     print(number)

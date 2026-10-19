@@ -6,6 +6,7 @@ import platform
 import tracemalloc
 from measure_slots import DictionaryRecord, SlotRecord
 
+
 def measure_memory(kind, count):
     if type(count) is not int:
         raise TypeError("count must be a built-in integer")
@@ -36,6 +37,7 @@ def measure_memory(kind, count):
         "after_release_delta_bytes": after - before,
         "measure": "traced Python allocations; not process RSS",
     }
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

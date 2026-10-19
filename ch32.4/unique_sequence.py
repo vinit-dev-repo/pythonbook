@@ -37,6 +37,7 @@ class UniqueSequence:
     def __and__(self, other):
         return self.intersection(other)
 
+
 class ManyUnique(UniqueSequence):
     def union(self, *others):
         result = UniqueSequence(self)
@@ -51,6 +52,7 @@ class ManyUnique(UniqueSequence):
             value for value in self
             if all(value in pool for pool in pools)
         )
+
 
 if __name__ == "__main__":
     letters = ManyUnique("level")

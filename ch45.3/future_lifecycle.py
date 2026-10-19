@@ -2,6 +2,7 @@
 import threading
 from concurrent.futures import CancelledError, ThreadPoolExecutor
 
+
 def run_lifecycle():
     started = threading.Event()
     release = threading.Event()
@@ -71,6 +72,7 @@ def run_lifecycle():
         "workers_stopped": all(not thread.is_alive() for thread in worker_threads),
     }
 
+
 def run_shutdown():
     started = threading.Event()
     release = threading.Event()
@@ -114,6 +116,7 @@ def run_shutdown():
         "workers_stopped": all(not thread.is_alive() for thread in worker_threads),
     }
 
+
 def main():
     state = run_lifecycle()
     print("running cancel:", state["running_cancel"])
@@ -127,6 +130,7 @@ def main():
     print("shutdown cancelled queued:", shutdown["queued_cancelled"])
     print("new submit rejected:", type(shutdown["submit_error"]) is RuntimeError)
     print("workers stopped:", state["workers_stopped"] and shutdown["workers_stopped"])
+
 
 if __name__ == "__main__":
     main()

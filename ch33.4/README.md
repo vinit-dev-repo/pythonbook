@@ -22,4 +22,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_try-it-yourself.py` | Try it yourself (line 406) | runs on its own |
+| `examples/01_try-it-yourself.py` | Try it yourself (line 416) | runs on its own |

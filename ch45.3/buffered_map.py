@@ -2,6 +2,7 @@
 import threading
 from concurrent.futures import ThreadPoolExecutor
 
+
 def observe_map(*, buffersize=None):
     consumed = []
     release = threading.Event()
@@ -28,6 +29,7 @@ def observe_map(*, buffersize=None):
     assert all(not thread.is_alive() for thread in worker_threads)
     return before_results, values
 
+
 def main():
     default_seen, default_values = observe_map()
     buffered_seen, buffered_values = observe_map(buffersize=2)
@@ -35,6 +37,7 @@ def main():
     print("default initial consumption:", default_seen)
     print("buffered initial consumption:", buffered_seen)
     print("both result lists:", buffered_values)
+
 
 if __name__ == "__main__":
     main()

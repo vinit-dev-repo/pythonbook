@@ -1,5 +1,6 @@
 from operator import attrgetter, itemgetter, methodcaller
 
+
 class PersonTool:
     def __init__(self, name: str, age: int):
         self.name = name
@@ -7,6 +8,7 @@ class PersonTool:
 
     def welcome(self, prefix: str, *, punctuation: str = "!") -> str:
         return f"{prefix}, {self.name}{punctuation}"
+
 
 person = PersonTool("Ben", 25)
 bound = attrgetter("welcome")(person)

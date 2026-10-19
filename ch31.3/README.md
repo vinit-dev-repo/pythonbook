@@ -17,7 +17,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `meta_call_levels.py` | Classes, metaclasses, and `__call__` › Calling a metaclass has one more type level (line 72) |  |
 | `class_lookup.py` | A class reads from its bases and its metaclass (line 169) |  |
 | `deletion_hook.py` | Attribute access hooks: metaprogramming beyond creation › Deletion uses a separate hook (line 358) |  |
-| `computed_hooks.py` | Attribute access hooks: metaprogramming beyond creation › Compute a value without storing it (line 401) |  |
+| `computed_hooks.py` | Attribute access hooks: metaprogramming beyond creation › Compute a value without storing it (line 402) |  |
 
 ## Examples, in chapter order
 
@@ -30,5 +30,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/03_getattr-the-missing-only-fallback.py` | Attribute access hooks: metaprogramming beyond creation › `__getattr__`: the missing-only fallback (line 260) | may use names from earlier examples |
 | `examples/04_getattribute-every-attribute-read.py` | Attribute access hooks: metaprogramming beyond creation › `__getattribute__`: every attribute read (line 290) | may use names from earlier examples |
 | `examples/05_setattr-the-same-trap-on-writing.py` | Attribute access hooks: metaprogramming beyond creation › `__setattr__`: the same trap, on writing (line 322) | may use names from earlier examples |
-| `examples/06_practical-application-an-attribute-access-logger.py` | Attribute access hooks: metaprogramming beyond creation › Practical application: an attribute-access logger (line 489) | may use names from earlier examples |
-| `examples/07_try-it-yourself.py` | Try it yourself (line 551) | runs on its own |
+| `examples/06_practical-application-an-attribute-access-logger.py` | Attribute access hooks: metaprogramming beyond creation › Practical application: an attribute-access logger (line 493) | may use names from earlier examples |
+| `examples/07_try-it-yourself.py` | Try it yourself (line 555) | runs on its own |

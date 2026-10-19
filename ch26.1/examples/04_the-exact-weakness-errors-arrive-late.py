@@ -7,9 +7,11 @@ class BrokenCache:
 
     # oops - forgot to write set()
 
+
 def remember_score(cache, name, score):
     cache.set(name, score)
     print(cache.get(name))
+
 
 try:
     remember_score(BrokenCache(), "Ben", 88)

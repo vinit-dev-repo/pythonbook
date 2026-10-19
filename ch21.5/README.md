@@ -23,10 +23,10 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/05_follow-the-receiver-through-an-instance-call.py` | Class methods and static methods › Follow the receiver through an instance call (line 157) | may use names from earlier examples |
 | `examples/06_the-class-body-runs-when-execution-reaches-it.py` | The class body runs when execution reaches it (line 261) | runs on its own |
 | `examples/07_repeating-a-method-name-replaces-its-earlier-def.py` | The class body runs when execution reaches it › Repeating a method name replaces its earlier definition (line 293) | runs on its own |
-| `examples/08_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 337) | raises an error on purpose |
-| `examples/09_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 361) | may use names from earlier examples |
-| `examples/10_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 381) | raises an error on purpose |
-| `examples/11_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 404) | may use names from earlier examples |
-| `examples/12_a-global-or-enclosing-function-can-still-supply.py` | The class body runs when execution reaches it › A global or enclosing function can still supply a name (line 427) | runs on its own |
-| `examples/13_a-global-or-enclosing-function-can-still-supply.py` | The class body runs when execution reaches it › A global or enclosing function can still supply a name (line 466) | may use names from earlier examples |
-| `examples/14_try-it-yourself.py` | Try it yourself (line 517) | may use names from earlier examples |
+| `examples/08_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 340) | raises an error on purpose |
+| `examples/09_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 364) | may use names from earlier examples |
+| `examples/10_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 384) | raises an error on purpose |
+| `examples/11_class-bodies-are-not-enclosing-scopes.py` | The class body runs when execution reaches it › Class bodies are not enclosing scopes (line 407) | may use names from earlier examples |
+| `examples/12_a-global-or-enclosing-function-can-still-supply.py` | The class body runs when execution reaches it › A global or enclosing function can still supply a name (line 430) | runs on its own |
+| `examples/13_a-global-or-enclosing-function-can-still-supply.py` | The class body runs when execution reaches it › A global or enclosing function can still supply a name (line 469) | may use names from earlier examples |
+| `examples/14_try-it-yourself.py` | Try it yourself (line 520) | may use names from earlier examples |

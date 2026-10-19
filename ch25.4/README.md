@@ -26,10 +26,10 @@ The chapter saves these files more than once (for example a first version and a 
 | `test_multiples.py` | Test-driven development (line 175) | rewritten later in the chapter |
 | `multiples.py` | Test-driven development (line 198) | rewritten later in the chapter |
 | `boundaries.py` | A callable boundary and a small driver › Return a status without confusing it with the result (line 238) |  |
-| `driver_demo.py` | A callable boundary and a small driver › Run three invocations and inspect surviving state (line 265) |  |
-| `decorator_demo.py` | A callable boundary and a small driver › A decorator with a different failure contract (line 340) |  |
-| `test_palindrome.py` | Try it yourself (line 413) |  |
-| `test_triple.py` | Try it yourself (line 441) |  |
+| `driver_demo.py` | A callable boundary and a small driver › Run three invocations and inspect surviving state (line 267) |  |
+| `decorator_demo.py` | A callable boundary and a small driver › A decorator with a different failure contract (line 347) |  |
+| `test_palindrome.py` | Try it yourself (line 424) |  |
+| `test_triple.py` | Try it yourself (line 452) |  |
 
 ## Examples, in chapter order
 
@@ -37,6 +37,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_try-it-yourself.py` | Try it yourself (line 423) | runs on its own |
-| `examples/02_try-it-yourself.py` | Try it yourself (line 432) | may use names from earlier examples |
-| `examples/03_try-it-yourself.py` | Try it yourself (line 457) | may use names from earlier examples |
+| `examples/01_try-it-yourself.py` | Try it yourself (line 434) | runs on its own |
+| `examples/02_try-it-yourself.py` | Try it yourself (line 443) | may use names from earlier examples |
+| `examples/03_try-it-yourself.py` | Try it yourself (line 468) | may use names from earlier examples |
