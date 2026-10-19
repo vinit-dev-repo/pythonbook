@@ -256,7 +256,9 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch51.1`](ch51.1/) | Why Charts Help, the Figure and Axes APIs, Styling and a Grid of Axes | Why a picture can show you things a table of numbers hides; The two ways to use matplotlib, and why the… | 0 | 7 | 0 |
 | [`ch51.2`](ch51.2/) | The Core Chart Types, a Chart Chooser and Plotting from pandas | The core chart types (line, bar, histogram, scatter, pie, box) and when to use each; How to plot straight… | 0 | 9 | 0 |
 | [`ch51.3`](ch51.3/) | Seaborn, Choosing between Matplotlib and Seaborn, and Exporting a Report | What seaborn adds on top of matplotlib, and its statistical chart types; How axes-level and figure-level… | 0 | 14 | 0 |
-| [`ch52`](ch52/) | SQLite from Python | Why plain files and CSV stop being enough once a program grows; What SQLite is, and how Python exposes it… | 0 | 17 | 0 |
+| [`ch52.1`](ch52.1/) | Why Files Are Not Enough, What SQLite Is, Connecting and Transactions | Why plain files and CSV stop being enough once a program grows; What SQLite is, and how Python exposes it… | 0 | 6 | 0 |
+| [`ch52.2`](ch52.2/) | The SQL Statements, Parameters and a Worked Expense Tracker | How to use `CREATE TABLE`, `INSERT`, `SELECT`, `UPDATE`, and `DELETE`; How to read results back as Python… | 0 | 10 | 0 |
+| [`ch52.3`](ch52.3/) | SQLite or a Server Database, Foreign Keys and ORMs | How to enable and check SQLite foreign keys for each connection; When to use SQLite and when a client-server… | 0 | 3 | 0 |
 | [`ch52a`](ch52a/) | Boundary visit - SQL values and commands | First finish lesson 52 through the basic SQL examples. You should be able to create a table, insert rows and… | 0 | 5 | 0 |
 | [`ch52b`](ch52b/) | Project - SQLite expense tracker | Prerequisite: Finish lesson 52's connection, transaction and basic SQL teaching, then the SQL values visit's… | 0 | 1 | 0 |
 
@@ -264,7 +266,9 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch53`](ch53/) | Flask - Your First Web App | How a browser and a web server exchange requests and responses; What `Flask` is, and how to write the… | 15 | 6 | 0 |
+| [`ch53.1`](ch53.1/) | How a Browser and Server Talk, What Flask Is, a First App and Routes | How a browser and a web server exchange requests and responses; What `Flask` is, and how to write the… | 2 | 4 | 0 |
+| [`ch53.2`](ch53.2/) | Templates, GET and POST, a JSON API and Status Codes | How templates keep HTML in separate files instead of Python strings; The difference between `GET` and… | 11 | 3 | 0 |
+| [`ch53.3`](ch53.3/) | Public Errors, the Notes App, Offline Route Checks and a Database Route | How to check routes, methods and escaping with Flask's offline test client; How a Flask route reads saved… | 2 | 2 | 0 |
 | [`ch53a`](ch53a/) | Project - Internal Diagnostics and Public Responses | Give related failures a useful exception hierarchy and a consistent message contract.; Capture one event… | 7 | 0 | 0 |
 | [`ch53b`](ch53b/) | Project - Two-page Flask notes app | Prerequisite: Start this required inline visit after lesson 53 has installed `Flask` and introduced the… | 2 | 0 | 0 |
 | [`ch54`](ch54/) | REST APIs, requests and Web Scraping | What an API is and how REST APIs use URLs and HTTP methods; How to call an API with the `requests` library,… | 16 | 12 | 0 |

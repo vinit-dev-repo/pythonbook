@@ -4,7 +4,7 @@ The code of the chapter **52b - Project - SQLite expense tracker** of the Python
 
 ## About this chapter
 
-Prerequisite: Finish lesson 52's connection, transaction and basic SQL teaching, then [[Python Tutorial/09 - Data and database applications/52a - Boundary visit - SQL values and commands#Use parameters for SQL values|the SQL values visit's parameter boundary]], before starting this required inline project.
+Prerequisite: Finish lesson 52's connection, transaction and basic SQL teaching, then [[Python Tutorial/09 - Data and database applications/52a - Boundary visit - SQL values and commands#Use parameters for SQL values|the SQL values visit's parameter boundary]], before starting this required inline project. Run the full script in a folder where it may create `expenses.db`. The imports and database setup are included.
 
 ## Examples, in chapter order
 
@@ -12,4 +12,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_worked-mini-project-an-expense-tracker.py` | Worked mini-project: an expense tracker (line 29) | runs on its own |
+| `examples/01_worked-mini-project-an-expense-tracker.py` | Worked mini-project: an expense tracker (line 27) | runs on its own |

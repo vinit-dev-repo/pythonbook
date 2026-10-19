@@ -4,7 +4,7 @@ The code of the chapter **52a - Boundary visit - SQL values and commands** of th
 
 ## About this chapter
 
-First finish lesson 52 through the basic SQL examples. You should be able to create a table, insert rows and read them back.
+First finish lesson 52 through the basic SQL examples. You should be able to create a table, insert rows and read them back. After this boundary, return to **Worked mini-project: an expense tracker**.
 
 ## Examples, in chapter order
 
@@ -12,8 +12,8 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 25) | runs on its own |
-| `examples/02_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 35) | may use names from earlier examples |
-| `examples/03_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 52) | may use names from earlier examples |
-| `examples/04_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 60) | may use names from earlier examples |
-| `examples/05_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 89) | may use names from earlier examples |
+| `examples/01_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 24) | runs on its own |
+| `examples/02_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 34) | may use names from earlier examples |
+| `examples/03_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 50) | may use names from earlier examples |
+| `examples/04_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 58) | may use names from earlier examples |
+| `examples/05_use-parameters-for-sql-values.py` | Use parameters for SQL values (line 87) | may use names from earlier examples |
