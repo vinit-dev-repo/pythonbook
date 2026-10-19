@@ -225,14 +225,21 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch43.3`](ch43.3/) | Futures, a Local Artifact Lab and a TCP and HTTP Catalog Service | How to bridge a callback to an awaitable result with a future; How a local HTTP client/server lab preserves… | 3 | 2 | 0 |
 | [`ch43.4`](ch43.4/) | Generator Coroutines, send, yield from and a Simulation | Optional history: generator-coroutine `send`, states, priming, `close`, `throw` and `yield from` for reading… | 1 | 14 | 0 |
 | [`ch43a`](ch43a/) | Checkpoint - Iteration and async | 1. What is the difference between an iterable and an iterator, and is an iterator an iterable? | 0 | 4 | 0 |
-| [`ch44`](ch44/) | Threads, Locks and Race Conditions | What processes and threads are, and how they differ; Concurrency vs parallelism, and why threads on the… | 9 | 13 | 0 |
-| [`ch45`](ch45/) | Multiprocessing and Pools | Why GIL-enabled CPython threads do not execute pure-Python bytecode on several cores simultaneously, and how… | 8 | 14 | 0 |
+| [`ch44.1`](ch44.1/) | Processes, Threads, the GIL, Race Conditions and Locks | What processes and threads are, and how they differ; Concurrency versus parallelism, and why threads on the… | 3 | 7 | 0 |
+| [`ch44.2`](ch44.2/) | Deadlock, RLock, Semaphore, Event and Condition | What a **deadlock** is, and three ways to avoid one; How an `RLock` lets one thread take the same lock… | 3 | 6 | 0 |
+| [`ch44.3`](ch44.3/) | Queues, Thread Pools, Thread Safety and Choosing a Tool | Why `queue.Queue` is the safest way to move data between threads; How a finite batch with two consumers… | 3 | 3 | 0 |
+| [`ch45.1`](ch45.1/) | Why Multiprocessing, Process, the Main Guard and Comparing CPU-Bound Work | Why GIL-enabled CPython threads do not execute pure-Python bytecode on several cores simultaneously, and how… | 0 | 4 | 0 |
+| [`ch45.2`](ch45.2/) | Exchanging Data between Processes with Queue, Pipe and Value | How to pass data between processes safely with `Queue`, `Pipe` and shared memory; How to observe a child's… | 3 | 4 | 0 |
+| [`ch45.3`](ch45.3/) | Pool, concurrent.futures, submit and Future States | `Pool` and the modern, unified `concurrent.futures` executors; How `submit` and `as_completed` give results… | 4 | 5 | 0 |
+| [`ch45.4`](ch45.4/) | Fetching with Threads, a CPU Batch with Processes and Choosing a Model | Two complete examples: fetching many URLs and running a CPU-heavy batch job; How to choose between threads,… | 1 | 4 | 0 |
 
 ## 08 - Professional diagnostics
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch46`](ch46/) | Logging | Why logs are more useful than many temporary `print()` statements; The five severity levels, and why a… | 0 | 13 | 0 |
+| [`ch46.1`](ch46.1/) | Print versus Logging, Severity Levels, basicConfig and the Four Parts | Why logs are more useful than many temporary `print()` statements; The five severity levels, and why a… | 0 | 6 | 0 |
+| [`ch46.2`](ch46.2/) | Named Loggers, Handlers, Exceptions and Rotating Files | How to build a logger tree with `getLogger(__name__)`; How to log to the console and a file at the same… | 0 | 9 | 0 |
+| [`ch46.3`](ch46.3/) | dictConfig, a Complete Setup and Good Habits | How to configure a whole app's logging in one place with `dictConfig`; How three loggers share three… | 0 | 4 | 0 |
 | [`ch47`](ch47/) | Debugging and Profiling | How to reproduce a wrong result, pause a program with `pdb`, and inspect the control flow that produced it;… | 4 | 1 | 0 |
 | [`ch48`](ch48/) | Checking and Building a Python Package | What formatting, linting, static types, tests and builds each check; How to observe an actual failure and… | 6 | 0 | 9 |
 

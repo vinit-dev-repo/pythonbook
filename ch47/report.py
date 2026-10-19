@@ -7,10 +7,8 @@ def category_total(rows, wanted):
             total += row["quantity"]
     return total
 
-
 def summarize_naive(rows, categories):
     return {category: category_total(rows, category) for category in categories}
-
 
 def summarize_indexed(rows, categories):
     totals = {category: 0 for category in categories}
@@ -19,7 +17,6 @@ def summarize_indexed(rows, categories):
         if category in totals:
             totals[category] += row["quantity"]
     return totals
-
 
 if __name__ == "__main__":
     rows = [

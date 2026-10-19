@@ -5,7 +5,6 @@ import pstats
 
 from report import summarize_indexed, summarize_naive
 
-
 def build_workload():
     categories = [f"category_{number}" for number in range(40)]
     rows = [
@@ -14,13 +13,11 @@ def build_workload():
     ]
     return rows, categories
 
-
 def helper_calls(stats):
     for function, values in stats.stats.items():
         if function[2] == "category_total":
             return values[1]
     return 0
-
 
 def profile_summary(name, summary, rows, categories):
     profiler = cProfile.Profile()
@@ -35,7 +32,6 @@ def profile_summary(name, summary, rows, categories):
 
     stats = pstats.Stats(str(profile_path))
     return result, helper_calls(stats)
-
 
 if __name__ == "__main__":
     rows, categories = build_workload()
