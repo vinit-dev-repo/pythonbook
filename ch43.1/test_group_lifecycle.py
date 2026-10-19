@@ -3,7 +3,6 @@ import asyncio
 
 from group_lifecycle import run_group
 
-
 async def main():
     events, errors, state = await run_group()
     assert events == [
@@ -38,7 +37,6 @@ async def main():
     }
     assert asyncio.all_tasks() == {asyncio.current_task()}
     print("group lifecycle assertions passed")
-
 
 if __name__ == "__main__":
     asyncio.run(main())

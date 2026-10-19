@@ -17,19 +17,19 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `display_tools.py` | Setup and prepared refreshers (line 49) |  |
-| `record_models.py` | Setup and prepared refreshers (line 75) |  |
-| `create_records.py` | Session 1 - store and reopen records (line 166) |  |
-| `unsaved_update.py` | Session 1 - store and reopen records (line 254) |  |
-| `update_records.py` | Session 1 - store and reopen records (line 301) |  |
-| `read_records.py` | Session 1 - store and reopen records (line 325) | rewritten later in the chapter |
-| `evolution_create.py` | Session 2 - current code and saved fields (line 371) |  |
-| `evolution_models.py` | Session 2 - current code and saved fields (line 395) | rewritten later in the chapter |
-| `evolution_read.py` | Session 2 - current code and saved fields (line 406) |  |
-| `structured_records.py` | Structured-name variant (line 454) |  |
-| `structured_checks.py` | Structured-name variant (line 514) |  |
-| `structured_create.py` | Structured-name variant (line 585) |  |
-| `structured_read.py` | Structured-name variant (line 616) |  |
-| `contact_models.py` | Transfer - store and reopen a contact (line 671) |  |
-| `contact_create.py` | Transfer - store and reopen a contact (line 682) |  |
-| `contact_read.py` | Transfer - store and reopen a contact (line 704) |  |
+| `display_tools.py` | Setup and prepared refreshers (line 50) |  |
+| `record_models.py` | Setup and prepared refreshers (line 76) |  |
+| `create_records.py` | Session 1 - store and reopen records (line 165) |  |
+| `unsaved_update.py` | Session 1 - store and reopen records (line 249) |  |
+| `update_records.py` | Session 1 - store and reopen records (line 294) |  |
+| `read_records.py` | Session 1 - store and reopen records (line 317) | rewritten later in the chapter |
+| `evolution_create.py` | Session 2 - current code and saved fields (line 360) |  |
+| `evolution_models.py` | Session 2 - current code and saved fields (line 383) | rewritten later in the chapter |
+| `evolution_read.py` | Session 2 - current code and saved fields (line 394) |  |
+| `structured_records.py` | Structured-name variant (line 440) |  |
+| `structured_checks.py` | Structured-name variant (line 500) |  |
+| `structured_create.py` | Structured-name variant (line 571) |  |
+| `structured_read.py` | Structured-name variant (line 602) |  |
+| `contact_models.py` | Transfer - store and reopen a contact (line 654) |  |
+| `contact_create.py` | Transfer - store and reopen a contact (line 665) |  |
+| `contact_read.py` | Transfer - store and reopen a contact (line 687) |  |

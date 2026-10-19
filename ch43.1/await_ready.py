@@ -1,10 +1,8 @@
 # await_ready.py
 import asyncio
 
-
 async def ready():
     return 42
-
 
 async def main():
     trace = []
@@ -20,7 +18,6 @@ async def main():
     await peer_task
     assert trace == ["before", "after: 42", "peer"]
     print(trace)
-
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -1,7 +1,6 @@
 # group_lifecycle.py
 import asyncio
 
-
 async def run_group(*, fail=True):
     ready = asyncio.Event()
     release = asyncio.Event()
@@ -56,7 +55,6 @@ async def run_group(*, fail=True):
     }
     return events, errors, state
 
-
 async def main():
     events, errors, state = await run_group()
     for event in events:
@@ -64,7 +62,6 @@ async def main():
     print("selected errors:", errors)
     print("worker cancelled:", state["worker_cancelled"])
     print("both done:", state["worker_done"] and state["validator_done"])
-
 
 if __name__ == "__main__":
     asyncio.run(main())

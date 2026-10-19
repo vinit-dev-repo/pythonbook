@@ -220,8 +220,11 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch43`](ch43/) | From Coroutines to async-await | What a **coroutine** is, and how it compares with threads and processes; How to write modern async code with… | 15 | 36 | 0 |
-| [`ch43a`](ch43a/) | Checkpoint - Iteration and async | 1. What is the difference between an iterable and an iterator — and is an iterator an iterable? | 0 | 4 | 0 |
+| [`ch43.1`](ch43.1/) | Coroutines, async and await, Tasks, TaskGroup, Limits and Timeouts | What a **coroutine** is, and how it compares with threads and processes; How to write modern async code with… | 8 | 15 | 0 |
+| [`ch43.2`](ch43.2/) | Blocking Calls, to_thread, async for, Async Generators and a Fetch Project | How to tell work that async helps from work that it does not help; How to call blocking functions safely… | 3 | 8 | 0 |
+| [`ch43.3`](ch43.3/) | Futures, a Local Artifact Lab and a TCP and HTTP Catalog Service | How to bridge a callback to an awaitable result with a future; How a local HTTP client/server lab preserves… | 3 | 2 | 0 |
+| [`ch43.4`](ch43.4/) | Generator Coroutines, send, yield from and a Simulation | Optional history: generator-coroutine `send`, states, priming, `close`, `throw` and `yield from` for reading… | 1 | 14 | 0 |
+| [`ch43a`](ch43a/) | Checkpoint - Iteration and async | 1. What is the difference between an iterable and an iterator, and is an iterator an iterable? | 0 | 4 | 0 |
 | [`ch44`](ch44/) | Threads, Locks and Race Conditions | What processes and threads are, and how they differ; Concurrency vs parallelism, and why threads on the… | 9 | 13 | 0 |
 | [`ch45`](ch45/) | Multiprocessing and Pools | Why GIL-enabled CPython threads do not execute pure-Python bytecode on several cores simultaneously, and how… | 8 | 14 | 0 |
 

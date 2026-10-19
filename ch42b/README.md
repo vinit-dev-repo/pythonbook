@@ -12,7 +12,7 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `inventory_checkpoint_lab.py` | 3. Build › Compare inventories without losing meaning (line 127) |  |
+| `inventory_checkpoint_lab.py` | 3. Build › Compare inventories without losing meaning (line 124) |  |
 
 ## Examples, in chapter order
 
@@ -21,4 +21,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | File | Where it is in the chapter | Note |
 |---|---|---|
 | `examples/01_2-find-the-problem.py` | 2. Find the problem (line 34) | runs on its own |
-| `examples/02_3-build.py` | 3. Build (line 73) | runs on its own |
+| `examples/02_3-build.py` | 3. Build (line 72) | runs on its own |

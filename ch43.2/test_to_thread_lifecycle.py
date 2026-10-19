@@ -2,10 +2,8 @@
 import asyncio
 from to_thread_lifecycle import run_case
 
-
 def require_cleanup(complete):
     assert complete, "worker cleanup has not completed"
-
 
 def check_report(report, value):
     state = report["at_timeout"]
@@ -25,7 +23,6 @@ def check_report(report, value):
     assert report["task_cancelled_after"] is (not preserved)
     assert report["result"] == (value if preserved else None)
 
-
 async def check_cases(value=42):
     reports = []
     for _ in range(2):
@@ -36,7 +33,6 @@ async def check_cases(value=42):
             pending = asyncio.all_tasks() - {asyncio.current_task()}
             assert not pending, pending
     return reports
-
 
 if __name__ == "__main__":
     reports = asyncio.run(check_cases())

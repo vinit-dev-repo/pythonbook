@@ -1,7 +1,6 @@
 # async_counter.py
 import asyncio
 
-
 async def lost_update(start=100, amount=1):
     balance = start
     arrivals = 0
@@ -21,7 +20,6 @@ async def lost_update(start=100, amount=1):
     assert all(task.done() for task in tasks)
     return balance
 
-
 async def protected_update(start=100, amount=1):
     balance = start
     lock = asyncio.Lock()
@@ -38,7 +36,6 @@ async def protected_update(start=100, amount=1):
     assert all(task.done() for task in tasks)
     return balance
 
-
 async def main():
     broken = await lost_update()
     fixed = await protected_update()
@@ -47,7 +44,6 @@ async def main():
     print("intended:", 102)
     print("controlled lost update:", broken)
     print("protected update:", fixed)
-
 
 if __name__ == "__main__":
     asyncio.run(main())

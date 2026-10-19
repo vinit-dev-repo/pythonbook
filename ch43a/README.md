@@ -4,7 +4,7 @@ The code of the chapter **43a - Checkpoint - Iteration and async** of the Python
 
 ## About this chapter
 
-1. What is the difference between an iterable and an iterator — and is an iterator an iterable?
+1. What is the difference between an iterable and an iterator, and is an iterator an iterable?
 
 ## Examples, in chapter order
 
@@ -15,4 +15,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 | `examples/01_2-find-the-problem.py` | 2. Find the problem (line 34) | runs on its own |
 | `examples/02_2-find-the-problem.py` | 2. Find the problem (line 59) | runs on its own |
 | `examples/03_2-find-the-problem.py` | 2. Find the problem (line 77) | runs on its own |
-| `examples/04_3-build.py` | 3. Build (line 93) | runs on its own |
+| `examples/04_3-build.py` | 3. Build (line 92) | runs on its own |
