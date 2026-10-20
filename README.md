@@ -271,7 +271,10 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 | [`ch53.3`](ch53.3/) | Public Errors, the Notes App, Offline Route Checks and a Database Route | How to check routes, methods and escaping with Flask's offline test client; How a Flask route reads saved… | 2 | 2 | 0 |
 | [`ch53a`](ch53a/) | Project - Internal Diagnostics and Public Responses | Give related failures a useful exception hierarchy and a consistent message contract.; Capture one event… | 7 | 0 | 0 |
 | [`ch53b`](ch53b/) | Project - Two-page Flask notes app | Prerequisite: Start this required inline visit after lesson 53 has installed `Flask` and introduced the… | 2 | 0 | 0 |
-| [`ch54`](ch54/) | REST APIs, requests and Web Scraping | What an API is and how REST APIs use URLs and HTTP methods; How to call an API with the `requests` library,… | 16 | 12 | 0 |
+| [`ch54.1`](ch54.1/) | APIs, requests, Status Codes, Query Parameters and Sending Data | What an API is and how REST APIs use URLs and HTTP methods; How to call an API with the `requests` library,… | 0 | 5 | 0 |
+| [`ch54.2`](ch54.2/) | A Weather Client, a Resource Snapshot and an Owned HTTP Operation | How to build a small API client that checks its input and makes one call; How to report each failure as a… | 6 | 0 | 0 |
+| [`ch54.3`](ch54.3/) | Dates, Scraping Rules, Fetching, BeautifulSoup and a Scraper | How to work with dates and time zones using `dateutil` and `zoneinfo`; The rules to check before you scrape… | 8 | 8 | 0 |
+| [`ch54.4`](ch54.4/) | A Changed Layout, a Live Page, When Scraping Breaks and Choosing a Tool | How to adapt a scraper to a changed page layout with a separate tested function; How to fetch a live page… | 5 | 0 | 0 |
 | [`ch54a`](ch54a/) | Boundary visit - HTTP status and error handling | Prerequisite: Start this required inline visit after lesson 54 has introduced the `requests` library and a… | 0 | 1 | 0 |
 | [`ch54b`](ch54b/) | Project - Loading a Consistent Resource Snapshot | Load a response only when its body, size or duration is first needed.; Keep those values together so that… | 5 | 0 | 0 |
 | [`ch54c`](ch54c/) | Boundary visit - HTTP Resources and Retry Policy | Finish weather and the response-cache visit first. Refresh context entry, cleanup and exception propagation,… | 4 | 0 | 0 |
@@ -282,8 +285,10 @@ Each folder holds the files the chapter asks you to save, an `examples/` folder 
 
 | Folder | Chapter | What it teaches | Saved files | Examples | Commands |
 |---|---|---|---|---|---|
-| [`ch55`](ch55/) | Writing Effective Python | 39 ways to review and improve Python code; When each habit helps, what it costs, and when another choice may… | 5 | 55 | 0 |
-| [`ch55a`](ch55a/) | Checkpoint - Effective Python | 1. What does `@dataclass(frozen=True)` actually stop you doing — and what does it not? | 0 | 2 | 0 |
+| [`ch55.1`](ch55.1/) | Creating Objects and Designing Functions and APIs | 39 ways to review and improve Python code; When each habit helps, what it costs, and when another choice may… | 0 | 25 | 0 |
+| [`ch55.2`](ch55.2/) | Pythonic Idioms and Common Error Patterns | Common mistakes involving shared values, errors, and iteration; How to write loops, text, paths and cleanup… | 0 | 23 | 0 |
+| [`ch55.3`](ch55.3/) | Organising a Project, Strategy and Command, the Zen of Python and a Checklist | How to use the Zen of Python and a review checklist; How to document, name, pin, test and measure a small… | 5 | 12 | 0 |
+| [`ch55a`](ch55a/) | Checkpoint - Effective Python | 1. What does `@dataclass(frozen=True)` actually stop you doing, and what does it not? | 0 | 2 | 0 |
 
 ## How the folders are made
 

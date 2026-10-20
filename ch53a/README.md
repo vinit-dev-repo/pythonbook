@@ -15,10 +15,10 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `widget_errors.py` | Hierarchy and stable event representations › Keep traceback state distinct from event time (line 117) |  |
-| `test_widget_errors.py` | Hierarchy and stable event representations › Check the core before adding an adapter (line 260) |  |
-| `widget_service.py` | Raise, log once and return the HTTP response › Re-raise at a narrow service boundary (line 441) |  |
-| `widget_app.py` | Raise, log once and return the HTTP response › Add the HTTP and logging boundary (line 482) |  |
-| `test_widget_app.py` | Raise, log once and return the HTTP response › Check real response behavior and one record (line 543) |  |
-| `error_demo.py` | Raise, log once and return the HTTP response › Run the complete demonstration (line 700) |  |
-| `error_transfer.py` | Try it yourself (line 791) |  |
+| `widget_errors.py` | Hierarchy and stable event representations › Keep traceback state distinct from event time (line 118) |  |
+| `test_widget_errors.py` | Hierarchy and stable event representations › Check the core before adding an adapter (line 261) |  |
+| `widget_service.py` | Raise, log once and return the HTTP response › Re-raise at a narrow service boundary (line 439) |  |
+| `widget_app.py` | Raise, log once and return the HTTP response › Add the HTTP and logging boundary (line 481) |  |
+| `test_widget_app.py` | Raise, log once and return the HTTP response › Check real response behavior and one record (line 542) |  |
+| `error_demo.py` | Raise, log once and return the HTTP response › Run the complete demonstration (line 697) |  |
+| `error_transfer.py` | Try it yourself (line 785) |  |

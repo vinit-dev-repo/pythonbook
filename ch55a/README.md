@@ -4,7 +4,7 @@ The code of the chapter **55a - Checkpoint - Effective Python** of the Python tu
 
 ## About this chapter
 
-1. What does `@dataclass(frozen=True)` actually stop you doing — and what does it not?
+1. What does `@dataclass(frozen=True)` actually stop you doing, and what does it not?
 
 ## Examples, in chapter order
 
@@ -12,5 +12,5 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_2-find-the-problem.py` | 2. Find the problem (line 33) | runs on its own |
-| `examples/02_2-find-the-problem.py` | 2. Find the problem (line 55) | runs on its own |
+| `examples/01_2-find-the-problem.py` | 2. Find the problem (line 32) | runs on its own |
+| `examples/02_2-find-the-problem.py` | 2. Find the problem (line 54) | runs on its own |

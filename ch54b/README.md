@@ -18,5 +18,5 @@ Each file sits at the path the chapter gives it, so a demo that uses a folder su
 | `fake_transport.py` | Load one consistent resource snapshot › Give the dependencies a small, visible interface (line 61) |  |
 | `resource_cache.py` | Load one consistent resource snapshot › Build one candidate, then publish it (line 127) |  |
 | `test_resource_cache.py` | Load one consistent resource snapshot › Test the contract and a known bad refresh (line 243) |  |
-| `cache_demo.py` | Load one consistent resource snapshot › Follow a complete load, refresh and URL change (line 473) |  |
-| `cache_transfer.py` | Try it yourself (line 556) |  |
+| `cache_demo.py` | Load one consistent resource snapshot › Follow a complete load, refresh and URL change (line 472) |  |
+| `cache_transfer.py` | Try it yourself (line 552) |  |

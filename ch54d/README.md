@@ -12,6 +12,6 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_2-find-the-problem.py` | 2. Find the problem (line 37) | runs on its own |
-| `examples/02_2-find-the-problem.py` | 2. Find the problem (line 54) | may use names from earlier examples |
-| `examples/03_3-build.py` | 3. Build (line 77) | runs on its own |
+| `examples/01_2-find-the-problem.py` | 2. Find the problem (line 36) | runs on its own |
+| `examples/02_2-find-the-problem.py` | 2. Find the problem (line 53) | may use names from earlier examples |
+| `examples/03_3-build.py` | 3. Build (line 75) | runs on its own |

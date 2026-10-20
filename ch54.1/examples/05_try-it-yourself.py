@@ -1,7 +1,4 @@
 import requests
-from dateutil import parser
-from dateutil.relativedelta import relativedelta
-from bs4 import BeautifulSoup
 
 # 1 and 2
 # The exercise asks for a friendly message when the username does not exist -
@@ -31,7 +28,3 @@ if items:                            # a search can legitimately match nothing
     print(items[0]["name"])
 else:
     print("No repositories matched.")
-
-# 4
-date = parser.parse("2026-09-15")
-print(date + relativedelta(months=1))

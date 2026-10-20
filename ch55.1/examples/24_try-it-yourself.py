@@ -22,32 +22,3 @@ class Money:
 m = Money(Decimal("9.99"), "USD")
 print(m)
 # m.amount = Decimal("1.00")  # raises: cannot assign to field 'amount'
-
-
-# 3
-def log(message, seen=None):
-    if seen is None:
-        seen = []
-    seen.append(message)
-    return seen
-
-print(log("a"))
-print(log("b"))   # ['b'], not ['a', 'b']
-
-
-# 4
-names = ["Ana", "Ben", "Cy"]
-for i, name in enumerate(names):
-    print(i, name)
-
-
-# 5
-def is_even(n):
-    return n % 2 == 0
-
-def test_is_even():
-    assert is_even(4) is True
-    assert is_even(5) is False
-
-test_is_even()
-print("all tests passed")

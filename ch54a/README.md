@@ -4,7 +4,7 @@ The code of the chapter **54a - Boundary visit - HTTP status and error handling*
 
 ## About this chapter
 
-Prerequisite: Start this required inline visit after lesson 54 has introduced the `requests` library and a response object.
+Prerequisite: Start this required inline visit after lesson 54 has introduced the `requests` library and a response object. Intended entry: Install `requests` as the prior section states, then run the request as a live network example. The service controls the exact response, so the result can vary. After this boundary, return to **Query parameters**.
 
 ## Examples, in chapter order
 
@@ -12,4 +12,4 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_status-codes-and-error-handling.py` | Status codes and error handling (line 41) | runs on its own |
+| `examples/01_status-codes-and-error-handling.py` | Status codes and error handling (line 37) | runs on its own |

@@ -18,23 +18,23 @@ The chapter saves these files more than once (for example a first version and a 
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `src/expense_ledger/config.py` | Milestone 1 — select and check settings (line 65) |  |
-| `src/expense_ledger/__init__.py` | Milestone 1 — select and check settings (line 210) |  |
-| `src/expense_ledger/__main__.py` | Milestone 1 — select and check settings (line 215) |  |
-| `tests/test_config.py` | Milestone 1 — select and check settings (line 268) |  |
-| `ledger.example.json` | Milestone 1 — select and check settings (line 430) |  |
-| `requirements-dev.txt` | Milestone 1 — select and check settings (line 468) |  |
-| `README.md` | Milestone 1 — select and check settings (line 477) |  |
-| `src/expense_ledger/ledger.py` | Milestone 2 — keep persistent rows together (line 506) |  |
-| `src/expense_ledger/cli.py` | Milestone 2 — keep persistent rows together (line 817) | rewritten later in the chapter |
-| `batch_ok.json` | Milestone 2 — keep persistent rows together (line 974) |  |
-| `batch_conflict.json` | Milestone 2 — keep persistent rows together (line 983) |  |
-| `tests/test_ledger.py` | Milestone 2 — keep persistent rows together (line 997) |  |
-| `tests/test_cli.py` | Milestone 2 — keep persistent rows together (line 1306) | rewritten later in the chapter |
-| `pyproject.toml` | Milestone 3 — check, build and operate the installed package (line 1501) | rewritten later in the chapter |
-| `RUNBOOK.md` | Milestone 3 — check, build and operate the installed package › Local operating runbook (line 1574) |  |
-| `assessment_batch.json` | Exit meanings and recovery › Independent installed-client task (line 1639) |  |
-| `assess_ledger.py` | Exit meanings and recovery › Independent installed-client task (line 1667) |  |
+| `src/expense_ledger/config.py` | Milestone 1: select and check settings (line 60) |  |
+| `src/expense_ledger/__init__.py` | Milestone 1: select and check settings (line 205) |  |
+| `src/expense_ledger/__main__.py` | Milestone 1: select and check settings (line 210) |  |
+| `tests/test_config.py` | Milestone 1: select and check settings (line 263) |  |
+| `ledger.example.json` | Milestone 1: select and check settings (line 425) |  |
+| `requirements-dev.txt` | Milestone 1: select and check settings (line 463) |  |
+| `README.md` | Milestone 1: select and check settings (line 472) |  |
+| `src/expense_ledger/ledger.py` | Milestone 2: keep persistent rows together (line 498) |  |
+| `src/expense_ledger/cli.py` | Milestone 2: keep persistent rows together (line 809) | rewritten later in the chapter |
+| `batch_ok.json` | Milestone 2: keep persistent rows together (line 966) |  |
+| `batch_conflict.json` | Milestone 2: keep persistent rows together (line 975) |  |
+| `tests/test_ledger.py` | Milestone 2: keep persistent rows together (line 988) |  |
+| `tests/test_cli.py` | Milestone 2: keep persistent rows together (line 1297) | rewritten later in the chapter |
+| `pyproject.toml` | Milestone 3: check, build and operate the installed package (line 1490) | rewritten later in the chapter |
+| `RUNBOOK.md` | Milestone 3: check, build and operate the installed package › Local operating runbook (line 1560) |  |
+| `assessment_batch.json` | Exit meanings and recovery › Independent installed-client task (line 1624) |  |
+| `assess_ledger.py` | Exit meanings and recovery › Independent installed-client task (line 1651) |  |
 
 ## Examples, in chapter order
 
@@ -42,16 +42,16 @@ Every other Python block of the chapter, numbered in reading order and named aft
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `examples/01_milestone-1-select-and-check-settings.py` | Milestone 1 — select and check settings (line 223) | runs on its own |
-| `examples/02_milestone-1-select-and-check-settings.py` | Milestone 1 — select and check settings (line 396) | may use names from earlier examples |
+| `examples/01_milestone-1-select-and-check-settings.py` | Milestone 1: select and check settings (line 218) | runs on its own |
+| `examples/02_milestone-1-select-and-check-settings.py` | Milestone 1: select and check settings (line 391) | may use names from earlier examples |
 
 ## Terminal commands
 
 | File | Where it is in the chapter | Note |
 |---|---|---|
-| `commands/01_milestone-1-select-and-check-settings.ps1` | Milestone 1 — select and check settings (line 485) | powershell commands to type in a terminal |
-| `commands/02_milestone-2-keep-persistent-rows-together.ps1` | Milestone 2 — keep persistent rows together (line 1482) | powershell commands to type in a terminal |
-| `commands/03_set-up-and-check.ps1` | Set up and check (line 1584) | powershell commands to type in a terminal |
-| `commands/04_operate.ps1` | Operate (line 1600) | powershell commands to type in a terminal |
-| `commands/05_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1931) | powershell commands to type in a terminal |
-| `commands/06_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1945) | powershell commands to type in a terminal |
+| `commands/01_milestone-1-select-and-check-settings.ps1` | Milestone 1: select and check settings (line 479) | powershell commands to type in a terminal |
+| `commands/02_milestone-2-keep-persistent-rows-together.ps1` | Milestone 2: keep persistent rows together (line 1472) | powershell commands to type in a terminal |
+| `commands/03_set-up-and-check.ps1` | Set up and check (line 1570) | powershell commands to type in a terminal |
+| `commands/04_operate.ps1` | Operate (line 1586) | powershell commands to type in a terminal |
+| `commands/05_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1912) | powershell commands to type in a terminal |
+| `commands/06_final-package-check-sequence.ps1` | Exit meanings and recovery › Final package check sequence (line 1925) | powershell commands to type in a terminal |
